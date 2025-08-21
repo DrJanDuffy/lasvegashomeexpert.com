@@ -1,0 +1,301 @@
+export interface LuxuryService {
+  id: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  priceRange: string;
+  targetMarket: string;
+  neighborhoods: string[];
+  credentials: string[];
+  features: string[];
+  icon: string;
+  category: 'buying' | 'selling' | 'investment' | 'consultation';
+  exclusivity: 'platinum' | 'diamond' | 'signature';
+}
+
+export const luxuryServices: LuxuryService[] = [
+  {
+    id: 'concierge-buying',
+    title: 'Concierge Luxury Home Acquisition',
+    subtitle: 'White-Glove Service for Discerning Buyers',
+    description: 'Complete luxury home acquisition service with personal concierge, private viewings, and exclusive access to off-market properties in Las Vegas\'s most prestigious enclaves.',
+    priceRange: '$2M - $10M+',
+    targetMarket: 'High-net-worth individuals, executives, celebrities, international buyers',
+    neighborhoods: ['Red Rock Country Club', 'The Ridges Summerlin', 'MacDonald Highlands', 'Southern Highlands', 'Tournament Hills'],
+    credentials: ['Berkshire Hathaway HomeServices', '10+ Years Luxury Experience', 'Veteran Service', '500+ Families Served'],
+    features: [
+      'Private jet terminal access for viewings',
+      'Exclusive off-market property access',
+      'Personal luxury vehicle transportation',
+      '24/7 dedicated concierge support',
+      'Custom market analysis reports',
+      'Luxury lifestyle integration services',
+      'International buyer assistance',
+      'Private security consultation'
+    ],
+    icon: '🏰',
+    category: 'buying',
+    exclusivity: 'signature'
+  },
+  {
+    id: 'estate-curation',
+    title: 'Estate Curation & Portfolio Development',
+    subtitle: 'Strategic Luxury Real Estate Portfolio Management',
+    description: 'Comprehensive estate curation service for building and managing luxury real estate portfolios across Las Vegas\'s most exclusive neighborhoods.',
+    priceRange: '$5M - $50M+',
+    targetMarket: 'Ultra-high-net-worth individuals, family offices, institutional investors',
+    neighborhoods: ['Red Rock Country Club', 'The Ridges Summerlin', 'MacDonald Highlands', 'Southern Highlands'],
+    credentials: ['Berkshire Hathaway HomeServices', 'Portfolio Management Expert', 'Market Analysis Specialist', 'Investment Strategy'],
+    features: [
+      'Portfolio diversification strategy',
+      'Market timing analysis',
+      'Tax optimization consultation',
+      'Estate planning integration',
+      'International investment structuring',
+      'Luxury rental management',
+      'Exit strategy planning',
+      'Wealth preservation consultation'
+    ],
+    icon: '💎',
+    category: 'investment',
+    exclusivity: 'diamond'
+  },
+  {
+    id: 'luxury-staging-transformation',
+    title: 'Luxury Staging & Transformation',
+    subtitle: 'Bespoke Home Staging for Premium Markets',
+    description: 'Elite home staging service that transforms luxury properties into irresistible showpieces, maximizing value and accelerating sales in competitive markets.',
+    priceRange: '$1M - $10M+',
+    targetMarket: 'Luxury home sellers, developers, estate executors',
+    neighborhoods: ['Red Rock Country Club', 'The Ridges Summerlin', 'MacDonald Highlands', 'Southern Highlands', 'Tournament Hills'],
+    credentials: ['Berkshire Hathaway HomeServices', 'Luxury Staging Specialist', 'Design Excellence', 'Market Value Maximization'],
+    features: [
+      'Custom luxury furniture curation',
+      'Art collection integration',
+      'Smart home technology showcase',
+      'Luxury lifestyle photography',
+      'Virtual staging for international buyers',
+      'Staging maintenance services',
+      'Market-specific design adaptation',
+      'Post-sale furniture disposal'
+    ],
+    icon: '✨',
+    category: 'selling',
+    exclusivity: 'platinum'
+  },
+  {
+    id: 'private-wealth-consulting',
+    title: 'Private Wealth Real Estate Consulting',
+    subtitle: 'Strategic Advisory for Ultra-High-Net-Worth Clients',
+    description: 'Exclusive consulting service providing strategic real estate advice, market intelligence, and investment guidance for sophisticated wealth management.',
+    priceRange: '$10M - $100M+',
+    targetMarket: 'Ultra-high-net-worth families, private equity, family offices',
+    neighborhoods: ['Red Rock Country Club', 'The Ridges Summerlin', 'MacDonald Highlands', 'Southern Highlands'],
+    credentials: ['Berkshire Hathaway HomeServices', 'Wealth Management Expert', 'Strategic Advisory', 'Market Intelligence'],
+    features: [
+      'Confidential market intelligence',
+      'Strategic investment planning',
+      'Risk assessment & mitigation',
+      'Tax strategy optimization',
+      'International market access',
+      'Private equity partnerships',
+      'Estate planning integration',
+      'Legacy wealth preservation'
+    ],
+    icon: '👑',
+    category: 'consultation',
+    exclusivity: 'signature'
+  },
+  {
+    id: 'celebrity-estate-services',
+    title: 'Celebrity Estate & Privacy Services',
+    subtitle: 'Discrete Luxury Real Estate for High-Profile Clients',
+    description: 'Ultra-discrete luxury real estate services designed specifically for celebrities, executives, and high-profile individuals requiring absolute privacy and security.',
+    priceRange: '$5M - $25M+',
+    targetMarket: 'Celebrities, executives, high-profile individuals, privacy-conscious buyers',
+    neighborhoods: ['Red Rock Country Club', 'The Ridges Summerlin', 'MacDonald Highlands', 'Southern Highlands'],
+    credentials: ['Berkshire Hathaway HomeServices', 'Privacy & Security Expert', 'Celebrity Client Experience', 'Discrete Service'],
+    features: [
+      'NDA-protected consultations',
+      'Private security integration',
+      'Anonymous property viewings',
+      'Confidential transaction handling',
+      'Celebrity lifestyle integration',
+      'Media management support',
+      'Private jet coordination',
+      'Exclusive access arrangements'
+    ],
+    icon: '🌟',
+    category: 'buying',
+    exclusivity: 'diamond'
+  },
+  {
+    id: 'international-luxury-acquisition',
+    title: 'International Luxury Acquisition Services',
+    subtitle: 'Global Luxury Real Estate for International Buyers',
+    description: 'Comprehensive international luxury real estate services, including visa assistance, currency optimization, and seamless cross-border transactions.',
+    priceRange: '$3M - $20M+',
+    targetMarket: 'International buyers, expatriates, global investors',
+    neighborhoods: ['Red Rock Country Club', 'The Ridges Summerlin', 'MacDonald Highlands', 'Southern Highlands'],
+    credentials: ['Berkshire Hathaway HomeServices', 'International Real Estate Expert', 'Visa & Immigration Knowledge', 'Global Market Access'],
+    features: [
+      'Visa & immigration consultation',
+      'Currency exchange optimization',
+      'International banking coordination',
+      'Cultural integration services',
+      'Multi-language support',
+      'International legal coordination',
+      'Global market analysis',
+      'Cross-border tax optimization'
+    ],
+    icon: '🌍',
+    category: 'buying',
+    exclusivity: 'platinum'
+  },
+  {
+    id: 'luxury-development-consulting',
+    title: 'Luxury Development & Investment Consulting',
+    subtitle: 'Strategic Development Advisory for Premium Projects',
+    description: 'Expert consulting services for luxury real estate development projects, from concept to completion, ensuring maximum market value and exclusivity.',
+    priceRange: '$10M - $100M+',
+    targetMarket: 'Developers, investors, construction companies, family offices',
+    neighborhoods: ['Red Rock Country Club', 'The Ridges Summerlin', 'MacDonald Highlands', 'Southern Highlands'],
+    credentials: ['Berkshire Hathaway HomeServices', 'Development Expert', 'Market Analysis', 'Investment Strategy'],
+    features: [
+      'Market feasibility analysis',
+      'Luxury design consultation',
+      'Investment structuring',
+      'Construction oversight',
+      'Marketing strategy development',
+      'Sales team training',
+      'Exit strategy planning',
+      'Portfolio optimization'
+    ],
+    icon: '🏗️',
+    category: 'consultation',
+    exclusivity: 'diamond'
+  },
+  {
+    id: 'estate-liquidation-services',
+    title: 'Luxury Estate Liquidation & Transition',
+    subtitle: 'Dignified Estate Management for Premium Properties',
+    description: 'Comprehensive estate liquidation services for luxury properties, ensuring dignified transitions while maximizing value for beneficiaries.',
+    priceRange: '$2M - $50M+',
+    targetMarket: 'Estate executors, beneficiaries, family members, legal representatives',
+    neighborhoods: ['Red Rock Country Club', 'The Ridges Summerlin', 'MacDonald Highlands', 'Southern Highlands'],
+    credentials: ['Berkshire Hathaway HomeServices', 'Estate Management Expert', 'Legal Coordination', 'Family Liaison'],
+    features: [
+      'Estate valuation & assessment',
+      'Legal coordination support',
+      'Family communication management',
+      'Property preparation & staging',
+      'Confidential marketing',
+      'Beneficiary coordination',
+      'Tax optimization consultation',
+      'Legacy preservation planning'
+    ],
+    icon: '🏛️',
+    category: 'selling',
+    exclusivity: 'platinum'
+  },
+  {
+    id: 'luxury-rental-management',
+    title: 'Luxury Rental & Property Management',
+    subtitle: 'Premium Property Management for Luxury Homes',
+    description: 'Elite property management services for luxury rental properties, ensuring maximum returns while maintaining the highest standards of service and discretion.',
+    priceRange: '$1M - $15M+',
+    targetMarket: 'Luxury property owners, investors, absentee owners',
+    neighborhoods: ['Red Rock Country Club', 'The Ridges Summerlin', 'MacDonald Highlands', 'Southern Highlands'],
+    credentials: ['Berkshire Hathaway HomeServices', 'Property Management Expert', 'Luxury Service Standards', 'Tenant Screening'],
+    features: [
+      'Premium tenant screening',
+      'Luxury concierge services',
+      'Property maintenance coordination',
+      'Revenue optimization',
+      'Legal compliance management',
+      'Tenant relationship management',
+      'Market rate analysis',
+      'Investment performance tracking'
+    ],
+    icon: '🔑',
+    category: 'investment',
+    exclusivity: 'platinum'
+  },
+  {
+    id: 'signature-client-experience',
+    title: 'Signature Client Experience Program',
+    subtitle: 'Ultimate Luxury Real Estate Experience',
+    description: 'Our flagship service offering the most comprehensive luxury real estate experience, combining all premium services with personalized attention and exclusive access.',
+    priceRange: '$5M - $100M+',
+    targetMarket: 'Ultra-high-net-worth individuals, family offices, VIP clients',
+    neighborhoods: ['Red Rock Country Club', 'The Ridges Summerlin', 'MacDonald Highlands', 'Southern Highlands', 'Tournament Hills'],
+    credentials: ['Berkshire Hathaway HomeServices', 'Signature Service Expert', 'Ultimate Client Experience', 'Exclusive Access'],
+    features: [
+      'Dedicated personal assistant',
+      'Exclusive market access',
+      'Private jet & helicopter service',
+      'Luxury lifestyle integration',
+      'International market access',
+      'Wealth preservation consultation',
+      'Legacy planning services',
+      '24/7 VIP support'
+    ],
+    icon: '🎯',
+    category: 'consultation',
+    exclusivity: 'signature'
+  }
+];
+
+export const serviceCategories = [
+  {
+    id: 'buying',
+    name: 'Luxury Acquisition',
+    description: 'Premium home buying services for discerning clients',
+    services: luxuryServices.filter(service => service.category === 'buying')
+  },
+  {
+    id: 'selling',
+    name: 'Luxury Disposition',
+    description: 'Elite selling services for premium properties',
+    services: luxuryServices.filter(service => service.category === 'selling')
+  },
+  {
+    id: 'investment',
+    name: 'Portfolio Management',
+    description: 'Strategic investment and portfolio services',
+    services: luxuryServices.filter(service => service.category === 'investment')
+  },
+  {
+    id: 'consultation',
+    name: 'Strategic Advisory',
+    description: 'High-level consulting and advisory services',
+    services: luxuryServices.filter(service => service.category === 'consultation')
+  }
+];
+
+export const exclusivityLevels = [
+  {
+    id: 'platinum',
+    name: 'Platinum Service',
+    description: 'Premium luxury services for high-net-worth clients',
+    color: 'text-blue-600',
+    bgColor: 'bg-blue-50',
+    borderColor: 'border-blue-200'
+  },
+  {
+    id: 'diamond',
+    name: 'Diamond Service',
+    description: 'Ultra-premium services for ultra-high-net-worth clients',
+    color: 'text-purple-600',
+    bgColor: 'bg-purple-50',
+    borderColor: 'border-purple-200'
+  },
+  {
+    id: 'signature',
+    name: 'Signature Service',
+    description: 'Our most exclusive and comprehensive service offering',
+    color: 'text-amber-600',
+    bgColor: 'bg-amber-50',
+    borderColor: 'border-amber-200'
+  }
+];
