@@ -37,8 +37,9 @@ export default function LuxuryPropertiesSection() {
             </span>
           </h2>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            Discover Las Vegas's most prestigious properties in Red Rock Country Club, The Ridges Summerlin, 
-            MacDonald Highlands, and Southern Highlands. Each home represents the pinnacle of luxury living.
+            Discover Las Vegas's most prestigious properties in Red Rock Country Club, The Ridges
+            Summerlin, MacDonald Highlands, and Southern Highlands. Each home represents the
+            pinnacle of luxury living.
           </p>
         </motion.div>
 
@@ -80,7 +81,7 @@ export default function LuxuryPropertiesSection() {
             <h3 className="text-2xl font-bold text-white mb-6 text-center">
               Featured Luxury Properties
             </h3>
-            
+
             {/* RealScout Office Listings Widget */}
             <realscout-office-listings
               agent-encoded-id="your-agent-encoded-id"
@@ -226,9 +227,7 @@ export default function LuxuryPropertiesSection() {
           viewport={{ once: true }}
           className="text-center"
         >
-          <h3 className="text-2xl font-bold text-white mb-8">
-            Explore Our Luxury Neighborhoods
-          </h3>
+          <h3 className="text-2xl font-bold text-white mb-8">Explore Our Luxury Neighborhoods</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { name: 'Red Rock Country Club', price: '$2M - $15M+', icon: '⛳' },
@@ -241,13 +240,15 @@ export default function LuxuryPropertiesSection() {
                 key={neighborhood.name}
                 type="button"
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 cursor-pointer text-left w-full"
-                onClick={() => handlePropertyClick(neighborhood.name.toLowerCase().replace(/\s+/g, '_'))}
+                onClick={() =>
+                  handlePropertyClick(neighborhood.name.toLowerCase().replace(/\s+/g, '_'))
+                }
                 aria-label={`View properties in ${neighborhood.name}`}
               >
-                                  <div className="text-3xl mb-3">{neighborhood.icon}</div>
-                  <h4 className="text-lg font-semibold text-white mb-2">{neighborhood.name}</h4>
-                  <p className="text-amber-400 font-medium">{neighborhood.price}</p>
-                </button>
+                <div className="text-3xl mb-3">{neighborhood.icon}</div>
+                <h4 className="text-lg font-semibold text-white mb-2">{neighborhood.name}</h4>
+                <p className="text-amber-400 font-medium">{neighborhood.price}</p>
+              </button>
             ))}
           </div>
         </motion.div>
