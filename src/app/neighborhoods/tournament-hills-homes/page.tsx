@@ -1,6 +1,4 @@
 'use client';
-
-import type { Metadata } from 'next';
 import { trackEvent } from '@/utils';
 
 export default function TournamentHillsPage() {
@@ -12,7 +10,7 @@ export default function TournamentHillsPage() {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
             Tournament Hills Luxury Homes
           </h1>
-          
+
           {/* Market Stats */}
           <div className="market-stats bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-white/20 max-w-5xl mx-auto mb-12">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -34,46 +32,50 @@ export default function TournamentHillsPage() {
               </div>
             </div>
           </div>
-          
+
           <p className="text-xl sm:text-2xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-            Discover championship golf living at Tournament Hills. Dr. Jan Duffy specializes in this 
+            Discover championship golf living at Tournament Hills. Dr. Jan Duffy specializes in this
             exclusive community featuring luxury homes, resort amenities, and pristine golf courses.
           </p>
-          
+
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'tournament_hills_consultation',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'tournament_hills_page',
-                  cd3: 'consultation',
-                  cd4: '2000',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'tournament_hills_consultation',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'tournament_hills_page',
+                    cd3: 'consultation',
+                    cd4: '2000',
+                  },
+                })
+              }
               className="btn-accent-buyer text-lg px-8 py-4"
             >
               Schedule Golf Tour
             </button>
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'tournament_hills_properties',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'tournament_hills_page',
-                  cd3: 'properties',
-                  cd4: '2000',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'tournament_hills_properties',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'tournament_hills_page',
+                    cd3: 'properties',
+                    cd4: '2000',
+                  },
+                })
+              }
               className="btn-secondary text-lg px-8 py-4"
             >
               View Available Homes
@@ -86,20 +88,19 @@ export default function TournamentHillsPage() {
       <section className="featured-properties bg-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-slate-900 mb-6">
-              Tournament Hills Properties
-            </h2>
+            <h2 className="text-4xl font-bold text-slate-900 mb-6">Tournament Hills Properties</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Championship golf course homes and luxury townhomes in this prestigious gated community
+              Championship golf course homes and luxury townhomes in this prestigious gated
+              community
             </p>
           </div>
-          
+
           <div className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-lg p-8 shadow-lg">
-            <realscout-office-listings 
-              agent-encoded-id="QWdlbnQtMjI1MDUw" 
-              sort-order="PRICE_DESC" 
-              listing-status="For Sale" 
-              property-types="SFR,MF" 
+            <realscout-office-listings
+              agent-encoded-id="QWdlbnQtMjI1MDUw"
+              sort-order="PRICE_DESC"
+              listing-status="For Sale"
+              property-types="SFR,MF"
               price-min="800000"
               location="Tournament Hills, Las Vegas, NV"
               max-results="12"
@@ -120,7 +121,7 @@ export default function TournamentHillsPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-16">
             Tournament Hills Amenities
           </h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white rounded-lg p-8 shadow-lg text-center">
               <div className="text-6xl mb-4">🏆</div>
@@ -129,7 +130,7 @@ export default function TournamentHillsPage() {
                 Two 18-hole championship golf courses with professional tournament standards
               </p>
             </div>
-            
+
             <div className="bg-white rounded-lg p-8 shadow-lg text-center">
               <div className="text-6xl mb-4">🏊</div>
               <h3 className="text-xl font-bold text-slate-800 mb-4">Resort Pools</h3>
@@ -137,15 +138,16 @@ export default function TournamentHillsPage() {
                 Multiple resort-style pools, spas, and aquatic facilities throughout the community
               </p>
             </div>
-            
+
             <div className="bg-white rounded-lg p-8 shadow-lg text-center">
               <div className="text-6xl mb-4">🎾</div>
               <h3 className="text-xl font-bold text-slate-800 mb-4">Tennis & Fitness</h3>
               <p className="text-slate-600">
-                Professional tennis courts and state-of-the-art fitness centers for active lifestyles
+                Professional tennis courts and state-of-the-art fitness centers for active
+                lifestyles
               </p>
             </div>
-            
+
             <div className="bg-white rounded-lg p-8 shadow-lg text-center">
               <div className="text-6xl mb-4">🍽️</div>
               <h3 className="text-xl font-bold text-slate-800 mb-4">Dining & Events</h3>
@@ -163,7 +165,7 @@ export default function TournamentHillsPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-16">
             Tournament Hills Home Options
           </h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Golf Course Homes */}
             <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg p-8 shadow-lg">
@@ -180,18 +182,20 @@ export default function TournamentHillsPage() {
               </ul>
               <button
                 type="button"
-                onClick={() => trackEvent({
-                  event: 'property_type_click',
-                  category: 'exploration',
-                  action: 'property_type_view',
-                  label: 'golf_course_homes',
-                  customDimensions: {
-                    cd1: 'luxury_buyer',
-                    cd2: 'tournament_hills_page',
-                    cd3: 'golf_homes',
-                    cd4: '1500',
-                  },
-                })}
+                onClick={() =>
+                  trackEvent({
+                    event: 'property_type_click',
+                    category: 'exploration',
+                    action: 'property_type_view',
+                    label: 'golf_course_homes',
+                    customDimensions: {
+                      cd1: 'luxury_buyer',
+                      cd2: 'tournament_hills_page',
+                      cd3: 'golf_homes',
+                      cd4: '1500',
+                    },
+                  })
+                }
                 className="w-full btn-accent-buyer py-3"
               >
                 View Golf Course Homes
@@ -213,18 +217,20 @@ export default function TournamentHillsPage() {
               </ul>
               <button
                 type="button"
-                onClick={() => trackEvent({
-                  event: 'property_type_click',
-                  category: 'exploration',
-                  action: 'property_type_view',
-                  label: 'luxury_townhomes',
-                  customDimensions: {
-                    cd1: 'luxury_buyer',
-                    cd2: 'tournament_hills_page',
-                    cd3: 'townhomes',
-                    cd4: '1500',
-                  },
-                })}
+                onClick={() =>
+                  trackEvent({
+                    event: 'property_type_click',
+                    category: 'exploration',
+                    action: 'property_type_view',
+                    label: 'luxury_townhomes',
+                    customDimensions: {
+                      cd1: 'luxury_buyer',
+                      cd2: 'tournament_hills_page',
+                      cd3: 'townhomes',
+                      cd4: '1500',
+                    },
+                  })
+                }
                 className="w-full btn-accent-buyer py-3"
               >
                 View Luxury Townhomes
@@ -246,18 +252,20 @@ export default function TournamentHillsPage() {
               </ul>
               <button
                 type="button"
-                onClick={() => trackEvent({
-                  event: 'property_type_click',
-                  category: 'exploration',
-                  action: 'property_type_view',
-                  label: 'custom_luxury_homes',
-                  customDimensions: {
-                    cd1: 'luxury_buyer',
-                    cd2: 'tournament_hills_page',
-                    cd3: 'custom_homes',
-                    cd4: '1500',
-                  },
-                })}
+                onClick={() =>
+                  trackEvent({
+                    event: 'property_type_click',
+                    category: 'exploration',
+                    action: 'property_type_view',
+                    label: 'custom_luxury_homes',
+                    customDimensions: {
+                      cd1: 'luxury_buyer',
+                      cd2: 'tournament_hills_page',
+                      cd3: 'custom_homes',
+                      cd4: '1500',
+                    },
+                  })
+                }
                 className="w-full btn-accent-buyer py-3"
               >
                 View Custom Homes
@@ -273,44 +281,52 @@ export default function TournamentHillsPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-16">
             Tournament Hills Market Analysis
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Market Performance
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Market Performance</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Steady Growth</h4>
-                  <p className="text-slate-600">10% year-over-year appreciation with $1.2M median price</p>
+                  <p className="text-slate-600">
+                    10% year-over-year appreciation with $1.2M median price
+                  </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Quick Sales</h4>
-                  <p className="text-slate-600">45 days average market time, faster than Las Vegas average</p>
+                  <p className="text-slate-600">
+                    45 days average market time, faster than Las Vegas average
+                  </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Golf Premium</h4>
-                  <p className="text-slate-600">Golf course homes command 15-25% premium over interior lots</p>
+                  <p className="text-slate-600">
+                    Golf course homes command 15-25% premium over interior lots
+                  </p>
                 </div>
               </div>
             </div>
-            
+
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Lifestyle Benefits
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Lifestyle Benefits</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Golf Lifestyle</h4>
-                  <p className="text-slate-600">Two championship courses with professional tournament quality</p>
+                  <p className="text-slate-600">
+                    Two championship courses with professional tournament quality
+                  </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Resort Amenities</h4>
-                  <p className="text-slate-600">Pools, tennis, fitness, and dining within the community</p>
+                  <p className="text-slate-600">
+                    Pools, tennis, fitness, and dining within the community
+                  </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Active Community</h4>
-                  <p className="text-slate-600">Vibrant social calendar with events and tournaments</p>
+                  <p className="text-slate-600">
+                    Vibrant social calendar with events and tournaments
+                  </p>
                 </div>
               </div>
             </div>
@@ -324,7 +340,7 @@ export default function TournamentHillsPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-16">
             Dr. Jan Duffy: Tournament Hills Expert
           </h2>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="text-6xl mb-6">🏌️</div>
@@ -333,7 +349,7 @@ export default function TournamentHillsPage() {
                 Deep understanding of golf lifestyle and Tournament Hills community dynamics
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="text-6xl mb-6">🤝</div>
               <h3 className="text-2xl font-bold text-slate-800 mb-4">Community Connections</h3>
@@ -341,7 +357,7 @@ export default function TournamentHillsPage() {
                 Strong relationships with Tournament Hills residents and community management
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="text-6xl mb-6">📈</div>
               <h3 className="text-2xl font-bold text-slate-800 mb-4">Market Performance</h3>
@@ -360,41 +376,46 @@ export default function TournamentHillsPage() {
             Ready to Experience Tournament Hills Golf Living?
           </h2>
           <p className="text-xl mb-8 text-slate-200">
-            Dr. Jan Duffy is your Tournament Hills specialist. Discover championship golf lifestyle today.
+            Dr. Jan Duffy is your Tournament Hills specialist. Discover championship golf lifestyle
+            today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'tournament_hills_contact_phone',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'tournament_hills_page',
-                  cd3: 'phone',
-                  cd4: '2000',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'tournament_hills_contact_phone',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'tournament_hills_page',
+                    cd3: 'phone',
+                    cd4: '2000',
+                  },
+                })
+              }
               className="btn-accent-buyer text-lg px-8 py-4"
             >
               Call (702) 555-0123
             </button>
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'tournament_hills_contact_email',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'tournament_hills_page',
-                  cd3: 'email',
-                  cd4: '2000',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'tournament_hills_contact_email',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'tournament_hills_page',
+                    cd3: 'email',
+                    cd4: '2000',
+                  },
+                })
+              }
               className="btn-secondary text-lg px-8 py-4"
             >
               Send Email

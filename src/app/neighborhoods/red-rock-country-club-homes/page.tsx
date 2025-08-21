@@ -12,7 +12,7 @@ export default function RedRockCountryClubPage() {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
             Red Rock Country Club Homes for Sale
           </h1>
-          
+
           {/* Market Stats */}
           <div className="market-stats bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-white/20 max-w-5xl mx-auto mb-12">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -34,46 +34,51 @@ export default function RedRockCountryClubPage() {
               </div>
             </div>
           </div>
-          
+
           <p className="text-xl sm:text-2xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-            Discover luxury golf course estates at Red Rock Country Club. Dr. Jan Duffy specializes in this 
-            prestigious gated community with championship golf, mountain views, and luxury amenities.
+            Discover luxury golf course estates at Red Rock Country Club. Dr. Jan Duffy specializes
+            in this prestigious gated community with championship golf, mountain views, and luxury
+            amenities.
           </p>
-          
+
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'red_rock_consultation',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'red_rock_page',
-                  cd3: 'consultation',
-                  cd4: '3000',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'red_rock_consultation',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'red_rock_page',
+                    cd3: 'consultation',
+                    cd4: '3000',
+                  },
+                })
+              }
               className="btn-accent-buyer text-lg px-8 py-4"
             >
               Schedule Red Rock Tour
             </button>
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'red_rock_properties',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'red_rock_page',
-                  cd3: 'properties',
-                  cd4: '3000',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'red_rock_properties',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'red_rock_page',
+                    cd3: 'properties',
+                    cd4: '3000',
+                  },
+                })
+              }
               className="btn-secondary text-lg px-8 py-4"
             >
               View Available Homes
@@ -90,16 +95,17 @@ export default function RedRockCountryClubPage() {
               Red Rock Country Club Properties
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Luxury golf course estates with mountain and city views in Las Vegas's most prestigious gated community
+              Luxury golf course estates with mountain and city views in Las Vegas's most
+              prestigious gated community
             </p>
           </div>
-          
+
           <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-8 shadow-lg">
-            <realscout-office-listings 
-              agent-encoded-id="QWdlbnQtMjI1MDUw" 
-              sort-order="PRICE_DESC" 
-              listing-status="For Sale" 
-              property-types="SFR" 
+            <realscout-office-listings
+              agent-encoded-id="QWdlbnQtMjI1MDUw"
+              sort-order="PRICE_DESC"
+              listing-status="For Sale"
+              property-types="SFR"
               price-min="1500000"
               location="Red Rock Country Club, Las Vegas, NV"
               max-results="12"
@@ -120,16 +126,17 @@ export default function RedRockCountryClubPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-16">
             Red Rock Country Club Amenities
           </h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white rounded-lg p-8 shadow-lg text-center">
               <div className="text-6xl mb-4">⛳</div>
               <h3 className="text-xl font-bold text-slate-800 mb-4">Championship Golf</h3>
               <p className="text-slate-600">
-                18-hole championship golf course designed by Arnold Palmer with stunning Red Rock views
+                18-hole championship golf course designed by Arnold Palmer with stunning Red Rock
+                views
               </p>
             </div>
-            
+
             <div className="bg-white rounded-lg p-8 shadow-lg text-center">
               <div className="text-6xl mb-4">🏰</div>
               <h3 className="text-xl font-bold text-slate-800 mb-4">Gated Security</h3>
@@ -137,20 +144,22 @@ export default function RedRockCountryClubPage() {
                 24/7 gated security with controlled access ensuring privacy and safety for residents
               </p>
             </div>
-            
+
             <div className="bg-white rounded-lg p-8 shadow-lg text-center">
               <div className="text-6xl mb-4">🍽️</div>
               <h3 className="text-xl font-bold text-slate-800 mb-4">Fine Dining</h3>
               <p className="text-slate-600">
-                Multiple upscale restaurants and private dining rooms with panoramic golf course views
+                Multiple upscale restaurants and private dining rooms with panoramic golf course
+                views
               </p>
             </div>
-            
+
             <div className="bg-white rounded-lg p-8 shadow-lg text-center">
               <div className="text-6xl mb-4">🏊</div>
               <h3 className="text-xl font-bold text-slate-800 mb-4">Resort Amenities</h3>
               <p className="text-slate-600">
-                Pool, spa, tennis courts, and fitness center creating a resort-style living experience
+                Pool, spa, tennis courts, and fitness center creating a resort-style living
+                experience
               </p>
             </div>
           </div>
@@ -163,7 +172,7 @@ export default function RedRockCountryClubPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-16">
             Red Rock Home Styles & Features
           </h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Golf Course Estates */}
             <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg p-8 shadow-lg">
@@ -180,18 +189,20 @@ export default function RedRockCountryClubPage() {
               </ul>
               <button
                 type="button"
-                onClick={() => trackEvent({
-                  event: 'property_type_click',
-                  category: 'exploration',
-                  action: 'property_type_view',
-                  label: 'golf_course_estates',
-                  customDimensions: {
-                    cd1: 'luxury_buyer',
-                    cd2: 'red_rock_page',
-                    cd3: 'golf_estates',
-                    cd4: '2000',
-                  },
-                })}
+                onClick={() =>
+                  trackEvent({
+                    event: 'property_type_click',
+                    category: 'exploration',
+                    action: 'property_type_view',
+                    label: 'golf_course_estates',
+                    customDimensions: {
+                      cd1: 'luxury_buyer',
+                      cd2: 'red_rock_page',
+                      cd3: 'golf_estates',
+                      cd4: '2000',
+                    },
+                  })
+                }
                 className="w-full btn-accent-buyer py-3"
               >
                 View Golf Course Homes
@@ -213,18 +224,20 @@ export default function RedRockCountryClubPage() {
               </ul>
               <button
                 type="button"
-                onClick={() => trackEvent({
-                  event: 'property_type_click',
-                  category: 'exploration',
-                  action: 'property_type_view',
-                  label: 'mountain_view_homes',
-                  customDimensions: {
-                    cd1: 'luxury_buyer',
-                    cd2: 'red_rock_page',
-                    cd3: 'mountain_view',
-                    cd4: '2000',
-                  },
-                })}
+                onClick={() =>
+                  trackEvent({
+                    event: 'property_type_click',
+                    category: 'exploration',
+                    action: 'property_type_view',
+                    label: 'mountain_view_homes',
+                    customDimensions: {
+                      cd1: 'luxury_buyer',
+                      cd2: 'red_rock_page',
+                      cd3: 'mountain_view',
+                      cd4: '2000',
+                    },
+                  })
+                }
                 className="w-full btn-accent-buyer py-3"
               >
                 View Mountain View Homes
@@ -246,18 +259,20 @@ export default function RedRockCountryClubPage() {
               </ul>
               <button
                 type="button"
-                onClick={() => trackEvent({
-                  event: 'property_type_click',
-                  category: 'exploration',
-                  action: 'property_type_view',
-                  label: 'custom_luxury_homes',
-                  customDimensions: {
-                    cd1: 'luxury_buyer',
-                    cd2: 'red_rock_page',
-                    cd3: 'custom_luxury',
-                    cd4: '2000',
-                  },
-                })}
+                onClick={() =>
+                  trackEvent({
+                    event: 'property_type_click',
+                    category: 'exploration',
+                    action: 'property_type_view',
+                    label: 'custom_luxury_homes',
+                    customDimensions: {
+                      cd1: 'luxury_buyer',
+                      cd2: 'red_rock_page',
+                      cd3: 'custom_luxury',
+                      cd4: '2000',
+                    },
+                  })
+                }
                 className="w-full btn-accent-buyer py-3"
               >
                 View Custom Homes
@@ -273,28 +288,32 @@ export default function RedRockCountryClubPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-16">
             Red Rock Country Club Market Insights
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Current Market Trends
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Current Market Trends</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Strong Appreciation</h4>
-                  <p className="text-slate-600">15% year-over-year price growth, outpacing Las Vegas average</p>
+                  <p className="text-slate-600">
+                    15% year-over-year price growth, outpacing Las Vegas average
+                  </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Premium Location</h4>
-                  <p className="text-slate-600">Limited inventory maintains exclusivity and value appreciation</p>
+                  <p className="text-slate-600">
+                    Limited inventory maintains exclusivity and value appreciation
+                  </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Golf Course Premium</h4>
-                  <p className="text-slate-600">Golf course lots command 20-30% premium over interior lots</p>
+                  <p className="text-slate-600">
+                    Golf course lots command 20-30% premium over interior lots
+                  </p>
                 </div>
               </div>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Why Choose Red Rock Country Club?
@@ -302,15 +321,21 @@ export default function RedRockCountryClubPage() {
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Lifestyle Investment</h4>
-                  <p className="text-slate-600">Resort-style living with championship golf and dining</p>
+                  <p className="text-slate-600">
+                    Resort-style living with championship golf and dining
+                  </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Scenic Beauty</h4>
-                  <p className="text-slate-600">Stunning Red Rock Canyon backdrop and mountain views</p>
+                  <p className="text-slate-600">
+                    Stunning Red Rock Canyon backdrop and mountain views
+                  </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Prestige & Privacy</h4>
-                  <p className="text-slate-600">Gated security and exclusive community atmosphere</p>
+                  <p className="text-slate-600">
+                    Gated security and exclusive community atmosphere
+                  </p>
                 </div>
               </div>
             </div>
@@ -324,16 +349,17 @@ export default function RedRockCountryClubPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-16">
             Dr. Jan Duffy: Red Rock Country Club Specialist
           </h2>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="text-6xl mb-6">🏆</div>
               <h3 className="text-2xl font-bold text-slate-800 mb-4">Local Expert</h3>
               <p className="text-slate-600">
-                15+ years of experience selling Red Rock Country Club properties with insider market knowledge
+                15+ years of experience selling Red Rock Country Club properties with insider market
+                knowledge
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="text-6xl mb-6">🤝</div>
               <h3 className="text-2xl font-bold text-slate-800 mb-4">Community Connections</h3>
@@ -341,7 +367,7 @@ export default function RedRockCountryClubPage() {
                 Strong relationships with Red Rock residents, builders, and community management
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="text-6xl mb-6">💼</div>
               <h3 className="text-2xl font-bold text-slate-800 mb-4">Proven Results</h3>
@@ -360,41 +386,46 @@ export default function RedRockCountryClubPage() {
             Ready to Find Your Red Rock Country Club Home?
           </h2>
           <p className="text-xl mb-8 text-slate-200">
-            Dr. Jan Duffy is your Red Rock Country Club specialist. Let's find your perfect golf course estate.
+            Dr. Jan Duffy is your Red Rock Country Club specialist. Let's find your perfect golf
+            course estate.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'red_rock_contact_phone',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'red_rock_page',
-                  cd3: 'phone',
-                  cd4: '3000',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'red_rock_contact_phone',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'red_rock_page',
+                    cd3: 'phone',
+                    cd4: '3000',
+                  },
+                })
+              }
               className="btn-accent-buyer text-lg px-8 py-4"
             >
               Call (702) 555-0123
             </button>
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'red_rock_contact_email',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'red_rock_page',
-                  cd3: 'email',
-                  cd4: '3000',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'red_rock_contact_email',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'red_rock_page',
+                    cd3: 'email',
+                    cd4: '3000',
+                  },
+                })
+              }
               className="btn-secondary text-lg px-8 py-4"
             >
               Send Email

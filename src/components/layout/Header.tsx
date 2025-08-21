@@ -1,7 +1,6 @@
 'use client';
 
 import { trackEvent } from '@/utils';
-import { AnimatePresence, motion } from 'framer-motion';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
@@ -214,8 +213,22 @@ export default function Header() {
                   />
                 </svg>
               </button>
-              <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-neutral-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+              <div className="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-xl border border-neutral-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                 <div className="py-2">
+                  <Link
+                    href="/neighborhoods/red-rock-country-club"
+                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => handleNavClick('red_rock_country_club')}
+                  >
+                    Red Rock Country Club
+                  </Link>
+                  <Link
+                    href="/neighborhoods/the-ridges-summerlin"
+                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => handleNavClick('the_ridges_summerlin')}
+                  >
+                    The Ridges Summerlin
+                  </Link>
                   <Link
                     href="/neighborhoods/tournament-hills"
                     className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
@@ -229,20 +242,6 @@ export default function Header() {
                     onClick={() => handleNavClick('southern_highlands')}
                   >
                     Southern Highlands
-                  </Link>
-                  <Link
-                    href="/neighborhoods/red-rock-country-club"
-                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
-                    onClick={() => handleNavClick('red_rock')}
-                  >
-                    Red Rock Country Club
-                  </Link>
-                  <Link
-                    href="/neighborhoods/the-ridges-summerlin"
-                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
-                    onClick={() => handleNavClick('ridges')}
-                  >
-                    The Ridges Summerlin
                   </Link>
                   <Link
                     href="/neighborhoods/summerlin"
@@ -259,11 +258,46 @@ export default function Header() {
                     Henderson
                   </Link>
                   <Link
-                    href="/55-plus-communities-las-vegas"
+                    href="/neighborhoods/green-valley"
                     className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
-                    onClick={() => handleNavClick('55_plus_communities')}
+                    onClick={() => handleNavClick('green_valley')}
                   >
-                    55+ Communities
+                    Green Valley
+                  </Link>
+                  <Link
+                    href="/neighborhoods/anthem"
+                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => handleNavClick('anthem')}
+                  >
+                    Anthem
+                  </Link>
+                  <Link
+                    href="/neighborhoods/sun-city-communities"
+                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => handleNavClick('sun_city_communities')}
+                  >
+                    Sun City Communities
+                  </Link>
+                  <Link
+                    href="/neighborhoods/del-webb-communities"
+                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => handleNavClick('del_webb_communities')}
+                  >
+                    Del Webb Communities
+                  </Link>
+                  <Link
+                    href="/neighborhoods/downtown-las-vegas"
+                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => handleNavClick('downtown_las_vegas')}
+                  >
+                    Downtown Las Vegas
+                  </Link>
+                  <Link
+                    href="/neighborhoods/mountains-edge"
+                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => handleNavClick('mountains_edge')}
+                  >
+                    Mountains Edge
                   </Link>
                 </div>
               </div>
@@ -378,14 +412,8 @@ export default function Header() {
         </div>
 
         {/* Mobile Navigation */}
-        <AnimatePresence>
-          {isMenuOpen && (
-            <motion.div
-              initial={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: 'auto' }}
-              exit={{ opacity: 0, height: 0 }}
-              className="lg:hidden border-t border-neutral-200 bg-white"
-            >
+        {isMenuOpen && (
+          <div className="lg:hidden border-t border-neutral-200 bg-white">
               <nav className="px-4 py-6 space-y-4">
                 {/* Buying Section */}
                 <div className="space-y-2">
@@ -486,6 +514,26 @@ export default function Header() {
                   <h3 className="font-semibold text-primary-900 text-lg">Neighborhoods</h3>
                   <div className="ml-4 space-y-2">
                     <Link
+                      href="/neighborhoods/red-rock-country-club"
+                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                      onClick={() => {
+                        handleNavClick('red_rock_country_club');
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      Red Rock Country Club
+                    </Link>
+                    <Link
+                      href="/neighborhoods/the-ridges-summerlin"
+                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                      onClick={() => {
+                        handleNavClick('the_ridges_summerlin');
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      The Ridges Summerlin
+                    </Link>
+                    <Link
                       href="/neighborhoods/tournament-hills"
                       className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
                       onClick={() => {
@@ -504,26 +552,6 @@ export default function Header() {
                       }}
                     >
                       Southern Highlands
-                    </Link>
-                    <Link
-                      href="/neighborhoods/red-rock-country-club"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('red_rock');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Red Rock Country Club
-                    </Link>
-                    <Link
-                      href="/neighborhoods/the-ridges-summerlin"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('ridges');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      The Ridges Summerlin
                     </Link>
                     <Link
                       href="/neighborhoods/summerlin"
@@ -546,14 +574,64 @@ export default function Header() {
                       Henderson
                     </Link>
                     <Link
-                      href="/55-plus-communities-las-vegas"
+                      href="/neighborhoods/green-valley"
                       className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
                       onClick={() => {
-                        handleNavClick('55_plus_communities');
+                        handleNavClick('green_valley');
                         setIsMenuOpen(false);
                       }}
                     >
-                      55+ Communities
+                      Green Valley
+                    </Link>
+                    <Link
+                      href="/neighborhoods/anthem"
+                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                      onClick={() => {
+                        handleNavClick('anthem');
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      Anthem
+                    </Link>
+                    <Link
+                      href="/neighborhoods/sun-city-communities"
+                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                      onClick={() => {
+                        handleNavClick('sun_city_communities');
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      Sun City Communities
+                    </Link>
+                    <Link
+                      href="/neighborhoods/del-webb-communities"
+                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                      onClick={() => {
+                        handleNavClick('del_webb_communities');
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      Del Webb Communities
+                    </Link>
+                    <Link
+                      href="/neighborhoods/downtown-las-vegas"
+                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                      onClick={() => {
+                        handleNavClick('downtown_las_vegas');
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      Downtown Las Vegas
+                    </Link>
+                    <Link
+                      href="/neighborhoods/mountains-edge"
+                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                      onClick={() => {
+                        handleNavClick('mountains_edge');
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      Mountains Edge
                     </Link>
                   </div>
                 </div>
@@ -641,9 +719,8 @@ export default function Header() {
                   Get Started
                 </Link>
               </nav>
-            </motion.div>
+            </div>
           )}
-        </AnimatePresence>
       </div>
     </header>
   );
