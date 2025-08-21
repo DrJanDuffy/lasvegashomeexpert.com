@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run Biome checks before commit
+echo "🔍 Running Biome pre-commit checks..."
+npm run format
+
+# If Biome checks fail, prevent commit
+if [ $? -ne 0 ]; then
+  echo "❌ Biome checks failed. Please fix the issues before committing."
+  exit 1
+fi
+
+echo "✅ Biome checks passed. Proceeding with commit..."

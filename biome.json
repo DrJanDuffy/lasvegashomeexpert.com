@@ -17,7 +17,11 @@
       "*.bundle.js",
       "package-lock.json",
       "pnpm-lock.yaml",
-      "yarn.lock"
+      "yarn.lock",
+      ".vercel/**",
+      "*.log",
+      "coverage/**",
+      ".nyc_output/**"
     ]
   },
   "formatter": {
@@ -25,7 +29,8 @@
     "indentStyle": "space",
     "indentWidth": 2,
     "lineWidth": 100,
-    "lineEnding": "lf"
+    "lineEnding": "lf",
+    "ignore": ["*.min.js", "*.bundle.js", "dist/**", "build/**"]
   },
   "linter": {
     "enabled": true,
@@ -34,19 +39,24 @@
       "correctness": {
         "noUnusedVariables": "error",
         "useExhaustiveDependencies": "error",
-        "noUndeclaredVariables": "error"
+        "noUndeclaredVariables": "error",
+        "noUnusedImports": "error",
+        "noUnusedPrivateClassMembers": "error"
       },
       "suspicious": {
         "noExplicitAny": "warn",
         "noArrayIndexKey": "error",
-        "noConsoleLog": "warn"
+        "noConsoleLog": "warn",
+        "noDoubleEquals": "warn",
+        "noEmptyInterface": "warn"
       },
       "style": {
         "useConst": "error",
         "useTemplate": "error",
         "useShorthandArrayType": "error",
         "useBlockStatements": "error",
-        "useShorthandAssign": "error"
+        "useShorthandAssign": "error",
+        "useImportType": "error"
       },
       "complexity": {
         "noForEach": "warn",
@@ -58,7 +68,12 @@
       "a11y": {
         "useKeyWithClickEvents": "error",
         "useKeyWithMouseEvents": "error",
-        "useMediaCaption": "warn"
+        "useMediaCaption": "warn",
+        "useValidAriaProps": "warn",
+        "useValidAriaValues": "warn"
+      },
+      "nursery": {
+        "useImportRestrictions": "warn"
       }
     }
   },
@@ -84,9 +99,31 @@
       "linter": {
         "rules": {
           "correctness": {
-            "noUnusedVariables": "error"
+            "noUnusedVariables": "error",
+            "useExhaustiveDependencies": "error"
+          },
+          "style": {
+            "useImportType": "error"
           }
         }
+      }
+    },
+    {
+      "include": ["src/**/*.tsx"],
+      "linter": {
+        "rules": {
+          "a11y": {
+            "useKeyWithClickEvents": "error",
+            "useKeyWithMouseEvents": "error",
+            "useValidAriaProps": "warn"
+          }
+        }
+      }
+    },
+    {
+      "include": ["*.config.js", "*.config.ts"],
+      "formatter": {
+        "lineWidth": 120
       }
     }
   ]

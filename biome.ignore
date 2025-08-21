@@ -1,0 +1,33 @@
+# Biome ignore file for optimal performance
+# Generated files
+.next/
+out/
+dist/
+build/
+*.min.js
+*.bundle.js
+
+# Dependencies
+node_modules/
+
+# Build artifacts
+.vercel/
+*.log
+coverage/
+.nyc_output/
+
+# Lock files (let package manager handle these)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp

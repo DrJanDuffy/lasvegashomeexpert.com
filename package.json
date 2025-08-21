@@ -10,9 +10,14 @@
     "format": "biome format . --write",
     "check": "biome check .",
     "fix": "biome check . --write",
+    "fix:unsafe": "biome check . --write --unsafe",
     "type-check": "tsc --noEmit",
     "code-quality": "npm run lint && npm run type-check",
-    "pre-commit": "npm run format && npm run code-quality"
+    "pre-commit": "npm run format && npm run code-quality",
+    "biome:ci": "biome ci .",
+    "biome:check:verbose": "biome check . --verbose",
+    "biome:stats": "biome check . --verbose --max-diagnostics=1000",
+    "prepare": "husky"
   },
   "dependencies": {
     "@turf/turf": "^6.5.0",
@@ -35,6 +40,7 @@
     "zustand": "^4.4.7"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4"
+    "@biomejs/biome": "^1.9.4",
+    "husky": "^9.1.7"
   }
 }
