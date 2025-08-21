@@ -1,11 +1,11 @@
-1:HL["/_next/static/css/40c2a9c51914765d.css","style",{"crossOrigin":""}]
-0:["u_z9JmkOVMLMhp1qlLkJK",[[["",{"children":["about-dr-jan-duffy",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/40c2a9c51914765d.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
-5:I[8562,["220","static/chunks/220-daf31d689157901a.js","396","static/chunks/396-65d9444878efc5b3.js","185","static/chunks/app/layout-8734d420c6b4cbac.js"],""]
+1:HL["/_next/static/css/52ee5bda096ccde8.css","style",{"crossOrigin":""}]
+0:["_TuASMztvoKkFdMetIWAw",[[["",{"children":["about-dr-jan-duffy",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/52ee5bda096ccde8.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+5:I[8562,["220","static/chunks/220-daf31d689157901a.js","396","static/chunks/396-65d9444878efc5b3.js","185","static/chunks/app/layout-27b16925bcf2fc81.js"],""]
 6:I[6954,[],""]
 7:I[7264,[],""]
 9:I[8297,[],""]
 a:I[1536,["220","static/chunks/220-daf31d689157901a.js","643","static/chunks/app/about-dr-jan-duffy/page-6d9db31837b62453.js"],""]
-b:I[2053,["220","static/chunks/220-daf31d689157901a.js","396","static/chunks/396-65d9444878efc5b3.js","185","static/chunks/app/layout-8734d420c6b4cbac.js"],""]
+b:I[2053,["220","static/chunks/220-daf31d689157901a.js","396","static/chunks/396-65d9444878efc5b3.js","185","static/chunks/app/layout-27b16925bcf2fc81.js"],""]
 4:T607,
               /* RealScout Widget Styling - Applied to every page */
               realscout-office-listings {

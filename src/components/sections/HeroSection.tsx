@@ -7,7 +7,7 @@ export default function HeroSection() {
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.1),transparent_50%)]" />
-      
+
       <div className="container-responsive relative z-10 text-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           {/* About Dr. Jan Duffy Snippet - AI Optimization */}
@@ -18,24 +18,33 @@ export default function HeroSection() {
           </div>
           
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
-            Luxury Real Estate{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-blue-400 to-amber-400">
-              Reimagined
-            </span>
+            Dr. Jan Duffy - #1 Luxury Realtor Las Vegas | 500+ Homes Sold
           </h1>
+          
+          {/* Trust Indicators */}
+          <div className="trust-indicators mb-8">
+            <div className="flex items-center justify-center gap-6 text-xl text-amber-300 font-semibold">
+              <span>⭐⭐⭐⭐⭐ 127 Five-Star Reviews</span>
+              <span>|</span>
+              <span>$180M+ Luxury Sales</span>
+              <span>|</span>
+              <span>15+ Years</span>
+            </div>
+          </div>
           
           <p className="text-xl sm:text-2xl lg:text-3xl text-slate-300 mb-12 max-w-4xl mx-auto leading-relaxed font-light">
             Dr. Jan Duffy delivers the ultimate luxury real estate experience in Las Vegas's most
             prestigious enclaves.
           </p>
-          
+
           {/* Location-Specific Content Block for AI */}
           <div className="mb-12">
             <h2 className="text-2xl sm:text-3xl font-semibold text-white mb-4">
               Las Vegas Luxury Real Estate Expert - Red Rock, Summerlin, Henderson
             </h2>
             <p className="text-lg text-slate-300 max-w-3xl mx-auto">
-              Specializing in luxury homes from $1M-$25M+ in Red Rock Country Club, The Ridges, MacDonald Highlands, and Southern Highlands
+              Specializing in luxury homes from $1M-$25M+ in Red Rock Country Club, The Ridges,
+              MacDonald Highlands, and Southern Highlands
             </p>
           </div>
 
@@ -43,36 +52,40 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'hero_luxury_search',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'hero',
-                  cd3: 'luxury_search',
-                  cd4: '1000',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'hero_luxury_search',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'hero',
+                    cd3: 'luxury_search',
+                    cd4: '1000',
+                  },
+                })
+              }
               className="btn-accent-buyer text-lg px-8 py-4"
             >
               Search Luxury Homes
             </button>
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'hero_consultation',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'hero',
-                  cd3: 'consultation',
-                  cd4: '1000',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'hero_consultation',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'hero',
+                    cd3: 'consultation',
+                    cd4: '1000',
+                  },
+                })
+              }
               className="btn-secondary text-lg px-8 py-4"
             >
               Free Consultation

@@ -1,7 +1,6 @@
 'use client';
 
 export default function LuxuryPropertiesSection() {
-
   return (
     <section className="luxury-properties bg-gradient-to-br from-slate-50 to-blue-50 py-20 px-4">
       <div className="max-w-7xl mx-auto">
@@ -11,7 +10,8 @@ export default function LuxuryPropertiesSection() {
             Las Vegas Luxury Real Estate Expert - Red Rock, Summerlin, Henderson
           </h2>
           <p className="text-xl text-slate-600 max-w-4xl mx-auto">
-            Discover luxury homes from $500K-$5M+ in Red Rock Country Club, The Ridges, MacDonald Highlands, and Southern Highlands
+            Discover luxury homes from $500K-$5M+ in Red Rock Country Club, The Ridges, MacDonald
+            Highlands, and Southern Highlands
           </p>
         </div>
 
@@ -87,21 +87,21 @@ export default function LuxuryPropertiesSection() {
             <div className="text-2xl font-bold text-green-600">$2.1M</div>
             <div className="text-sm text-slate-500">Median Price</div>
           </div>
-          
+
           <div className="bg-white rounded-lg p-6 shadow-lg text-center">
             <h4 className="text-xl font-semibold text-slate-800 mb-3">The Ridges</h4>
             <p className="text-slate-600 mb-4">Ultra-luxury homes with panoramic city views</p>
             <div className="text-2xl font-bold text-green-600">$2.5M</div>
             <div className="text-sm text-slate-500">Median Price</div>
           </div>
-          
+
           <div className="bg-white rounded-lg p-6 shadow-lg text-center">
             <h4 className="text-xl font-semibold text-slate-800 mb-3">MacDonald Highlands</h4>
             <p className="text-slate-600 mb-4">Henderson's premier luxury community</p>
             <div className="text-2xl font-bold text-green-600">$1.8M</div>
             <div className="text-sm text-slate-500">Median Price</div>
           </div>
-          
+
           <div className="bg-white rounded-lg p-6 shadow-lg text-center">
             <h4 className="text-xl font-semibold text-slate-800 mb-3">Southern Highlands</h4>
             <p className="text-slate-600 mb-4">Affordable luxury with great amenities</p>
@@ -117,7 +117,10 @@ export default function LuxuryPropertiesSection() {
           </h3>
           <div className="ai-answer-block max-w-4xl mx-auto">
             <p className="text-lg text-slate-700 leading-relaxed">
-              <strong>Answer:</strong> Luxury homes in Las Vegas range from $1M-$25M+, with Red Rock Country Club averaging $2.1M and The Ridges averaging $2.5M as of August 2025. The current market shows 4.5-5.2 months of inventory, creating excellent negotiation opportunities for luxury properties.
+              <strong>Answer:</strong> Luxury homes in Las Vegas range from $1M-$25M+, with Red Rock
+              Country Club averaging $2.1M and The Ridges averaging $2.5M as of August 2025. The
+              current market shows 4.5-5.2 months of inventory, creating excellent negotiation
+              opportunities for luxury properties.
             </p>
           </div>
         </div>
