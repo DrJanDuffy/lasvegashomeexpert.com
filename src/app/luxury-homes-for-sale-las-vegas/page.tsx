@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { trackEvent } from '@/utils';
+import { motion } from 'framer-motion';
 
 export default function LuxuryHomesForSalePage() {
   const handleCTAClick = (action: string) => {
@@ -26,8 +26,8 @@ export default function LuxuryHomesForSalePage() {
     'Smart Home Technology',
     'Wine Cellar',
     'Home Theater',
-    'Chef\'s Kitchen',
-    'Master Suite with Spa Bath'
+    "Chef's Kitchen",
+    'Master Suite with Spa Bath',
   ];
 
   const neighborhoods = [
@@ -35,26 +35,26 @@ export default function LuxuryHomesForSalePage() {
       name: 'Red Rock Country Club',
       avgPrice: '$2.1M',
       daysOnMarket: '14',
-      features: 'Golf, Pool, Gated'
+      features: 'Golf, Pool, Gated',
     },
     {
       name: 'The Ridges Summerlin',
       avgPrice: '$2.3M',
       daysOnMarket: '12',
-      features: 'Mountain Views, Pool'
+      features: 'Mountain Views, Pool',
     },
     {
       name: 'Tournament Hills',
       avgPrice: '$1.8M',
       daysOnMarket: '18',
-      features: 'Golf Course, Family'
+      features: 'Golf Course, Family',
     },
     {
       name: 'Southern Highlands',
       avgPrice: '$1.9M',
       daysOnMarket: '16',
-      features: 'Golf, Pool, Views'
-    }
+      features: 'Golf, Pool, Views',
+    },
   ];
 
   return (
@@ -227,11 +227,11 @@ export default function LuxuryHomesForSalePage() {
           </motion.div>
 
           <div className="luxury-listings">
-            <realscout-office-listings 
-              agent-encoded-id="QWdlbnQtMjI1MDUw" 
-              sort-order="STATUS_AND_SIGNIFICANT_CHANGE" 
-              listing-status="For Sale" 
-              property-types="SFR,MF" 
+            <realscout-office-listings
+              agent-encoded-id="QWdlbnQtMjI1MDUw"
+              sort-order="STATUS_AND_SIGNIFICANT_CHANGE"
+              listing-status="For Sale"
+              property-types="SFR,MF"
               price-min="1200000"
               price-max="5000000"
             />
@@ -252,7 +252,7 @@ export default function LuxuryHomesForSalePage() {
             <h2 className="text-4xl font-bold text-primary-900 mb-8">
               Las Vegas Luxury Market Trends
             </h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               <div className="bg-white rounded-xl p-6 shadow-lg">
                 <div className="text-4xl mb-4">📈</div>
@@ -294,13 +294,12 @@ export default function LuxuryHomesForSalePage() {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold mb-6">
-              Ready to Find Your Dream Luxury Home?
-            </h2>
+            <h2 className="text-4xl font-bold mb-6">Ready to Find Your Dream Luxury Home?</h2>
             <p className="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
-              Let Dr. Jan Duffy guide you to the perfect luxury property in Las Vegas' most prestigious communities.
+              Let Dr. Jan Duffy guide you to the perfect luxury property in Las Vegas' most
+              prestigious communities.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 type="button"

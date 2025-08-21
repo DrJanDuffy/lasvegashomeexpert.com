@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { trackEvent } from '@/utils';
+import { motion } from 'framer-motion';
 
 export default function InvestmentPropertiesPage() {
   const handleCTAClick = (action: string) => {
@@ -25,29 +25,29 @@ export default function InvestmentPropertiesPage() {
       value: '6.8%',
       trend: '+0.5% vs. last year',
       icon: '📊',
-      color: 'text-accent-success'
+      color: 'text-accent-success',
     },
     {
       metric: 'Cash on Cash Return',
       value: '8.2%',
       trend: '+0.8% vs. last year',
       icon: '💰',
-      color: 'text-accent-success'
+      color: 'text-accent-success',
     },
     {
       metric: 'Price Appreciation',
       value: '+12.4%',
       trend: 'Year-over-year growth',
       icon: '📈',
-      color: 'text-accent-success'
+      color: 'text-accent-success',
     },
     {
       metric: 'Rental Demand',
       value: 'High',
       trend: 'Growing population',
       icon: '🏠',
-      color: 'text-accent-success'
-    }
+      color: 'text-accent-success',
+    },
   ];
 
   const investmentTypes = [
@@ -57,7 +57,7 @@ export default function InvestmentPropertiesPage() {
       avgRent: '$2,800',
       capRate: '7.2%',
       description: 'Stable long-term appreciation with monthly cash flow',
-      icon: '🏡'
+      icon: '🏡',
     },
     {
       type: 'Multi-Family Units',
@@ -65,7 +65,7 @@ export default function InvestmentPropertiesPage() {
       avgRent: '$4,200',
       capRate: '7.8%',
       description: 'Higher cash flow with economies of scale',
-      icon: '🏢'
+      icon: '🏢',
     },
     {
       type: 'Short-Term Rentals',
@@ -73,7 +73,7 @@ export default function InvestmentPropertiesPage() {
       avgRent: '$3,500',
       capRate: '8.5%',
       description: 'Premium rental rates in tourist areas',
-      icon: '🏨'
+      icon: '🏨',
     },
     {
       type: 'Luxury Rentals',
@@ -81,8 +81,8 @@ export default function InvestmentPropertiesPage() {
       avgRent: '$8,500',
       capRate: '6.2%',
       description: 'Premium tenants with long-term leases',
-      icon: '✨'
-    }
+      icon: '✨',
+    },
   ];
 
   const investmentNeighborhoods = [
@@ -91,29 +91,29 @@ export default function InvestmentPropertiesPage() {
       avgCapRate: '7.1%',
       appreciation: '+13.2%',
       rentalDemand: 'Very High',
-      features: 'Family-friendly, great schools, growing population'
+      features: 'Family-friendly, great schools, growing population',
     },
     {
       name: 'Green Valley',
       avgCapRate: '6.9%',
       appreciation: '+11.8%',
       rentalDemand: 'High',
-      features: 'Established community, stable tenants, amenities'
+      features: 'Established community, stable tenants, amenities',
     },
     {
       name: 'Summerlin',
       avgCapRate: '6.5%',
       appreciation: '+14.5%',
       rentalDemand: 'High',
-      features: 'Master-planned, luxury amenities, professional tenants'
+      features: 'Master-planned, luxury amenities, professional tenants',
     },
     {
       name: 'Anthem',
       avgCapRate: '7.3%',
       appreciation: '+12.1%',
       rentalDemand: 'High',
-      features: 'Mountain views, growing area, family focus'
-    }
+      features: 'Mountain views, growing area, family focus',
+    },
   ];
 
   const investmentProcess = [
@@ -121,38 +121,38 @@ export default function InvestmentPropertiesPage() {
       step: '1',
       title: 'Market Analysis',
       description: 'Identify high-growth areas with strong fundamentals',
-      duration: '1-2 weeks'
+      duration: '1-2 weeks',
     },
     {
       step: '2',
       title: 'Property Search',
       description: 'Find properties meeting your investment criteria',
-      duration: '2-4 weeks'
+      duration: '2-4 weeks',
     },
     {
       step: '3',
       title: 'Financial Analysis',
       description: 'Calculate ROI, cash flow, and appreciation potential',
-      duration: '3-5 days'
+      duration: '3-5 days',
     },
     {
       step: '4',
       title: 'Due Diligence',
       description: 'Property inspection, title search, and market research',
-      duration: '1-2 weeks'
+      duration: '1-2 weeks',
     },
     {
       step: '5',
       title: 'Acquisition',
       description: 'Negotiate terms and close the transaction',
-      duration: '30-45 days'
+      duration: '30-45 days',
     },
     {
       step: '6',
       title: 'Management',
       description: 'Ongoing property management and optimization',
-      duration: 'Ongoing'
-    }
+      duration: 'Ongoing',
+    },
   ];
 
   return (
@@ -277,9 +277,7 @@ export default function InvestmentPropertiesPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Investment Property Types
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Investment Property Types</h2>
             <p className="text-xl text-neutral-600">
               Choose the investment strategy that fits your goals
             </p>
@@ -331,9 +329,7 @@ export default function InvestmentPropertiesPage() {
             <h2 className="text-4xl font-bold text-primary-900 mb-4">
               Top Investment Neighborhoods
             </h2>
-            <p className="text-xl text-neutral-600">
-              Areas with the highest investment potential
-            </p>
+            <p className="text-xl text-neutral-600">Areas with the highest investment potential</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -354,7 +350,9 @@ export default function InvestmentPropertiesPage() {
                   </div>
                   <div className="flex justify-between">
                     <span>Appreciation:</span>
-                    <span className="font-bold text-accent-success">{neighborhood.appreciation}</span>
+                    <span className="font-bold text-accent-success">
+                      {neighborhood.appreciation}
+                    </span>
                   </div>
                   <div className="flex justify-between">
                     <span>Rental Demand:</span>
@@ -378,9 +376,7 @@ export default function InvestmentPropertiesPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Your Investment Journey
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Your Investment Journey</h2>
             <p className="text-xl text-neutral-600">
               A proven 6-step process for successful real estate investing
             </p>
@@ -449,14 +445,12 @@ export default function InvestmentPropertiesPage() {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold mb-6">
-              Ready to Build Your Real Estate Portfolio?
-            </h2>
+            <h2 className="text-4xl font-bold mb-6">Ready to Build Your Real Estate Portfolio?</h2>
             <p className="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
-              Let Dr. Jan Duffy's investment expertise and market knowledge help you 
-              identify the best opportunities for maximum returns.
+              Let Dr. Jan Duffy's investment expertise and market knowledge help you identify the
+              best opportunities for maximum returns.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 type="button"

@@ -26,8 +26,8 @@ declare global {
         'property-types'?: string;
         'price-min'?: string | number;
         'price-max'?: string | number;
-        'features'?: string;
-        'location'?: string;
+        features?: string;
+        location?: string;
         'max-results'?: string | number;
         'architectural-style'?: string;
         [key: string]: any;

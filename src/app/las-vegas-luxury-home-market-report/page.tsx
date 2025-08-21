@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { trackEvent } from '@/utils';
+import { motion } from 'framer-motion';
 
 export default function LuxuryHomeMarketReportPage() {
   const handleCTAClick = (action: string) => {
@@ -28,7 +28,7 @@ export default function LuxuryHomeMarketReportPage() {
     monthsOfInventory: '2.1',
     luxuryMarketShare: '23%',
     newConstruction: '34',
-    pendingSales: '89'
+    pendingSales: '89',
   };
 
   const neighborhoodStats = [
@@ -37,29 +37,29 @@ export default function LuxuryHomeMarketReportPage() {
       avgPrice: '$2.3M',
       daysOnMarket: '12',
       appreciation: '+15.2%',
-      inventory: '18'
+      inventory: '18',
     },
     {
       name: 'Red Rock Country Club',
       avgPrice: '$2.1M',
       daysOnMarket: '14',
       appreciation: '+12.3%',
-      inventory: '23'
+      inventory: '23',
     },
     {
       name: 'Tournament Hills',
       avgPrice: '$1.6M',
       daysOnMarket: '16',
       appreciation: '+11.8%',
-      inventory: '15'
+      inventory: '15',
     },
     {
       name: 'Southern Highlands',
       avgPrice: '$1.9M',
       daysOnMarket: '19',
       appreciation: '+13.1%',
-      inventory: '28'
-    }
+      inventory: '28',
+    },
   ];
 
   const marketTrends = [
@@ -68,29 +68,29 @@ export default function LuxuryHomeMarketReportPage() {
       value: '+14.2%',
       description: 'Year-over-year luxury home price growth',
       icon: '📈',
-      color: 'text-accent-success'
+      color: 'text-accent-success',
     },
     {
       trend: 'Market Speed',
       value: '18 Days',
       description: 'Average time luxury homes stay on market',
       icon: '⚡',
-      color: 'text-accent-success'
+      color: 'text-accent-success',
     },
     {
       trend: 'Inventory Levels',
       value: '2.1 Months',
       description: 'Current months of luxury inventory available',
       icon: '🏠',
-      color: 'text-accent-warning'
+      color: 'text-accent-warning',
     },
     {
       trend: 'New Construction',
       value: '34 Homes',
       description: 'Luxury new construction available',
       icon: '🏗️',
-      color: 'text-accent-success'
-    }
+      color: 'text-accent-success',
+    },
   ];
 
   return (
@@ -127,24 +127,30 @@ export default function LuxuryHomeMarketReportPage() {
 
             {/* Market Summary */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 mb-8">
-              <p className="text-xl font-semibold mb-4">
-                Current Luxury Market Status
-              </p>
+              <p className="text-xl font-semibold mb-4">Current Luxury Market Status</p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-lg">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-accent-success">{marketData.totalLuxuryHomes}</div>
+                  <div className="text-2xl font-bold text-accent-success">
+                    {marketData.totalLuxuryHomes}
+                  </div>
                   <p className="text-sm">Luxury Homes</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-accent-success">{marketData.avgPrice}</div>
+                  <div className="text-2xl font-bold text-accent-success">
+                    {marketData.avgPrice}
+                  </div>
                   <p className="text-sm">Avg Price</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-accent-success">{marketData.avgDaysOnMarket}</div>
+                  <div className="text-2xl font-bold text-accent-success">
+                    {marketData.avgDaysOnMarket}
+                  </div>
                   <p className="text-sm">Days on Market</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-accent-success">{marketData.priceAppreciation}</div>
+                  <div className="text-2xl font-bold text-accent-success">
+                    {marketData.priceAppreciation}
+                  </div>
                   <p className="text-sm">Appreciation</p>
                 </div>
               </div>
@@ -222,9 +228,7 @@ export default function LuxuryHomeMarketReportPage() {
             <h2 className="text-4xl font-bold text-primary-900 mb-4">
               Neighborhood Market Analysis
             </h2>
-            <p className="text-xl text-neutral-600">
-              Detailed breakdown by luxury neighborhood
-            </p>
+            <p className="text-xl text-neutral-600">Detailed breakdown by luxury neighborhood</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -249,7 +253,9 @@ export default function LuxuryHomeMarketReportPage() {
                   </div>
                   <div className="flex justify-between">
                     <span>Appreciation:</span>
-                    <span className="font-bold text-accent-success">{neighborhood.appreciation}</span>
+                    <span className="font-bold text-accent-success">
+                      {neighborhood.appreciation}
+                    </span>
                   </div>
                   <div className="flex justify-between">
                     <span>Inventory:</span>
@@ -303,9 +309,7 @@ export default function LuxuryHomeMarketReportPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Expert Market Insights
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Expert Market Insights</h2>
             <p className="text-xl text-neutral-600">
               Dr. Jan Duffy's analysis of current market conditions
             </p>
@@ -322,17 +326,17 @@ export default function LuxuryHomeMarketReportPage() {
               <h3 className="text-2xl font-bold text-primary-900 mb-4">For Luxury Buyers</h3>
               <div className="space-y-4 text-neutral-700">
                 <p>
-                  The current luxury market offers exceptional opportunities for discerning buyers. 
-                  With inventory levels at 2.1 months and strong appreciation trends, now is an 
+                  The current luxury market offers exceptional opportunities for discerning buyers.
+                  With inventory levels at 2.1 months and strong appreciation trends, now is an
                   optimal time to invest in Las Vegas luxury real estate.
                 </p>
                 <p>
-                  The Ridges and Red Rock Country Club continue to lead in price appreciation, 
-                  while new construction options provide modern amenities and customization opportunities.
+                  The Ridges and Red Rock Country Club continue to lead in price appreciation, while
+                  new construction options provide modern amenities and customization opportunities.
                 </p>
                 <p>
-                  <strong>Recommendation:</strong> Act quickly on desirable properties as the 
-                  luxury market continues to show strong demand and limited supply.
+                  <strong>Recommendation:</strong> Act quickly on desirable properties as the luxury
+                  market continues to show strong demand and limited supply.
                 </p>
               </div>
             </motion.div>
@@ -347,18 +351,18 @@ export default function LuxuryHomeMarketReportPage() {
               <h3 className="text-2xl font-bold text-primary-900 mb-4">For Luxury Sellers</h3>
               <div className="space-y-4 text-neutral-700">
                 <p>
-                  Luxury sellers are experiencing favorable market conditions with strong buyer 
-                  demand and competitive pricing. The average 18 days on market indicates 
-                  high market velocity for properly priced luxury properties.
+                  Luxury sellers are experiencing favorable market conditions with strong buyer
+                  demand and competitive pricing. The average 18 days on market indicates high
+                  market velocity for properly priced luxury properties.
                 </p>
                 <p>
-                  Strategic pricing and professional staging can maximize returns in this 
-                  competitive environment. The luxury market continues to favor sellers 
-                  with premium properties in desirable locations.
+                  Strategic pricing and professional staging can maximize returns in this
+                  competitive environment. The luxury market continues to favor sellers with premium
+                  properties in desirable locations.
                 </p>
                 <p>
-                  <strong>Recommendation:</strong> Price competitively and invest in 
-                  professional presentation to capitalize on current market conditions.
+                  <strong>Recommendation:</strong> Price competitively and invest in professional
+                  presentation to capitalize on current market conditions.
                 </p>
               </div>
             </motion.div>
@@ -375,14 +379,12 @@ export default function LuxuryHomeMarketReportPage() {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold mb-6">
-              Get Your Complete Market Report
-            </h2>
+            <h2 className="text-4xl font-bold mb-6">Get Your Complete Market Report</h2>
             <p className="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
-              Download the full 2024 Las Vegas Luxury Market Report with detailed analysis, 
+              Download the full 2024 Las Vegas Luxury Market Report with detailed analysis,
               neighborhood breakdowns, and expert insights from Dr. Jan Duffy.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 type="button"

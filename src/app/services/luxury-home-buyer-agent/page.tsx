@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { trackEvent } from '@/utils';
+import { motion } from 'framer-motion';
 
 export default function LuxuryHomeBuyerAgentPage() {
   const handleCTAClick = (action: string) => {
@@ -23,66 +23,66 @@ export default function LuxuryHomeBuyerAgentPage() {
     {
       title: 'Exclusive Access',
       description: 'Off-market properties and pre-market listings',
-      icon: '🔐'
+      icon: '🔐',
     },
     {
       title: 'Market Analysis',
       description: 'Comprehensive neighborhood and price analysis',
-      icon: '📊'
+      icon: '📊',
     },
     {
       title: 'Negotiation',
       description: 'Expert negotiation to secure the best deal',
-      icon: '🤝'
+      icon: '🤝',
     },
     {
       title: 'Due Diligence',
       description: 'Thorough property inspection and research',
-      icon: '🔍'
+      icon: '🔍',
     },
     {
       title: 'Closing Support',
       description: 'Seamless transaction from offer to closing',
-      icon: '✅'
+      icon: '✅',
     },
     {
       title: 'Post-Purchase',
       description: 'Ongoing support after your purchase',
-      icon: '🏠'
-    }
+      icon: '🏠',
+    },
   ];
 
   const buyerProcess = [
     {
       step: '1',
       title: 'Initial Consultation',
-      description: 'Understand your needs, budget, and preferences'
+      description: 'Understand your needs, budget, and preferences',
     },
     {
       step: '2',
       title: 'Market Research',
-      description: 'Analyze current inventory and market conditions'
+      description: 'Analyze current inventory and market conditions',
     },
     {
       step: '3',
       title: 'Property Search',
-      description: 'Curated selection of luxury properties'
+      description: 'Curated selection of luxury properties',
     },
     {
       step: '4',
       title: 'Property Tours',
-      description: 'Private viewings of selected properties'
+      description: 'Private viewings of selected properties',
     },
     {
       step: '5',
       title: 'Offer & Negotiation',
-      description: 'Strategic offer and expert negotiation'
+      description: 'Strategic offer and expert negotiation',
     },
     {
       step: '6',
       title: 'Closing & Beyond',
-      description: 'Seamless closing and ongoing support'
-    }
+      description: 'Seamless closing and ongoing support',
+    },
   ];
 
   return (
@@ -209,9 +209,7 @@ export default function LuxuryHomeBuyerAgentPage() {
             <h2 className="text-4xl font-bold text-primary-900 mb-4">
               Your Luxury Home Buying Journey
             </h2>
-            <p className="text-xl text-neutral-600">
-              A proven 6-step process that ensures success
-            </p>
+            <p className="text-xl text-neutral-600">A proven 6-step process that ensures success</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -256,11 +254,11 @@ export default function LuxuryHomeBuyerAgentPage() {
           </motion.div>
 
           <div className="luxury-buyer-listings">
-            <realscout-office-listings 
-              agent-encoded-id="QWdlbnQtMjI1MDUw" 
-              sort-order="STATUS_AND_SIGNIFICANT_CHANGE" 
-              listing-status="For Sale" 
-              property-types="SFR,MF" 
+            <realscout-office-listings
+              agent-encoded-id="QWdlbnQtMjI1MDUw"
+              sort-order="STATUS_AND_SIGNIFICANT_CHANGE"
+              listing-status="For Sale"
+              property-types="SFR,MF"
               price-min="1000000"
               features="Pool,Golf,Gated"
             />
@@ -278,9 +276,7 @@ export default function LuxuryHomeBuyerAgentPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              What Our Luxury Buyers Say
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">What Our Luxury Buyers Say</h2>
             <p className="text-xl text-neutral-600">
               Real testimonials from satisfied luxury home buyers
             </p>
@@ -296,8 +292,8 @@ export default function LuxuryHomeBuyerAgentPage() {
             >
               <div className="text-2xl mb-4">⭐⭐⭐⭐⭐</div>
               <blockquote className="text-lg text-neutral-700 mb-6 italic">
-                "Dr. Jan found us our dream home in Red Rock Country Club in just 3 weeks. 
-                Her market knowledge and negotiation skills saved us over $200,000!"
+                "Dr. Jan found us our dream home in Red Rock Country Club in just 3 weeks. Her
+                market knowledge and negotiation skills saved us over $200,000!"
               </blockquote>
               <div className="text-center">
                 <p className="font-bold text-primary-900">Sarah & Michael Chen</p>
@@ -315,8 +311,8 @@ export default function LuxuryHomeBuyerAgentPage() {
             >
               <div className="text-2xl mb-4">⭐⭐⭐⭐⭐</div>
               <blockquote className="text-lg text-neutral-700 mb-6 italic">
-                "Dr. Jan's exclusive access to off-market properties gave us the edge 
-                we needed. We got our home before it even hit the market!"
+                "Dr. Jan's exclusive access to off-market properties gave us the edge we needed. We
+                got our home before it even hit the market!"
               </blockquote>
               <div className="text-center">
                 <p className="font-bold text-primary-900">David Rodriguez</p>
@@ -337,14 +333,12 @@ export default function LuxuryHomeBuyerAgentPage() {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold mb-6">
-              Ready to Find Your Dream Luxury Home?
-            </h2>
+            <h2 className="text-4xl font-bold mb-6">Ready to Find Your Dream Luxury Home?</h2>
             <p className="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
-              Let Dr. Jan Duffy guide you through the luxury home buying process with 
-              exclusive access and expert negotiation.
+              Let Dr. Jan Duffy guide you through the luxury home buying process with exclusive
+              access and expert negotiation.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 type="button"

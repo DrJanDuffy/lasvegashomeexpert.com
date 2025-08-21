@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { trackEvent } from '@/utils';
+import { motion } from 'framer-motion';
 
 export default function BestRealtorReviewsPage() {
   const handleReviewClick = (action: string) => {
@@ -23,30 +23,33 @@ export default function BestRealtorReviewsPage() {
     {
       name: 'Sarah & Michael Chen',
       role: 'Luxury Home Buyers',
-      content: 'Dr. Jan found us our dream home in Red Rock Country Club in just 3 weeks. Her market knowledge is unmatched!',
+      content:
+        'Dr. Jan found us our dream home in Red Rock Country Club in just 3 weeks. Her market knowledge is unmatched!',
       rating: 5,
       salePrice: '$2.1M',
       location: 'Red Rock Country Club',
-      image: '👨‍👩‍👧‍👦'
+      image: '👨‍👩‍👧‍👦',
     },
     {
       name: 'David Rodriguez',
       role: 'Property Investor',
-      content: 'Sold my luxury home 15% above asking price in just 8 days. Dr. Jan\'s marketing strategy is incredible.',
+      content:
+        "Sold my luxury home 15% above asking price in just 8 days. Dr. Jan's marketing strategy is incredible.",
       rating: 5,
       salePrice: '$1.8M',
       location: 'The Ridges',
-      image: '🏠'
+      image: '🏠',
     },
     {
       name: 'Jennifer Thompson',
       role: 'Luxury Home Seller',
-      content: 'From $1.2M to $1.6M in just 2 weeks. Dr. Jan\'s staging and marketing made all the difference.',
+      content:
+        "From $1.2M to $1.6M in just 2 weeks. Dr. Jan's staging and marketing made all the difference.",
       rating: 5,
       salePrice: '$1.6M',
       location: 'Tournament Hills',
-      image: '💰'
-    }
+      image: '💰',
+    },
   ];
 
   return (
@@ -126,7 +129,8 @@ export default function BestRealtorReviewsPage() {
               Video Testimonials from Luxury Clients
             </h2>
             <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-              Hear directly from our satisfied luxury clients about their experience working with Dr. Jan Duffy
+              Hear directly from our satisfied luxury clients about their experience working with
+              Dr. Jan Duffy
             </p>
           </motion.div>
 
@@ -144,11 +148,11 @@ export default function BestRealtorReviewsPage() {
                   <div className="text-6xl mb-4">{testimonial.image}</div>
                   <div className="text-2xl mb-2">⭐⭐⭐⭐⭐</div>
                 </div>
-                
+
                 <blockquote className="text-lg text-neutral-700 mb-4 italic">
                   "{testimonial.content}"
                 </blockquote>
-                
+
                 <div className="text-center">
                   <p className="font-bold text-primary-900">{testimonial.name}</p>
                   <p className="text-neutral-600 mb-2">{testimonial.role}</p>
@@ -173,9 +177,7 @@ export default function BestRealtorReviewsPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Live Google Reviews Feed
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Live Google Reviews Feed</h2>
             <p className="text-xl text-neutral-600">
               Real-time reviews from our Google Business Profile
             </p>
@@ -191,49 +193,63 @@ export default function BestRealtorReviewsPage() {
                       <span className="text-yellow-500 mr-2">⭐⭐⭐⭐⭐</span>
                       <span className="font-semibold">Amazing experience!</span>
                     </div>
-                    <p className="text-neutral-600">"Dr. Jan helped us find our dream home in Summerlin. Her expertise is unmatched!"</p>
+                    <p className="text-neutral-600">
+                      "Dr. Jan helped us find our dream home in Summerlin. Her expertise is
+                      unmatched!"
+                    </p>
                     <p className="text-sm text-neutral-500 mt-2">- Lisa M., 2 days ago</p>
                   </div>
-                  
+
                   <div className="border-l-4 border-accent-success pl-4">
                     <div className="flex items-center mb-2">
                       <span className="text-yellow-500 mr-2">⭐⭐⭐⭐⭐</span>
                       <span className="font-semibold">Best realtor in Vegas!</span>
                     </div>
-                    <p className="text-neutral-600">"Sold our luxury home above asking price in just 5 days. Incredible results!"</p>
+                    <p className="text-neutral-600">
+                      "Sold our luxury home above asking price in just 5 days. Incredible results!"
+                    </p>
                     <p className="text-sm text-neutral-500 mt-2">- Robert K., 1 week ago</p>
                   </div>
                 </div>
               </div>
-              
+
               <div>
                 <h3 className="text-2xl font-bold text-primary-900 mb-4">Review Statistics</h3>
                 <div className="space-y-4">
                   <div className="flex justify-between items-center">
                     <span>5 Stars</span>
                     <div className="flex-1 mx-4 bg-neutral-200 rounded-full h-2">
-                      <div className="bg-accent-success h-2 rounded-full" style={{ width: '95%' }}></div>
+                      <div
+                        className="bg-accent-success h-2 rounded-full"
+                        style={{ width: '95%' }}
+                      ></div>
                     </div>
                     <span className="font-bold">95%</span>
                   </div>
-                  
+
                   <div className="flex justify-between items-center">
                     <span>4 Stars</span>
                     <div className="flex-1 mx-4 bg-neutral-200 rounded-full h-2">
-                      <div className="bg-accent-success h-2 rounded-full" style={{ width: '3%' }}></div>
+                      <div
+                        className="bg-accent-success h-2 rounded-full"
+                        style={{ width: '3%' }}
+                      ></div>
                     </div>
                     <span className="font-bold">3%</span>
                   </div>
-                  
+
                   <div className="flex justify-between items-center">
                     <span>3 Stars</span>
                     <div className="flex-1 mx-4 bg-neutral-200 rounded-full h-2">
-                      <div className="bg-accent-success h-2 rounded-full" style={{ width: '2%' }}></div>
+                      <div
+                        className="bg-accent-success h-2 rounded-full"
+                        style={{ width: '2%' }}
+                      ></div>
                     </div>
                     <span className="font-bold">2%</span>
                   </div>
                 </div>
-                
+
                 <div className="mt-6 text-center">
                   <button
                     type="button"
@@ -259,12 +275,8 @@ export default function BestRealtorReviewsPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Success Case Studies
-            </h2>
-            <p className="text-xl text-neutral-600">
-              Real results from real clients
-            </p>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Success Case Studies</h2>
+            <p className="text-xl text-neutral-600">Real results from real clients</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -275,7 +287,9 @@ export default function BestRealtorReviewsPage() {
               transition={{ duration: 0.8 }}
               className="bg-gradient-to-br from-accent-success/10 to-accent-success/5 rounded-2xl p-8"
             >
-              <h3 className="text-2xl font-bold text-primary-900 mb-4">Red Rock Country Club Estate</h3>
+              <h3 className="text-2xl font-bold text-primary-900 mb-4">
+                Red Rock Country Club Estate
+              </h3>
               <div className="space-y-3 mb-6">
                 <div className="flex justify-between">
                   <span>Original Price:</span>
@@ -295,7 +309,8 @@ export default function BestRealtorReviewsPage() {
                 </div>
               </div>
               <p className="text-neutral-600">
-                "Dr. Jan's staging and marketing strategy attracted multiple offers within days. We couldn't be happier with the result!"
+                "Dr. Jan's staging and marketing strategy attracted multiple offers within days. We
+                couldn't be happier with the result!"
               </p>
             </motion.div>
 
@@ -326,7 +341,8 @@ export default function BestRealtorReviewsPage() {
                 </div>
               </div>
               <p className="text-neutral-600">
-                "The professional photography and virtual tour brought in serious buyers immediately. Sold above asking price!"
+                "The professional photography and virtual tour brought in serious buyers
+                immediately. Sold above asking price!"
               </p>
             </motion.div>
           </div>
@@ -342,13 +358,12 @@ export default function BestRealtorReviewsPage() {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold mb-6">
-              Ready to Experience 5-Star Service?
-            </h2>
+            <h2 className="text-4xl font-bold mb-6">Ready to Experience 5-Star Service?</h2>
             <p className="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
-              Join our community of satisfied luxury clients who chose Dr. Jan Duffy for their most important real estate decisions.
+              Join our community of satisfied luxury clients who chose Dr. Jan Duffy for their most
+              important real estate decisions.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 type="button"

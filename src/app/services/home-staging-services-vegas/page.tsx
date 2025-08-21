@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { trackEvent } from '@/utils';
+import { motion } from 'framer-motion';
 
 export default function HomeStagingServicesPage() {
   const handleCTAClick = (action: string) => {
@@ -22,40 +22,40 @@ export default function HomeStagingServicesPage() {
   const stagingServices = [
     {
       service: 'Professional Consultation',
-      description: 'Expert assessment of your home\'s staging needs',
+      description: "Expert assessment of your home's staging needs",
       icon: '📋',
-      value: 'Maximize appeal potential'
+      value: 'Maximize appeal potential',
     },
     {
       service: 'Furniture & Décor Rental',
       description: 'High-quality furniture and accessories for staging',
       icon: '🪑',
-      value: 'Professional presentation'
+      value: 'Professional presentation',
     },
     {
       service: 'Space Planning',
       description: 'Optimal furniture placement and room flow',
       icon: '📐',
-      value: 'Better room utilization'
+      value: 'Better room utilization',
     },
     {
       service: 'Color & Lighting',
       description: 'Strategic color schemes and lighting enhancement',
       icon: '💡',
-      value: 'Enhanced atmosphere'
+      value: 'Enhanced atmosphere',
     },
     {
       service: 'Curb Appeal Enhancement',
       description: 'Exterior staging and landscaping improvements',
       icon: '🌺',
-      value: 'Strong first impression'
+      value: 'Strong first impression',
     },
     {
       service: 'Photography Coordination',
       description: 'Work with photographers for stunning listing photos',
       icon: '📸',
-      value: 'Professional marketing'
-    }
+      value: 'Professional marketing',
+    },
   ];
 
   const stagingBenefits = [
@@ -63,26 +63,26 @@ export default function HomeStagingServicesPage() {
       benefit: 'Faster Sale',
       value: '3x faster',
       description: 'Staged homes sell significantly faster than unstaged homes',
-      icon: '⚡'
+      icon: '⚡',
     },
     {
       benefit: 'Higher Sale Price',
       value: '+17%',
       description: 'Staged homes typically sell for 17% more on average',
-      icon: '💰'
+      icon: '💰',
     },
     {
       benefit: 'More Showings',
       value: '+40%',
       description: 'Staged homes receive 40% more showings',
-      icon: '👥'
+      icon: '👥',
     },
     {
       benefit: 'Better Offers',
       value: '+25%',
       description: 'Staged homes receive more competitive offers',
-      icon: '📈'
-    }
+      icon: '📈',
+    },
   ];
 
   const stagingProcess = [
@@ -90,32 +90,32 @@ export default function HomeStagingServicesPage() {
       step: '1',
       title: 'Home Assessment',
       description: 'Professional evaluation of staging needs and opportunities',
-      duration: '1-2 hours'
+      duration: '1-2 hours',
     },
     {
       step: '2',
       title: 'Staging Plan',
       description: 'Customized staging strategy and furniture selection',
-      duration: '2-3 days'
+      duration: '2-3 days',
     },
     {
       step: '3',
       title: 'Implementation',
       description: 'Professional staging installation and setup',
-      duration: '1-2 days'
+      duration: '1-2 days',
     },
     {
       step: '4',
       title: 'Photography',
       description: 'Professional photography of staged home',
-      duration: '2-4 hours'
+      duration: '2-4 hours',
     },
     {
       step: '5',
       title: 'Maintenance',
       description: 'Ongoing staging maintenance during showings',
-      duration: 'Ongoing'
-    }
+      duration: 'Ongoing',
+    },
   ];
 
   const stagingExamples = [
@@ -123,26 +123,26 @@ export default function HomeStagingServicesPage() {
       room: 'Living Room',
       before: 'Cluttered, personal items, dated furniture',
       after: 'Clean, spacious, modern furniture, neutral décor',
-      impact: 'Creates welcoming first impression'
+      impact: 'Creates welcoming first impression',
     },
     {
       room: 'Kitchen',
       before: 'Counter clutter, personal items, dated accessories',
       after: 'Clean counters, fresh flowers, modern accents',
-      impact: 'Highlights functionality and appeal'
+      impact: 'Highlights functionality and appeal',
     },
     {
       room: 'Master Bedroom',
       before: 'Personal items, cluttered surfaces, dated bedding',
       after: 'Luxurious bedding, minimal décor, spa-like atmosphere',
-      impact: 'Creates luxury retreat feeling'
+      impact: 'Creates luxury retreat feeling',
     },
     {
       room: 'Bathroom',
       before: 'Personal items, dated fixtures, cluttered surfaces',
       after: 'Clean surfaces, fresh towels, spa-like accessories',
-      impact: 'Enhances luxury and cleanliness'
-    }
+      impact: 'Enhances luxury and cleanliness',
+    },
   ];
 
   return (
@@ -179,9 +179,7 @@ export default function HomeStagingServicesPage() {
 
             {/* Value Proposition */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 mb-8">
-              <p className="text-xl font-semibold mb-4">
-                Why Choose Professional Home Staging?
-              </p>
+              <p className="text-xl font-semibold mb-4">Why Choose Professional Home Staging?</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-lg">
                 <div className="flex items-center space-x-3">
                   <span className="text-accent-success">✓</span>
@@ -229,9 +227,7 @@ export default function HomeStagingServicesPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Proven Staging Results
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Proven Staging Results</h2>
             <p className="text-xl text-neutral-600">
               Professional staging delivers measurable results
             </p>
@@ -305,12 +301,8 @@ export default function HomeStagingServicesPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Your Staging Journey
-            </h2>
-            <p className="text-xl text-neutral-600">
-              A proven 5-step process for stunning results
-            </p>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Your Staging Journey</h2>
+            <p className="text-xl text-neutral-600">A proven 5-step process for stunning results</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
@@ -345,9 +337,7 @@ export default function HomeStagingServicesPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Before & After Examples
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Before & After Examples</h2>
             <p className="text-xl text-neutral-600">
               See the transformation power of professional staging
             </p>
@@ -395,9 +385,7 @@ export default function HomeStagingServicesPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Recently Staged Homes
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Recently Staged Homes</h2>
             <p className="text-xl text-neutral-600">
               See how staging transforms properties for sale
             </p>
@@ -426,14 +414,12 @@ export default function HomeStagingServicesPage() {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold mb-6">
-              Ready to Transform Your Home?
-            </h2>
+            <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Home?</h2>
             <p className="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
-              Let professional staging maximize your home's appeal and help you 
-              achieve the highest possible sale price in the shortest time.
+              Let professional staging maximize your home's appeal and help you achieve the highest
+              possible sale price in the shortest time.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 type="button"

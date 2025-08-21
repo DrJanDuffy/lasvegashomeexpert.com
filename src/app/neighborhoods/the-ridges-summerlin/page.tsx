@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { trackEvent } from '@/utils';
+import { motion } from 'framer-motion';
 
 export default function TheRidgesSummerlinPage() {
   const handleCTAClick = (action: string) => {
@@ -25,7 +25,7 @@ export default function TheRidgesSummerlinPage() {
     totalSales: '38',
     pricePerSqFt: '$520',
     appreciation: '+15.2%',
-    inventory: '18'
+    inventory: '18',
   };
 
   const amenities = [
@@ -36,13 +36,13 @@ export default function TheRidgesSummerlinPage() {
     'Tennis & Pickleball',
     'Swimming Pool & Spa',
     'Fitness Center',
-    'Walking Trails'
+    'Walking Trails',
   ];
 
   const recentSales = [
     { address: '123 Ridge View Dr', price: '$2.8M', days: '4', features: 'Mountain Views, Pool' },
     { address: '456 Summit Way', price: '$2.1M', days: '6', features: 'Golf Course, Modern' },
-    { address: '789 Peak Rd', price: '$3.2M', days: '3', features: 'Panoramic Views, Luxury' }
+    { address: '789 Peak Rd', price: '$3.2M', days: '3', features: 'Panoramic Views, Luxury' },
   ];
 
   return (
@@ -79,15 +79,21 @@ export default function TheRidgesSummerlinPage() {
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 mb-8">
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-accent-success">{marketStats.avgPrice}</div>
+                  <div className="text-3xl font-bold text-accent-success">
+                    {marketStats.avgPrice}
+                  </div>
                   <p className="text-lg">Average Price</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-accent-success">{marketStats.avgDaysOnMarket}</div>
+                  <div className="text-3xl font-bold text-accent-success">
+                    {marketStats.avgDaysOnMarket}
+                  </div>
                   <p className="text-lg">Days on Market</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-accent-success">{marketStats.appreciation}</div>
+                  <div className="text-3xl font-bold text-accent-success">
+                    {marketStats.appreciation}
+                  </div>
                   <p className="text-lg">Year-over-Year</p>
                 </div>
               </div>
@@ -129,13 +135,13 @@ export default function TheRidgesSummerlinPage() {
                 Summerlin's Most Prestigious Address
               </h2>
               <p className="text-lg text-neutral-600 mb-6">
-                The Ridges represents the pinnacle of luxury living in Summerlin. This exclusive 
-                gated community features stunning mountain views, world-class amenities, and 
-                some of the most prestigious homes in all of Las Vegas.
+                The Ridges represents the pinnacle of luxury living in Summerlin. This exclusive
+                gated community features stunning mountain views, world-class amenities, and some of
+                the most prestigious homes in all of Las Vegas.
               </p>
               <p className="text-lg text-neutral-600 mb-6">
-                Located in the heart of Summerlin, The Ridges offers the perfect blend of 
-                privacy, luxury, and recreational opportunities. Homes here feature premium finishes, 
+                Located in the heart of Summerlin, The Ridges offers the perfect blend of privacy,
+                luxury, and recreational opportunities. Homes here feature premium finishes,
                 spacious layouts, and breathtaking views of the Red Rock Canyon and Las Vegas Strip.
               </p>
               <button
@@ -146,7 +152,7 @@ export default function TheRidgesSummerlinPage() {
                 Download Community Guide
               </button>
             </div>
-            
+
             <div className="bg-gradient-to-br from-primary-50 to-neutral-50 rounded-2xl p-8">
               <h3 className="text-2xl font-bold text-primary-900 mb-6">Community Highlights</h3>
               <div className="space-y-4">
@@ -179,9 +185,7 @@ export default function TheRidgesSummerlinPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              The Ridges Market Analysis
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">The Ridges Market Analysis</h2>
             <p className="text-xl text-neutral-600">
               Current market insights and trends for this exclusive community
             </p>
@@ -197,7 +201,9 @@ export default function TheRidgesSummerlinPage() {
             >
               <div className="text-4xl mb-4">💰</div>
               <h3 className="text-xl font-bold text-primary-900 mb-2">Price Trends</h3>
-              <div className="text-3xl font-bold text-accent-success mb-2">{marketStats.appreciation}</div>
+              <div className="text-3xl font-bold text-accent-success mb-2">
+                {marketStats.appreciation}
+              </div>
               <p className="text-neutral-600">Year-over-year appreciation</p>
             </motion.div>
 
@@ -210,7 +216,9 @@ export default function TheRidgesSummerlinPage() {
             >
               <div className="text-4xl mb-4">⚡</div>
               <h3 className="text-xl font-bold text-primary-900 mb-2">Market Speed</h3>
-              <div className="text-3xl font-bold text-accent-success mb-2">{marketStats.avgDaysOnMarket}</div>
+              <div className="text-3xl font-bold text-accent-success mb-2">
+                {marketStats.avgDaysOnMarket}
+              </div>
               <p className="text-neutral-600">Average days on market</p>
             </motion.div>
 
@@ -223,7 +231,9 @@ export default function TheRidgesSummerlinPage() {
             >
               <div className="text-4xl mb-4">🏠</div>
               <h3 className="text-xl font-bold text-primary-900 mb-2">Inventory</h3>
-              <div className="text-3xl font-bold text-accent-success mb-2">{marketStats.inventory}</div>
+              <div className="text-3xl font-bold text-accent-success mb-2">
+                {marketStats.inventory}
+              </div>
               <p className="text-neutral-600">Active listings available</p>
             </motion.div>
           </div>
@@ -240,9 +250,7 @@ export default function TheRidgesSummerlinPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Recent Sales in The Ridges
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Recent Sales in The Ridges</h2>
             <p className="text-xl text-neutral-600">
               See what homes are selling for in this exclusive community
             </p>
@@ -309,13 +317,12 @@ export default function TheRidgesSummerlinPage() {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold mb-6">
-              Ready to Call The Ridges Home?
-            </h2>
+            <h2 className="text-4xl font-bold mb-6">Ready to Call The Ridges Home?</h2>
             <p className="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
-              Let Dr. Jan Duffy guide you to the perfect luxury property in Summerlin's most prestigious community.
+              Let Dr. Jan Duffy guide you to the perfect luxury property in Summerlin's most
+              prestigious community.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 type="button"

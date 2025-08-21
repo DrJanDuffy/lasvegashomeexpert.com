@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { trackEvent } from '@/utils';
+import { motion } from 'framer-motion';
 
 export default function RelocationSpecialistPage() {
   const handleCTAClick = (action: string) => {
@@ -24,38 +24,38 @@ export default function RelocationSpecialistPage() {
       service: 'Area Research & Analysis',
       description: 'Comprehensive neighborhood research and school district analysis',
       icon: '🔍',
-      value: 'Find your perfect area'
+      value: 'Find your perfect area',
     },
     {
       service: 'Virtual Tours & Showings',
       description: 'Remote property viewing before you move',
       icon: '📱',
-      value: 'See homes from anywhere'
+      value: 'See homes from anywhere',
     },
     {
       service: 'Relocation Timeline Planning',
       description: 'Strategic planning for smooth transition',
       icon: '📅',
-      value: 'Organized move process'
+      value: 'Organized move process',
     },
     {
       service: 'Local Market Education',
       description: 'Learn about Las Vegas neighborhoods and market trends',
       icon: '📚',
-      value: 'Make informed decisions'
+      value: 'Make informed decisions',
     },
     {
       service: 'Closing Coordination',
       description: 'Remote closing and key handoff coordination',
       icon: '🔑',
-      value: 'Seamless transaction'
+      value: 'Seamless transaction',
     },
     {
       service: 'Post-Move Support',
       description: 'Ongoing assistance after you settle in',
       icon: '🏠',
-      value: 'Continued guidance'
-    }
+      value: 'Continued guidance',
+    },
   ];
 
   const popularAreas = [
@@ -64,29 +64,29 @@ export default function RelocationSpecialistPage() {
       avgPrice: '$650k',
       commute: '25 min to Strip',
       features: 'Master-planned, golf courses, shopping, schools',
-      description: 'Family-friendly master-planned community with luxury amenities'
+      description: 'Family-friendly master-planned community with luxury amenities',
     },
     {
       name: 'Henderson',
       avgPrice: '$480k',
       commute: '20 min to Strip',
       features: 'Great schools, parks, family atmosphere, growing',
-      description: 'Affordable family community with excellent schools and amenities'
+      description: 'Affordable family community with excellent schools and amenities',
     },
     {
       name: 'Green Valley',
       avgPrice: '$420k',
       commute: '25 min to Strip',
       features: 'Established, safe, shopping, dining, parks',
-      description: 'Established community with mature landscaping and amenities'
+      description: 'Established community with mature landscaping and amenities',
     },
     {
       name: 'Anthem',
       avgPrice: '$520k',
       commute: '30 min to Strip',
       features: 'Mountain views, hiking, quiet, family-focused',
-      description: 'Scenic mountain community with outdoor recreation opportunities'
-    }
+      description: 'Scenic mountain community with outdoor recreation opportunities',
+    },
   ];
 
   const relocationBenefits = [
@@ -97,7 +97,7 @@ export default function RelocationSpecialistPage() {
     'Growing Job Market',
     'Outdoor Recreation',
     'Family-Friendly Communities',
-    'International Airport Access'
+    'International Airport Access',
   ];
 
   const relocationTimeline = [
@@ -105,26 +105,26 @@ export default function RelocationSpecialistPage() {
       phase: 'Research Phase',
       duration: '2-4 weeks',
       activities: 'Area research, market analysis, budget planning',
-      icon: '📋'
+      icon: '📋',
     },
     {
       phase: 'Property Search',
       duration: '4-8 weeks',
       activities: 'Virtual tours, property selection, offer preparation',
-      icon: '🏠'
+      icon: '🏠',
     },
     {
       phase: 'Transaction Phase',
       duration: '30-45 days',
       activities: 'Negotiation, inspection, financing, closing',
-      icon: '✍️'
+      icon: '✍️',
     },
     {
       phase: 'Move Phase',
       duration: '1-2 weeks',
       activities: 'Moving coordination, key handoff, settling in',
-      icon: '🚚'
-    }
+      icon: '🚚',
+    },
   ];
 
   return (
@@ -211,9 +211,7 @@ export default function RelocationSpecialistPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Why Move to Las Vegas?
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Why Move to Las Vegas?</h2>
             <p className="text-xl text-neutral-600">
               Discover the advantages of living in the Entertainment Capital
             </p>
@@ -285,9 +283,7 @@ export default function RelocationSpecialistPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Popular Relocation Areas
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Popular Relocation Areas</h2>
             <p className="text-xl text-neutral-600">
               Top neighborhoods for families moving to Las Vegas
             </p>
@@ -334,9 +330,7 @@ export default function RelocationSpecialistPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Your Relocation Timeline
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Your Relocation Timeline</h2>
             <p className="text-xl text-neutral-600">
               A structured approach to your smooth transition
             </p>
@@ -406,14 +400,12 @@ export default function RelocationSpecialistPage() {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold mb-6">
-              Ready to Make Las Vegas Your Home?
-            </h2>
+            <h2 className="text-4xl font-bold mb-6">Ready to Make Las Vegas Your Home?</h2>
             <p className="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
-              Let Dr. Jan Duffy guide you through every step of your relocation 
-              with expert knowledge and personalized support.
+              Let Dr. Jan Duffy guide you through every step of your relocation with expert
+              knowledge and personalized support.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 type="button"

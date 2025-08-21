@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { trackEvent } from '@/utils';
+import { motion } from 'framer-motion';
 
 export default function TournamentHillsPage() {
   const handleCTAClick = (action: string) => {
@@ -37,12 +37,17 @@ export default function TournamentHillsPage() {
     'Swimming Pool & Spa',
     'Fitness Center',
     'Walking Trails',
-    'Children\'s Playground',
-    'BBQ & Picnic Areas'
+    "Children's Playground",
+    'BBQ & Picnic Areas',
   ];
 
   const recentSales = [
-    { address: '123 Tournament Dr', price: '$1.8M', days: '5', features: 'Golf Views, Pool, Modern' },
+    {
+      address: '123 Tournament Dr',
+      price: '$1.8M',
+      days: '5',
+      features: 'Golf Views, Pool, Modern',
+    },
     { address: '456 Hills Way', price: '$1.4M', days: '8', features: 'Mountain Views, Updated' },
     { address: '789 Championship Rd', price: '$2.1M', days: '3', features: 'Golf Course, Luxury' },
   ];
@@ -51,23 +56,23 @@ export default function TournamentHillsPage() {
     {
       feature: 'Golf Course Access',
       description: 'Direct access to world-class golf courses with stunning views',
-      icon: '⛳'
+      icon: '⛳',
     },
     {
       feature: 'Mountain Views',
       description: 'Breathtaking views of the Red Rock Canyon and surrounding mountains',
-      icon: '🏔️'
+      icon: '🏔️',
     },
     {
       feature: 'Family-Friendly',
       description: 'Safe, quiet community perfect for families with children',
-      icon: '👨‍👩‍👧‍👦'
+      icon: '👨‍👩‍👧‍👦',
     },
     {
       feature: 'Luxury Amenities',
       description: 'High-end finishes and premium community facilities',
-      icon: '✨'
-    }
+      icon: '✨',
+    },
   ];
 
   return (
@@ -160,14 +165,14 @@ export default function TournamentHillsPage() {
                 Summerlin's Premier Golf Community
               </h2>
               <p className="text-lg text-neutral-600 mb-6">
-                Tournament Hills represents the pinnacle of golf course living in Summerlin. This exclusive 
-                gated community features stunning golf course views, mountain vistas, and some of the most 
-                prestigious homes in all of Las Vegas.
+                Tournament Hills represents the pinnacle of golf course living in Summerlin. This
+                exclusive gated community features stunning golf course views, mountain vistas, and
+                some of the most prestigious homes in all of Las Vegas.
               </p>
               <p className="text-lg text-neutral-600 mb-6">
-                Located in the heart of Summerlin, Tournament Hills offers the perfect blend of luxury, 
-                recreation, and family living. Homes here feature premium finishes, spacious layouts, and 
-                breathtaking views of the golf course and surrounding mountains.
+                Located in the heart of Summerlin, Tournament Hills offers the perfect blend of
+                luxury, recreation, and family living. Homes here feature premium finishes, spacious
+                layouts, and breathtaking views of the golf course and surrounding mountains.
               </p>
               <button
                 type="button"
@@ -213,7 +218,9 @@ export default function TournamentHillsPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">Tournament Hills Market Analysis</h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">
+              Tournament Hills Market Analysis
+            </h2>
             <p className="text-xl text-neutral-600">
               Current market insights and trends for this exclusive community
             </p>
@@ -229,7 +236,9 @@ export default function TournamentHillsPage() {
             >
               <div className="text-4xl mb-4">💰</div>
               <h3 className="text-xl font-bold text-primary-900 mb-2">Price Trends</h3>
-              <div className="text-3xl font-bold text-accent-success">{marketStats.appreciation}</div>
+              <div className="text-3xl font-bold text-accent-success">
+                {marketStats.appreciation}
+              </div>
               <p className="text-neutral-600">Year-over-year appreciation</p>
             </motion.div>
 
@@ -242,7 +251,9 @@ export default function TournamentHillsPage() {
             >
               <div className="text-4xl mb-4">⚡</div>
               <h3 className="text-xl font-bold text-primary-900 mb-2">Market Speed</h3>
-              <div className="text-3xl font-bold text-accent-success">{marketStats.avgDaysOnMarket}</div>
+              <div className="text-3xl font-bold text-accent-success">
+                {marketStats.avgDaysOnMarket}
+              </div>
               <p className="text-neutral-600">Average days on market</p>
             </motion.div>
 
@@ -306,7 +317,9 @@ export default function TournamentHillsPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">Recent Sales in Tournament Hills</h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">
+              Recent Sales in Tournament Hills
+            </h2>
             <p className="text-xl text-neutral-600">
               See what homes are selling for in this exclusive community
             </p>
@@ -375,8 +388,8 @@ export default function TournamentHillsPage() {
           >
             <h2 className="text-4xl font-bold mb-6">Ready to Call Tournament Hills Home?</h2>
             <p className="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
-              Let Dr. Jan Duffy guide you to the perfect luxury property in Summerlin's 
-              premier golf community.
+              Let Dr. Jan Duffy guide you to the perfect luxury property in Summerlin's premier golf
+              community.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

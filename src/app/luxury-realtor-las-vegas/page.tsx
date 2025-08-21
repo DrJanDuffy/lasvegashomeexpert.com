@@ -1,9 +1,9 @@
 'use client';
 
-import { Suspense } from 'react';
-import { motion } from 'framer-motion';
-import { trackEvent } from '@/utils';
 import LoadingSpinner from '@/components/ui/LoadingSpinner';
+import { trackEvent } from '@/utils';
+import { motion } from 'framer-motion';
+import { Suspense } from 'react';
 
 export default function LuxuryRealtorPage() {
   const handleCTAClick = (action: string) => {
@@ -132,14 +132,14 @@ export default function LuxuryRealtorPage() {
             <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
               Current Luxury Market Insights
             </h2>
-            
+
             <div className="bg-white rounded-2xl shadow-xl p-8 mb-8">
               <div className="text-center mb-6">
                 <p className="text-2xl font-semibold text-primary-800">
                   This week: 47 luxury homes sold above $1M (↑23% vs last month)
                 </p>
               </div>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="text-center p-6 bg-primary-50 rounded-xl">
                   <h3 className="text-xl font-bold text-primary-900 mb-2">The Ridges</h3>
@@ -157,7 +157,7 @@ export default function LuxuryRealtorPage() {
                   <p className="text-neutral-600">avg (18 days on market)</p>
                 </div>
               </div>
-              
+
               <div className="text-center mt-6">
                 <p className="text-sm text-neutral-500">
                   Source: MLS + Dr. Jan's exclusive network
@@ -180,14 +180,14 @@ export default function LuxuryRealtorPage() {
             <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
               Current Luxury Home Inventory
             </h2>
-            
+
             <Suspense fallback={<LoadingSpinner size="large" />}>
               <div className="luxury-portfolio">
-                <realscout-office-listings 
-                  agent-encoded-id="QWdlbnQtMjI1MDUw" 
-                  sort-order="PRICE_DESC" 
-                  listing-status="For Sale" 
-                  property-types="SFR,MF" 
+                <realscout-office-listings
+                  agent-encoded-id="QWdlbnQtMjI1MDUw"
+                  sort-order="PRICE_DESC"
+                  listing-status="For Sale"
+                  property-types="SFR,MF"
                   price-min="1000000"
                   features="Pool,Golf,Gated"
                 />
@@ -207,10 +207,8 @@ export default function LuxuryRealtorPage() {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-8">
-              No Risk, Maximum Reward
-            </h2>
-            
+            <h2 className="text-4xl font-bold text-primary-900 mb-8">No Risk, Maximum Reward</h2>
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               <div className="bg-white rounded-xl p-6 shadow-lg">
                 <div className="text-4xl mb-4">🎯</div>
@@ -253,9 +251,10 @@ export default function LuxuryRealtorPage() {
               Ready to Experience Luxury Real Estate Excellence?
             </h2>
             <p className="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
-              Join hundreds of satisfied luxury clients who chose Dr. Jan Duffy for their most important real estate decisions.
+              Join hundreds of satisfied luxury clients who chose Dr. Jan Duffy for their most
+              important real estate decisions.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 type="button"

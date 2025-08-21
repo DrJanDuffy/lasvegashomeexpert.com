@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { trackEvent } from '@/utils';
+import { motion } from 'framer-motion';
 
 export default function ModernHomesExpertPage() {
   const handleCTAClick = (action: string) => {
@@ -27,7 +27,7 @@ export default function ModernHomesExpertPage() {
     'Sustainable Materials',
     'Indoor-Outdoor Living',
     'Clean Lines & Geometry',
-    'Natural Light Maximization'
+    'Natural Light Maximization',
   ];
 
   const architecturalStyles = [
@@ -35,26 +35,26 @@ export default function ModernHomesExpertPage() {
       name: 'Contemporary',
       description: 'Clean lines, open spaces, and minimalist aesthetics',
       icon: '🏗️',
-      priceRange: '$800k - $2.5M'
+      priceRange: '$800k - $2.5M',
     },
     {
       name: 'Modern',
       description: 'Sleek design with emphasis on function and form',
       icon: '✨',
-      priceRange: '$750k - $2.2M'
+      priceRange: '$750k - $2.2M',
     },
     {
       name: 'Mid-Century Modern',
       description: 'Timeless classics with modern functionality',
       icon: '🕰️',
-      priceRange: '$900k - $2.8M'
+      priceRange: '$900k - $2.8M',
     },
     {
       name: 'Industrial',
       description: 'Exposed materials, high ceilings, urban sophistication',
       icon: '🏭',
-      priceRange: '$700k - $2.0M'
-    }
+      priceRange: '$700k - $2.0M',
+    },
   ];
 
   const neighborhoods = [
@@ -62,26 +62,26 @@ export default function ModernHomesExpertPage() {
       name: 'Summerlin',
       modernHomes: '47',
       avgPrice: '$1.2M',
-      features: 'New Construction, Modern Design'
+      features: 'New Construction, Modern Design',
     },
     {
       name: 'Henderson',
       modernHomes: '34',
       avgPrice: '$950k',
-      features: 'Contemporary, Smart Homes'
+      features: 'Contemporary, Smart Homes',
     },
     {
       name: 'Green Valley',
       modernHomes: '28',
       avgPrice: '$880k',
-      features: 'Modern, Energy Efficient'
+      features: 'Modern, Energy Efficient',
     },
     {
       name: 'Anthem',
       modernHomes: '22',
       avgPrice: '$1.1M',
-      features: 'Contemporary, Mountain Views'
-    }
+      features: 'Contemporary, Mountain Views',
+    },
   ];
 
   return (
@@ -244,9 +244,7 @@ export default function ModernHomesExpertPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Modern Home Neighborhoods
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Modern Home Neighborhoods</h2>
             <p className="text-xl text-neutral-600">
               Where to find the best modern homes in Las Vegas
             </p>
@@ -266,7 +264,9 @@ export default function ModernHomesExpertPage() {
                 <div className="space-y-3 mb-4">
                   <div className="flex justify-between">
                     <span>Modern Homes:</span>
-                    <span className="font-bold text-accent-success">{neighborhood.modernHomes}</span>
+                    <span className="font-bold text-accent-success">
+                      {neighborhood.modernHomes}
+                    </span>
                   </div>
                   <div className="flex justify-between">
                     <span>Avg Price:</span>
@@ -382,13 +382,12 @@ export default function ModernHomesExpertPage() {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold mb-6">
-              Ready to Find Your Dream Modern Home?
-            </h2>
+            <h2 className="text-4xl font-bold mb-6">Ready to Find Your Dream Modern Home?</h2>
             <p className="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
-              Let Dr. Jan Duffy guide you to the perfect modern property with architectural excellence and contemporary design.
+              Let Dr. Jan Duffy guide you to the perfect modern property with architectural
+              excellence and contemporary design.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 type="button"

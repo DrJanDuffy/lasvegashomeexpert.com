@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { trackEvent } from '@/utils';
+import { motion } from 'framer-motion';
 
 export default function LuxuryHomeSellingAgentPage() {
   const handleCTAClick = (action: string) => {
@@ -24,38 +24,38 @@ export default function LuxuryHomeSellingAgentPage() {
       service: 'Luxury Market Analysis',
       description: 'Comprehensive pricing strategy and market positioning',
       icon: '📊',
-      value: 'Maximize your sale price'
+      value: 'Maximize your sale price',
     },
     {
       service: 'Professional Photography',
       description: 'High-end photography and virtual tours',
       icon: '📸',
-      value: 'Showcase your home beautifully'
+      value: 'Showcase your home beautifully',
     },
     {
       service: 'Strategic Marketing',
       description: 'Targeted campaigns to luxury buyers worldwide',
       icon: '🎯',
-      value: 'Reach qualified buyers'
+      value: 'Reach qualified buyers',
     },
     {
       service: 'Negotiation Expertise',
       description: 'Expert negotiation to maximize your return',
       icon: '🤝',
-      value: 'Get the best possible deal'
+      value: 'Get the best possible deal',
     },
     {
       service: 'Staging & Presentation',
       description: 'Professional staging for maximum appeal',
       icon: '🏠',
-      value: 'Create buyer desire'
+      value: 'Create buyer desire',
     },
     {
       service: 'Closing Support',
       description: 'Smooth transaction from offer to closing',
       icon: '🔑',
-      value: 'Stress-free selling experience'
-    }
+      value: 'Stress-free selling experience',
+    },
   ];
 
   const marketInsights = [
@@ -63,26 +63,26 @@ export default function LuxuryHomeSellingAgentPage() {
       metric: 'Average Days on Market',
       value: '18 Days',
       trend: '+12% faster than market average',
-      icon: '⚡'
+      icon: '⚡',
     },
     {
       metric: 'Sale Price vs. List Price',
       value: '98.5%',
       trend: '+3.2% above market average',
-      icon: '💰'
+      icon: '💰',
     },
     {
       metric: 'Luxury Market Share',
       value: '23%',
       trend: 'Dominant market presence',
-      icon: '🏆'
+      icon: '🏆',
     },
     {
       metric: 'Client Satisfaction',
       value: '100%',
       trend: 'Perfect satisfaction score',
-      icon: '⭐'
-    }
+      icon: '⭐',
+    },
   ];
 
   const sellingProcess = [
@@ -90,38 +90,38 @@ export default function LuxuryHomeSellingAgentPage() {
       step: '1',
       title: 'Market Analysis',
       description: 'Comprehensive pricing strategy and market positioning',
-      duration: '1-2 days'
+      duration: '1-2 days',
     },
     {
       step: '2',
       title: 'Preparation',
       description: 'Professional photography, staging, and marketing materials',
-      duration: '3-5 days'
+      duration: '3-5 days',
     },
     {
       step: '3',
       title: 'Launch',
       description: 'Strategic marketing campaign to luxury buyers worldwide',
-      duration: '1 day'
+      duration: '1 day',
     },
     {
       step: '4',
       title: 'Showings',
       description: 'Coordinated showings and open houses for qualified buyers',
-      duration: 'Ongoing'
+      duration: 'Ongoing',
     },
     {
       step: '5',
       title: 'Negotiation',
       description: 'Expert negotiation to maximize your return on investment',
-      duration: '1-3 days'
+      duration: '1-3 days',
     },
     {
       step: '6',
       title: 'Closing',
       description: 'Smooth transaction management from contract to closing',
-      duration: '30-45 days'
-    }
+      duration: '30-45 days',
+    },
   ];
 
   return (
@@ -186,13 +186,13 @@ export default function LuxuryHomeSellingAgentPage() {
               >
                 Schedule Free Consultation
               </button>
-                <button
-                  type="button"
-                  onClick={() => handleCTAClick('get_home_value')}
-                  className="btn-secondary text-xl px-8 py-4 border-2 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm"
-                >
-                  Get Your Home Value
-                </button>
+              <button
+                type="button"
+                onClick={() => handleCTAClick('get_home_value')}
+                className="btn-secondary text-xl px-8 py-4 border-2 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm"
+              >
+                Get Your Home Value
+              </button>
             </div>
           </motion.div>
         </div>
@@ -246,12 +246,8 @@ export default function LuxuryHomeSellingAgentPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Proven Market Performance
-            </h2>
-            <p className="text-xl text-neutral-600">
-              Results that speak for themselves
-            </p>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Proven Market Performance</h2>
+            <p className="text-xl text-neutral-600">Results that speak for themselves</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -354,14 +350,12 @@ export default function LuxuryHomeSellingAgentPage() {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold mb-6">
-              Ready to Maximize Your Home Sale?
-            </h2>
+            <h2 className="text-4xl font-bold mb-6">Ready to Maximize Your Home Sale?</h2>
             <p className="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
-              Let Dr. Jan Duffy's proven selling strategies and luxury market expertise 
-              help you achieve the highest possible return on your investment.
+              Let Dr. Jan Duffy's proven selling strategies and luxury market expertise help you
+              achieve the highest possible return on your investment.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 type="button"

@@ -1,0 +1,11 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/best-realtor-las-vegas-reviews/page": "app/best-realtor-las-vegas-reviews/page.js",
+  "/modern-homes-las-vegas-expert/page": "app/modern-homes-las-vegas-expert/page.js",
+  "/luxury-realtor-las-vegas/page": "app/luxury-realtor-las-vegas/page.js",
+  "/luxury-homes-for-sale-las-vegas/page": "app/luxury-homes-for-sale-las-vegas/page.js",
+  "/neighborhoods/red-rock-country-club/page": "app/neighborhoods/red-rock-country-club/page.js",
+  "/neighborhoods/the-ridges-summerlin/page": "app/neighborhoods/the-ridges-summerlin/page.js",
+  "/page": "app/page.js",
+  "/services/luxury-home-buyer-agent/page": "app/services/luxury-home-buyer-agent/page.js"
+}

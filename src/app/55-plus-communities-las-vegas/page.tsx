@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { trackEvent } from '@/utils';
+import { motion } from 'framer-motion';
 
 export default function FiftyFivePlusCommunitiesPage() {
   const handleCTAClick = (action: string) => {
@@ -26,7 +26,7 @@ export default function FiftyFivePlusCommunitiesPage() {
       ageRestriction: '55+',
       amenities: 'Golf, Pool, Fitness, Clubhouse',
       location: 'Summerlin',
-      description: 'Premier active adult community with world-class amenities'
+      description: 'Premier active adult community with world-class amenities',
     },
     {
       name: 'Del Webb at Lake Las Vegas',
@@ -34,7 +34,7 @@ export default function FiftyFivePlusCommunitiesPage() {
       ageRestriction: '55+',
       amenities: 'Lake Views, Golf, Marina, Dining',
       location: 'Henderson',
-      description: 'Waterfront living with luxury amenities'
+      description: 'Waterfront living with luxury amenities',
     },
     {
       name: 'Anthem Country Club',
@@ -42,7 +42,7 @@ export default function FiftyFivePlusCommunitiesPage() {
       ageRestriction: '55+',
       amenities: 'Golf, Tennis, Pool, Mountain Views',
       location: 'Anthem',
-      description: 'Mountain views with country club lifestyle'
+      description: 'Mountain views with country club lifestyle',
     },
     {
       name: 'Siena',
@@ -50,8 +50,8 @@ export default function FiftyFivePlusCommunitiesPage() {
       ageRestriction: '55+',
       amenities: 'Golf, Pool, Fitness, Social Activities',
       location: 'Summerlin',
-      description: 'Active lifestyle with social engagement focus'
-    }
+      description: 'Active lifestyle with social engagement focus',
+    },
   ];
 
   const activeAdultBenefits = [
@@ -60,30 +60,30 @@ export default function FiftyFivePlusCommunitiesPage() {
     'Fitness & Wellness Programs',
     'Golf & Recreational Amenities',
     'Security & Peace of Mind',
-    'Built-in Social Network'
+    'Built-in Social Network',
   ];
 
   const buyingConsiderations = [
     {
       factor: 'Age Restrictions',
       description: 'Most communities require at least one resident to be 55+',
-      icon: '👥'
+      icon: '👥',
     },
     {
       factor: 'HOA Fees',
       description: 'Monthly fees cover amenities and maintenance',
-      icon: '💰'
+      icon: '💰',
     },
     {
       factor: 'Resale Value',
       description: 'Active adult communities maintain strong resale values',
-      icon: '📈'
+      icon: '📈',
     },
     {
       factor: 'Lifestyle Fit',
       description: 'Ensure the community matches your desired lifestyle',
-      icon: '🎯'
-    }
+      icon: '🎯',
+    },
   ];
 
   return (
@@ -206,9 +206,7 @@ export default function FiftyFivePlusCommunitiesPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Premier 55+ Communities
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Premier 55+ Communities</h2>
             <p className="text-xl text-neutral-600">
               Explore the best active adult communities in Las Vegas
             </p>
@@ -259,9 +257,7 @@ export default function FiftyFivePlusCommunitiesPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Important Considerations
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Important Considerations</h2>
             <p className="text-xl text-neutral-600">
               Key factors to consider when buying in 55+ communities
             </p>
@@ -327,14 +323,12 @@ export default function FiftyFivePlusCommunitiesPage() {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold mb-6">
-              Ready to Find Your Perfect 55+ Community?
-            </h2>
+            <h2 className="text-4xl font-bold mb-6">Ready to Find Your Perfect 55+ Community?</h2>
             <p className="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
-              Let Dr. Jan Duffy guide you to the perfect active adult community 
-              that matches your lifestyle and investment goals.
+              Let Dr. Jan Duffy guide you to the perfect active adult community that matches your
+              lifestyle and investment goals.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 type="button"

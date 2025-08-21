@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { trackEvent } from '@/utils';
+import { motion } from 'framer-motion';
 
 export default function RedRockCountryClubPage() {
   const handleCTAClick = (action: string) => {
@@ -25,7 +25,7 @@ export default function RedRockCountryClubPage() {
     totalSales: '47',
     pricePerSqFt: '$485',
     appreciation: '+12.3%',
-    inventory: '23'
+    inventory: '23',
   };
 
   const amenities = [
@@ -36,13 +36,13 @@ export default function RedRockCountryClubPage() {
     'Fitness Center',
     'Walking Trails',
     'Gated Security',
-    'Mountain Views'
+    'Mountain Views',
   ];
 
   const recentSales = [
     { address: '123 Red Rock Dr', price: '$2.4M', days: '3', features: 'Pool, Golf Views' },
     { address: '456 Canyon Way', price: '$1.9M', days: '7', features: 'Mountain Views' },
-    { address: '789 Ridge Rd', price: '$2.7M', days: '5', features: 'Pool, Spa, Golf' }
+    { address: '789 Ridge Rd', price: '$2.7M', days: '5', features: 'Pool, Spa, Golf' },
   ];
 
   return (
@@ -79,15 +79,21 @@ export default function RedRockCountryClubPage() {
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 mb-8">
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-accent-success">{marketStats.avgPrice}</div>
+                  <div className="text-3xl font-bold text-accent-success">
+                    {marketStats.avgPrice}
+                  </div>
                   <p className="text-lg">Average Price</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-accent-success">{marketStats.avgDaysOnMarket}</div>
+                  <div className="text-3xl font-bold text-accent-success">
+                    {marketStats.avgDaysOnMarket}
+                  </div>
                   <p className="text-lg">Days on Market</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-accent-success">{marketStats.appreciation}</div>
+                  <div className="text-3xl font-bold text-accent-success">
+                    {marketStats.appreciation}
+                  </div>
                   <p className="text-lg">Year-over-Year</p>
                 </div>
               </div>
@@ -129,14 +135,16 @@ export default function RedRockCountryClubPage() {
                 Las Vegas' Premier Golf Community
               </h2>
               <p className="text-lg text-neutral-600 mb-6">
-                Red Rock Country Club represents the pinnacle of luxury living in Las Vegas. This exclusive 
-                gated community features an 18-hole championship golf course designed by Arnold Palmer, 
-                stunning mountain views, and world-class amenities that cater to the most discerning buyers.
+                Red Rock Country Club represents the pinnacle of luxury living in Las Vegas. This
+                exclusive gated community features an 18-hole championship golf course designed by
+                Arnold Palmer, stunning mountain views, and world-class amenities that cater to the
+                most discerning buyers.
               </p>
               <p className="text-lg text-neutral-600 mb-6">
-                Located in the prestigious Summerlin area, Red Rock Country Club offers the perfect blend 
-                of privacy, luxury, and recreational opportunities. Homes here feature premium finishes, 
-                spacious layouts, and breathtaking views of the Red Rock Canyon and Las Vegas Strip.
+                Located in the prestigious Summerlin area, Red Rock Country Club offers the perfect
+                blend of privacy, luxury, and recreational opportunities. Homes here feature premium
+                finishes, spacious layouts, and breathtaking views of the Red Rock Canyon and Las
+                Vegas Strip.
               </p>
               <button
                 type="button"
@@ -146,7 +154,7 @@ export default function RedRockCountryClubPage() {
                 Download Community Guide
               </button>
             </div>
-            
+
             <div className="bg-gradient-to-br from-primary-50 to-neutral-50 rounded-2xl p-8">
               <h3 className="text-2xl font-bold text-primary-900 mb-6">Community Highlights</h3>
               <div className="space-y-4">
@@ -197,7 +205,9 @@ export default function RedRockCountryClubPage() {
             >
               <div className="text-4xl mb-4">💰</div>
               <h3 className="text-xl font-bold text-primary-900 mb-2">Price Trends</h3>
-              <div className="text-3xl font-bold text-accent-success mb-2">{marketStats.appreciation}</div>
+              <div className="text-3xl font-bold text-accent-success mb-2">
+                {marketStats.appreciation}
+              </div>
               <p className="text-neutral-600">Year-over-year appreciation</p>
             </motion.div>
 
@@ -210,7 +220,9 @@ export default function RedRockCountryClubPage() {
             >
               <div className="text-4xl mb-4">⚡</div>
               <h3 className="text-xl font-bold text-primary-900 mb-2">Market Speed</h3>
-              <div className="text-3xl font-bold text-accent-success mb-2">{marketStats.avgDaysOnMarket}</div>
+              <div className="text-3xl font-bold text-accent-success mb-2">
+                {marketStats.avgDaysOnMarket}
+              </div>
               <p className="text-neutral-600">Average days on market</p>
             </motion.div>
 
@@ -223,7 +235,9 @@ export default function RedRockCountryClubPage() {
             >
               <div className="text-4xl mb-4">🏠</div>
               <h3 className="text-xl font-bold text-primary-900 mb-2">Inventory</h3>
-              <div className="text-3xl font-bold text-accent-success mb-2">{marketStats.inventory}</div>
+              <div className="text-3xl font-bold text-accent-success mb-2">
+                {marketStats.inventory}
+              </div>
               <p className="text-neutral-600">Active listings available</p>
             </motion.div>
           </div>
@@ -260,9 +274,7 @@ export default function RedRockCountryClubPage() {
               >
                 <h3 className="font-bold text-primary-900 mb-2">{sale.address}</h3>
                 <div className="text-2xl font-bold text-accent-success mb-2">{sale.price}</div>
-                <div className="text-sm text-neutral-600 mb-2">
-                  Sold in {sale.days} days
-                </div>
+                <div className="text-sm text-neutral-600 mb-2">Sold in {sale.days} days</div>
                 <p className="text-sm text-neutral-600">{sale.features}</p>
               </motion.div>
             ))}
@@ -289,11 +301,11 @@ export default function RedRockCountryClubPage() {
           </motion.div>
 
           <div className="neighborhood-listings">
-            <realscout-office-listings 
-              agent-encoded-id="QWdlbnQtMjI1MDUw" 
-              sort-order="STATUS_AND_SIGNIFICANT_CHANGE" 
-              listing-status="For Sale" 
-              property-types="SFR,MF" 
+            <realscout-office-listings
+              agent-encoded-id="QWdlbnQtMjI1MDUw"
+              sort-order="STATUS_AND_SIGNIFICANT_CHANGE"
+              listing-status="For Sale"
+              property-types="SFR,MF"
               price-min="800000"
               price-max="3000000"
               location="Red Rock Country Club, Las Vegas, NV"
@@ -311,13 +323,12 @@ export default function RedRockCountryClubPage() {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold mb-6">
-              Ready to Call Red Rock Country Club Home?
-            </h2>
+            <h2 className="text-4xl font-bold mb-6">Ready to Call Red Rock Country Club Home?</h2>
             <p className="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
-              Let Dr. Jan Duffy guide you to the perfect luxury property in Las Vegas' most prestigious golf community.
+              Let Dr. Jan Duffy guide you to the perfect luxury property in Las Vegas' most
+              prestigious golf community.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 type="button"

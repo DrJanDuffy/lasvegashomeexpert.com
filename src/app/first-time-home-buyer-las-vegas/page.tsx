@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { trackEvent } from '@/utils';
+import { motion } from 'framer-motion';
 
 export default function FirstTimeHomeBuyerPage() {
   const handleCTAClick = (action: string) => {
@@ -25,7 +25,7 @@ export default function FirstTimeHomeBuyerPage() {
     'Lower Interest Rates',
     'Down Payment Assistance',
     'Closing Cost Assistance',
-    'Homebuyer Education Classes'
+    'Homebuyer Education Classes',
   ];
 
   const buyingProcess = [
@@ -34,36 +34,36 @@ export default function FirstTimeHomeBuyerPage() {
       title: 'Get Pre-Approved',
       description: 'Understand your budget and financing options',
       icon: '📋',
-      duration: '1-2 days'
+      duration: '1-2 days',
     },
     {
       step: '2',
       title: 'Find Your Home',
       description: 'Browse properties that fit your criteria',
       icon: '🏠',
-      duration: '2-4 weeks'
+      duration: '2-4 weeks',
     },
     {
       step: '3',
       title: 'Make an Offer',
       description: 'Submit competitive offer with guidance',
       icon: '✍️',
-      duration: '1-3 days'
+      duration: '1-3 days',
     },
     {
       step: '4',
       title: 'Home Inspection',
       description: 'Professional inspection of the property',
       icon: '🔍',
-      duration: '1-2 days'
+      duration: '1-2 days',
     },
     {
       step: '5',
       title: 'Closing',
       description: 'Finalize paperwork and get your keys',
       icon: '🔑',
-      duration: '30-45 days'
-    }
+      duration: '30-45 days',
+    },
   ];
 
   const starterNeighborhoods = [
@@ -71,26 +71,26 @@ export default function FirstTimeHomeBuyerPage() {
       name: 'Henderson',
       avgPrice: '$450k',
       features: 'Family-friendly, great schools, parks',
-      commute: '20 min to Strip'
+      commute: '20 min to Strip',
     },
     {
       name: 'Green Valley',
       avgPrice: '$420k',
       features: 'Safe community, shopping, dining',
-      commute: '25 min to Strip'
+      commute: '25 min to Strip',
     },
     {
       name: 'Anthem',
       avgPrice: '$480k',
       features: 'Mountain views, hiking trails, quiet',
-      commute: '30 min to Strip'
+      commute: '30 min to Strip',
     },
     {
       name: 'Summerlin',
       avgPrice: '$520k',
       features: 'Master-planned, amenities, schools',
-      commute: '25 min to Strip'
-    }
+      commute: '25 min to Strip',
+    },
   ];
 
   return (
@@ -181,9 +181,7 @@ export default function FirstTimeHomeBuyerPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              First-Time Buyer Benefits
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">First-Time Buyer Benefits</h2>
             <p className="text-xl text-neutral-600">
               Special programs and advantages available to first-time homebuyers
             </p>
@@ -217,9 +215,7 @@ export default function FirstTimeHomeBuyerPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Your Home Buying Journey
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Your Home Buying Journey</h2>
             <p className="text-xl text-neutral-600">
               Step-by-step process to make your first home purchase smooth and successful
             </p>
@@ -334,14 +330,12 @@ export default function FirstTimeHomeBuyerPage() {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-4xl font-bold mb-6">
-              Ready to Buy Your First Home?
-            </h2>
+            <h2 className="text-4xl font-bold mb-6">Ready to Buy Your First Home?</h2>
             <p className="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
-              Let Dr. Jan Duffy guide you through every step of your first home purchase 
-              with expert advice and access to exclusive first-time buyer programs.
+              Let Dr. Jan Duffy guide you through every step of your first home purchase with expert
+              advice and access to exclusive first-time buyer programs.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 type="button"
