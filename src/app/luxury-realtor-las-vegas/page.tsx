@@ -1,279 +1,264 @@
 'use client';
 
-import LoadingSpinner from '@/components/ui/LoadingSpinner';
 import { trackEvent } from '@/utils';
-import { motion } from 'framer-motion';
-import { Suspense } from 'react';
 
 export default function LuxuryRealtorPage() {
-  const handleCTAClick = (action: string) => {
-    trackEvent({
-      event: 'luxury_page_cta',
-      category: 'conversion',
-      action: 'cta_click',
-      label: action,
-      customDimensions: {
-        cd1: 'luxury_buyer',
-        cd2: 'primary_money_page',
-        cd3: '9',
-        cd4: '500',
-      },
-    });
-  };
-
   return (
-    <main className="min-h-screen bg-gradient-to-br from-neutral-50 to-primary-50">
-      {/* Hero Section - Authority Multiplier */}
-      <section className="relative overflow-hidden bg-gradient-to-r from-primary-900 via-primary-800 to-primary-700 text-white">
-        <div className="absolute inset-0 bg-black/20"></div>
-        <div className="container-responsive relative z-10 py-20">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-center max-w-4xl mx-auto"
-          >
-            {/* Trust Indicators - Above the Fold */}
-            <div className="mb-6">
-              <div className="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-sm rounded-full px-6 py-3 mb-4">
-                <span className="text-2xl">⭐</span>
-                <span className="font-semibold">127 Five-Star Reviews</span>
-                <span className="text-primary-200">|</span>
-                <span className="font-semibold">$180M+ Luxury Sales</span>
-                <span className="text-primary-200">|</span>
-                <span className="font-semibold">15+ Years</span>
-              </div>
+    <>
+      {/* Hero Section */}
+      <section className="hero-section bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 px-4">
+        <div className="max-w-7xl mx-auto text-center">
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
+            Dr. Jan Duffy - Premier Luxury Realtor Las Vegas
+          </h1>
+          
+          {/* Credibility Stats */}
+          <div className="credibility-stats grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-12">
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+              <div className="text-4xl font-bold text-amber-400 mb-2">$180M+</div>
+              <div className="text-white text-lg">Total Sales Volume</div>
             </div>
-
-            {/* Primary Headline */}
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Dr. Jan Duffy
-              <span className="block text-4xl md:text-5xl text-primary-200 mt-2">
-                #1 Luxury Realtor Las Vegas
-              </span>
-            </h1>
-
-            {/* Instant Credibility */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 mb-8">
-              <p className="text-xl font-semibold mb-2">Recently Sold:</p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-lg">
-                <div className="flex items-center space-x-3">
-                  <span className="text-accent-success">✓</span>
-                  <span>$2.1M Red Rock Estate (3 days)</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <span className="text-accent-success">✓</span>
-                  <span>$1.7M Summerlin Modern (5 days)</span>
-                </div>
-              </div>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+              <div className="text-4xl font-bold text-amber-400 mb-2">127</div>
+              <div className="text-white text-lg">Five-Star Reviews</div>
             </div>
-
-            {/* Primary CTAs */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button
-                type="button"
-                onClick={() => handleCTAClick('luxury_consultation')}
-                className="btn-accent-buyer text-xl px-8 py-4 shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-300"
-              >
-                Schedule Luxury Consultation
-              </button>
-              <button
-                type="button"
-                onClick={() => handleCTAClick('off_market_access')}
-                className="btn-secondary text-xl px-8 py-4 border-2 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm"
-              >
-                Access Off-Market Properties
-              </button>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+              <div className="text-4xl font-bold text-amber-400 mb-2">15+</div>
+              <div className="text-white text-lg">Years Experience</div>
             </div>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Social Proof Explosion */}
-      <section className="py-16 bg-white">
-        <div className="container-responsive">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
-            transition={{ duration: 0.8 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Why Las Vegas Elite Choose Dr. Jan Duffy
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-              <div className="text-center">
-                <div className="text-5xl font-bold text-accent-success mb-2">$180M+</div>
-                <p className="text-lg text-neutral-600">Luxury home sales in 15+ years</p>
-              </div>
-              <div className="text-center">
-                <div className="text-5xl font-bold text-accent-success mb-2">8%</div>
-                <p className="text-lg text-neutral-600">Above market average sale price</p>
-              </div>
-              <div className="text-center">
-                <div className="text-5xl font-bold text-accent-success mb-2">95%</div>
-                <p className="text-lg text-neutral-600">Luxury listings sell within 30 days</p>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Current Luxury Market Insights */}
-      <section className="py-16 bg-gradient-to-br from-primary-50 to-neutral-50">
-        <div className="container-responsive">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
-              Current Luxury Market Insights
-            </h2>
-
-            <div className="bg-white rounded-2xl shadow-xl p-8 mb-8">
-              <div className="text-center mb-6">
-                <p className="text-2xl font-semibold text-primary-800">
-                  This week: 47 luxury homes sold above $1M (↑23% vs last month)
-                </p>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="text-center p-6 bg-primary-50 rounded-xl">
-                  <h3 className="text-xl font-bold text-primary-900 mb-2">The Ridges</h3>
-                  <p className="text-3xl font-bold text-accent-success">$2.1M</p>
-                  <p className="text-neutral-600">avg (14 days on market)</p>
-                </div>
-                <div className="text-center p-6 bg-primary-50 rounded-xl">
-                  <h3 className="text-xl font-bold text-primary-900 mb-2">Red Rock</h3>
-                  <p className="text-3xl font-bold text-accent-success">$1.8M</p>
-                  <p className="text-neutral-600">avg (12 days on market)</p>
-                </div>
-                <div className="text-center p-6 bg-primary-50 rounded-xl">
-                  <h3 className="text-xl font-bold text-primary-900 mb-2">Tournament Hills</h3>
-                  <p className="text-3xl font-bold text-accent-success">$1.6M</p>
-                  <p className="text-neutral-600">avg (18 days on market)</p>
-                </div>
-              </div>
-
-              <div className="text-center mt-6">
-                <p className="text-sm text-neutral-500">
-                  Source: MLS + Dr. Jan's exclusive network
-                </p>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Luxury Portfolio - RealScout Integration */}
-      <section className="py-16 bg-white">
-        <div className="container-responsive">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
-              Current Luxury Home Inventory
-            </h2>
-
-            <Suspense fallback={<LoadingSpinner size="large" />}>
-              <div className="luxury-portfolio">
-                <realscout-office-listings
-                  agent-encoded-id="QWdlbnQtMjI1MDUw"
-                  sort-order="PRICE_DESC"
-                  listing-status="For Sale"
-                  property-types="SFR,MF"
-                  price-min="1000000"
-                  features="Pool,Golf,Gated"
-                />
-              </div>
-            </Suspense>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Risk Reversal Section */}
-      <section className="py-16 bg-gradient-to-br from-accent-success/10 to-accent-success/5">
-        <div className="container-responsive">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
-            transition={{ duration: 0.8 }}
-            className="text-center"
-          >
-            <h2 className="text-4xl font-bold text-primary-900 mb-8">No Risk, Maximum Reward</h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-              <div className="bg-white rounded-xl p-6 shadow-lg">
-                <div className="text-4xl mb-4">🎯</div>
-                <h3 className="text-xl font-bold text-primary-900 mb-2">No-Obligation Analysis</h3>
-                <p className="text-neutral-600">Get your luxury home's true market value</p>
-              </div>
-              <div className="bg-white rounded-xl p-6 shadow-lg">
-                <div className="text-4xl mb-4">⚡</div>
-                <h3 className="text-xl font-bold text-primary-900 mb-2">2-Hour Response</h3>
-                <p className="text-neutral-600">Guaranteed response within 2 hours</p>
-              </div>
-              <div className="bg-white rounded-xl p-6 shadow-lg">
-                <div className="text-4xl mb-4">💎</div>
-                <h3 className="text-xl font-bold text-primary-900 mb-2">Free Consultation</h3>
-                <p className="text-neutral-600">Luxury market consultation at no cost</p>
-              </div>
-            </div>
-
+          </div>
+          
+          <p className="text-xl sm:text-2xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
+            Las Vegas luxury real estate expert with $180M+ in sales, specializing in Red Rock Country Club, 
+            The Ridges Summerlin, and MacDonald Highlands. Discover why discerning buyers choose Dr. Jan Duffy.
+          </p>
+          
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
             <button
               type="button"
-              onClick={() => handleCTAClick('free_analysis')}
-              className="btn-accent-buyer text-xl px-12 py-4 shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-300"
+              onClick={() => trackEvent({
+                event: 'cta_click',
+                category: 'conversion',
+                action: 'cta_click',
+                label: 'luxury_realtor_consultation',
+                customDimensions: {
+                  cd1: 'luxury_buyer',
+                  cd2: 'luxury_realtor_page',
+                  cd3: 'consultation',
+                  cd4: '2000',
+                },
+              })}
+              className="btn-accent-buyer text-lg px-8 py-4"
             >
-              Get Your Free Luxury Home Analysis
+              Schedule Luxury Consultation
             </button>
-          </motion.div>
+            <button
+              type="button"
+              onClick={() => trackEvent({
+                event: 'cta_click',
+                category: 'conversion',
+                action: 'cta_click',
+                label: 'luxury_realtor_properties',
+                customDimensions: {
+                  cd1: 'luxury_buyer',
+                  cd2: 'luxury_realtor_page',
+                  cd3: 'properties',
+                  cd4: '2000',
+                },
+              })}
+              className="btn-secondary text-lg px-8 py-4"
+            >
+              View Luxury Properties
+            </button>
+          </div>
         </div>
       </section>
 
-      {/* Final CTA Section */}
-      <section className="py-20 bg-primary-900 text-white">
-        <div className="container-responsive text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="text-4xl font-bold mb-6">
-              Ready to Experience Luxury Real Estate Excellence?
+      {/* Property Listings Section */}
+      <section className="property-listings bg-white py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-slate-900 mb-6">
+              Featured Luxury Properties
             </h2>
-            <p className="text-xl text-primary-200 mb-8 max-w-2xl mx-auto">
-              Join hundreds of satisfied luxury clients who chose Dr. Jan Duffy for their most
-              important real estate decisions.
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              Handpicked luxury homes with premium features: Pool, Golf Course Access, Gated Communities
             </p>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button
-                type="button"
-                onClick={() => handleCTAClick('schedule_call')}
-                className="btn-accent-buyer text-xl px-8 py-4 shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-300"
-              >
-                Schedule Your VIP Consultation
-              </button>
-              <button
-                type="button"
-                onClick={() => handleCTAClick('download_guide')}
-                className="btn-secondary text-xl px-8 py-4 border-2 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm"
-              >
-                Download Luxury Market Guide
-              </button>
-            </div>
-          </motion.div>
+          </div>
+          
+          <div className="bg-gradient-to-r from-slate-50 to-blue-50 rounded-lg p-8 shadow-lg">
+            <realscout-office-listings 
+              agent-encoded-id="QWdlbnQtMjI1MDUw" 
+              sort-order="PRICE_DESC" 
+              listing-status="For Sale" 
+              property-types="SFR,MF" 
+              price-min="1000000"
+              max-results="12"
+              show-filters="true"
+              show-sort="true"
+              show-pagination="true"
+              show-map="false"
+              show-photos="true"
+              show-price="true"
+            />
+          </div>
         </div>
       </section>
-    </main>
+
+      {/* Client Testimonials */}
+      <section className="client-testimonials bg-gradient-to-r from-amber-50 to-orange-50 py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl font-bold text-slate-900 text-center mb-16">
+            What Luxury Home Buyers Say About Dr. Jan Duffy
+          </h2>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-white rounded-lg p-8 shadow-lg">
+              <div className="flex items-center mb-4">
+                <span className="text-2xl text-amber-400">⭐⭐⭐⭐⭐</span>
+              </div>
+              <p className="text-slate-700 mb-6 italic">
+                "Dr. Duffy helped us find our dream home in Red Rock Country Club. Her expertise in luxury real estate is unmatched. 
+                She understood exactly what we were looking for and delivered beyond our expectations."
+              </p>
+              <div className="font-semibold text-slate-800">- Sarah M., Red Rock Country Club</div>
+            </div>
+            
+            <div className="bg-white rounded-lg p-8 shadow-lg">
+              <div className="flex items-center mb-4">
+                <span className="text-2xl text-amber-400">⭐⭐⭐⭐⭐</span>
+              </div>
+              <p className="text-slate-700 mb-6 italic">
+                "As a luxury home seller, Dr. Jan's marketing strategy and network of high-net-worth buyers resulted in a sale 
+                above asking price in just 21 days. Her professionalism is exceptional."
+              </p>
+              <div className="font-semibold text-slate-800">- Michael R., The Ridges Summerlin</div>
+            </div>
+            
+            <div className="bg-white rounded-lg p-8 shadow-lg">
+              <div className="flex items-center mb-4">
+                <span className="text-2xl text-amber-400">⭐⭐⭐⭐⭐</span>
+              </div>
+              <p className="text-slate-700 mb-6 italic">
+                "Dr. Duffy's knowledge of MacDonald Highlands and the Henderson luxury market is incredible. 
+                She found us a property that perfectly matched our lifestyle and investment goals."
+              </p>
+              <div className="font-semibold text-slate-800">- Jennifer L., MacDonald Highlands</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Market Insights */}
+      <section className="market-insights bg-white py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl font-bold text-slate-900 text-center mb-16">
+            Las Vegas Luxury Market Insights
+          </h2>
+          
+          <div className="grid md:grid-cols-2 gap-12">
+            <div>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">
+                Current Market Trends
+              </h3>
+              <div className="space-y-4">
+                <div className="bg-slate-50 rounded-lg p-6">
+                  <h4 className="font-semibold text-slate-800 mb-2">Red Rock Country Club</h4>
+                  <p className="text-slate-600">Median price: $2.1M (+15% YoY), 65 days on market</p>
+                </div>
+                <div className="bg-slate-50 rounded-lg p-6">
+                  <h4 className="font-semibold text-slate-800 mb-2">The Ridges Summerlin</h4>
+                  <p className="text-slate-600">Median price: $2.5M (+12% YoY), 80 days on market</p>
+                </div>
+                <div className="bg-slate-50 rounded-lg p-6">
+                  <h4 className="font-semibold text-slate-800 mb-2">MacDonald Highlands</h4>
+                  <p className="text-slate-600">Median price: $1.8M (+18% YoY), 72 days on market</p>
+                </div>
+              </div>
+            </div>
+            
+            <div>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">
+                Why Choose Dr. Jan Duffy?
+              </h3>
+              <div className="space-y-4">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl text-blue-600">🏆</span>
+                  <div>
+                    <h4 className="font-semibold text-slate-800">Top 1% Producer</h4>
+                    <p className="text-slate-600">Consistently ranked among Berkshire Hathaway's top performers</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl text-blue-600">🎯</span>
+                  <div>
+                    <h4 className="font-semibold text-slate-800">Luxury Market Expert</h4>
+                    <p className="text-slate-600">Specialized knowledge of Las Vegas's most prestigious neighborhoods</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl text-blue-600">🤝</span>
+                  <div>
+                    <h4 className="font-semibold text-slate-800">Personalized Service</h4>
+                    <p className="text-slate-600">Every client receives Dr. Jan's direct attention and expertise</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="contact-section bg-gradient-to-r from-slate-800 to-slate-900 text-white py-20 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl font-bold mb-6">
+            Ready to Work with Las Vegas's Premier Luxury Realtor?
+          </h2>
+          <p className="text-xl mb-8 text-slate-200">
+            Dr. Jan Duffy is here to guide you through every step of your luxury real estate journey.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <button
+              type="button"
+              onClick={() => trackEvent({
+                event: 'cta_click',
+                category: 'conversion',
+                action: 'cta_click',
+                label: 'luxury_realtor_contact_phone',
+                customDimensions: {
+                  cd1: 'luxury_buyer',
+                  cd2: 'luxury_realtor_page',
+                  cd3: 'phone',
+                  cd4: '2000',
+                },
+              })}
+              className="btn-accent-buyer text-lg px-8 py-4"
+            >
+              Call (702) 555-0123
+            </button>
+            <button
+              type="button"
+              onClick={() => trackEvent({
+                event: 'cta_click',
+                category: 'conversion',
+                action: 'cta_click',
+                label: 'luxury_realtor_contact_email',
+                customDimensions: {
+                  cd1: 'luxury_buyer',
+                  cd2: 'luxury_realtor_page',
+                  cd3: 'email',
+                  cd4: '2000',
+                },
+              })}
+              className="btn-secondary text-lg px-8 py-4"
+            >
+              Send Email
+            </button>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }

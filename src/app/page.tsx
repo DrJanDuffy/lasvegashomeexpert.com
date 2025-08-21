@@ -129,17 +129,18 @@ export default function HomePage() {
               Featured Las Vegas Luxury Homes
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Discover exclusive properties handpicked by Dr. Jan Duffy in Las Vegas's most prestigious neighborhoods
+              Discover exclusive properties handpicked by Dr. Jan Duffy in Las Vegas's most
+              prestigious neighborhoods
             </p>
           </div>
-          
+
           <div className="bg-gradient-to-r from-slate-50 to-blue-50 rounded-lg p-8 shadow-lg">
-            <realscout-office-listings 
-              agent-encoded-id="QWdlbnQtMjI1MDUw" 
-              sort-order="STATUS_AND_SIGNIFICANT_CHANGE" 
-              listing-status="For Sale" 
-              property-types="SFR,MF" 
-              price-min="500000" 
+            <realscout-office-listings
+              agent-encoded-id="QWdlbnQtMjI1MDUw"
+              sort-order="STATUS_AND_SIGNIFICANT_CHANGE"
+              listing-status="For Sale"
+              property-types="SFR,MF"
+              price-min="500000"
               price-max="1500000"
               max-results="6"
               show-filters="true"
@@ -219,7 +220,7 @@ export default function HomePage() {
           <h2 className="text-4xl font-bold text-slate-900 mb-8">
             Dr. Jan Duffy: Trusted by 500+ Luxury Home Buyers & Sellers
           </h2>
-          
+
           {/* Review Aggregation Data */}
           <div itemScope itemType="https://schema.org/AggregateRating" className="mb-12">
             <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg p-8 max-w-2xl mx-auto">

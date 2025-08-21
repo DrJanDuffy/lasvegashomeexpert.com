@@ -1,21 +1,21 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 // Mock market data - replace with real API call
 const fetchMarketFeed = async () => {
   // Simulate API delay
-  await new Promise(resolve => setTimeout(resolve, 1000));
-  
+  await new Promise((resolve) => setTimeout(resolve, 1000));
+
   return {
-    title: "Luxury Market Shows 15% Price Appreciation in Q3 2025",
-    insight: "Red Rock Country Club leads with $2.1M median, up from $1.8M last quarter",
+    title: 'Luxury Market Shows 15% Price Appreciation in Q3 2025',
+    insight: 'Red Rock Country Club leads with $2.1M median, up from $1.8M last quarter',
     timestamp: new Date().toISOString(),
     neighborhoods: [
-      { name: "Red Rock Country Club", change: "+15%", median: "$2.1M" },
-      { name: "The Ridges", change: "+12%", median: "$2.5M" },
-      { name: "MacDonald Highlands", change: "+18%", median: "$1.8M" }
-    ]
+      { name: 'Red Rock Country Club', change: '+15%', median: '$2.1M' },
+      { name: 'The Ridges', change: '+12%', median: '$2.5M' },
+      { name: 'MacDonald Highlands', change: '+18%', median: '$1.8M' },
+    ],
   };
 };
 
@@ -24,7 +24,7 @@ export default function MarketTicker() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetchMarketFeed().then(data => {
+    fetchMarketFeed().then((data) => {
       setMarketData(data);
       setIsLoading(false);
     });
@@ -58,7 +58,7 @@ export default function MarketTicker() {
             </div>
           </div>
         </div>
-        
+
         {/* Quick Neighborhood Stats */}
         <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
           {marketData?.neighborhoods.map((neighborhood: any) => (

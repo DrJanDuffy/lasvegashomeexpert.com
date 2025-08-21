@@ -16,11 +16,11 @@ export default function HeroSection() {
               Licensed REALTOR® since 2013 | 500+ transactions | Luxury specialist
             </p>
           </div>
-          
+
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
             Dr. Jan Duffy - #1 Luxury Realtor Las Vegas | 500+ Homes Sold
           </h1>
-          
+
           {/* Trust Indicators */}
           <div className="trust-indicators mb-8">
             <div className="flex items-center justify-center gap-6 text-xl text-amber-300 font-semibold">
@@ -31,7 +31,7 @@ export default function HeroSection() {
               <span>15+ Years</span>
             </div>
           </div>
-          
+
           <p className="text-xl sm:text-2xl lg:text-3xl text-slate-300 mb-12 max-w-4xl mx-auto leading-relaxed font-light">
             Dr. Jan Duffy delivers the ultimate luxury real estate experience in Las Vegas's most
             prestigious enclaves.
