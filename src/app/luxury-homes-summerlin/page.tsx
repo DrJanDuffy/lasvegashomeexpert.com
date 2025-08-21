@@ -3,11 +3,14 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Summerlin Luxury Homes Expert | Dr. Jan Duffy | $1M+ Properties',
-  description: 'Find luxury homes in Summerlin with Dr. Jan Duffy. Specializing in Red Rock Country Club, The Ridges, and custom estates over $1M. Berkshire Hathaway HomeServices.',
-  keywords: 'Summerlin luxury homes, Red Rock Country Club, The Ridges, MacDonald Highlands, luxury realtor Summerlin, Dr. Jan Duffy',
+  description:
+    'Find luxury homes in Summerlin with Dr. Jan Duffy. Specializing in Red Rock Country Club, The Ridges, and custom estates over $1M. Berkshire Hathaway HomeServices.',
+  keywords:
+    'Summerlin luxury homes, Red Rock Country Club, The Ridges, MacDonald Highlands, luxury realtor Summerlin, Dr. Jan Duffy',
   openGraph: {
     title: 'Summerlin Luxury Homes Expert | Dr. Jan Duffy',
-    description: 'Find luxury homes in Summerlin with Dr. Jan Duffy. Specializing in Red Rock Country Club, The Ridges, and custom estates over $1M.',
+    description:
+      'Find luxury homes in Summerlin with Dr. Jan Duffy. Specializing in Red Rock Country Club, The Ridges, and custom estates over $1M.',
     type: 'website',
     url: 'https://lasvegashomeexpert.com/luxury-homes-summerlin',
   },
@@ -21,16 +24,16 @@ export default function LuxuryHomesSummerlinPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "RealEstateAgent",
-            "name": "Dr. Jan Duffy",
-            "areaServed": {
-              "@type": "Place",
-              "name": "Summerlin, Las Vegas"
+            '@context': 'https://schema.org',
+            '@type': 'RealEstateAgent',
+            name: 'Dr. Jan Duffy',
+            areaServed: {
+              '@type': 'Place',
+              name: 'Summerlin, Las Vegas',
             },
-            "knowsAbout": ["Luxury Real Estate", "Red Rock Country Club", "The Ridges"],
-            "priceRange": "$1,000,000+"
-          })
+            knowsAbout: ['Luxury Real Estate', 'Red Rock Country Club', 'The Ridges'],
+            priceRange: '$1,000,000+',
+          }),
         }}
       />
 
@@ -76,7 +79,9 @@ export default function LuxuryHomesSummerlinPage() {
             </h2>
             <div className="bg-gradient-to-r from-amber-50 to-blue-50 rounded-2xl p-6 border-l-4 border-amber-400">
               <p className="text-lg md:text-xl text-slate-700 leading-relaxed">
-                <strong>August 2025 Summerlin Luxury Market:</strong> Median price $1.8M, 65 days on market, buyer's market emerging with 4.5 months inventory. Best time to negotiate on luxury properties.
+                <strong>August 2025 Summerlin Luxury Market:</strong> Median price $1.8M, 65 days on
+                market, buyer's market emerging with 4.5 months inventory. Best time to negotiate on
+                luxury properties.
               </p>
             </div>
           </motion.div>
@@ -139,7 +144,8 @@ export default function LuxuryHomesSummerlinPage() {
                 "OK Google, find Summerlin golf course homes"
               </dt>
               <dd className="text-slate-700 leading-relaxed">
-                Dr. Duffy specializes in golf course properties throughout Summerlin's premier clubs.
+                Dr. Duffy specializes in golf course properties throughout Summerlin's premier
+                clubs.
               </dd>
             </motion.div>
           </div>
@@ -169,26 +175,26 @@ export default function LuxuryHomesSummerlinPage() {
                 name: 'Red Rock Country Club',
                 price: '$2.1M',
                 features: ['Golf Course', 'Mountain Views', 'Gated Community'],
-                icon: '🏌️'
+                icon: '🏌️',
               },
               {
                 name: 'The Ridges',
                 price: '$2.5M',
                 features: ['Custom Estates', 'Panoramic Views', 'Privacy'],
-                icon: '🏔️'
+                icon: '🏔️',
               },
               {
                 name: 'MacDonald Highlands',
                 price: '$1.8M',
                 features: ['Golf Views', 'Luxury Amenities', 'Family Friendly'],
-                icon: '⛳'
+                icon: '⛳',
               },
               {
                 name: 'Southern Highlands',
                 price: '$850K',
                 features: ['Affordable Luxury', 'Great Schools', 'Convenient Location'],
-                icon: '🏠'
-              }
+                icon: '🏠',
+              },
             ].map((community, index) => (
               <motion.div
                 key={community.name}
@@ -202,7 +208,9 @@ export default function LuxuryHomesSummerlinPage() {
                 <p className="text-amber-400 font-bold text-lg mb-4">{community.price}</p>
                 <ul className="space-y-2">
                   {community.features.map((feature) => (
-                    <li key={feature} className="text-slate-200 text-sm">• {feature}</li>
+                    <li key={feature} className="text-slate-200 text-sm">
+                      • {feature}
+                    </li>
                   ))}
                 </ul>
               </motion.div>
@@ -227,12 +235,15 @@ export default function LuxuryHomesSummerlinPage() {
               Dr. Jan Duffy provides exclusive access to Summerlin's most prestigious properties
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                             <button type="button" className="btn-accent-buyer px-8 py-4 text-lg">
-                 Schedule Luxury Consultation
-               </button>
-               <button type="button" className="btn-secondary px-8 py-4 text-lg border-white text-white hover:bg-white hover:text-primary-700">
-                 View Current Listings
-               </button>
+              <button type="button" className="btn-accent-buyer px-8 py-4 text-lg">
+                Schedule Luxury Consultation
+              </button>
+              <button
+                type="button"
+                className="btn-secondary px-8 py-4 text-lg border-white text-white hover:bg-white hover:text-primary-700"
+              >
+                View Current Listings
+              </button>
             </div>
           </motion.div>
         </div>

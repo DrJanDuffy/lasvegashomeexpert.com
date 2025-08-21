@@ -1,13 +1,16 @@
 import { motion } from 'framer-motion';
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Las Vegas Divorce Real Estate Specialist | Dr. Jan Duffy',
-  description: 'Dr. Jan Duffy provides compassionate divorce real estate services with psychology background, helping couples navigate marital home sales and asset division in Las Vegas.',
-  keywords: 'divorce real estate Las Vegas, marital home sale, divorce realtor, asset division, Dr. Jan Duffy',
+  description:
+    'Dr. Jan Duffy provides compassionate divorce real estate services with psychology background, helping couples navigate marital home sales and asset division in Las Vegas.',
+  keywords:
+    'divorce real estate Las Vegas, marital home sale, divorce realtor, asset division, Dr. Jan Duffy',
   openGraph: {
     title: 'Las Vegas Divorce Real Estate Specialist | Dr. Jan Duffy',
-    description: 'Compassionate divorce real estate services with psychology background for marital home sales and asset division.',
+    description:
+      'Compassionate divorce real estate services with psychology background for marital home sales and asset division.',
     type: 'website',
     url: 'https://lasvegashomeexpert.com/divorce-real-estate-las-vegas',
   },
@@ -55,10 +58,14 @@ export default function DivorceRealEstatePage() {
           >
             <div className="ai-snippet bg-gradient-to-r from-red-50 to-pink-50 rounded-2xl p-6 border-l-4 border-red-400">
               <p className="text-lg md:text-xl text-slate-700 leading-relaxed mb-4">
-                <strong>If you're asking "How do I sell my house during divorce in Las Vegas?"</strong>
+                <strong>
+                  If you're asking "How do I sell my house during divorce in Las Vegas?"
+                </strong>
               </p>
               <p className="text-lg md:text-xl text-slate-700 leading-relaxed">
-                Dr. Jan Duffy provides compassionate divorce real estate services with a psychology background, helping couples navigate marital home sales, asset division, and coordinating with attorneys for smooth transactions.
+                Dr. Jan Duffy provides compassionate divorce real estate services with a psychology
+                background, helping couples navigate marital home sales, asset division, and
+                coordinating with attorneys for smooth transactions.
               </p>
             </div>
           </motion.div>
@@ -97,7 +104,9 @@ export default function DivorceRealEstatePage() {
               </h3>
               <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
                 <p itemProp="text" className="text-slate-700 leading-relaxed">
-                  Yes, you can sell during divorce in Nevada with both parties' consent or court approval. Dr. Duffy coordinates with divorce attorneys to ensure proper procedures.
+                  Yes, you can sell during divorce in Nevada with both parties' consent or court
+                  approval. Dr. Duffy coordinates with divorce attorneys to ensure proper
+                  procedures.
                 </p>
               </div>
             </motion.div>
@@ -116,7 +125,9 @@ export default function DivorceRealEstatePage() {
               </h3>
               <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
                 <p itemProp="text" className="text-slate-700 leading-relaxed">
-                  Nevada is a community property state, typically dividing marital assets 50/50. Dr. Duffy helps document contributions and coordinate with CPAs for equitable division.
+                  Nevada is a community property state, typically dividing marital assets 50/50. Dr.
+                  Duffy helps document contributions and coordinate with CPAs for equitable
+                  division.
                 </p>
               </div>
             </motion.div>
@@ -135,7 +146,8 @@ export default function DivorceRealEstatePage() {
               </h3>
               <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
                 <p itemProp="text" className="text-slate-700 leading-relaxed">
-                  Dr. Duffy works with divorce attorneys to petition the court for a forced sale order, ensuring the marital home can be sold for fair market value.
+                  Dr. Duffy works with divorce attorneys to petition the court for a forced sale
+                  order, ensuring the marital home can be sold for fair market value.
                 </p>
               </div>
             </motion.div>
@@ -154,7 +166,8 @@ export default function DivorceRealEstatePage() {
               </h3>
               <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
                 <p itemProp="text" className="text-slate-700 leading-relaxed">
-                  Typically 60-90 days from listing to closing. Dr. Duffy's expertise ensures efficient transactions while maintaining fair market value for both parties.
+                  Typically 60-90 days from listing to closing. Dr. Duffy's expertise ensures
+                  efficient transactions while maintaining fair market value for both parties.
                 </p>
               </div>
             </motion.div>
@@ -185,20 +198,20 @@ export default function DivorceRealEstatePage() {
                 title: 'Psychology Background',
                 description: 'Understanding emotional dynamics of divorce and home sales',
                 icon: '🧠',
-                features: ['Emotional Support', 'Communication Skills', 'Conflict Resolution']
+                features: ['Emotional Support', 'Communication Skills', 'Conflict Resolution'],
               },
               {
                 title: 'Legal Coordination',
                 description: 'Working with divorce attorneys and family law professionals',
                 icon: '⚖️',
-                features: ['Attorney Liaison', 'Document Preparation', 'Court Coordination']
+                features: ['Attorney Liaison', 'Document Preparation', 'Court Coordination'],
               },
               {
                 title: 'Asset Division',
                 description: 'Fair and equitable division of marital property',
                 icon: '💰',
-                features: ['Value Assessment', 'CPA Coordination', 'Equitable Distribution']
-              }
+                features: ['Value Assessment', 'CPA Coordination', 'Equitable Distribution'],
+              },
             ].map((expertise, index) => (
               <motion.div
                 key={expertise.title}
@@ -212,7 +225,9 @@ export default function DivorceRealEstatePage() {
                 <p className="text-slate-300 mb-4">{expertise.description}</p>
                 <ul className="space-y-2">
                   {expertise.features.map((feature) => (
-                    <li key={feature} className="text-slate-200 text-sm">• {feature}</li>
+                    <li key={feature} className="text-slate-200 text-sm">
+                      • {feature}
+                    </li>
                   ))}
                 </ul>
               </motion.div>
@@ -240,10 +255,26 @@ export default function DivorceRealEstatePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
             {[
-              { step: '1', title: 'Initial Consultation', description: 'Assess situation and create strategy' },
-              { step: '2', title: 'Legal Coordination', description: 'Work with attorneys and court if needed' },
-              { step: '3', title: 'Property Preparation', description: 'Stage and market for maximum value' },
-              { step: '4', title: 'Sale & Closing', description: 'Coordinate transaction and asset division' }
+              {
+                step: '1',
+                title: 'Initial Consultation',
+                description: 'Assess situation and create strategy',
+              },
+              {
+                step: '2',
+                title: 'Legal Coordination',
+                description: 'Work with attorneys and court if needed',
+              },
+              {
+                step: '3',
+                title: 'Property Preparation',
+                description: 'Stage and market for maximum value',
+              },
+              {
+                step: '4',
+                title: 'Sale & Closing',
+                description: 'Coordinate transaction and asset division',
+              },
             ].map((process, index) => (
               <motion.div
                 key={process.step}
@@ -276,13 +307,17 @@ export default function DivorceRealEstatePage() {
               Need Help with Divorce Real Estate?
             </h2>
             <p className="text-xl text-red-100 mb-8">
-              Dr. Jan Duffy provides compassionate, professional guidance through this challenging process
+              Dr. Jan Duffy provides compassionate, professional guidance through this challenging
+              process
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button type="button" className="btn-accent-buyer px-8 py-4 text-lg">
                 Schedule Free Consultation
               </button>
-              <button type="button" className="btn-secondary px-8 py-4 text-lg border-white text-white hover:bg-white hover:text-red-700">
+              <button
+                type="button"
+                className="btn-secondary px-8 py-4 text-lg border-white text-white hover:bg-white hover:text-red-700"
+              >
                 Download Divorce Guide
               </button>
             </div>

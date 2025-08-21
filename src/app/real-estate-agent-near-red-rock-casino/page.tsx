@@ -1,10 +1,12 @@
 import { motion } from 'framer-motion';
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Real Estate Agent Near Red Rock Casino | Dr. Jan Duffy',
-  description: 'Your local real estate expert near Red Rock Casino. Dr. Jan Duffy serves communities within 5 miles including Red Rock Country Club, The Ridges, and Summerlin West.',
-  keywords: 'real estate agent near Red Rock Casino, Red Rock Country Club, The Ridges, Summerlin West, Dr. Jan Duffy',
+  description:
+    'Your local real estate expert near Red Rock Casino. Dr. Jan Duffy serves communities within 5 miles including Red Rock Country Club, The Ridges, and Summerlin West.',
+  keywords:
+    'real estate agent near Red Rock Casino, Red Rock Country Club, The Ridges, Summerlin West, Dr. Jan Duffy',
   openGraph: {
     title: 'Real Estate Agent Near Red Rock Casino | Dr. Jan Duffy',
     description: 'Local real estate expert serving communities near Red Rock Casino in Summerlin.',
@@ -21,26 +23,26 @@ export default function RealEstateAgentNearRedRockCasinoPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "RealEstateAgent",
-            "name": "Dr. Jan Duffy",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Las Vegas",
-              "addressRegion": "NV",
-              "addressCountry": "US"
+            '@context': 'https://schema.org',
+            '@type': 'RealEstateAgent',
+            name: 'Dr. Jan Duffy',
+            address: {
+              '@type': 'PostalAddress',
+              addressLocality: 'Las Vegas',
+              addressRegion: 'NV',
+              addressCountry: 'US',
             },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 36.1699,
-              "longitude": -115.1398
+            geo: {
+              '@type': 'GeoCoordinates',
+              latitude: 36.1699,
+              longitude: -115.1398,
             },
-            "areaServed": {
-              "@type": "Place",
-              "name": "Red Rock Casino Area"
+            areaServed: {
+              '@type': 'Place',
+              name: 'Red Rock Casino Area',
             },
-            "knowsAbout": ["Luxury Real Estate", "Red Rock Country Club", "The Ridges"]
-          })
+            knowsAbout: ['Luxury Real Estate', 'Red Rock Country Club', 'The Ridges'],
+          }),
         }}
       />
 
@@ -86,7 +88,8 @@ export default function RealEstateAgentNearRedRockCasinoPage() {
             </h2>
             <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-6 border-l-4 border-green-400">
               <p className="text-lg md:text-xl text-slate-700 leading-relaxed mb-4">
-                <strong>Location:</strong> Serving communities within 5 miles of Red Rock Casino including:
+                <strong>Location:</strong> Serving communities within 5 miles of Red Rock Casino
+                including:
               </p>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-lg text-slate-700">
                 <li className="flex items-center">
@@ -209,20 +212,25 @@ export default function RealEstateAgentNearRedRockCasinoPage() {
                 title: 'Red Rock Casino',
                 description: 'World-class entertainment and dining just minutes away',
                 icon: '🎰',
-                features: ['Fine Dining', 'Entertainment', 'Shopping', 'Casino Gaming']
+                features: ['Fine Dining', 'Entertainment', 'Shopping', 'Casino Gaming'],
               },
               {
                 title: 'Red Rock Country Club',
                 description: 'Premier golf course community with luxury homes',
                 icon: '⛳',
-                features: ['18-Hole Golf Course', 'Country Club Amenities', 'Gated Community', 'Mountain Views']
+                features: [
+                  '18-Hole Golf Course',
+                  'Country Club Amenities',
+                  'Gated Community',
+                  'Mountain Views',
+                ],
               },
               {
                 title: 'The Ridges',
                 description: 'Exclusive custom estates with panoramic views',
                 icon: '🏔️',
-                features: ['Custom Homes', 'Panoramic Views', 'Privacy', 'Luxury Amenities']
-              }
+                features: ['Custom Homes', 'Panoramic Views', 'Privacy', 'Luxury Amenities'],
+              },
             ].map((highlight, index) => (
               <motion.div
                 key={highlight.title}
@@ -236,7 +244,9 @@ export default function RealEstateAgentNearRedRockCasinoPage() {
                 <p className="text-slate-300 mb-4">{highlight.description}</p>
                 <ul className="space-y-2">
                   {highlight.features.map((feature) => (
-                    <li key={feature} className="text-slate-200 text-sm">• {feature}</li>
+                    <li key={feature} className="text-slate-200 text-sm">
+                      • {feature}
+                    </li>
                   ))}
                 </ul>
               </motion.div>
@@ -267,7 +277,7 @@ export default function RealEstateAgentNearRedRockCasinoPage() {
               { stat: '0.5 miles', label: 'Distance to Red Rock Casino' },
               { stat: '$2.1M', label: 'Red Rock Country Club Median' },
               { stat: '65 days', label: 'Average Days on Market' },
-              { stat: '4.5 months', label: 'Current Inventory' }
+              { stat: '4.5 months', label: 'Current Inventory' },
             ].map((item, index) => (
               <motion.div
                 key={item.label}
@@ -297,13 +307,17 @@ export default function RealEstateAgentNearRedRockCasinoPage() {
               Ready to Find Your Home Near Red Rock Casino?
             </h2>
             <p className="text-xl text-green-100 mb-8">
-              Dr. Jan Duffy provides local expertise and convenient access to Red Rock Casino area properties
+              Dr. Jan Duffy provides local expertise and convenient access to Red Rock Casino area
+              properties
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button type="button" className="btn-accent-buyer px-8 py-4 text-lg">
                 Schedule Local Consultation
               </button>
-              <button type="button" className="btn-secondary px-8 py-4 text-lg border-white text-white hover:bg-white hover:text-green-700">
+              <button
+                type="button"
+                className="btn-secondary px-8 py-4 text-lg border-white text-white hover:bg-white hover:text-green-700"
+              >
                 View Area Properties
               </button>
             </div>

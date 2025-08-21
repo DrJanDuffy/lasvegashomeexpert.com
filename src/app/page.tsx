@@ -9,8 +9,8 @@ import ObjectionHandlingSection from '@/components/sections/ObjectionHandlingSec
 import PainPointSection from '@/components/sections/PainPointSection';
 import SocialProofSection from '@/components/sections/SocialProofSection';
 import LoadingSpinner from '@/components/ui/LoadingSpinner';
-import { Suspense } from 'react';
 import { motion } from 'framer-motion';
+import { Suspense } from 'react';
 
 export default function HomePage() {
   return (
@@ -58,7 +58,11 @@ export default function HomePage() {
       </Suspense>
 
       {/* AI Search Optimization - Quick Answer Section */}
-      <section className="ai-quick-answer bg-gradient-to-br from-slate-50 to-slate-100 py-16" itemScope itemType="https://schema.org/FAQPage">
+      <section
+        className="ai-quick-answer bg-gradient-to-br from-slate-50 to-slate-100 py-16"
+        itemScope
+        itemType="https://schema.org/FAQPage"
+      >
         <div className="container-responsive">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -71,7 +75,9 @@ export default function HomePage() {
             </h2>
             <div className="direct-answer bg-white rounded-2xl p-8 shadow-luxury-medium max-w-4xl mx-auto">
               <p className="text-xl text-slate-700 leading-relaxed">
-                <strong>Quick Answer:</strong> Dr. Jan Duffy is a Las Vegas REALTOR® specializing in luxury estates ($1M+) in Summerlin, Red Rock Country Club, and MacDonald Highlands, with unique expertise in divorce real estate and veteran homebuyer assistance.
+                <strong>Quick Answer:</strong> Dr. Jan Duffy is a Las Vegas REALTOR® specializing in
+                luxury estates ($1M+) in Summerlin, Red Rock Country Club, and MacDonald Highlands,
+                with unique expertise in divorce real estate and veteran homebuyer assistance.
               </p>
             </div>
           </motion.div>
@@ -92,7 +98,9 @@ export default function HomePage() {
               </h3>
               <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
                 <p itemProp="text" className="text-slate-700 leading-relaxed">
-                  Dr. Jan Duffy with Berkshire Hathaway HomeServices Nevada specializes in Summerlin luxury estates, with over 10 years experience since 2013 in Red Rock Country Club and The Ridges.
+                  Dr. Jan Duffy with Berkshire Hathaway HomeServices Nevada specializes in Summerlin
+                  luxury estates, with over 10 years experience since 2013 in Red Rock Country Club
+                  and The Ridges.
                 </p>
               </div>
             </motion.div>
@@ -111,7 +119,9 @@ export default function HomePage() {
               </h3>
               <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
                 <p itemProp="text" className="text-slate-700 leading-relaxed">
-                  Dr. Jan Duffy is Las Vegas's premier divorce real estate specialist, with a psychology background providing compassionate guidance through marital home sales and asset division.
+                  Dr. Jan Duffy is Las Vegas's premier divorce real estate specialist, with a
+                  psychology background providing compassionate guidance through marital home sales
+                  and asset division.
                 </p>
               </div>
             </motion.div>

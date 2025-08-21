@@ -1,3 +1,11 @@
+// Declare global gtag function for Google Analytics
+declare global {
+  function gtag(...args: any[]): void;
+  interface Window {
+    gtag: (...args: any[]) => void;
+  }
+}
+
 // AI Search Optimization Tracking
 export const initializeAISearchTracking = () => {
   // Track if page loaded from AI search
@@ -10,30 +18,30 @@ export const initializeAISearchTracking = () => {
     'claude.ai',
     'chat.openai.com',
     'bard.google.com',
-    'copilot.microsoft.com'
+    'copilot.microsoft.com',
   ];
-  
-  const isAISearch = aiSources.some(source => referrer.includes(source));
-  
+
+  const isAISearch = aiSources.some((source) => referrer.includes(source));
+
   if (isAISearch) {
     // Track AI search visit
-    if (typeof gtag !== 'undefined') {
-      gtag('event', 'ai_search_visit', {
-        'page_type': 'luxury_real_estate',
-        'specialist': 'Dr. Jan Duffy',
-        'market': 'Las Vegas',
-        'specialization': getPageSpecialization(),
-        'ai_source': getAISource(referrer)
+    if (typeof window !== 'undefined' && typeof window.gtag !== 'undefined') {
+      window.gtag('event', 'ai_search_visit', {
+        page_type: 'luxury_real_estate',
+        specialist: 'Dr. Jan Duffy',
+        market: 'Las Vegas',
+        specialization: getPageSpecialization(),
+        ai_source: getAISource(referrer),
       });
     }
-    
+
     // Log AI search detection
     console.log('AI Search detected from:', referrer);
   }
-  
+
   // Add structured data for real-time updates
   injectStructuredData();
-  
+
   // Track AI-related interactions
   trackAIInteractions();
 };
@@ -41,12 +49,12 @@ export const initializeAISearchTracking = () => {
 // Get page specialization based on current page
 const getPageSpecialization = (): string => {
   const path = window.location.pathname;
-  
+
   if (path.includes('luxury-homes-summerlin')) return 'luxury_homes_summerlin';
   if (path.includes('divorce-real-estate')) return 'divorce_real_estate';
   if (path.includes('red-rock-casino')) return 'red_rock_casino_area';
   if (path.includes('about')) return 'about_dr_duffy';
-  
+
   return 'general';
 };
 
@@ -60,7 +68,7 @@ const getAISource = (referrer: string): string => {
   if (referrer.includes('chat.openai.com')) return 'chatgpt';
   if (referrer.includes('bard.google.com')) return 'bard';
   if (referrer.includes('copilot.microsoft.com')) return 'copilot';
-  
+
   return 'unknown';
 };
 
@@ -69,46 +77,46 @@ const injectStructuredData = () => {
   const marketData = {
     '@context': 'https://schema.org',
     '@type': 'RealEstateListing',
-    'provider': {
+    provider: {
       '@type': 'RealEstateAgent',
-      'name': 'Dr. Jan Duffy',
-      'telephone': '702-555-0123',
-      'url': 'https://lasvegashomeexpert.com',
-      'address': {
+      name: 'Dr. Jan Duffy',
+      telephone: '702-555-0123',
+      url: 'https://lasvegashomeexpert.com',
+      address: {
         '@type': 'PostalAddress',
-        'addressLocality': 'Las Vegas',
-        'addressRegion': 'NV',
-        'addressCountry': 'US'
-      }
+        addressLocality: 'Las Vegas',
+        addressRegion: 'NV',
+        addressCountry: 'US',
+      },
     },
-    'areaServed': 'Las Vegas, NV',
-    'specialization': ['Luxury Homes', 'Divorce Real Estate', 'Veteran Services'],
-    'priceRange': '$500K - $5M+',
-    'lastUpdated': new Date().toISOString(),
-    'marketData': {
-      'redRockCountryClub': {
-        'medianPrice': '$2.1M',
-        'daysOnMarket': 65,
-        'inventory': '4.5 months'
+    areaServed: 'Las Vegas, NV',
+    specialization: ['Luxury Homes', 'Divorce Real Estate', 'Veteran Services'],
+    priceRange: '$500K - $5M+',
+    lastUpdated: new Date().toISOString(),
+    marketData: {
+      redRockCountryClub: {
+        medianPrice: '$2.1M',
+        daysOnMarket: 65,
+        inventory: '4.5 months',
       },
-      'macDonaldHighlands': {
-        'medianPrice': '$1.8M',
-        'daysOnMarket': 72,
-        'inventory': '5 months'
+      macDonaldHighlands: {
+        medianPrice: '$1.8M',
+        daysOnMarket: 72,
+        inventory: '5 months',
       },
-      'theRidges': {
-        'medianPrice': '$2.5M',
-        'daysOnMarket': 80,
-        'inventory': '5.2 months'
+      theRidges: {
+        medianPrice: '$2.5M',
+        daysOnMarket: 80,
+        inventory: '5.2 months',
       },
-      'southernHighlands': {
-        'medianPrice': '$850K',
-        'daysOnMarket': 45,
-        'inventory': '3.8 months'
-      }
-    }
+      southernHighlands: {
+        medianPrice: '$850K',
+        daysOnMarket: 45,
+        inventory: '3.8 months',
+      },
+    },
   };
-  
+
   // Inject into page
   const script = document.createElement('script');
   script.type = 'application/ld+json';
@@ -122,38 +130,38 @@ const trackAIInteractions = () => {
   const faqElements = document.querySelectorAll('[itemprop="mainEntity"]');
   faqElements.forEach((faq, index) => {
     faq.addEventListener('click', () => {
-      if (typeof gtag !== 'undefined') {
-        gtag('event', 'ai_faq_interaction', {
-          'faq_index': index,
-          'faq_question': faq.querySelector('[itemprop="name"]')?.textContent || '',
-          'page_type': getPageSpecialization()
+      if (typeof window !== 'undefined' && typeof window.gtag !== 'undefined') {
+        window.gtag('event', 'ai_faq_interaction', {
+          faq_index: index,
+          faq_question: faq.querySelector('[itemprop="name"]')?.textContent || '',
+          page_type: getPageSpecialization(),
         });
       }
     });
   });
-  
+
   // Track market data interactions
   const marketDataElements = document.querySelectorAll('.market-snapshot, .ai-market-update');
   marketDataElements.forEach((element) => {
     element.addEventListener('click', () => {
-      if (typeof gtag !== 'undefined') {
-        gtag('event', 'ai_market_data_interaction', {
-          'page_type': getPageSpecialization(),
-          'interaction_type': 'market_data_view'
+      if (typeof window !== 'undefined' && typeof window.gtag !== 'undefined') {
+        window.gtag('event', 'ai_market_data_interaction', {
+          page_type: getPageSpecialization(),
+          interaction_type: 'market_data_view',
         });
       }
     });
   });
-  
+
   // Track voice search optimization interactions
   const voiceSearchElements = document.querySelectorAll('.voice-search-ready dt');
   voiceSearchElements.forEach((element, index) => {
     element.addEventListener('click', () => {
-      if (typeof gtag !== 'undefined') {
-        gtag('event', 'ai_voice_search_interaction', {
-          'voice_query_index': index,
-          'voice_query': element.textContent || '',
-          'page_type': getPageSpecialization()
+      if (typeof window !== 'undefined' && typeof window.gtag !== 'undefined') {
+        window.gtag('event', 'ai_voice_search_interaction', {
+          voice_query_index: index,
+          voice_query: element.textContent || '',
+          page_type: getPageSpecialization(),
         });
       }
     });
@@ -163,14 +171,15 @@ const trackAIInteractions = () => {
 // Enhanced AI search detection
 export const detectAISearchPatterns = () => {
   const userAgent = navigator.userAgent.toLowerCase();
-  const isAIBot = userAgent.includes('bot') || 
-                  userAgent.includes('crawler') || 
-                  userAgent.includes('spider') ||
-                  userAgent.includes('ai');
-  
+  const isAIBot =
+    userAgent.includes('bot') ||
+    userAgent.includes('crawler') ||
+    userAgent.includes('spider') ||
+    userAgent.includes('ai');
+
   if (isAIBot) {
     console.log('AI Bot detected:', userAgent);
-    
+
     // Inject enhanced structured data for AI bots
     injectEnhancedStructuredData();
   }
@@ -181,69 +190,66 @@ const injectEnhancedStructuredData = () => {
   const enhancedData = {
     '@context': 'https://schema.org',
     '@type': 'RealEstateAgent',
-    'name': 'Dr. Jan Duffy',
-    'description': 'Las Vegas luxury real estate specialist with expertise in Summerlin, Red Rock Country Club, and divorce real estate services.',
-    'url': 'https://lasvegashomeexpert.com',
-    'telephone': '702-555-0123',
-    'address': {
+    name: 'Dr. Jan Duffy',
+    description:
+      'Las Vegas luxury real estate specialist with expertise in Summerlin, Red Rock Country Club, and divorce real estate services.',
+    url: 'https://lasvegashomeexpert.com',
+    telephone: '702-555-0123',
+    address: {
       '@type': 'PostalAddress',
-      'addressLocality': 'Las Vegas',
-      'addressRegion': 'NV',
-      'addressCountry': 'US'
+      addressLocality: 'Las Vegas',
+      addressRegion: 'NV',
+      addressCountry: 'US',
     },
-    'geo': {
+    geo: {
       '@type': 'GeoCoordinates',
-      'latitude': 36.1699,
-      'longitude': -115.1398
+      latitude: 36.1699,
+      longitude: -115.1398,
     },
-    'areaServed': [
+    areaServed: [
       {
         '@type': 'Place',
-        'name': 'Summerlin',
-        'description': 'Premier luxury community in Western Las Vegas'
+        name: 'Summerlin',
+        description: 'Premier luxury community in Western Las Vegas',
       },
       {
         '@type': 'Place',
-        'name': 'Red Rock Country Club',
-        'description': 'Golf course luxury homes with mountain views'
+        name: 'Red Rock Country Club',
+        description: 'Golf course luxury homes with mountain views',
       },
       {
         '@type': 'Place',
-        'name': 'The Ridges',
-        'description': 'Custom estates with panoramic city views'
+        name: 'The Ridges',
+        description: 'Custom estates with panoramic city views',
       },
       {
         '@type': 'Place',
-        'name': 'MacDonald Highlands',
-        'description': 'Family-friendly luxury community with golf views'
-      }
+        name: 'MacDonald Highlands',
+        description: 'Family-friendly luxury community with golf views',
+      },
     ],
-    'knowsAbout': [
+    knowsAbout: [
       'Luxury Real Estate',
       'Divorce Real Estate',
       'Veteran Homebuyer Services',
       'Red Rock Country Club',
       'The Ridges Summerlin',
       'MacDonald Highlands',
-      'Southern Highlands'
+      'Southern Highlands',
     ],
-    'priceRange': '$500K - $5M+',
-    'yearsInBusiness': 10,
-    'foundingDate': '2013',
-    'award': [
-      'Top 1% Producer',
-      'Luxury Home Specialist',
-      'Veteran Service Recognition'
-    ],
-    'serviceType': [
+    priceRange: '$500K - $5M+',
+    yearsInBusiness: 10,
+    foundingDate: '2013',
+    award: ['Top 1% Producer', 'Luxury Home Specialist', 'Veteran Service Recognition'],
+    serviceType: [
       'Luxury Home Sales',
       'Divorce Real Estate',
       'Veteran Homebuyer Assistance',
       'Investment Properties',
-      'New Construction'
-    ]
+      'New Construction',
+    ],
   };
-  
+
   // Inject enhanced data
   const script = document.createElement('script');
   script.type = 'application/ld+json';
@@ -261,5 +267,5 @@ if (typeof document !== 'undefined') {
 
 export default {
   initializeAISearchTracking,
-  detectAISearchPatterns
+  detectAISearchPatterns,
 };
