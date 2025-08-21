@@ -91,11 +91,24 @@ export default function RootLayout({
               }
               
               realscout-property-details {
+                --rs-listing-divider-color: rgb(101, 141, 172);
                 width: 100%;
                 margin: 2rem 0;
                 border-radius: 8px;
                 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
                 min-height: 480px;
+                z-index: 1000;
+              }
+              
+              realscout-advanced-search {
+                --rs-as-button-text-color: #ffffff;
+                --rs-as-background-color: #ffffff;
+                --rs-as-button-color: #1c71c3;
+                --rs-as-widget-width: 500px !important;
+                width: 100%;
+                margin: 2rem 0;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
                 z-index: 1000;
               }
             `,

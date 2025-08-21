@@ -94,7 +94,7 @@ export default function InteractiveToolSection() {
           ))}
         </div>
 
-        {/* Demo Widget Placeholder */}
+        {/* RealScout Advanced Search Widget */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -110,14 +110,14 @@ export default function InteractiveToolSection() {
               Experience the power of our RealScout-powered search engine. Find properties that
               match your exact criteria.
             </p>
+            
+            {/* RealScout Advanced Search Widget */}
             <div className="widget-container p-6 mb-6">
-              <div className="text-center text-neutral-500">
-                <div className="text-2xl mb-2">🔍</div>
-                <p>Property Search Widget</p>
-                <p className="text-sm">Powered by RealScout v3 API</p>
-              </div>
+              <realscout-advanced-search agent-encoded-id="QWdlbnQtMjI1MDUw" />
             </div>
+            
             <button
+              type="button"
               onClick={() => handleToolClick('demo_search')}
               className="btn-accent-buyer text-lg px-8 py-4"
             >
