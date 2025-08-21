@@ -1,8 +1,8 @@
 'use client';
 
-import type React from 'react';
 import { trackEvent } from '@/utils';
 import { motion } from 'framer-motion';
+import type React from 'react';
 
 // TypeScript declarations for RealScout web components
 declare global {
@@ -11,6 +11,16 @@ declare global {
       'realscout-advanced-search': React.DetailedHTMLProps<
         React.HTMLAttributes<HTMLElement> & {
           'agent-encoded-id': string;
+        },
+        HTMLElement
+      >;
+      'realscout-your-listings': React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLElement> & {
+          'agent-encoded-id': string;
+          'sort-order'?: string;
+          'listing-status'?: string;
+          'property-types'?: string;
+          'price-min'?: string;
         },
         HTMLElement
       >;

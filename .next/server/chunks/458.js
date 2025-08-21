@@ -40,7 +40,7 @@ exports.id=458,exports.ids=[458],exports.modules={8457:(e,r,t)=>{Promise.resolve
                 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
                 z-index: 1000;
               }
-            `}}),i.jsx("script",{src:"https://cdn.homebot.com/widget.js",integrity:"sha384-your-integrity-hash",crossOrigin:"anonymous",async:!0}),i.jsx("script",{src:"https://cdn.cloudcma.com/widget.js",integrity:"sha384-your-integrity-hash",crossOrigin:"anonymous",async:!0}),i.jsx("script",{src:"https://cdn.percy.ai/hvs-autocomplete.js",integrity:"sha384-your-integrity-hash",crossOrigin:"anonymous",async:!0})]}),(0,i.jsxs)("body",{className:`${a().className} bg-neutral-50 text-neutral-900 antialiased`,children:[i.jsx(x,{}),e,i.jsx(d,{}),i.jsx("div",{id:"root"}),i.jsx("script",{dangerouslySetInnerHTML:{__html:`
+            `}}),i.jsx("link",{rel:"stylesheet",href:"/styles/realscout-widgets.css"}),i.jsx("script",{src:"https://cdn.homebot.com/widget.js",integrity:"sha384-your-integrity-hash",crossOrigin:"anonymous",async:!0}),i.jsx("script",{src:"https://cdn.cloudcma.com/widget.js",integrity:"sha384-your-integrity-hash",crossOrigin:"anonymous",async:!0}),i.jsx("script",{src:"https://cdn.percy.ai/hvs-autocomplete.js",integrity:"sha384-your-integrity-hash",crossOrigin:"anonymous",async:!0})]}),(0,i.jsxs)("body",{className:`${a().className} bg-neutral-50 text-neutral-900 antialiased`,children:[i.jsx(x,{}),e,i.jsx(d,{}),i.jsx("div",{id:"root"}),i.jsx("script",{dangerouslySetInnerHTML:{__html:`
               // Critical path script loading sequence
               window.addEventListener('DOMContentLoaded', function() {
                 // Initialize RealScout web components

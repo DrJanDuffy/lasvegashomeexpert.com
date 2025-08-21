@@ -115,6 +115,9 @@ export default function RootLayout({
           }}
         />
 
+        {/* RealScout Advanced Search Widget Styling */}
+        <link rel="stylesheet" href="/styles/realscout-widgets.css" />
+
         {/* Homebot Script */}
         <script
           src="https://cdn.homebot.com/widget.js"
