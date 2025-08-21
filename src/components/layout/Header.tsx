@@ -11,6 +11,7 @@ export default function Header() {
   const [isBuyingDropdownOpen, setIsBuyingDropdownOpen] = useState(false);
   const [isSellingDropdownOpen, setIsSellingDropdownOpen] = useState(false);
   const [isNeighborhoodsDropdownOpen, setIsNeighborhoodsDropdownOpen] = useState(false);
+  const [isResourcesDropdownOpen, setIsResourcesDropdownOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -122,6 +123,20 @@ export default function Header() {
                   >
                     Buyer Agent Services
                   </Link>
+                  <Link
+                    href="/buying-guide-las-vegas"
+                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => handleNavClick('buying_guide')}
+                  >
+                    Buying Guide
+                  </Link>
+                  <Link
+                    href="/first-time-home-buyer-las-vegas"
+                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => handleNavClick('first_time_buyer')}
+                  >
+                    First-Time Home Buyer
+                  </Link>
                 </div>
               </div>
             </div>
@@ -165,6 +180,13 @@ export default function Header() {
                   >
                     Home Staging Services
                   </Link>
+                  <Link
+                    href="/selling-guide-las-vegas"
+                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => handleNavClick('selling_guide')}
+                  >
+                    Selling Guide
+                  </Link>
                 </div>
               </div>
             </div>
@@ -195,6 +217,20 @@ export default function Header() {
               <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-neutral-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                 <div className="py-2">
                   <Link
+                    href="/neighborhoods/tournament-hills"
+                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => handleNavClick('tournament_hills')}
+                  >
+                    Tournament Hills
+                  </Link>
+                  <Link
+                    href="/neighborhoods/southern-highlands"
+                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => handleNavClick('southern_highlands')}
+                  >
+                    Southern Highlands
+                  </Link>
+                  <Link
                     href="/neighborhoods/red-rock-country-club"
                     className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
                     onClick={() => handleNavClick('red_rock')}
@@ -222,11 +258,84 @@ export default function Header() {
                   >
                     Henderson
                   </Link>
+                  <Link
+                    href="/55-plus-communities-las-vegas"
+                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => handleNavClick('55_plus_communities')}
+                  >
+                    55+ Communities
+                  </Link>
                 </div>
               </div>
             </div>
 
-            {/* About/Reviews */}
+            {/* Resources Dropdown */}
+            <div className="relative group">
+              <button
+                type="button"
+                className="text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium flex items-center space-x-1"
+                onClick={() => setIsResourcesDropdownOpen(!isResourcesDropdownOpen)}
+              >
+                <span>Resources</span>
+                <svg
+                  className="w-4 h-4 transition-transform duration-200 group-hover:rotate-180"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <title>Toggle resources menu</title>
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </button>
+              <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-neutral-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                <div className="py-2">
+                  <Link
+                    href="/las-vegas-luxury-home-market-report"
+                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => handleNavClick('market_report')}
+                  >
+                    Market Report
+                  </Link>
+                  <Link
+                    href="/investment-properties-las-vegas"
+                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => handleNavClick('investment_properties')}
+                  >
+                    Investment Properties
+                  </Link>
+                  <Link
+                    href="/relocation-specialist-las-vegas"
+                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => handleNavClick('relocation')}
+                  >
+                    Relocation Services
+                  </Link>
+                  <Link
+                    href="/sitemap"
+                    className="block px-4 py-2 text-neutral-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => handleNavClick('sitemap')}
+                  >
+                    Site Map
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            {/* About */}
+            <Link
+              href="/about-dr-jan-duffy"
+              className="text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium"
+              onClick={() => handleNavClick('about')}
+            >
+              About
+            </Link>
+
+            {/* Reviews */}
             <Link
               href="/best-realtor-las-vegas-reviews"
               className="text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium"
@@ -236,13 +345,14 @@ export default function Header() {
             </Link>
 
             {/* Contact */}
-            <Link href="#contact" className="btn-primary" onClick={() => handleNavClick('contact')}>
+            <Link href="/contact" className="btn-primary" onClick={() => handleNavClick('contact')}>
               Get Started
             </Link>
           </nav>
 
           {/* Mobile Menu Button */}
           <button
+            type="button"
             className="lg:hidden p-2 rounded-lg hover:bg-neutral-100 transition-colors duration-200"
             onClick={handleMenuToggle}
             aria-label="Toggle menu"
@@ -311,6 +421,26 @@ export default function Header() {
                     >
                       Buyer Agent Services
                     </Link>
+                    <Link
+                      href="/buying-guide-las-vegas"
+                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                      onClick={() => {
+                        handleNavClick('buying_guide');
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      Buying Guide
+                    </Link>
+                    <Link
+                      href="/first-time-home-buyer-las-vegas"
+                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                      onClick={() => {
+                        handleNavClick('first_time_buyer');
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      First-Time Home Buyer
+                    </Link>
                   </div>
                 </div>
 
@@ -338,6 +468,16 @@ export default function Header() {
                     >
                       Home Staging Services
                     </Link>
+                    <Link
+                      href="/selling-guide-las-vegas"
+                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                      onClick={() => {
+                        handleNavClick('selling_guide');
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      Selling Guide
+                    </Link>
                   </div>
                 </div>
 
@@ -345,6 +485,26 @@ export default function Header() {
                 <div className="space-y-2">
                   <h3 className="font-semibold text-primary-900 text-lg">Neighborhoods</h3>
                   <div className="ml-4 space-y-2">
+                    <Link
+                      href="/neighborhoods/tournament-hills"
+                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                      onClick={() => {
+                        handleNavClick('tournament_hills');
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      Tournament Hills
+                    </Link>
+                    <Link
+                      href="/neighborhoods/southern-highlands"
+                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                      onClick={() => {
+                        handleNavClick('southern_highlands');
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      Southern Highlands
+                    </Link>
                     <Link
                       href="/neighborhoods/red-rock-country-club"
                       className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
@@ -385,8 +545,77 @@ export default function Header() {
                     >
                       Henderson
                     </Link>
+                    <Link
+                      href="/55-plus-communities-las-vegas"
+                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                      onClick={() => {
+                        handleNavClick('55_plus_communities');
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      55+ Communities
+                    </Link>
                   </div>
                 </div>
+
+                {/* Resources Section */}
+                <div className="space-y-2">
+                  <h3 className="font-semibold text-primary-900 text-lg">Resources</h3>
+                  <div className="ml-4 space-y-2">
+                    <Link
+                      href="/las-vegas-luxury-home-market-report"
+                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                      onClick={() => {
+                        handleNavClick('market_report');
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      Market Report
+                    </Link>
+                    <Link
+                      href="/investment-properties-las-vegas"
+                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                      onClick={() => {
+                        handleNavClick('investment_properties');
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      Investment Properties
+                    </Link>
+                    <Link
+                      href="/relocation-specialist-las-vegas"
+                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                      onClick={() => {
+                        handleNavClick('relocation');
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      Relocation Services
+                    </Link>
+                    <Link
+                      href="/sitemap"
+                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                      onClick={() => {
+                        handleNavClick('sitemap');
+                        setIsMenuOpen(false);
+                      }}
+                    >
+                      Site Map
+                    </Link>
+                  </div>
+                </div>
+
+                {/* About */}
+                <Link
+                  href="/about-dr-jan-duffy"
+                  className="block text-lg text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium"
+                  onClick={() => {
+                    handleNavClick('about');
+                    setIsMenuOpen(false);
+                  }}
+                >
+                  About
+                </Link>
 
                 {/* Reviews */}
                 <Link
@@ -402,7 +631,7 @@ export default function Header() {
 
                 {/* Contact */}
                 <Link
-                  href="#contact"
+                  href="/contact"
                   className="btn-primary inline-block"
                   onClick={() => {
                     handleNavClick('contact');

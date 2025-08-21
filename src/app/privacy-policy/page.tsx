@@ -8,24 +8,40 @@ export default function PrivacyPolicyPage() {
   const dataCollection = [
     {
       category: 'Personal Information',
-      examples: ['Name, email address, phone number', 'Mailing address and contact details', 'Real estate preferences and requirements'],
-      purpose: 'To provide personalized real estate services and communicate with you'
+      examples: [
+        'Name, email address, phone number',
+        'Mailing address and contact details',
+        'Real estate preferences and requirements',
+      ],
+      purpose: 'To provide personalized real estate services and communicate with you',
     },
     {
       category: 'Property Information',
-      examples: ['Property addresses and details', 'Photos and property descriptions', 'Market analysis and pricing data'],
-      purpose: 'To assist with buying, selling, and property valuation services'
+      examples: [
+        'Property addresses and details',
+        'Photos and property descriptions',
+        'Market analysis and pricing data',
+      ],
+      purpose: 'To assist with buying, selling, and property valuation services',
     },
     {
       category: 'Financial Information',
-      examples: ['Budget ranges and financing preferences', 'Income and credit information (if provided)', 'Investment goals and criteria'],
-      purpose: 'To provide appropriate property recommendations and financing guidance'
+      examples: [
+        'Budget ranges and financing preferences',
+        'Income and credit information (if provided)',
+        'Investment goals and criteria',
+      ],
+      purpose: 'To provide appropriate property recommendations and financing guidance',
     },
     {
       category: 'Website Usage',
-      examples: ['Pages visited and time spent', 'Search queries and preferences', 'Device and browser information'],
-      purpose: 'To improve website functionality and user experience'
-    }
+      examples: [
+        'Pages visited and time spent',
+        'Search queries and preferences',
+        'Device and browser information',
+      ],
+      purpose: 'To improve website functionality and user experience',
+    },
   ];
 
   const dataUses = [
@@ -34,58 +50,58 @@ export default function PrivacyPolicyPage() {
     'Sending newsletters and educational content',
     'Improving our services and website',
     'Complying with legal obligations',
-    'Marketing and promotional activities (with consent)'
+    'Marketing and promotional activities (with consent)',
   ];
 
   const dataSharing = [
     {
       party: 'Real Estate Partners',
       purpose: 'To facilitate property transactions and showings',
-      data: 'Contact information and property preferences'
+      data: 'Contact information and property preferences',
     },
     {
       party: 'Service Providers',
       purpose: 'To support website functionality and business operations',
-      data: 'Technical data and analytics information'
+      data: 'Technical data and analytics information',
     },
     {
       party: 'Legal Authorities',
       purpose: 'To comply with legal requirements and regulations',
-      data: 'Information required by law or court order'
-    }
+      data: 'Information required by law or court order',
+    },
   ];
 
   const userRights = [
     {
       right: 'Access',
       description: 'Request a copy of your personal data',
-      icon: '📋'
+      icon: '📋',
     },
     {
       right: 'Correction',
       description: 'Update or correct inaccurate information',
-      icon: '✏️'
+      icon: '✏️',
     },
     {
       right: 'Deletion',
       description: 'Request deletion of your personal data',
-      icon: '🗑️'
+      icon: '🗑️',
     },
     {
       right: 'Portability',
       description: 'Receive your data in a portable format',
-      icon: '📤'
+      icon: '📤',
     },
     {
       right: 'Objection',
       description: 'Object to certain data processing activities',
-      icon: '🚫'
+      icon: '🚫',
     },
     {
       right: 'Withdrawal',
       description: 'Withdraw consent for marketing communications',
-      icon: '↩️'
-    }
+      icon: '↩️',
+    },
   ];
 
   const securityMeasures = [
@@ -94,7 +110,7 @@ export default function PrivacyPolicyPage() {
     'Access controls and authentication requirements',
     'Employee training on data protection practices',
     'Incident response and breach notification procedures',
-    'Compliance with industry security standards'
+    'Compliance with industry security standards',
   ];
 
   return (
@@ -132,7 +148,8 @@ export default function PrivacyPolicyPage() {
             {/* Value Proposition */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 mb-8">
               <p className="text-xl font-semibold mb-4">
-                We are committed to protecting your privacy and being transparent about how we handle your data
+                We are committed to protecting your privacy and being transparent about how we
+                handle your data
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg">
                 <div className="flex items-center space-x-3">
@@ -175,14 +192,15 @@ export default function PrivacyPolicyPage() {
             </h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-neutral-600 mb-6">
-                This Privacy Policy describes how Las Vegas Home Expert ("we," "our," or "us") collects, uses, 
-                and protects your personal information when you use our website and services. We are committed 
-                to protecting your privacy and ensuring the security of your personal information.
+                This Privacy Policy describes how Las Vegas Home Expert ("we," "our," or "us")
+                collects, uses, and protects your personal information when you use our website and
+                services. We are committed to protecting your privacy and ensuring the security of
+                your personal information.
               </p>
               <p className="text-lg text-neutral-600 mb-6">
-                By using our services, you agree to the collection and use of information in accordance with 
-                this policy. If you have any questions about this Privacy Policy, please contact us using the 
-                information provided at the end of this document.
+                By using our services, you agree to the collection and use of information in
+                accordance with this policy. If you have any questions about this Privacy Policy,
+                please contact us using the information provided at the end of this document.
               </p>
             </div>
           </motion.div>
@@ -199,9 +217,7 @@ export default function PrivacyPolicyPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Information We Collect
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Information We Collect</h2>
             <p className="text-xl text-neutral-600">
               We collect various types of information to provide you with the best possible service
             </p>
@@ -287,9 +303,7 @@ export default function PrivacyPolicyPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Information Sharing
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Information Sharing</h2>
             <p className="text-xl text-neutral-600">
               We may share your information with trusted partners for specific purposes
             </p>
@@ -330,9 +344,7 @@ export default function PrivacyPolicyPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Your Rights and Choices
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Your Rights and Choices</h2>
             <p className="text-xl text-neutral-600">
               You have control over your personal information
             </p>
@@ -367,9 +379,7 @@ export default function PrivacyPolicyPage() {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-4">
-              Data Security
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-4">Data Security</h2>
             <p className="text-xl text-neutral-600">
               We implement comprehensive security measures to protect your information
             </p>
@@ -405,11 +415,10 @@ export default function PrivacyPolicyPage() {
             transition={{ duration: 0.8 }}
             className="max-w-4xl mx-auto text-center"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-6">
-              Contact Us
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-6">Contact Us</h2>
             <p className="text-xl text-neutral-600 mb-8">
-              If you have questions about this Privacy Policy or our data practices, please contact us:
+              If you have questions about this Privacy Policy or our data practices, please contact
+              us:
             </p>
 
             <div className="bg-gradient-to-br from-primary-50 to-neutral-50 rounded-2xl p-8">
@@ -425,13 +434,15 @@ export default function PrivacyPolicyPage() {
                   <p className="text-neutral-600">(702) 555-0123</p>
                 </div>
               </div>
-              
+
               <div className="mt-8 text-center">
                 <div className="text-4xl mb-4">🏢</div>
                 <h3 className="text-lg font-bold text-primary-900 mb-2">Mailing Address</h3>
                 <p className="text-neutral-600">
-                  Las Vegas Home Expert<br />
-                  1234 Las Vegas Blvd, Suite 100<br />
+                  Las Vegas Home Expert
+                  <br />
+                  1234 Las Vegas Blvd, Suite 100
+                  <br />
                   Las Vegas, NV 89101
                 </p>
               </div>
@@ -450,19 +461,18 @@ export default function PrivacyPolicyPage() {
             transition={{ duration: 0.8 }}
             className="max-w-4xl mx-auto text-center"
           >
-            <h2 className="text-4xl font-bold text-primary-900 mb-6">
-              Policy Updates
-            </h2>
+            <h2 className="text-4xl font-bold text-primary-900 mb-6">Policy Updates</h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-neutral-600 mb-6">
-                We may update this Privacy Policy from time to time to reflect changes in our practices 
-                or for other operational, legal, or regulatory reasons. We will notify you of any material 
-                changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.
+                We may update this Privacy Policy from time to time to reflect changes in our
+                practices or for other operational, legal, or regulatory reasons. We will notify you
+                of any material changes by posting the new Privacy Policy on this page and updating
+                the "Last Updated" date.
               </p>
               <p className="text-lg text-neutral-600 mb-6">
-                We encourage you to review this Privacy Policy periodically to stay informed about how 
-                we protect your information. Your continued use of our services after any changes to 
-                this Privacy Policy constitutes acceptance of those changes.
+                We encourage you to review this Privacy Policy periodically to stay informed about
+                how we protect your information. Your continued use of our services after any
+                changes to this Privacy Policy constitutes acceptance of those changes.
               </p>
             </div>
           </motion.div>
