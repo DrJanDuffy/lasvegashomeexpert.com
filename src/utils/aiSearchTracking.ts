@@ -1,11 +1,3 @@
-// Declare global gtag function for Google Analytics
-declare global {
-  function gtag(...args: any[]): void;
-  interface Window {
-    gtag: (...args: any[]) => void;
-  }
-}
-
 // AI Search Optimization Tracking
 export const initializeAISearchTracking = () => {
   // Track if page loaded from AI search
@@ -50,24 +42,48 @@ export const initializeAISearchTracking = () => {
 const getPageSpecialization = (): string => {
   const path = window.location.pathname;
 
-  if (path.includes('luxury-homes-summerlin')) return 'luxury_homes_summerlin';
-  if (path.includes('divorce-real-estate')) return 'divorce_real_estate';
-  if (path.includes('red-rock-casino')) return 'red_rock_casino_area';
-  if (path.includes('about')) return 'about_dr_duffy';
+  if (path.includes('luxury-homes-summerlin')) {
+    return 'luxury_homes_summerlin';
+  }
+  if (path.includes('divorce-real-estate')) {
+    return 'divorce_real_estate';
+  }
+  if (path.includes('red-rock-casino')) {
+    return 'red_rock_casino_area';
+  }
+  if (path.includes('about')) {
+    return 'about_dr_duffy';
+  }
 
   return 'general';
 };
 
 // Get AI source from referrer
 const getAISource = (referrer: string): string => {
-  if (referrer.includes('google.com')) return 'google';
-  if (referrer.includes('bing.com')) return 'bing';
-  if (referrer.includes('you.com')) return 'you';
-  if (referrer.includes('perplexity.ai')) return 'perplexity';
-  if (referrer.includes('claude.ai')) return 'claude';
-  if (referrer.includes('chat.openai.com')) return 'chatgpt';
-  if (referrer.includes('bard.google.com')) return 'bard';
-  if (referrer.includes('copilot.microsoft.com')) return 'copilot';
+  if (referrer.includes('google.com')) {
+    return 'google';
+  }
+  if (referrer.includes('bing.com')) {
+    return 'bing';
+  }
+  if (referrer.includes('you.com')) {
+    return 'you';
+  }
+  if (referrer.includes('perplexity.ai')) {
+    return 'perplexity';
+  }
+  if (referrer.includes('claude.ai')) {
+    return 'claude';
+  }
+  if (referrer.includes('chat.openai.com')) {
+    return 'chatgpt';
+  }
+  if (referrer.includes('bard.google.com')) {
+    return 'bard';
+  }
+  if (referrer.includes('copilot.microsoft.com')) {
+    return 'copilot';
+  }
 
   return 'unknown';
 };
