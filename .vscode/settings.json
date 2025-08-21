@@ -29,7 +29,7 @@
   "files.associations": {
     "*.css": "tailwindcss"
   },
-  
+
   // Tailwind CSS IntelliSense Optimization
   "tailwindCSS.includeLanguages": {
     "typescript": "javascript",
@@ -39,7 +39,7 @@
     "html": "html",
     "css": "css"
   },
-  
+
   "tailwindCSS.experimental.classRegex": [
     ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
     ["cn\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
@@ -49,7 +49,7 @@
     ["tw\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
     ["tailwind\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
   ],
-  
+
   "tailwindCSS.suggestions": true,
   "tailwindCSS.validate": true,
   "tailwindCSS.lint.cssConflict": "warning",
@@ -59,10 +59,10 @@
   "tailwindCSS.lint.invalidTailwindDirective": "error",
   "tailwindCSS.lint.invalidVariant": "error",
   "tailwindCSS.lint.recommendedVariantOrder": "warning",
-  
+
   // Enhanced IntelliSense
   "tailwindCSS.emmetCompletions": true,
-  
+
   // Autocomplete optimization
   "editor.quickSuggestions": {
     "other": true,
@@ -75,13 +75,13 @@
   "editor.suggest.showSnippets": true,
   "editor.suggest.showUsers": false,
   "editor.suggest.showWords": true,
-  
+
   // CSS IntelliSense enhancement
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
   "css.lint.unknownAtRules": "ignore",
-  
+
   // File watching for better IntelliSense
   "files.watcherExclude": {
     "**/node_modules/**": true,
@@ -90,7 +90,7 @@
     "**/dist/**": true,
     "**/build/**": true
   },
-  
+
   // Performance optimization
   "search.exclude": {
     "**/node_modules": true,
@@ -100,7 +100,7 @@
     "**/dist": true,
     "**/build": true
   },
-  
+
   // Tailwind specific performance
   "tailwindCSS.files.exclude": [
     "**/node_modules/**",
@@ -108,5 +108,142 @@
     "**/dist/**",
     "**/build/**",
     "**/.next/**"
-  ]
+  ],
+
+  // GitLens — Git Supercharged Optimization
+  "gitlens.codeLens.enabled": true,
+  "gitlens.codeLens.scopes": {
+    "document": true,
+    "containers": true,
+    "recentChanges": true,
+    "uncommittedChanges": true
+  },
+
+  // GitLens Current Line
+  "gitlens.currentLine.enabled": true,
+  "gitlens.currentLine.scrollable": true,
+  "gitlens.currentLine.details": "hovers",
+  "gitlens.currentLine.visibility": "auto",
+
+  // GitLens Hovers
+  "gitlens.hovers.enabled": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.hovers.currentLine.delay": 1000,
+  "gitlens.hovers.annotations.enabled": true,
+  "gitlens.hovers.annotations.details": true,
+
+  // GitLens File History
+  "gitlens.fileHistory.enabled": true,
+  "gitlens.fileHistory.followsRenames": true,
+  "gitlens.fileHistory.showFilePicker": true,
+  "gitlens.fileHistory.showInEditor": true,
+
+  // GitLens Line History
+  "gitlens.lineHistory.enabled": true,
+  "gitlens.lineHistory.followsRenames": true,
+  "gitlens.lineHistory.showFilePicker": true,
+  "gitlens.lineHistory.showInEditor": true,
+
+  // GitLens Blame
+  "gitlens.blame.enabled": true,
+  "gitlens.blame.avatars": true,
+  "gitlens.blame.compact": false,
+  "gitlens.blame.darkenUncommittedLines": true,
+  "gitlens.blame.format": "${author}, ${agoOrDate}",
+  "gitlens.blame.highlight": {
+    "enabled": true,
+    "format": "line"
+  },
+
+  // GitLens Side Bar
+  "gitlens.views.repositories.files.layout": "tree",
+  "gitlens.views.repositories.files.compact": false,
+  "gitlens.views.repositories.files.showStatus": true,
+  "gitlens.views.repositories.files.showStagedChanges": true,
+  "gitlens.views.repositories.files.showWorkingChanges": true,
+
+  // GitLens Commits
+  "gitlens.views.commits.files.layout": "list",
+  "gitlens.views.commits.files.compact": false,
+  "gitlens.views.commits.files.showStatus": true,
+  "gitlens.views.commits.files.showStagedChanges": true,
+  "gitlens.views.commits.files.showWorkingChanges": true,
+
+  // GitLens Search & Compare
+  "gitlens.search.excludePatterns": [
+    "**/node_modules/**",
+    "**/.git/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.next/**"
+  ],
+  "gitlens.search.showResultsInSideBar": true,
+  "gitlens.search.showResultsInEditor": true,
+
+  // GitLens Advanced Features
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": false
+  },
+
+  // GitLens Performance
+  "gitlens.advanced.caching.enabled": true,
+  "gitlens.advanced.caching.maxEntries": 1000,
+  "gitlens.advanced.caching.maxSize": 50,
+  "gitlens.advanced.caching.ttl": 300000,
+
+  // GitLens Git Commands
+  "gitlens.gitCommands.skipConfirmations": [
+    "git:fetch",
+    "git:pull",
+    "git:push",
+    "git:stage",
+    "git:unstage"
+  ],
+
+  // GitLens Terminal Integration
+  "gitlens.terminal.integrated.enabled": true,
+  "gitlens.terminal.integrated.commands": [
+    "git:add",
+    "git:commit",
+    "git:push",
+    "git:pull",
+    "git:fetch",
+    "git:checkout",
+    "git:branch",
+    "git:merge",
+    "git:rebase"
+  ],
+
+  // GitLens Keyboard Shortcuts
+  "gitlens.keymap": "chorded",
+  "gitlens.keymap.chorded": {
+    "gitlens.showQuickCommitDetails": "ctrl+shift+g c",
+    "gitlens.showQuickFileHistory": "ctrl+shift+g f",
+    "gitlens.showQuickLineHistory": "ctrl+shift+g l",
+    "gitlens.showQuickRepoStatus": "ctrl+shift+g s",
+    "gitlens.showQuickStashList": "ctrl+shift+g t"
+  },
+
+  // GitLens Visualizations
+  "gitlens.visualizations.enabled": true,
+  "gitlens.visualizations.repositories.enabled": true,
+  "gitlens.visualizations.fileHistory.enabled": true,
+  "gitlens.visualizations.lineHistory.enabled": true,
+
+  // GitLens Notifications
+  "gitlens.notifications.enabled": true,
+  "gitlens.notifications.showCommit": true,
+  "gitlens.notifications.showFile": true,
+  "gitlens.notifications.showLine": true,
+
+  // GitLens Debugging
+  "gitlens.debug.enabled": false,
+  "gitlens.debug.verbose": false
 }

@@ -91,10 +91,10 @@ module.exports = {
         '4xl': '1920px',
       },
       spacing: {
-        '18': '4.5rem',
-        '88': '22rem',
-        '128': '32rem',
-        '144': '36rem',
+        18: '4.5rem',
+        88: '22rem',
+        128: '32rem',
+        144: '36rem',
       },
       maxWidth: {
         '8xl': '88rem',
@@ -175,50 +175,50 @@ module.exports = {
         xs: '2px',
       },
       backdropSaturate: {
-        '125': '1.25',
-        '150': '1.5',
+        125: '1.25',
+        150: '1.5',
       },
       backdropBrightness: {
-        '90': '0.9',
-        '110': '1.1',
+        90: '0.9',
+        110: '1.1',
       },
       backdropContrast: {
-        '90': '0.9',
-        '110': '1.1',
+        90: '0.9',
+        110: '1.1',
       },
       backdropGrayscale: {
-        '25': '0.25',
-        '50': '0.5',
-        '75': '0.75',
+        25: '0.25',
+        50: '0.5',
+        75: '0.75',
       },
       backdropHueRotate: {
-        '15': '15deg',
-        '30': '30deg',
-        '60': '60deg',
-        '90': '90deg',
-        '180': '180deg',
+        15: '15deg',
+        30: '30deg',
+        60: '60deg',
+        90: '90deg',
+        180: '180deg',
       },
       backdropInvert: {
-        '25': '0.25',
-        '50': '0.5',
-        '75': '0.75',
+        25: '0.25',
+        50: '0.5',
+        75: '0.75',
       },
       backdropSepia: {
-        '25': '0.25',
-        '50': '0.5',
-        '75': '0.75',
+        25: '0.25',
+        50: '0.5',
+        75: '0.75',
       },
       fontFamily: {
-        'luxury': ['Playfair Display', 'Georgia', 'serif'],
+        luxury: ['Playfair Display', 'Georgia', 'serif'],
         'luxury-sans': ['Inter', 'system-ui', 'sans-serif'],
         'luxury-mono': ['JetBrains Mono', 'monospace'],
       },
       fontSize: {
-        'xs': ['0.75rem', { lineHeight: '1rem' }],
-        'sm': ['0.875rem', { lineHeight: '1.25rem' }],
-        'base': ['1rem', { lineHeight: '1.5rem' }],
-        'lg': ['1.125rem', { lineHeight: '1.75rem' }],
-        'xl': ['1.25rem', { lineHeight: '1.75rem' }],
+        xs: ['0.75rem', { lineHeight: '1rem' }],
+        sm: ['0.875rem', { lineHeight: '1.25rem' }],
+        base: ['1rem', { lineHeight: '1.5rem' }],
+        lg: ['1.125rem', { lineHeight: '1.75rem' }],
+        xl: ['1.25rem', { lineHeight: '1.75rem' }],
         '2xl': ['1.5rem', { lineHeight: '2rem' }],
         '3xl': ['1.875rem', { lineHeight: '2.25rem' }],
         '4xl': ['2.25rem', { lineHeight: '2.5rem' }],
@@ -243,25 +243,25 @@ module.exports = {
         '6xl': '3rem',
       },
       borderWidth: {
-        '3': '3px',
-        '5': '5px',
-        '6': '6px',
+        3: '3px',
+        5: '5px',
+        6: '6px',
       },
       outline: {
-        'luxury': '2px solid #3A8DDE',
+        luxury: '2px solid #3A8DDE',
         'luxury-offset': '2px solid #3A8DDE',
       },
       ringWidth: {
-        'luxury': '3px',
+        luxury: '3px',
       },
       ringColor: {
-        'luxury': '#3A8DDE',
+        luxury: '#3A8DDE',
       },
       ringOffsetWidth: {
-        'luxury': '3px',
+        luxury: '3px',
       },
       ringOffsetColor: {
-        'luxury': '#3A8DDE',
+        luxury: '#3A8DDE',
       },
     },
   },
@@ -298,17 +298,17 @@ module.exports = {
         '.luxury-glass': {
           'backdrop-filter': 'blur(16px) saturate(180%)',
           'background-color': 'rgba(255, 255, 255, 0.75)',
-          'border': '1px solid rgba(209, 213, 219, 0.3)',
+          border: '1px solid rgba(209, 213, 219, 0.3)',
         },
         '.luxury-frost': {
           'backdrop-filter': 'blur(20px)',
           'background-color': 'rgba(255, 255, 255, 0.25)',
-          'border': '1px solid rgba(255, 255, 255, 0.18)',
+          border: '1px solid rgba(255, 255, 255, 0.18)',
         },
-      }
-      addUtilities(luxuryUtilities)
+      };
+      addUtilities(luxuryUtilities);
     },
-    
+
     // Responsive container utilities
     ({ addComponents, theme }) => {
       const containers = {
@@ -354,10 +354,10 @@ module.exports = {
             maxWidth: theme('screens.2xl'),
           },
         },
-      }
-      addComponents(containers)
+      };
+      addComponents(containers);
     },
-    
+
     // Button utilities for better IntelliSense
     ({ addComponents, theme }) => {
       const buttons = {
@@ -443,8 +443,8 @@ module.exports = {
             ringOffset: '2px',
           },
         },
-      }
-      addComponents(buttons)
+      };
+      addComponents(buttons);
     },
   ],
 };
