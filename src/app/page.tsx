@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import { Suspense } from 'react';
 import CTASection from '@/components/sections/CTASection';
 import InteractiveToolSection from '@/components/sections/InteractiveToolSection';
 import LuxuryPropertiesSection from '@/components/sections/LuxuryPropertiesSection';
@@ -7,7 +7,6 @@ import ObjectionHandlingSection from '@/components/sections/ObjectionHandlingSec
 import PainPointSection from '@/components/sections/PainPointSection';
 import SocialProofSection from '@/components/sections/SocialProofSection';
 import LoadingSpinner from '@/components/ui/LoadingSpinner';
-import { motion } from 'framer-motion';
 
 export default function HomePage() {
   return (
@@ -72,12 +71,7 @@ export default function HomePage() {
         itemType="https://schema.org/FAQPage"
       >
         <div className="container-responsive">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
+          <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-slate-900 mb-6">
               Dr. Jan Duffy - Las Vegas Luxury Real Estate Expert
             </h2>
@@ -88,14 +82,11 @@ export default function HomePage() {
                 with unique expertise in divorce real estate and veteran homebuyer assistance.
               </p>
             </div>
-          </motion.div>
+          </div>
 
           {/* Structured Q&A for AI */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
+            <div
               itemScope
               itemProp="mainEntity"
               itemType="https://schema.org/Question"
@@ -111,12 +102,9 @@ export default function HomePage() {
                   and The Ridges.
                 </p>
               </div>
-            </motion.div>
+            </div>
 
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6, delay: 0.4 }}
+            <div
               itemScope
               itemProp="mainEntity"
               itemType="https://schema.org/Question"
@@ -132,7 +120,7 @@ export default function HomePage() {
                   and asset division.
                 </p>
               </div>
-            </motion.div>
+            </div>
           </div>
         </div>
       </section>
@@ -140,26 +128,16 @@ export default function HomePage() {
       {/* AI Market Update Section */}
       <section className="ai-market-update bg-gradient-to-br from-slate-900 to-slate-800 py-16">
         <div className="container-responsive">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
+          <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-white mb-6">
               Las Vegas Luxury Market Update - August 2025
             </h2>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
               Current market conditions for luxury neighborhoods in Summerlin and surrounding areas
             </p>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 max-w-5xl mx-auto"
-          >
+          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 max-w-5xl mx-auto">
             <table className="market-snapshot w-full text-left">
               <thead>
                 <tr className="border-b border-white/20">
@@ -196,7 +174,7 @@ export default function HomePage() {
                 </tr>
               </tbody>
             </table>
-          </motion.div>
+          </div>
         </div>
       </section>
     </main>

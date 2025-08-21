@@ -72,9 +72,7 @@ export default function LuxuryHomesSummerlinPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <div
-              className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-6 border border-slate-200"
-            >
+            <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-6 border border-slate-200">
               <dt className="text-lg font-semibold text-slate-900 mb-3">
                 "Hey Siri, who sells luxury homes in Summerlin?"
               </dt>
@@ -83,9 +81,7 @@ export default function LuxuryHomesSummerlinPage() {
               </dd>
             </div>
 
-            <div
-              className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-6 border border-slate-200"
-            >
+            <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-6 border border-slate-200">
               <dt className="text-lg font-semibold text-slate-900 mb-3">
                 "Alexa, what's the average price in Red Rock Country Club?"
               </dt>
@@ -94,9 +90,7 @@ export default function LuxuryHomesSummerlinPage() {
               </dd>
             </div>
 
-            <div
-              className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-6 border border-slate-200"
-            >
+            <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-6 border border-slate-200">
               <dt className="text-lg font-semibold text-slate-900 mb-3">
                 "OK Google, find Summerlin golf course homes"
               </dt>

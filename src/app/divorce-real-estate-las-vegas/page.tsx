@@ -235,10 +235,7 @@ export default function DivorceRealEstatePage() {
                 description: 'Coordinate transaction and asset division',
               },
             ].map((process, index) => (
-              <div
-                key={process.step}
-                className="text-center"
-              >
+              <div key={process.step} className="text-center">
                 <div className="bg-primary-600 text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                   {process.step}
                 </div>
