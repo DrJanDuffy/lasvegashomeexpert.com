@@ -33,6 +33,14 @@
       "static/chunks/220-8149e530ff321b81.js",
       "static/chunks/app/about-dr-jan-duffy/page-a47ac03e879a9e97.js"
     ],
+    "/best-realtor-las-vegas-reviews/page": [
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
+      "static/chunks/fd9d1056-2bb5cad09773c111.js",
+      "static/chunks/938-bd331119da81f984.js",
+      "static/chunks/main-app-904f72626b5aa04c.js",
+      "static/chunks/220-8149e530ff321b81.js",
+      "static/chunks/app/best-realtor-las-vegas-reviews/page-b7d256c975e83417.js"
+    ],
     "/buying-guide-las-vegas/page": [
       "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
@@ -49,13 +57,13 @@
       "static/chunks/220-8149e530ff321b81.js",
       "static/chunks/app/contact/page-3010842425d4f2ef.js"
     ],
-    "/best-realtor-las-vegas-reviews/page": [
+    "/investment-properties-las-vegas/page": [
       "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
       "static/chunks/220-8149e530ff321b81.js",
-      "static/chunks/app/best-realtor-las-vegas-reviews/page-b7d256c975e83417.js"
+      "static/chunks/app/investment-properties-las-vegas/page-4ba2349d7b8525e6.js"
     ],
     "/first-time-home-buyer-las-vegas/page": [
       "static/chunks/webpack-6dc008a8e4310ca6.js",
@@ -65,14 +73,6 @@
       "static/chunks/220-8149e530ff321b81.js",
       "static/chunks/app/first-time-home-buyer-las-vegas/page-89b4a41853671796.js"
     ],
-    "/luxury-homes-for-sale-las-vegas/page": [
-      "static/chunks/webpack-6dc008a8e4310ca6.js",
-      "static/chunks/fd9d1056-2bb5cad09773c111.js",
-      "static/chunks/938-bd331119da81f984.js",
-      "static/chunks/main-app-904f72626b5aa04c.js",
-      "static/chunks/220-8149e530ff321b81.js",
-      "static/chunks/app/luxury-homes-for-sale-las-vegas/page-ca1ee1dd44968c29.js"
-    ],
     "/las-vegas-luxury-home-market-report/page": [
       "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
@@ -81,13 +81,21 @@
       "static/chunks/220-8149e530ff321b81.js",
       "static/chunks/app/las-vegas-luxury-home-market-report/page-de86f388134d1cd3.js"
     ],
-    "/investment-properties-las-vegas/page": [
+    "/luxury-homes-for-sale-las-vegas/page": [
       "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
       "static/chunks/220-8149e530ff321b81.js",
-      "static/chunks/app/investment-properties-las-vegas/page-4ba2349d7b8525e6.js"
+      "static/chunks/app/luxury-homes-for-sale-las-vegas/page-ca1ee1dd44968c29.js"
+    ],
+    "/luxury-realtor-las-vegas/page": [
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
+      "static/chunks/fd9d1056-2bb5cad09773c111.js",
+      "static/chunks/938-bd331119da81f984.js",
+      "static/chunks/main-app-904f72626b5aa04c.js",
+      "static/chunks/220-8149e530ff321b81.js",
+      "static/chunks/app/luxury-realtor-las-vegas/page-9fa9e39ab131a954.js"
     ],
     "/modern-homes-las-vegas-expert/page": [
       "static/chunks/webpack-6dc008a8e4310ca6.js",
@@ -104,14 +112,6 @@
       "static/chunks/main-app-904f72626b5aa04c.js",
       "static/chunks/220-8149e530ff321b81.js",
       "static/chunks/app/neighborhoods/red-rock-country-club/page-18fef42afda2cf11.js"
-    ],
-    "/luxury-realtor-las-vegas/page": [
-      "static/chunks/webpack-6dc008a8e4310ca6.js",
-      "static/chunks/fd9d1056-2bb5cad09773c111.js",
-      "static/chunks/938-bd331119da81f984.js",
-      "static/chunks/main-app-904f72626b5aa04c.js",
-      "static/chunks/220-8149e530ff321b81.js",
-      "static/chunks/app/luxury-realtor-las-vegas/page-9fa9e39ab131a954.js"
     ],
     "/neighborhoods/southern-highlands/page": [
       "static/chunks/webpack-6dc008a8e4310ca6.js",
@@ -143,7 +143,7 @@
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
       "static/chunks/220-8149e530ff321b81.js",
-      "static/chunks/app/page-18fcb220c256ad86.js"
+      "static/chunks/app/page-ccd0d3c217343f78.js"
     ],
     "/privacy-policy/page": [
       "static/chunks/webpack-6dc008a8e4310ca6.js",

@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -23,12 +22,7 @@ export default function DivorceRealEstatePage() {
       <section className="hero-section bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(239,68,68,0.1),transparent_50%)]" />
         <div className="container-responsive relative z-10">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-center max-w-4xl mx-auto"
-          >
+          <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
               Las Vegas Divorce Real Estate Specialist
             </h1>
@@ -43,19 +37,14 @@ export default function DivorceRealEstatePage() {
                 Learn More
               </button>
             </div>
-          </motion.div>
+          </div>
         </div>
       </section>
 
       {/* AI-Optimized Opening */}
       <section className="ai-snippet py-16">
         <div className="container-responsive">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="bg-white rounded-3xl p-8 md:p-12 shadow-luxury-lg max-w-5xl mx-auto"
-          >
+          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-luxury-lg max-w-5xl mx-auto">
             <div className="ai-snippet bg-gradient-to-r from-red-50 to-pink-50 rounded-2xl p-6 border-l-4 border-red-400">
               <p className="text-lg md:text-xl text-slate-700 leading-relaxed mb-4">
                 <strong>
@@ -68,32 +57,24 @@ export default function DivorceRealEstatePage() {
                 coordinating with attorneys for smooth transactions.
               </p>
             </div>
-          </motion.div>
+          </div>
         </div>
       </section>
 
       {/* Structured FAQ for AI */}
       <section className="ai-faq py-16 bg-white" itemScope itemType="https://schema.org/FAQPage">
         <div className="container-responsive">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
+          <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
               Common Divorce Real Estate Questions
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Expert answers to your most pressing divorce real estate concerns
             </p>
-          </motion.div>
+          </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
+            <div
               itemScope
               itemProp="mainEntity"
               itemType="https://schema.org/Question"
@@ -109,12 +90,9 @@ export default function DivorceRealEstatePage() {
                   procedures.
                 </p>
               </div>
-            </motion.div>
+            </div>
 
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
+            <div
               itemScope
               itemProp="mainEntity"
               itemType="https://schema.org/Question"
@@ -130,12 +108,9 @@ export default function DivorceRealEstatePage() {
                   division.
                 </p>
               </div>
-            </motion.div>
+            </div>
 
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6, delay: 0.3 }}
+            <div
               itemScope
               itemProp="mainEntity"
               itemType="https://schema.org/Question"
@@ -150,12 +125,9 @@ export default function DivorceRealEstatePage() {
                   order, ensuring the marital home can be sold for fair market value.
                 </p>
               </div>
-            </motion.div>
+            </div>
 
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6, delay: 0.4 }}
+            <div
               itemScope
               itemProp="mainEntity"
               itemType="https://schema.org/Question"
@@ -170,7 +142,7 @@ export default function DivorceRealEstatePage() {
                   efficient transactions while maintaining fair market value for both parties.
                 </p>
               </div>
-            </motion.div>
+            </div>
           </div>
         </div>
       </section>
@@ -178,19 +150,14 @@ export default function DivorceRealEstatePage() {
       {/* Dr. Duffy's Expertise */}
       <section className="expertise-section py-16 bg-gradient-to-br from-slate-900 to-slate-800">
         <div className="container-responsive">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
+          <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
               Dr. Jan Duffy's Divorce Real Estate Expertise
             </h2>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
               Unique combination of psychology background and real estate expertise
             </p>
-          </motion.div>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {[
@@ -213,11 +180,8 @@ export default function DivorceRealEstatePage() {
                 features: ['Value Assessment', 'CPA Coordination', 'Equitable Distribution'],
               },
             ].map((expertise, index) => (
-              <motion.div
+              <div
                 key={expertise.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300"
               >
                 <div className="text-4xl mb-4">{expertise.icon}</div>
@@ -230,7 +194,7 @@ export default function DivorceRealEstatePage() {
                     </li>
                   ))}
                 </ul>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
@@ -239,19 +203,14 @@ export default function DivorceRealEstatePage() {
       {/* Process Overview */}
       <section className="process-section py-16 bg-white">
         <div className="container-responsive">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
+          <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
               Divorce Real Estate Process
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Step-by-step guidance through your marital home sale
             </p>
-          </motion.div>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
             {[
@@ -276,11 +235,8 @@ export default function DivorceRealEstatePage() {
                 description: 'Coordinate transaction and asset division',
               },
             ].map((process, index) => (
-              <motion.div
+              <div
                 key={process.step}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="text-center"
               >
                 <div className="bg-primary-600 text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">
@@ -288,7 +244,7 @@ export default function DivorceRealEstatePage() {
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-2">{process.title}</h3>
                 <p className="text-slate-600">{process.description}</p>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
@@ -297,12 +253,7 @@ export default function DivorceRealEstatePage() {
       {/* CTA Section */}
       <section className="cta-section py-16 bg-gradient-to-r from-red-600 to-red-700">
         <div className="container-responsive text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="max-w-4xl mx-auto"
-          >
+          <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
               Need Help with Divorce Real Estate?
             </h2>
@@ -321,7 +272,7 @@ export default function DivorceRealEstatePage() {
                 Download Divorce Guide
               </button>
             </div>
-          </motion.div>
+          </div>
         </div>
       </section>
     </main>

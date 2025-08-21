@@ -1,6 +1,5 @@
 import React, { Suspense } from 'react';
 import CTASection from '@/components/sections/CTASection';
-import HeroSection from '@/components/sections/HeroSection';
 import InteractiveToolSection from '@/components/sections/InteractiveToolSection';
 import LuxuryPropertiesSection from '@/components/sections/LuxuryPropertiesSection';
 import LuxuryServicesSection from '@/components/sections/LuxuryServicesSection';
@@ -13,10 +12,23 @@ import { motion } from 'framer-motion';
 export default function HomePage() {
   return (
     <main className="min-h-screen">
-      {/* Hero Section */}
-      <Suspense fallback={<LoadingSpinner />}>
-        <HeroSection />
-      </Suspense>
+      {/* Simple Hero Section */}
+      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
+        <div className="container-responsive relative z-10 text-center px-4 sm:px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
+              Luxury Real Estate{' '}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-blue-400 to-amber-400">
+                Reimagined
+              </span>
+            </h1>
+            <p className="text-xl sm:text-2xl lg:text-3xl text-slate-300 mb-12 max-w-4xl mx-auto leading-relaxed font-light">
+              Dr. Jan Duffy delivers the ultimate luxury real estate experience in Las Vegas's most
+              prestigious enclaves.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Pain Point Section */}
       <Suspense fallback={<LoadingSpinner />}>
