@@ -43,7 +43,7 @@ export const determineUserSegment = (userProfile: Partial<UserProfile>): UserSeg
   const { preferences, engagement } = userProfile;
 
   // Price-sensitive: frequently uses price filters
-  if (preferences.priceRange && engagement?.interactionDepth > 5) {
+  if (preferences.priceRange && (engagement?.interactionDepth ?? 0) > 5) {
     return 'price-sensitive';
   }
 
