@@ -3,6 +3,7 @@ import Header from '@/components/layout/Header';
 import CTASection from '@/components/sections/CTASection';
 import HeroSection from '@/components/sections/HeroSection';
 import InteractiveToolSection from '@/components/sections/InteractiveToolSection';
+import LuxuryPropertiesSection from '@/components/sections/LuxuryPropertiesSection';
 import LuxuryServicesSection from '@/components/sections/LuxuryServicesSection';
 import ObjectionHandlingSection from '@/components/sections/ObjectionHandlingSection';
 import PainPointSection from '@/components/sections/PainPointSection';
@@ -28,6 +29,11 @@ export default function HomePage() {
       {/* Luxury Services Section */}
       <Suspense fallback={<LoadingSpinner />}>
         <LuxuryServicesSection />
+      </Suspense>
+
+      {/* Luxury Properties Section */}
+      <Suspense fallback={<LoadingSpinner />}>
+        <LuxuryPropertiesSection />
       </Suspense>
 
       {/* Social Proof Section */}

@@ -72,8 +72,9 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl sm:text-2xl lg:text-3xl text-slate-300 mb-12 max-w-4xl mx-auto leading-relaxed font-light"
           >
-            Dr. Jan Duffy delivers the ultimate luxury real estate experience in Las Vegas's most prestigious enclaves. 
-            From Red Rock Country Club to The Ridges Summerlin, discover bespoke service for the discerning few.
+            Dr. Jan Duffy delivers the ultimate luxury real estate experience in Las Vegas's most
+            prestigious enclaves. From Red Rock Country Club to The Ridges Summerlin, discover
+            bespoke service for the discerning few.
           </motion.p>
 
           {/* Luxury Credentials */}
@@ -157,7 +158,13 @@ export default function HeroSection() {
       >
         <div className="flex flex-col items-center text-slate-400 animate-bounce-gentle">
           <span className="text-sm font-medium mb-2">Discover Luxury</span>
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
             <path
               strokeLinecap="round"
               strokeLinejoin="round"

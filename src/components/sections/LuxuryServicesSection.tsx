@@ -1,7 +1,7 @@
 'use client';
 
+import { exclusivityLevels, luxuryServices, serviceCategories } from '@/data/luxury-services';
 import { trackEvent } from '@/utils';
-import { luxuryServices, serviceCategories, exclusivityLevels } from '@/data/luxury-services';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 
@@ -39,12 +39,13 @@ export default function LuxuryServicesSection() {
     });
   };
 
-  const filteredServices = selectedCategory === 'all' 
-    ? luxuryServices 
-    : luxuryServices.filter(service => service.category === selectedCategory);
+  const filteredServices =
+    selectedCategory === 'all'
+      ? luxuryServices
+      : luxuryServices.filter((service) => service.category === selectedCategory);
 
   const getExclusivityStyle = (exclusivity: string) => {
-    const level = exclusivityLevels.find(l => l.id === exclusivity);
+    const level = exclusivityLevels.find((l) => l.id === exclusivity);
     return level || exclusivityLevels[0];
   };
 
@@ -66,8 +67,9 @@ export default function LuxuryServicesSection() {
             </span>
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            Dr. Jan Duffy delivers bespoke luxury real estate services designed exclusively for discerning clients. 
-            From concierge acquisition to portfolio management, experience the pinnacle of luxury service.
+            Dr. Jan Duffy delivers bespoke luxury real estate services designed exclusively for
+            discerning clients. From concierge acquisition to portfolio management, experience the
+            pinnacle of luxury service.
           </p>
         </motion.div>
 
@@ -110,7 +112,7 @@ export default function LuxuryServicesSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
           {filteredServices.map((service, index) => {
             const exclusivityStyle = getExclusivityStyle(service.exclusivity);
-            
+
             return (
               <motion.div
                 key={service.id}
@@ -126,18 +128,18 @@ export default function LuxuryServicesSection() {
                   <div className="p-8 border-b border-slate-100">
                     <div className="flex items-start justify-between mb-4">
                       <div className="text-4xl">{service.icon}</div>
-                      <div className={`px-3 py-1 rounded-full text-xs font-semibold ${exclusivityStyle.bgColor} ${exclusivityStyle.color} ${exclusivityStyle.borderColor} border`}>
+                      <div
+                        className={`px-3 py-1 rounded-full text-xs font-semibold ${exclusivityStyle.bgColor} ${exclusivityStyle.color} ${exclusivityStyle.borderColor} border`}
+                      >
                         {exclusivityStyle.name}
                       </div>
                     </div>
-                    
+
                     <h3 className="text-2xl font-bold text-slate-900 mb-2 leading-tight">
                       {service.title}
                     </h3>
-                    
-                    <p className="text-slate-600 mb-4 leading-relaxed">
-                      {service.subtitle}
-                    </p>
+
+                    <p className="text-slate-600 mb-4 leading-relaxed">{service.subtitle}</p>
 
                     <div className="flex items-center justify-between text-sm">
                       <span className="text-slate-500">Price Range:</span>
@@ -147,9 +149,7 @@ export default function LuxuryServicesSection() {
 
                   {/* Service Details */}
                   <div className="p-8">
-                    <p className="text-slate-600 mb-6 leading-relaxed">
-                      {service.description}
-                    </p>
+                    <p className="text-slate-600 mb-6 leading-relaxed">{service.description}</p>
 
                     {/* Target Market */}
                     <div className="mb-6">
