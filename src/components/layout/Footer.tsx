@@ -1,7 +1,7 @@
 'use client';
 
-import Link from 'next/link';
 import { trackEvent } from '@/utils';
+import Link from 'next/link';
 
 export default function Footer() {
   const handleFooterClick = (section: string) => {

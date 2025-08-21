@@ -1,14 +1,14 @@
-import { Suspense } from 'react';
+import Footer from '@/components/layout/Footer';
+import Header from '@/components/layout/Header';
+import CTASection from '@/components/sections/CTASection';
 import HeroSection from '@/components/sections/HeroSection';
-import PainPointSection from '@/components/sections/PainPointSection';
-import SolutionSection from '@/components/sections/SolutionSection';
-import SocialProofSection from '@/components/sections/SocialProofSection';
 import InteractiveToolSection from '@/components/sections/InteractiveToolSection';
 import ObjectionHandlingSection from '@/components/sections/ObjectionHandlingSection';
-import CTASection from '@/components/sections/CTASection';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
+import PainPointSection from '@/components/sections/PainPointSection';
+import SocialProofSection from '@/components/sections/SocialProofSection';
+import SolutionSection from '@/components/sections/SolutionSection';
 import LoadingSpinner from '@/components/ui/LoadingSpinner';
+import { Suspense } from 'react';
 
 export default function HomePage() {
   return (

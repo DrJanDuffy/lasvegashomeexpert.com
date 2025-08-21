@@ -14,7 +14,10 @@
       "dist/**",
       "build/**",
       "*.min.js",
-      "*.bundle.js"
+      "*.bundle.js",
+      "package-lock.json",
+      "pnpm-lock.yaml",
+      "yarn.lock"
     ]
   },
   "formatter": {
@@ -30,16 +33,20 @@
       "recommended": true,
       "correctness": {
         "noUnusedVariables": "error",
-        "useExhaustiveDependencies": "error"
+        "useExhaustiveDependencies": "error",
+        "noUndeclaredVariables": "error"
       },
       "suspicious": {
         "noExplicitAny": "warn",
-        "noArrayIndexKey": "error"
+        "noArrayIndexKey": "error",
+        "noConsoleLog": "warn"
       },
       "style": {
         "useConst": "error",
         "useTemplate": "error",
-        "useShorthandArrayType": "error"
+        "useShorthandArrayType": "error",
+        "useBlockStatements": "error",
+        "useShorthandAssign": "error"
       },
       "complexity": {
         "noForEach": "warn",
@@ -47,6 +54,11 @@
       },
       "performance": {
         "noDelete": "warn"
+      },
+      "a11y": {
+        "useKeyWithClickEvents": "error",
+        "useKeyWithMouseEvents": "error",
+        "useMediaCaption": "warn"
       }
     }
   },
@@ -54,7 +66,8 @@
     "formatter": {
       "quoteStyle": "single",
       "trailingCommas": "es5",
-      "semicolons": "always"
+      "semicolons": "always",
+      "jsxQuoteStyle": "double"
     }
   },
   "json": {
@@ -64,5 +77,17 @@
   },
   "organizeImports": {
     "enabled": true
-  }
+  },
+  "overrides": [
+    {
+      "include": ["src/**/*.ts", "src/**/*.tsx"],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "noUnusedVariables": "error"
+          }
+        }
+      }
+    }
+  ]
 }

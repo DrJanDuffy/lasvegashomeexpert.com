@@ -1,4 +1,4 @@
-import { UserSegment, AnalyticsEvent, UserProfile } from '@/types';
+import type { AnalyticsEvent, UserProfile, UserSegment } from '@/types';
 
 // Analytics utilities
 export const trackEvent = (event: Omit<AnalyticsEvent, 'timestamp'>) => {
@@ -61,7 +61,7 @@ export const determineUserSegment = (userProfile: Partial<UserProfile>): UserSeg
 };
 
 // Local storage utilities with expiry
-export const setLocalStorageWithExpiry = (key: string, value: any, expiryDays: number = 30) => {
+export const setLocalStorageWithExpiry = (key: string, value: any, expiryDays = 30) => {
   const item = {
     value,
     expiry: new Date().getTime() + expiryDays * 24 * 60 * 60 * 1000,
@@ -198,7 +198,7 @@ export const createIntersectionObserver = (
 };
 
 // Cookie utilities
-export const setCookie = (name: string, value: string, days: number = 30) => {
+export const setCookie = (name: string, value: string, days = 30) => {
   const expires = new Date();
   expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
   document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;SameSite=Strict`;
