@@ -1,13 +1,15 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Las Vegas Home Expert - Your Trusted Real Estate Partner',
-  description: 'Expert real estate services in Las Vegas. Find your dream home, get property valuations, and work with experienced professionals. RealScout, Homebot, and CloudCMA powered.',
-  keywords: 'Las Vegas real estate, home buying, home selling, property valuation, real estate expert',
+  description:
+    'Expert real estate services in Las Vegas. Find your dream home, get property valuations, and work with experienced professionals. RealScout, Homebot, and CloudCMA powered.',
+  keywords:
+    'Las Vegas real estate, home buying, home selling, property valuation, real estate expert',
   authors: [{ name: 'Dr. Jan Duffy' }],
   openGraph: {
     title: 'Las Vegas Home Expert',
@@ -45,12 +47,12 @@ export const metadata: Metadata = {
   verification: {
     google: 'your-google-verification-code',
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en" className="scroll-smooth">
@@ -62,7 +64,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
           async
         />
-        
+
         {/* Homebot Script */}
         <script
           src="https://cdn.homebot.com/widget.js"
@@ -70,7 +72,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
           async
         />
-        
+
         {/* CloudCMA Script */}
         <script
           src="https://cdn.cloudcma.com/widget.js"
@@ -78,7 +80,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
           async
         />
-        
+
         {/* Percy.ai HVS-Autocomplete Script */}
         <script
           src="https://cdn.percy.ai/hvs-autocomplete.js"
@@ -88,10 +90,8 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.className} bg-neutral-50 text-neutral-900 antialiased`}>
-        <div id="root">
-          {children}
-        </div>
-        
+        <div id="root">{children}</div>
+
         {/* Analytics and A/B Testing Scripts */}
         <script
           dangerouslySetInnerHTML={{
@@ -123,5 +123,5 @@ export default function RootLayout({
         />
       </body>
     </html>
-  )
+  );
 }

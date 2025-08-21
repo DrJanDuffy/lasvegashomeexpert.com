@@ -1,7 +1,7 @@
-'use client'
+'use client';
 
-import { motion } from 'framer-motion'
-import { trackEvent } from '@/utils'
+import { motion } from 'framer-motion';
+import { trackEvent } from '@/utils';
 
 export default function CTASection() {
   const handleCTAClick = (action: string) => {
@@ -16,11 +16,14 @@ export default function CTASection() {
         cd3: '6',
         cd4: '200',
       },
-    })
-  }
+    });
+  };
 
   return (
-    <section id="contact" className="section-padding bg-gradient-to-br from-primary-800 to-primary-900 text-white">
+    <section
+      id="contact"
+      className="section-padding bg-gradient-to-br from-primary-800 to-primary-900 text-white"
+    >
       <div className="container-responsive">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -33,8 +36,8 @@ export default function CTASection() {
             Ready to Find Your Dream Home?
           </h2>
           <p className="text-xl text-primary-100 max-w-3xl mx-auto">
-            Don't wait another day. Join hundreds of satisfied clients who've already 
-            transformed their real estate experience with us.
+            Don't wait another day. Join hundreds of satisfied clients who've already transformed
+            their real estate experience with us.
           </p>
         </motion.div>
 
@@ -71,7 +74,7 @@ export default function CTASection() {
                   placeholder="Phone Number"
                   className="form-input bg-white/20 border-white/30 text-white placeholder-white/70"
                 />
-                <select 
+                <select
                   className="form-input bg-white/20 border-white/30 text-white"
                   aria-label="What are you looking for?"
                 >
@@ -157,5 +160,5 @@ export default function CTASection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

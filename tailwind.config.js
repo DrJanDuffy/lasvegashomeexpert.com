@@ -38,25 +38,25 @@ module.exports = {
           700: '#374151',
           800: '#1F2937',
           900: '#111827',
-        }
+        },
       },
       screens: {
-        'xs': '475px',
-        'sm': '576px',
-        'md': '768px',
-        'lg': '992px',
-        'xl': '1200px',
+        xs: '475px',
+        sm: '576px',
+        md: '768px',
+        lg: '992px',
+        xl: '1200px',
         '2xl': '1400px',
       },
       boxShadow: {
-        'widget': '0 2px 8px rgba(0,0,0,0.08)',
-        'modal': '0 10px 25px rgba(0,0,0,0.15)',
-        'card': '0 4px 12px rgba(0,0,0,0.1)',
+        widget: '0 2px 8px rgba(0,0,0,0.08)',
+        modal: '0 10px 25px rgba(0,0,0,0.15)',
+        card: '0 4px 12px rgba(0,0,0,0.1)',
       },
       zIndex: {
-        'widget': '1000',
-        'modal': '1050',
-        'overlay': '1040',
+        widget: '1000',
+        modal: '1050',
+        overlay: '1040',
       },
       animation: {
         'fade-in': 'fadeIn 0.3s ease-in-out',
@@ -76,8 +76,8 @@ module.exports = {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-10px)' },
         },
-      }
+      },
     },
   },
   plugins: [],
-}
+};

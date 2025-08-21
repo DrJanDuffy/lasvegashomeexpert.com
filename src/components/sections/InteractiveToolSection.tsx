@@ -1,7 +1,7 @@
-'use client'
+'use client';
 
-import { motion } from 'framer-motion'
-import { trackEvent } from '@/utils'
+import { motion } from 'framer-motion';
+import { trackEvent } from '@/utils';
 
 export default function InteractiveToolSection() {
   const tools = [
@@ -9,27 +9,27 @@ export default function InteractiveToolSection() {
       name: 'Property Search',
       description: 'Advanced search with RealScout technology',
       icon: '🔍',
-      status: 'active'
+      status: 'active',
     },
     {
       name: 'Home Valuation',
       description: 'Get instant property value estimates',
       icon: '💰',
-      status: 'active'
+      status: 'active',
     },
     {
       name: 'Market Analysis',
       description: 'Comprehensive neighborhood insights',
       icon: '📊',
-      status: 'coming-soon'
+      status: 'coming-soon',
     },
     {
       name: 'Mortgage Calculator',
       description: 'Calculate payments and affordability',
       icon: '🏦',
-      status: 'active'
-    }
-  ]
+      status: 'active',
+    },
+  ];
 
   const handleToolClick = (tool: string) => {
     trackEvent({
@@ -43,8 +43,8 @@ export default function InteractiveToolSection() {
         cd3: '4',
         cd4: '100',
       },
-    })
-  }
+    });
+  };
 
   return (
     <section id="interactive-tools" className="section-padding bg-primary-50">
@@ -60,8 +60,8 @@ export default function InteractiveToolSection() {
             Powerful Tools at Your Fingertips
           </h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-            Experience the future of real estate with our cutting-edge interactive tools 
-            powered by the latest technology.
+            Experience the future of real estate with our cutting-edge interactive tools powered by
+            the latest technology.
           </p>
         </motion.div>
 
@@ -79,17 +79,15 @@ export default function InteractiveToolSection() {
               <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
                 {tool.icon}
               </div>
-              <h3 className="text-xl font-bold text-primary-800 mb-3">
-                {tool.name}
-              </h3>
-              <p className="text-neutral-600 mb-3">
-                {tool.description}
-              </p>
-              <div className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-medium ${
-                tool.status === 'active' 
-                  ? 'bg-green-100 text-green-800' 
-                  : 'bg-yellow-100 text-yellow-800'
-              }`}>
+              <h3 className="text-xl font-bold text-primary-800 mb-3">{tool.name}</h3>
+              <p className="text-neutral-600 mb-3">{tool.description}</p>
+              <div
+                className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-medium ${
+                  tool.status === 'active'
+                    ? 'bg-green-100 text-green-800'
+                    : 'bg-yellow-100 text-yellow-800'
+                }`}
+              >
                 {tool.status === 'active' ? '✓ Active' : '🕒 Coming Soon'}
               </div>
             </motion.div>
@@ -109,8 +107,8 @@ export default function InteractiveToolSection() {
               Try Our Property Search Tool
             </h3>
             <p className="text-lg text-neutral-600 mb-6">
-              Experience the power of our RealScout-powered search engine. 
-              Find properties that match your exact criteria.
+              Experience the power of our RealScout-powered search engine. Find properties that
+              match your exact criteria.
             </p>
             <div className="widget-container p-6 mb-6">
               <div className="text-center text-neutral-500">
@@ -129,5 +127,5 @@ export default function InteractiveToolSection() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

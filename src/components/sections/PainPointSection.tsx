@@ -1,7 +1,7 @@
-'use client'
+'use client';
 
-import { motion } from 'framer-motion'
-import { trackEvent } from '@/utils'
+import { motion } from 'framer-motion';
+import { trackEvent } from '@/utils';
 
 export default function PainPointSection() {
   const painPoints = [
@@ -9,27 +9,27 @@ export default function PainPointSection() {
       icon: '🏠',
       title: 'Overwhelming Choices',
       description: 'Too many properties to choose from without proper guidance',
-      impact: 'Wastes time and leads to decision paralysis'
+      impact: 'Wastes time and leads to decision paralysis',
     },
     {
       icon: '💰',
       title: 'Hidden Costs',
-      description: 'Surprise fees and expenses that weren\'t disclosed upfront',
-      impact: 'Blows your budget and creates financial stress'
+      description: "Surprise fees and expenses that weren't disclosed upfront",
+      impact: 'Blows your budget and creates financial stress',
     },
     {
       icon: '⏰',
       title: 'Slow Process',
       description: 'Endless paperwork and delays in closing',
-      impact: 'Misses opportunities and increases anxiety'
+      impact: 'Misses opportunities and increases anxiety',
     },
     {
       icon: '📊',
       title: 'Unreliable Data',
       description: 'Outdated or inaccurate property information',
-      impact: 'Makes informed decisions impossible'
-    }
-  ]
+      impact: 'Makes informed decisions impossible',
+    },
+  ];
 
   const handlePainPointClick = (painPoint: string) => {
     trackEvent({
@@ -43,8 +43,8 @@ export default function PainPointSection() {
         cd3: '2',
         cd4: '50',
       },
-    })
-  }
+    });
+  };
 
   return (
     <section id="pain-points" className="section-padding bg-white">
@@ -60,8 +60,8 @@ export default function PainPointSection() {
             Tired of These Real Estate Headaches?
           </h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-            We understand the frustrations that come with buying or selling a home. 
-            Let us show you how we solve these common problems.
+            We understand the frustrations that come with buying or selling a home. Let us show you
+            how we solve these common problems.
           </p>
         </motion.div>
 
@@ -79,15 +79,9 @@ export default function PainPointSection() {
               <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
                 {painPoint.icon}
               </div>
-              <h3 className="text-xl font-bold text-primary-800 mb-3">
-                {painPoint.title}
-              </h3>
-              <p className="text-neutral-600 mb-3">
-                {painPoint.description}
-              </p>
-              <div className="text-sm text-accent-error font-medium">
-                {painPoint.impact}
-              </div>
+              <h3 className="text-xl font-bold text-primary-800 mb-3">{painPoint.title}</h3>
+              <p className="text-neutral-600 mb-3">{painPoint.description}</p>
+              <div className="text-sm text-accent-error font-medium">{painPoint.impact}</div>
             </motion.div>
           ))}
         </div>
@@ -100,12 +94,10 @@ export default function PainPointSection() {
           className="text-center mt-16"
         >
           <div className="bg-primary-50 rounded-2xl p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-primary-800 mb-4">
-              Sound Familiar?
-            </h3>
+            <h3 className="text-2xl font-bold text-primary-800 mb-4">Sound Familiar?</h3>
             <p className="text-lg text-neutral-600 mb-6">
-              You're not alone. These are the exact frustrations that drove us to create 
-              a better real estate experience. Let us show you the difference.
+              You're not alone. These are the exact frustrations that drove us to create a better
+              real estate experience. Let us show you the difference.
             </p>
             <button
               onClick={() => handlePainPointClick('learn_more')}
@@ -117,5 +109,5 @@ export default function PainPointSection() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

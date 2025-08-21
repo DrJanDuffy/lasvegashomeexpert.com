@@ -1,7 +1,7 @@
-'use client'
+'use client';
 
-import { motion } from 'framer-motion'
-import { trackEvent } from '@/utils'
+import { motion } from 'framer-motion';
+import { trackEvent } from '@/utils';
 
 export default function SocialProofSection() {
   const testimonials = [
@@ -10,30 +10,31 @@ export default function SocialProofSection() {
       role: 'First-time Homebuyers',
       content: 'The process was incredibly smooth. We found our dream home in just 3 weeks!',
       rating: 5,
-      image: '👨‍👩‍👧‍👦'
+      image: '👨‍👩‍👧‍👦',
     },
     {
       name: 'David Chen',
       role: 'Property Investor',
-      content: 'Outstanding market insights and data accuracy. Made investment decisions much easier.',
+      content:
+        'Outstanding market insights and data accuracy. Made investment decisions much easier.',
       rating: 5,
-      image: '🏠'
+      image: '🏠',
     },
     {
       name: 'Lisa Rodriguez',
       role: 'Home Seller',
       content: 'Sold my house above asking price in just 8 days. The technology is amazing!',
       rating: 5,
-      image: '💰'
-    }
-  ]
+      image: '💰',
+    },
+  ];
 
   const stats = [
     { number: '500+', label: 'Happy Families' },
     { number: '98%', label: 'Satisfaction Rate' },
     { number: '15', label: 'Years Experience' },
-    { number: '$2.5M+', label: 'Properties Sold' }
-  ]
+    { number: '$2.5M+', label: 'Properties Sold' },
+  ];
 
   return (
     <section id="social-proof" className="section-padding bg-white">
@@ -85,7 +86,9 @@ export default function SocialProofSection() {
               <div className="text-4xl mb-4">{testimonial.image}</div>
               <div className="flex justify-center mb-3">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <span key={i} className="text-yellow-400">⭐</span>
+                  <span key={i} className="text-yellow-400">
+                    ⭐
+                  </span>
                 ))}
               </div>
               <p className="text-neutral-600 mb-4 italic">"{testimonial.content}"</p>
@@ -96,5 +99,5 @@ export default function SocialProofSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

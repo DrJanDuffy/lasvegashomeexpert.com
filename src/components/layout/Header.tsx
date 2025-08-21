@@ -1,25 +1,25 @@
-'use client'
+'use client';
 
-import { useState, useEffect } from 'react'
-import Link from 'next/link'
-import { motion, AnimatePresence } from 'framer-motion'
-import { trackEvent } from '@/utils'
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { motion, AnimatePresence } from 'framer-motion';
+import { trackEvent } from '@/utils';
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [isScrolled, setIsScrolled] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10)
-    }
+      setIsScrolled(window.scrollY > 10);
+    };
 
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const handleMenuToggle = () => {
-    setIsMenuOpen(!isMenuOpen)
+    setIsMenuOpen(!isMenuOpen);
     trackEvent({
       event: 'menu_toggle',
       category: 'navigation',
@@ -31,8 +31,8 @@ export default function Header() {
         cd3: '1',
         cd4: '0',
       },
-    })
-  }
+    });
+  };
 
   const handleNavClick = (section: string) => {
     trackEvent({
@@ -46,8 +46,8 @@ export default function Header() {
         cd3: '1',
         cd4: '0',
       },
-    })
-  }
+    });
+  };
 
   return (
     <header
@@ -101,11 +101,7 @@ export default function Header() {
             >
               Neighborhoods
             </Link>
-            <Link
-              href="#contact"
-              className="btn-primary"
-              onClick={() => handleNavClick('contact')}
-            >
+            <Link href="#contact" className="btn-primary" onClick={() => handleNavClick('contact')}>
               Get Started
             </Link>
           </nav>
@@ -150,8 +146,8 @@ export default function Header() {
                   href="#buying"
                   className="block text-lg text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium"
                   onClick={() => {
-                    handleNavClick('buying')
-                    setIsMenuOpen(false)
+                    handleNavClick('buying');
+                    setIsMenuOpen(false);
                   }}
                 >
                   Buying
@@ -160,8 +156,8 @@ export default function Header() {
                   href="#selling"
                   className="block text-lg text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium"
                   onClick={() => {
-                    handleNavClick('selling')
-                    setIsMenuOpen(false)
+                    handleNavClick('selling');
+                    setIsMenuOpen(false);
                   }}
                 >
                   Selling
@@ -170,8 +166,8 @@ export default function Header() {
                   href="#valuation"
                   className="block text-lg text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium"
                   onClick={() => {
-                    handleNavClick('valuation')
-                    setIsMenuOpen(false)
+                    handleNavClick('valuation');
+                    setIsMenuOpen(false);
                   }}
                 >
                   Valuation
@@ -180,8 +176,8 @@ export default function Header() {
                   href="#neighborhoods"
                   className="block text-lg text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium"
                   onClick={() => {
-                    handleNavClick('neighborhoods')
-                    setIsMenuOpen(false)
+                    handleNavClick('neighborhoods');
+                    setIsMenuOpen(false);
                   }}
                 >
                   Neighborhoods
@@ -190,8 +186,8 @@ export default function Header() {
                   href="#contact"
                   className="btn-primary inline-block"
                   onClick={() => {
-                    handleNavClick('contact')
-                    setIsMenuOpen(false)
+                    handleNavClick('contact');
+                    setIsMenuOpen(false);
                   }}
                 >
                   Get Started
@@ -202,5 +198,5 @@ export default function Header() {
         </AnimatePresence>
       </div>
     </header>
-  )
+  );
 }

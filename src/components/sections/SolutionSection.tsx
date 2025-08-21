@@ -1,7 +1,7 @@
-'use client'
+'use client';
 
-import { motion } from 'framer-motion'
-import { trackEvent } from '@/utils'
+import { motion } from 'framer-motion';
+import { trackEvent } from '@/utils';
 
 export default function SolutionSection() {
   const solutions = [
@@ -9,27 +9,27 @@ export default function SolutionSection() {
       icon: '🎯',
       title: 'Smart Property Matching',
       description: 'AI-powered algorithms that learn your preferences and find perfect matches',
-      benefit: 'Save hours of searching with personalized recommendations'
+      benefit: 'Save hours of searching with personalized recommendations',
     },
     {
       icon: '💡',
       title: 'Transparent Pricing',
       description: 'Complete cost breakdown with no hidden fees or surprises',
-      benefit: 'Know exactly what you\'ll pay from day one'
+      benefit: "Know exactly what you'll pay from day one",
     },
     {
       icon: '⚡',
       title: 'Streamlined Process',
       description: 'Digital-first approach that reduces paperwork and speeds up closing',
-      benefit: 'Close faster with less stress and fewer delays'
+      benefit: 'Close faster with less stress and fewer delays',
     },
     {
       icon: '📊',
       title: 'Real-Time Data',
       description: 'Live market information and property updates as they happen',
-      benefit: 'Make informed decisions with current, accurate data'
-    }
-  ]
+      benefit: 'Make informed decisions with current, accurate data',
+    },
+  ];
 
   const handleSolutionClick = (solution: string) => {
     trackEvent({
@@ -43,8 +43,8 @@ export default function SolutionSection() {
         cd3: '3',
         cd4: '75',
       },
-    })
-  }
+    });
+  };
 
   return (
     <section id="solutions" className="section-padding bg-primary-50">
@@ -60,8 +60,8 @@ export default function SolutionSection() {
             Here's How We Solve Those Problems
           </h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-            We've built a comprehensive solution that addresses every pain point 
-            in the traditional real estate process.
+            We've built a comprehensive solution that addresses every pain point in the traditional
+            real estate process.
           </p>
         </motion.div>
 
@@ -79,15 +79,9 @@ export default function SolutionSection() {
               <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
                 {solution.icon}
               </div>
-              <h3 className="text-xl font-bold text-primary-800 mb-3">
-                {solution.title}
-              </h3>
-              <p className="text-neutral-600 mb-3">
-                {solution.description}
-              </p>
-              <div className="text-sm text-accent-success font-medium">
-                {solution.benefit}
-              </div>
+              <h3 className="text-xl font-bold text-primary-800 mb-3">{solution.title}</h3>
+              <p className="text-neutral-600 mb-3">{solution.description}</p>
+              <div className="text-sm text-accent-success font-medium">{solution.benefit}</div>
             </motion.div>
           ))}
         </div>
@@ -104,8 +98,8 @@ export default function SolutionSection() {
               Ready to Experience the Difference?
             </h3>
             <p className="text-lg text-neutral-600 mb-6">
-              Join hundreds of satisfied clients who've transformed their real estate 
-              experience with our innovative approach.
+              Join hundreds of satisfied clients who've transformed their real estate experience
+              with our innovative approach.
             </p>
             <button
               onClick={() => handleSolutionClick('get_started')}
@@ -117,5 +111,5 @@ export default function SolutionSection() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

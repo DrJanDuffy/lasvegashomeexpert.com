@@ -1,7 +1,7 @@
-'use client'
+'use client';
 
-import Link from 'next/link'
-import { trackEvent } from '@/utils'
+import Link from 'next/link';
+import { trackEvent } from '@/utils';
 
 export default function Footer() {
   const handleFooterClick = (section: string) => {
@@ -16,10 +16,10 @@ export default function Footer() {
         cd3: '1',
         cd4: '0',
       },
-    })
-  }
+    });
+  };
 
-  const currentYear = new Date().getFullYear()
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-primary-900 text-white">
@@ -34,8 +34,8 @@ export default function Footer() {
               <span>Las Vegas Home Expert</span>
             </div>
             <p className="text-primary-200 mb-4 max-w-md">
-              Your trusted partner in Las Vegas real estate. We combine cutting-edge 
-              technology with expert guidance to make your real estate journey seamless.
+              Your trusted partner in Las Vegas real estate. We combine cutting-edge technology with
+              expert guidance to make your real estate journey seamless.
             </p>
             <div className="flex space-x-4">
               <a
@@ -161,5 +161,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
