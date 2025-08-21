@@ -1,4 +1,3 @@
-import { Suspense } from 'react';
 import CTASection from '@/components/sections/CTASection';
 import InteractiveToolSection from '@/components/sections/InteractiveToolSection';
 import LuxuryPropertiesSection from '@/components/sections/LuxuryPropertiesSection';
@@ -7,6 +6,7 @@ import ObjectionHandlingSection from '@/components/sections/ObjectionHandlingSec
 import PainPointSection from '@/components/sections/PainPointSection';
 import SocialProofSection from '@/components/sections/SocialProofSection';
 import LoadingSpinner from '@/components/ui/LoadingSpinner';
+import { Suspense } from 'react';
 
 export default function HomePage() {
   return (

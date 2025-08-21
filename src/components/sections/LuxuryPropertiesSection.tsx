@@ -84,13 +84,12 @@ export default function LuxuryPropertiesSection() {
 
             {/* RealScout Office Listings Widget */}
             <realscout-office-listings
-              agent-encoded-id="your-agent-encoded-id"
-              sort-order="price-desc"
-              listing-status="active"
-              property-types="single-family,condo,townhouse"
-              price-min="1000000"
-              price-max="50000000"
-              location="Las Vegas, NV"
+              agent-encoded-id="QWdlbnQtMjI1MDUw"
+              sort-order="STATUS_AND_SIGNIFICANT_CHANGE"
+              listing-status="For Sale"
+              property-types="MF,SFR,OTHER,LAL"
+              price-min="500000"
+              price-max="750000"
               max-results="12"
               show-filters="true"
               show-sort="true"

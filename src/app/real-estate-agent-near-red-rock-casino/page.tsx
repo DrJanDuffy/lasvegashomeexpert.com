@@ -116,9 +116,7 @@ export default function RealEstateAgentNearRedRockCasinoPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            <div
-              className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-8 border border-slate-200"
-            >
+            <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-8 border border-slate-200">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Convenient Location</h3>
               <ul className="space-y-3 text-slate-700">
                 <li className="flex items-start">
@@ -140,9 +138,7 @@ export default function RealEstateAgentNearRedRockCasinoPage() {
               </ul>
             </div>
 
-            <div
-              className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-8 border border-slate-200"
-            >
+            <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-8 border border-slate-200">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Local Market Knowledge</h3>
               <ul className="space-y-3 text-slate-700">
                 <li className="flex items-start">
