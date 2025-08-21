@@ -1,7 +1,22 @@
 'use client';
 
+import type React from 'react';
 import { trackEvent } from '@/utils';
 import { motion } from 'framer-motion';
+
+// TypeScript declarations for RealScout web components
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      'realscout-advanced-search': React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLElement> & {
+          'agent-encoded-id': string;
+        },
+        HTMLElement
+      >;
+    }
+  }
+}
 
 export default function InteractiveToolSection() {
   const tools = [
@@ -110,12 +125,12 @@ export default function InteractiveToolSection() {
               Experience the power of our RealScout-powered search engine. Find properties that
               match your exact criteria.
             </p>
-            
+
             {/* RealScout Advanced Search Widget */}
             <div className="widget-container p-6 mb-6">
               <realscout-advanced-search agent-encoded-id="QWdlbnQtMjI1MDUw" />
             </div>
-            
+
             <button
               type="button"
               onClick={() => handleToolClick('demo_search')}

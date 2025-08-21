@@ -20,11 +20,24 @@ exports.id=458,exports.ids=[458],exports.modules={8457:(e,r,t)=>{Promise.resolve
               }
               
               realscout-property-details {
+                --rs-listing-divider-color: rgb(101, 141, 172);
                 width: 100%;
                 margin: 2rem 0;
                 border-radius: 8px;
                 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
                 min-height: 480px;
+                z-index: 1000;
+              }
+              
+              realscout-advanced-search {
+                --rs-as-button-text-color: #ffffff;
+                --rs-as-background-color: #ffffff;
+                --rs-as-button-color: #1c71c3;
+                --rs-as-widget-width: 500px !important;
+                width: 100%;
+                margin: 2rem 0;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
                 z-index: 1000;
               }
             `}}),i.jsx("script",{src:"https://cdn.homebot.com/widget.js",integrity:"sha384-your-integrity-hash",crossOrigin:"anonymous",async:!0}),i.jsx("script",{src:"https://cdn.cloudcma.com/widget.js",integrity:"sha384-your-integrity-hash",crossOrigin:"anonymous",async:!0}),i.jsx("script",{src:"https://cdn.percy.ai/hvs-autocomplete.js",integrity:"sha384-your-integrity-hash",crossOrigin:"anonymous",async:!0})]}),(0,i.jsxs)("body",{className:`${a().className} bg-neutral-50 text-neutral-900 antialiased`,children:[i.jsx(x,{}),e,i.jsx(d,{}),i.jsx("div",{id:"root"}),i.jsx("script",{dangerouslySetInnerHTML:{__html:`
