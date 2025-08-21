@@ -128,7 +128,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.className} bg-neutral-50 text-neutral-900 antialiased`}>
         <Header />
-        <main className="pt-16">{children}</main>
+        {children}
         <Footer />
         <div id="root" />
 

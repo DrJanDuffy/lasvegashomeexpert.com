@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Summerlin Luxury Homes Expert | Dr. Jan Duffy | $1M+ Properties',
@@ -19,24 +19,6 @@ export const metadata: Metadata = {
 export default function LuxuryHomesSummerlinPage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
-      {/* Schema for Local + Luxury */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'RealEstateAgent',
-            name: 'Dr. Jan Duffy',
-            areaServed: {
-              '@type': 'Place',
-              name: 'Summerlin, Las Vegas',
-            },
-            knowsAbout: ['Luxury Real Estate', 'Red Rock Country Club', 'The Ridges'],
-            priceRange: '$1,000,000+',
-          }),
-        }}
-      />
-
       {/* Hero Section */}
       <section className="hero-section bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(59,130,246,0.1),transparent_50%)]" />

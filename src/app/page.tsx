@@ -1,5 +1,4 @@
-import Footer from '@/components/layout/Footer';
-import Header from '@/components/layout/Header';
+import React, { Suspense } from 'react';
 import CTASection from '@/components/sections/CTASection';
 import HeroSection from '@/components/sections/HeroSection';
 import InteractiveToolSection from '@/components/sections/InteractiveToolSection';
@@ -10,13 +9,10 @@ import PainPointSection from '@/components/sections/PainPointSection';
 import SocialProofSection from '@/components/sections/SocialProofSection';
 import LoadingSpinner from '@/components/ui/LoadingSpinner';
 import { motion } from 'framer-motion';
-import { Suspense } from 'react';
 
 export default function HomePage() {
   return (
     <main className="min-h-screen">
-      <Header />
-
       {/* Hero Section */}
       <Suspense fallback={<LoadingSpinner />}>
         <HeroSection />
@@ -191,8 +187,6 @@ export default function HomePage() {
           </motion.div>
         </div>
       </section>
-
-      <Footer />
     </main>
   );
 }

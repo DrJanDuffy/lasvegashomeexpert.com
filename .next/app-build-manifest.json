@@ -1,105 +1,96 @@
 {
   "pages": {
     "/_not-found": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
       "static/chunks/app/_not-found-f6f204722899dd32.js"
     ],
     "/layout": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
       "static/chunks/220-8149e530ff321b81.js",
       "static/chunks/396-72cc274bcc78c9b4.js",
-      "static/chunks/94-ce9f0ba67fa522dc.js",
-      "static/css/8544d97c5af19fa2.css",
-      "static/chunks/app/layout-213d5c1ffeb48c11.js"
-    ],
-    "/about-dr-jan-duffy/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
-      "static/chunks/fd9d1056-2bb5cad09773c111.js",
-      "static/chunks/938-bd331119da81f984.js",
-      "static/chunks/main-app-904f72626b5aa04c.js",
-      "static/chunks/220-8149e530ff321b81.js",
-      "static/chunks/app/about-dr-jan-duffy/page-a47ac03e879a9e97.js"
-    ],
-    "/best-realtor-las-vegas-reviews/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
-      "static/chunks/fd9d1056-2bb5cad09773c111.js",
-      "static/chunks/938-bd331119da81f984.js",
-      "static/chunks/main-app-904f72626b5aa04c.js",
-      "static/chunks/220-8149e530ff321b81.js",
-      "static/chunks/app/best-realtor-las-vegas-reviews/page-b7d256c975e83417.js"
-    ],
-    "/buying-guide-las-vegas/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
-      "static/chunks/fd9d1056-2bb5cad09773c111.js",
-      "static/chunks/938-bd331119da81f984.js",
-      "static/chunks/main-app-904f72626b5aa04c.js",
-      "static/chunks/220-8149e530ff321b81.js",
-      "static/chunks/app/buying-guide-las-vegas/page-ed19a2bd04e2464b.js"
+      "static/css/8b836267ebbcfc3f.css",
+      "static/chunks/app/layout-8e3812772eaf8452.js"
     ],
     "/55-plus-communities-las-vegas/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
       "static/chunks/220-8149e530ff321b81.js",
       "static/chunks/app/55-plus-communities-las-vegas/page-f69c361310c99f3b.js"
     ],
+    "/about-dr-jan-duffy/page": [
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
+      "static/chunks/fd9d1056-2bb5cad09773c111.js",
+      "static/chunks/938-bd331119da81f984.js",
+      "static/chunks/main-app-904f72626b5aa04c.js",
+      "static/chunks/220-8149e530ff321b81.js",
+      "static/chunks/app/about-dr-jan-duffy/page-a47ac03e879a9e97.js"
+    ],
+    "/buying-guide-las-vegas/page": [
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
+      "static/chunks/fd9d1056-2bb5cad09773c111.js",
+      "static/chunks/938-bd331119da81f984.js",
+      "static/chunks/main-app-904f72626b5aa04c.js",
+      "static/chunks/220-8149e530ff321b81.js",
+      "static/chunks/app/buying-guide-las-vegas/page-ed19a2bd04e2464b.js"
+    ],
     "/contact/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
       "static/chunks/220-8149e530ff321b81.js",
       "static/chunks/app/contact/page-3010842425d4f2ef.js"
     ],
+    "/best-realtor-las-vegas-reviews/page": [
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
+      "static/chunks/fd9d1056-2bb5cad09773c111.js",
+      "static/chunks/938-bd331119da81f984.js",
+      "static/chunks/main-app-904f72626b5aa04c.js",
+      "static/chunks/220-8149e530ff321b81.js",
+      "static/chunks/app/best-realtor-las-vegas-reviews/page-b7d256c975e83417.js"
+    ],
     "/first-time-home-buyer-las-vegas/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
       "static/chunks/220-8149e530ff321b81.js",
       "static/chunks/app/first-time-home-buyer-las-vegas/page-89b4a41853671796.js"
     ],
-    "/las-vegas-luxury-home-market-report/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
-      "static/chunks/fd9d1056-2bb5cad09773c111.js",
-      "static/chunks/938-bd331119da81f984.js",
-      "static/chunks/main-app-904f72626b5aa04c.js",
-      "static/chunks/220-8149e530ff321b81.js",
-      "static/chunks/app/las-vegas-luxury-home-market-report/page-de86f388134d1cd3.js"
-    ],
-    "/luxury-realtor-las-vegas/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
-      "static/chunks/fd9d1056-2bb5cad09773c111.js",
-      "static/chunks/938-bd331119da81f984.js",
-      "static/chunks/main-app-904f72626b5aa04c.js",
-      "static/chunks/220-8149e530ff321b81.js",
-      "static/chunks/app/luxury-realtor-las-vegas/page-9fa9e39ab131a954.js"
-    ],
-    "/investment-properties-las-vegas/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
-      "static/chunks/fd9d1056-2bb5cad09773c111.js",
-      "static/chunks/938-bd331119da81f984.js",
-      "static/chunks/main-app-904f72626b5aa04c.js",
-      "static/chunks/220-8149e530ff321b81.js",
-      "static/chunks/app/investment-properties-las-vegas/page-4ba2349d7b8525e6.js"
-    ],
     "/luxury-homes-for-sale-las-vegas/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
       "static/chunks/220-8149e530ff321b81.js",
       "static/chunks/app/luxury-homes-for-sale-las-vegas/page-ca1ee1dd44968c29.js"
     ],
+    "/las-vegas-luxury-home-market-report/page": [
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
+      "static/chunks/fd9d1056-2bb5cad09773c111.js",
+      "static/chunks/938-bd331119da81f984.js",
+      "static/chunks/main-app-904f72626b5aa04c.js",
+      "static/chunks/220-8149e530ff321b81.js",
+      "static/chunks/app/las-vegas-luxury-home-market-report/page-de86f388134d1cd3.js"
+    ],
+    "/investment-properties-las-vegas/page": [
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
+      "static/chunks/fd9d1056-2bb5cad09773c111.js",
+      "static/chunks/938-bd331119da81f984.js",
+      "static/chunks/main-app-904f72626b5aa04c.js",
+      "static/chunks/220-8149e530ff321b81.js",
+      "static/chunks/app/investment-properties-las-vegas/page-4ba2349d7b8525e6.js"
+    ],
     "/modern-homes-las-vegas-expert/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
@@ -107,15 +98,23 @@
       "static/chunks/app/modern-homes-las-vegas-expert/page-17c412707ff95894.js"
     ],
     "/neighborhoods/red-rock-country-club/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
       "static/chunks/220-8149e530ff321b81.js",
       "static/chunks/app/neighborhoods/red-rock-country-club/page-18fef42afda2cf11.js"
     ],
+    "/luxury-realtor-las-vegas/page": [
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
+      "static/chunks/fd9d1056-2bb5cad09773c111.js",
+      "static/chunks/938-bd331119da81f984.js",
+      "static/chunks/main-app-904f72626b5aa04c.js",
+      "static/chunks/220-8149e530ff321b81.js",
+      "static/chunks/app/luxury-realtor-las-vegas/page-9fa9e39ab131a954.js"
+    ],
     "/neighborhoods/southern-highlands/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
@@ -123,49 +122,47 @@
       "static/chunks/app/neighborhoods/southern-highlands/page-b3af2714895468eb.js"
     ],
     "/neighborhoods/the-ridges-summerlin/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
       "static/chunks/220-8149e530ff321b81.js",
       "static/chunks/app/neighborhoods/the-ridges-summerlin/page-f199b81b590e9c6d.js"
     ],
-    "/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
-      "static/chunks/fd9d1056-2bb5cad09773c111.js",
-      "static/chunks/938-bd331119da81f984.js",
-      "static/chunks/main-app-904f72626b5aa04c.js",
-      "static/chunks/220-8149e530ff321b81.js",
-      "static/chunks/396-72cc274bcc78c9b4.js",
-      "static/chunks/94-ce9f0ba67fa522dc.js",
-      "static/chunks/app/page-65641532fdab525c.js"
-    ],
-    "/relocation-specialist-las-vegas/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
-      "static/chunks/fd9d1056-2bb5cad09773c111.js",
-      "static/chunks/938-bd331119da81f984.js",
-      "static/chunks/main-app-904f72626b5aa04c.js",
-      "static/chunks/220-8149e530ff321b81.js",
-      "static/chunks/app/relocation-specialist-las-vegas/page-a8c39ce4eeb2db58.js"
-    ],
-    "/privacy-policy/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
-      "static/chunks/fd9d1056-2bb5cad09773c111.js",
-      "static/chunks/938-bd331119da81f984.js",
-      "static/chunks/main-app-904f72626b5aa04c.js",
-      "static/chunks/220-8149e530ff321b81.js",
-      "static/chunks/app/privacy-policy/page-5491a893a3028c7c.js"
-    ],
     "/neighborhoods/tournament-hills/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
       "static/chunks/220-8149e530ff321b81.js",
       "static/chunks/app/neighborhoods/tournament-hills/page-7f61b16c0f402f10.js"
     ],
+    "/page": [
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
+      "static/chunks/fd9d1056-2bb5cad09773c111.js",
+      "static/chunks/938-bd331119da81f984.js",
+      "static/chunks/main-app-904f72626b5aa04c.js",
+      "static/chunks/220-8149e530ff321b81.js",
+      "static/chunks/app/page-18fcb220c256ad86.js"
+    ],
+    "/privacy-policy/page": [
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
+      "static/chunks/fd9d1056-2bb5cad09773c111.js",
+      "static/chunks/938-bd331119da81f984.js",
+      "static/chunks/main-app-904f72626b5aa04c.js",
+      "static/chunks/220-8149e530ff321b81.js",
+      "static/chunks/app/privacy-policy/page-5491a893a3028c7c.js"
+    ],
+    "/relocation-specialist-las-vegas/page": [
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
+      "static/chunks/fd9d1056-2bb5cad09773c111.js",
+      "static/chunks/938-bd331119da81f984.js",
+      "static/chunks/main-app-904f72626b5aa04c.js",
+      "static/chunks/220-8149e530ff321b81.js",
+      "static/chunks/app/relocation-specialist-las-vegas/page-a8c39ce4eeb2db58.js"
+    ],
     "/selling-guide-las-vegas/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
@@ -173,7 +170,7 @@
       "static/chunks/app/selling-guide-las-vegas/page-7778efdc54a00e0f.js"
     ],
     "/services/home-staging-services-vegas/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
@@ -181,7 +178,7 @@
       "static/chunks/app/services/home-staging-services-vegas/page-bf4c19f2c96a761a.js"
     ],
     "/services/luxury-home-buyer-agent/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
@@ -189,7 +186,7 @@
       "static/chunks/app/services/luxury-home-buyer-agent/page-e76b0147b22763fc.js"
     ],
     "/services/luxury-home-selling-agent/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
@@ -197,7 +194,7 @@
       "static/chunks/app/services/luxury-home-selling-agent/page-bb4f6a85b45cfc56.js"
     ],
     "/sitemap/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
@@ -206,12 +203,40 @@
       "static/chunks/app/sitemap/page-73c58c510865b1a9.js"
     ],
     "/terms-of-service/page": [
-      "static/chunks/webpack-fcb17b9b24219011.js",
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
       "static/chunks/fd9d1056-2bb5cad09773c111.js",
       "static/chunks/938-bd331119da81f984.js",
       "static/chunks/main-app-904f72626b5aa04c.js",
       "static/chunks/220-8149e530ff321b81.js",
       "static/chunks/app/terms-of-service/page-341596be3b0f4640.js"
+    ],
+    "/test/page": [
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
+      "static/chunks/fd9d1056-2bb5cad09773c111.js",
+      "static/chunks/938-bd331119da81f984.js",
+      "static/chunks/main-app-904f72626b5aa04c.js",
+      "static/chunks/app/test/page-183e0f52e9563a9a.js"
+    ],
+    "/divorce-real-estate-las-vegas/page": [
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
+      "static/chunks/fd9d1056-2bb5cad09773c111.js",
+      "static/chunks/938-bd331119da81f984.js",
+      "static/chunks/main-app-904f72626b5aa04c.js",
+      "static/chunks/app/divorce-real-estate-las-vegas/page-ba80219bc42dbdad.js"
+    ],
+    "/luxury-homes-summerlin/page": [
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
+      "static/chunks/fd9d1056-2bb5cad09773c111.js",
+      "static/chunks/938-bd331119da81f984.js",
+      "static/chunks/main-app-904f72626b5aa04c.js",
+      "static/chunks/app/luxury-homes-summerlin/page-53b0ff9f2bad54ad.js"
+    ],
+    "/real-estate-agent-near-red-rock-casino/page": [
+      "static/chunks/webpack-6dc008a8e4310ca6.js",
+      "static/chunks/fd9d1056-2bb5cad09773c111.js",
+      "static/chunks/938-bd331119da81f984.js",
+      "static/chunks/main-app-904f72626b5aa04c.js",
+      "static/chunks/app/real-estate-agent-near-red-rock-casino/page-5daf2b6351f48699.js"
     ]
   }
 }
