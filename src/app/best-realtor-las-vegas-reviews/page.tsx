@@ -11,7 +11,7 @@ export default function BestRealtorReviewsPage() {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
             Dr. Jan Duffy - Best Realtor Las Vegas Reviews
           </h1>
-          
+
           {/* Review Summary Stats */}
           <div className="review-summary bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-white/20 max-w-4xl mx-auto mb-12">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -33,46 +33,50 @@ export default function BestRealtorReviewsPage() {
               </div>
             </div>
           </div>
-          
+
           <p className="text-xl sm:text-2xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-            Discover why Dr. Jan Duffy is consistently rated the #1 luxury realtor in Las Vegas. 
+            Discover why Dr. Jan Duffy is consistently rated the #1 luxury realtor in Las Vegas.
             Read authentic reviews from satisfied clients who found their dream homes.
           </p>
-          
+
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'reviews_consultation',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'reviews_page',
-                  cd3: 'consultation',
-                  cd4: '2000',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'reviews_consultation',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'reviews_page',
+                    cd3: 'consultation',
+                    cd4: '2000',
+                  },
+                })
+              }
               className="btn-accent-buyer text-lg px-8 py-4"
             >
               Schedule Consultation
             </button>
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'reviews_properties',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'reviews_page',
-                  cd3: 'properties',
-                  cd4: '2000',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'reviews_properties',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'reviews_page',
+                    cd3: 'properties',
+                    cd4: '2000',
+                  },
+                })
+              }
               className="btn-secondary text-lg px-8 py-4"
             >
               View Luxury Properties
@@ -87,7 +91,7 @@ export default function BestRealtorReviewsPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-16">
             Featured Client Reviews
           </h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Review 1 */}
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg p-8 shadow-lg">
@@ -99,8 +103,9 @@ export default function BestRealtorReviewsPage() {
                 "Exceeded All Expectations"
               </h3>
               <p className="text-slate-700 mb-6 italic">
-                "Dr. Jan Duffy helped us find our dream home in Red Rock Country Club. Her expertise in luxury real estate is unmatched. 
-                She understood exactly what we were looking for and delivered beyond our expectations. The entire process was seamless."
+                "Dr. Jan Duffy helped us find our dream home in Red Rock Country Club. Her expertise
+                in luxury real estate is unmatched. She understood exactly what we were looking for
+                and delivered beyond our expectations. The entire process was seamless."
               </p>
               <div className="border-t border-slate-200 pt-4">
                 <div className="font-semibold text-slate-800">Sarah M.</div>
@@ -119,8 +124,9 @@ export default function BestRealtorReviewsPage() {
                 "Above Asking Price in 21 Days"
               </h3>
               <p className="text-slate-700 mb-6 italic">
-                "As a luxury home seller, Dr. Jan's marketing strategy and network of high-net-worth buyers resulted in a sale 
-                above asking price in just 21 days. Her professionalism and market knowledge are exceptional."
+                "As a luxury home seller, Dr. Jan's marketing strategy and network of high-net-worth
+                buyers resulted in a sale above asking price in just 21 days. Her professionalism
+                and market knowledge are exceptional."
               </p>
               <div className="border-t border-slate-200 pt-4">
                 <div className="font-semibold text-slate-800">Michael R.</div>
@@ -139,8 +145,9 @@ export default function BestRealtorReviewsPage() {
                 "Perfect Match for Our Lifestyle"
               </h3>
               <p className="text-slate-700 mb-6 italic">
-                "Dr. Duffy's knowledge of MacDonald Highlands and the Henderson luxury market is incredible. 
-                She found us a property that perfectly matched our lifestyle and investment goals. Highly recommend!"
+                "Dr. Duffy's knowledge of MacDonald Highlands and the Henderson luxury market is
+                incredible. She found us a property that perfectly matched our lifestyle and
+                investment goals. Highly recommend!"
               </p>
               <div className="border-t border-slate-200 pt-4">
                 <div className="font-semibold text-slate-800">Jennifer L.</div>
@@ -159,8 +166,9 @@ export default function BestRealtorReviewsPage() {
                 "Professional and Compassionate"
               </h3>
               <p className="text-slate-700 mb-6 italic">
-                "Dr. Jan helped us navigate a complex divorce real estate situation with compassion and expertise. 
-                Her psychology background made all the difference in handling sensitive family matters."
+                "Dr. Jan helped us navigate a complex divorce real estate situation with compassion
+                and expertise. Her psychology background made all the difference in handling
+                sensitive family matters."
               </p>
               <div className="border-t border-slate-200 pt-4">
                 <div className="font-semibold text-slate-800">David K.</div>
@@ -179,8 +187,9 @@ export default function BestRealtorReviewsPage() {
                 "Veteran-Friendly Service"
               </h3>
               <p className="text-slate-700 mb-6 italic">
-                "As a veteran, I appreciated Dr. Jan's understanding of VA loans and military relocation. 
-                She made the entire process smooth and stress-free. Found our perfect home in Summerlin."
+                "As a veteran, I appreciated Dr. Jan's understanding of VA loans and military
+                relocation. She made the entire process smooth and stress-free. Found our perfect
+                home in Summerlin."
               </p>
               <div className="border-t border-slate-200 pt-4">
                 <div className="font-semibold text-slate-800">Robert T.</div>
@@ -199,8 +208,9 @@ export default function BestRealtorReviewsPage() {
                 "Investment Property Expert"
               </h3>
               <p className="text-slate-700 mb-6 italic">
-                "Dr. Jan's knowledge of Las Vegas investment properties is outstanding. She helped us build a portfolio 
-                of luxury rental properties that generate excellent returns. A true professional."
+                "Dr. Jan's knowledge of Las Vegas investment properties is outstanding. She helped
+                us build a portfolio of luxury rental properties that generate excellent returns. A
+                true professional."
               </p>
               <div className="border-t border-slate-200 pt-4">
                 <div className="font-semibold text-slate-800">Lisa W.</div>
@@ -218,12 +228,10 @@ export default function BestRealtorReviewsPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-16">
             Review Statistics & Analysis
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Rating Breakdown
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Rating Breakdown</h3>
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
                   <span className="text-slate-700">5 Stars</span>
@@ -254,15 +262,15 @@ export default function BestRealtorReviewsPage() {
                 </div>
               </div>
             </div>
-            
+
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Review Highlights
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Review Highlights</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Most Common Praise</h4>
-                  <p className="text-slate-600">"Professional expertise" and "Personal attention"</p>
+                  <p className="text-slate-600">
+                    "Professional expertise" and "Personal attention"
+                  </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Response Time</h4>
@@ -284,29 +292,32 @@ export default function BestRealtorReviewsPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-16">
             Why Clients Choose Dr. Jan Duffy
           </h2>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="text-6xl mb-6">🏆</div>
               <h3 className="text-2xl font-bold text-slate-800 mb-4">Top 1% Producer</h3>
               <p className="text-slate-600">
-                Consistently ranked among Berkshire Hathaway's top performers with $180M+ in luxury sales
+                Consistently ranked among Berkshire Hathaway's top performers with $180M+ in luxury
+                sales
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="text-6xl mb-6">🎯</div>
               <h3 className="text-2xl font-bold text-slate-800 mb-4">Luxury Market Expert</h3>
               <p className="text-slate-600">
-                Specialized knowledge of Las Vegas's most prestigious neighborhoods and luxury properties
+                Specialized knowledge of Las Vegas's most prestigious neighborhoods and luxury
+                properties
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="text-6xl mb-6">🤝</div>
               <h3 className="text-2xl font-bold text-slate-800 mb-4">Personalized Service</h3>
               <p className="text-slate-600">
-                Every client receives Dr. Jan's direct attention and expertise throughout the entire process
+                Every client receives Dr. Jan's direct attention and expertise throughout the entire
+                process
               </p>
             </div>
           </div>
@@ -316,45 +327,47 @@ export default function BestRealtorReviewsPage() {
       {/* Contact Section */}
       <section className="contact-section bg-gradient-to-r from-slate-800 to-slate-900 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">
-            Ready to Experience 5-Star Service?
-          </h2>
+          <h2 className="text-4xl font-bold mb-6">Ready to Experience 5-Star Service?</h2>
           <p className="text-xl mb-8 text-slate-200">
             Join 127+ satisfied clients who chose Dr. Jan Duffy for their luxury real estate needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'reviews_contact_phone',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'reviews_page',
-                  cd3: 'phone',
-                  cd4: '2000',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'reviews_contact_phone',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'reviews_page',
+                    cd3: 'phone',
+                    cd4: '2000',
+                  },
+                })
+              }
               className="btn-accent-buyer text-lg px-8 py-4"
             >
               Call (702) 555-0123
             </button>
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'reviews_contact_email',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'reviews_page',
-                  cd3: 'email',
-                  cd4: '2000',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'reviews_contact_email',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'reviews_page',
+                    cd3: 'email',
+                    cd4: '2000',
+                  },
+                })
+              }
               className="btn-secondary text-lg px-8 py-4"
             >
               Send Email

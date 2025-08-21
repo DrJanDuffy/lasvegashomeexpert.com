@@ -11,7 +11,7 @@ export default function LuxuryHomesForSalePage() {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
             Luxury Homes for Sale Las Vegas
           </h1>
-          
+
           {/* Market Overview Stats */}
           <div className="market-overview bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-white/20 max-w-5xl mx-auto mb-12">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -33,46 +33,50 @@ export default function LuxuryHomesForSalePage() {
               </div>
             </div>
           </div>
-          
+
           <p className="text-xl sm:text-2xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-            Discover exclusive luxury homes in Las Vegas's most prestigious neighborhoods. 
-            From Red Rock Country Club to The Ridges Summerlin, find your dream property with Dr. Jan Duffy.
+            Discover exclusive luxury homes in Las Vegas's most prestigious neighborhoods. From Red
+            Rock Country Club to The Ridges Summerlin, find your dream property with Dr. Jan Duffy.
           </p>
-          
+
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'luxury_homes_consultation',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'luxury_homes_page',
-                  cd3: 'consultation',
-                  cd4: '2500',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'luxury_homes_consultation',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'luxury_homes_page',
+                    cd3: 'consultation',
+                    cd4: '2500',
+                  },
+                })
+              }
               className="btn-accent-buyer text-lg px-8 py-4"
             >
               Schedule Luxury Consultation
             </button>
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'luxury_homes_search',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'luxury_homes_page',
-                  cd3: 'search',
-                  cd4: '2500',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'luxury_homes_search',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'luxury_homes_page',
+                    cd3: 'search',
+                    cd4: '2500',
+                  },
+                })
+              }
               className="btn-secondary text-lg px-8 py-4"
             >
               Search All Properties
@@ -85,20 +89,19 @@ export default function LuxuryHomesForSalePage() {
       <section className="featured-properties bg-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-slate-900 mb-6">
-              Featured Luxury Properties
-            </h2>
+            <h2 className="text-4xl font-bold text-slate-900 mb-6">Featured Luxury Properties</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Handpicked luxury homes with premium features, stunning views, and exceptional locations
+              Handpicked luxury homes with premium features, stunning views, and exceptional
+              locations
             </p>
           </div>
-          
+
           <div className="bg-gradient-to-r from-slate-50 to-blue-50 rounded-lg p-8 shadow-lg">
-            <realscout-office-listings 
-              agent-encoded-id="QWdlbnQtMjI1MDUw" 
-              sort-order="PRICE_DESC" 
-              listing-status="For Sale" 
-              property-types="SFR,MF" 
+            <realscout-office-listings
+              agent-encoded-id="QWdlbnQtMjI1MDUw"
+              sort-order="PRICE_DESC"
+              listing-status="For Sale"
+              property-types="SFR,MF"
               price-min="1000000"
               max-results="12"
               show-filters="true"
@@ -118,7 +121,7 @@ export default function LuxuryHomesForSalePage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-16">
             Las Vegas Luxury Neighborhoods
           </h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Red Rock Country Club */}
             <div className="bg-white rounded-lg p-8 shadow-lg">
@@ -136,18 +139,20 @@ export default function LuxuryHomesForSalePage() {
               </ul>
               <button
                 type="button"
-                onClick={() => trackEvent({
-                  event: 'neighborhood_click',
-                  category: 'exploration',
-                  action: 'neighborhood_view',
-                  label: 'red_rock_country_club',
-                  customDimensions: {
-                    cd1: 'luxury_buyer',
-                    cd2: 'luxury_homes_page',
-                    cd3: 'red_rock',
-                    cd4: '1000',
-                  },
-                })}
+                onClick={() =>
+                  trackEvent({
+                    event: 'neighborhood_click',
+                    category: 'exploration',
+                    action: 'neighborhood_view',
+                    label: 'red_rock_country_club',
+                    customDimensions: {
+                      cd1: 'luxury_buyer',
+                      cd2: 'luxury_homes_page',
+                      cd3: 'red_rock',
+                      cd4: '1000',
+                    },
+                  })
+                }
                 className="w-full btn-accent-buyer py-3"
               >
                 View Red Rock Properties
@@ -170,18 +175,20 @@ export default function LuxuryHomesForSalePage() {
               </ul>
               <button
                 type="button"
-                onClick={() => trackEvent({
-                  event: 'neighborhood_click',
-                  category: 'exploration',
-                  action: 'neighborhood_view',
-                  label: 'the_ridges',
-                  customDimensions: {
-                    cd1: 'luxury_buyer',
-                    cd2: 'luxury_homes_page',
-                    cd3: 'the_ridges',
-                    cd4: '1000',
-                  },
-                })}
+                onClick={() =>
+                  trackEvent({
+                    event: 'neighborhood_click',
+                    category: 'exploration',
+                    action: 'neighborhood_view',
+                    label: 'the_ridges',
+                    customDimensions: {
+                      cd1: 'luxury_buyer',
+                      cd2: 'luxury_homes_page',
+                      cd3: 'the_ridges',
+                      cd4: '1000',
+                    },
+                  })
+                }
                 className="w-full btn-accent-buyer py-3"
               >
                 View The Ridges Properties
@@ -204,18 +211,20 @@ export default function LuxuryHomesForSalePage() {
               </ul>
               <button
                 type="button"
-                onClick={() => trackEvent({
-                  event: 'neighborhood_click',
-                  category: 'exploration',
-                  action: 'neighborhood_view',
-                  label: 'macdonald_highlands',
-                  customDimensions: {
-                    cd1: 'luxury_buyer',
-                    cd2: 'luxury_homes_page',
-                    cd3: 'macdonald_highlands',
-                    cd4: '1000',
-                  },
-                })}
+                onClick={() =>
+                  trackEvent({
+                    event: 'neighborhood_click',
+                    category: 'exploration',
+                    action: 'neighborhood_view',
+                    label: 'macdonald_highlands',
+                    customDimensions: {
+                      cd1: 'luxury_buyer',
+                      cd2: 'luxury_homes_page',
+                      cd3: 'macdonald_highlands',
+                      cd4: '1000',
+                    },
+                  })
+                }
                 className="w-full btn-accent-buyer py-3"
               >
                 View MacDonald Properties
@@ -238,18 +247,20 @@ export default function LuxuryHomesForSalePage() {
               </ul>
               <button
                 type="button"
-                onClick={() => trackEvent({
-                  event: 'neighborhood_click',
-                  category: 'exploration',
-                  action: 'neighborhood_view',
-                  label: 'southern_highlands',
-                  customDimensions: {
-                    cd1: 'luxury_buyer',
-                    cd2: 'luxury_homes_page',
-                    cd3: 'southern_highlands',
-                    cd4: '1000',
-                  },
-                })}
+                onClick={() =>
+                  trackEvent({
+                    event: 'neighborhood_click',
+                    category: 'exploration',
+                    action: 'neighborhood_view',
+                    label: 'southern_highlands',
+                    customDimensions: {
+                      cd1: 'luxury_buyer',
+                      cd2: 'luxury_homes_page',
+                      cd3: 'southern_highlands',
+                      cd4: '1000',
+                    },
+                  })
+                }
                 className="w-full btn-accent-buyer py-3"
               >
                 View Southern Highlands Properties
@@ -272,18 +283,20 @@ export default function LuxuryHomesForSalePage() {
               </ul>
               <button
                 type="button"
-                onClick={() => trackEvent({
-                  event: 'neighborhood_click',
-                  category: 'exploration',
-                  action: 'neighborhood_view',
-                  label: 'tournament_hills',
-                  customDimensions: {
-                    cd1: 'luxury_buyer',
-                    cd2: 'luxury_homes_page',
-                    cd3: 'tournament_hills',
-                    cd4: '1000',
-                  },
-                })}
+                onClick={() =>
+                  trackEvent({
+                    event: 'neighborhood_click',
+                    category: 'exploration',
+                    action: 'neighborhood_view',
+                    label: 'tournament_hills',
+                    customDimensions: {
+                      cd1: 'luxury_buyer',
+                      cd2: 'luxury_homes_page',
+                      cd3: 'tournament_hills',
+                      cd4: '1000',
+                    },
+                  })
+                }
                 className="w-full btn-accent-buyer py-3"
               >
                 View Tournament Hills Properties
@@ -298,23 +311,25 @@ export default function LuxuryHomesForSalePage() {
                 <div className="text-lg text-slate-600 mb-4">Find Your Perfect Home</div>
               </div>
               <p className="text-slate-700 mb-6">
-                Can't find what you're looking for? Let Dr. Jan Duffy create a custom search 
-                based on your specific requirements and preferences.
+                Can't find what you're looking for? Let Dr. Jan Duffy create a custom search based
+                on your specific requirements and preferences.
               </p>
               <button
                 type="button"
-                onClick={() => trackEvent({
-                  event: 'cta_click',
-                  category: 'conversion',
-                  action: 'cta_click',
-                  label: 'custom_search_request',
-                  customDimensions: {
-                    cd1: 'luxury_buyer',
-                    cd2: 'luxury_homes_page',
-                    cd3: 'custom_search',
-                    cd4: '1500',
-                  },
-                })}
+                onClick={() =>
+                  trackEvent({
+                    event: 'cta_click',
+                    category: 'conversion',
+                    action: 'cta_click',
+                    label: 'custom_search_request',
+                    customDimensions: {
+                      cd1: 'luxury_buyer',
+                      cd2: 'luxury_homes_page',
+                      cd3: 'custom_search',
+                      cd4: '1500',
+                    },
+                  })
+                }
                 className="w-full btn-secondary py-3"
               >
                 Request Custom Search
@@ -330,26 +345,28 @@ export default function LuxuryHomesForSalePage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-16">
             Luxury Home Features
           </h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-6xl mb-4">🏊</div>
               <h3 className="text-xl font-bold text-slate-800 mb-2">Private Pools</h3>
-              <p className="text-slate-600">Infinity pools, spa features, and resort-style amenities</p>
+              <p className="text-slate-600">
+                Infinity pools, spa features, and resort-style amenities
+              </p>
             </div>
-            
+
             <div className="text-center">
               <div className="text-6xl mb-4">⛳</div>
               <h3 className="text-xl font-bold text-slate-800 mb-2">Golf Course Access</h3>
               <p className="text-slate-600">Championship courses and private club memberships</p>
             </div>
-            
+
             <div className="text-center">
               <div className="text-6xl mb-4">🏰</div>
               <h3 className="text-xl font-bold text-slate-800 mb-2">Gated Communities</h3>
               <p className="text-slate-600">24/7 security and exclusive neighborhood access</p>
             </div>
-            
+
             <div className="text-center">
               <div className="text-6xl mb-4">🌅</div>
               <h3 className="text-xl font-bold text-slate-800 mb-2">Stunning Views</h3>
@@ -365,20 +382,22 @@ export default function LuxuryHomesForSalePage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-16">
             Las Vegas Luxury Market Insights
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Current Market Trends
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Current Market Trends</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Buyer's Market Emerging</h4>
-                  <p className="text-slate-600">4.5 months of inventory creates excellent negotiation opportunities</p>
+                  <p className="text-slate-600">
+                    4.5 months of inventory creates excellent negotiation opportunities
+                  </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Price Appreciation</h4>
-                  <p className="text-slate-600">15% average increase across luxury neighborhoods year-over-year</p>
+                  <p className="text-slate-600">
+                    15% average increase across luxury neighborhoods year-over-year
+                  </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Days on Market</h4>
@@ -386,23 +405,27 @@ export default function LuxuryHomesForSalePage() {
                 </div>
               </div>
             </div>
-            
+
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Investment Opportunities
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Investment Opportunities</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Rental Income</h4>
-                  <p className="text-slate-600">Luxury properties generate $8K-$15K monthly rental income</p>
+                  <p className="text-slate-600">
+                    Luxury properties generate $8K-$15K monthly rental income
+                  </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Appreciation Potential</h4>
-                  <p className="text-slate-600">Strong fundamentals support continued price growth</p>
+                  <p className="text-slate-600">
+                    Strong fundamentals support continued price growth
+                  </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Tax Benefits</h4>
-                  <p className="text-slate-600">Nevada's tax-friendly environment for real estate investors</p>
+                  <p className="text-slate-600">
+                    Nevada's tax-friendly environment for real estate investors
+                  </p>
                 </div>
               </div>
             </div>
@@ -413,45 +436,47 @@ export default function LuxuryHomesForSalePage() {
       {/* Contact Section */}
       <section className="contact-section bg-gradient-to-r from-slate-800 to-slate-900 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">
-            Ready to Find Your Luxury Dream Home?
-          </h2>
+          <h2 className="text-4xl font-bold mb-6">Ready to Find Your Luxury Dream Home?</h2>
           <p className="text-xl mb-8 text-slate-200">
             Dr. Jan Duffy is here to guide you through every step of your luxury home search.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'luxury_homes_contact_phone',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'luxury_homes_page',
-                  cd3: 'phone',
-                  cd4: '2500',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'luxury_homes_contact_phone',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'luxury_homes_page',
+                    cd3: 'phone',
+                    cd4: '2500',
+                  },
+                })
+              }
               className="btn-accent-buyer text-lg px-8 py-4"
             >
               Call (702) 555-0123
             </button>
             <button
               type="button"
-              onClick={() => trackEvent({
-                event: 'cta_click',
-                category: 'conversion',
-                action: 'cta_click',
-                label: 'luxury_homes_contact_email',
-                customDimensions: {
-                  cd1: 'luxury_buyer',
-                  cd2: 'luxury_homes_page',
-                  cd3: 'email',
-                  cd4: '2500',
-                },
-              })}
+              onClick={() =>
+                trackEvent({
+                  event: 'cta_click',
+                  category: 'conversion',
+                  action: 'cta_click',
+                  label: 'luxury_homes_contact_email',
+                  customDimensions: {
+                    cd1: 'luxury_buyer',
+                    cd2: 'luxury_homes_page',
+                    cd3: 'email',
+                    cd4: '2500',
+                  },
+                })
+              }
               className="btn-secondary text-lg px-8 py-4"
             >
               Send Email
