@@ -57,12 +57,47 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        {/* RealScout v3 API Script */}
+        {/* RealScout Web Components Script - UNIVERSAL SETUP FOR EVERY PAGE */}
         <script
-          src="https://cdn.realscout.com/v3/realscout.js"
-          integrity="sha384-your-integrity-hash"
-          crossOrigin="anonymous"
-          async
+          src="https://em.realscout.com/widgets/realscout-web-components.umd.js"
+          type="module"
+        />
+
+        {/* RealScout Widget Styling */}
+        <style
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{
+            __html: `
+              /* RealScout Widget Styling - Applied to every page */
+              realscout-office-listings {
+                --rs-listing-divider-color: rgb(101, 141, 172);
+                width: 100%;
+                margin: 2rem 0;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                min-height: 480px;
+                z-index: 1000;
+              }
+              
+              realscout-property-search {
+                width: 100%;
+                margin: 2rem 0;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                min-height: 480px;
+                z-index: 1000;
+              }
+              
+              realscout-property-details {
+                width: 100%;
+                margin: 2rem 0;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                min-height: 480px;
+                z-index: 1000;
+              }
+            `,
+          }}
         />
 
         {/* Homebot Script */}
@@ -98,14 +133,13 @@ export default function RootLayout({
             __html: `
               // Critical path script loading sequence
               window.addEventListener('DOMContentLoaded', function() {
-                // Initialize core dependencies
-                if (typeof window.RealScout !== 'undefined') {
-                  window.RealScout.init({
-                    apiKey: process.env.NEXT_PUBLIC_REALSCOUT_API_KEY
-                  });
+                // Initialize RealScout web components
+                if (typeof window.customElements !== 'undefined') {
+                  // RealScout components are loaded as web components
+                  console.log('RealScout web components ready');
                 }
                 
-                // Initialize widgets after core dependencies
+                // Initialize other widgets after core dependencies
                 setTimeout(() => {
                   if (typeof window.Homebot !== 'undefined') {
                     window.Homebot.init();
