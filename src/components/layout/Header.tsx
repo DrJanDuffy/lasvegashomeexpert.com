@@ -57,7 +57,7 @@ export default function Header() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? 'bg-white/95 backdrop-blur-md shadow-lg border-b border-neutral-200'
-          : 'bg-transparent'
+          : 'bg-white/90 backdrop-blur-sm shadow-md'
       }`}
     >
       <div className="container-responsive">
@@ -65,7 +65,7 @@ export default function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="flex items-center space-x-2 text-2xl font-bold text-primary-800"
+            className="flex items-center space-x-2 text-2xl font-bold text-primary-900"
             onClick={() => handleNavClick('logo')}
           >
             <div className="w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-600 rounded-lg flex items-center justify-center">
@@ -80,7 +80,7 @@ export default function Header() {
             <div className="relative group">
               <button
                 type="button"
-                className="text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium flex items-center space-x-1"
+                className="text-neutral-800 hover:text-primary-600 transition-colors duration-200 font-semibold flex items-center space-x-1"
                 onClick={() => setIsBuyingDropdownOpen(!isBuyingDropdownOpen)}
               >
                 <span>Buying</span>
@@ -144,7 +144,7 @@ export default function Header() {
             <div className="relative group">
               <button
                 type="button"
-                className="text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium flex items-center space-x-1"
+                className="text-neutral-800 hover:text-primary-600 transition-colors duration-200 font-semibold flex items-center space-x-1"
                 onClick={() => setIsSellingDropdownOpen(!isSellingDropdownOpen)}
               >
                 <span>Selling</span>
@@ -194,7 +194,7 @@ export default function Header() {
             <div className="relative group">
               <button
                 type="button"
-                className="text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium flex items-center space-x-1"
+                className="text-neutral-800 hover:text-primary-600 transition-colors duration-200 font-semibold flex items-center space-x-1"
                 onClick={() => setIsNeighborhoodsDropdownOpen(!isNeighborhoodsDropdownOpen)}
               >
                 <span>Neighborhoods</span>
@@ -307,7 +307,7 @@ export default function Header() {
             <div className="relative group">
               <button
                 type="button"
-                className="text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium flex items-center space-x-1"
+                className="text-neutral-800 hover:text-primary-600 transition-colors duration-200 font-semibold flex items-center space-x-1"
                 onClick={() => setIsResourcesDropdownOpen(!isResourcesDropdownOpen)}
               >
                 <span>Resources</span>
@@ -363,7 +363,7 @@ export default function Header() {
             {/* About */}
             <Link
               href="/about-dr-jan-duffy"
-              className="text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium"
+              className="text-neutral-800 hover:text-primary-600 transition-colors duration-200 font-semibold"
               onClick={() => handleNavClick('about')}
             >
               About
@@ -372,7 +372,7 @@ export default function Header() {
             {/* Reviews */}
             <Link
               href="/best-realtor-las-vegas-reviews"
-              className="text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium"
+              className="text-neutral-800 hover:text-primary-600 transition-colors duration-200 font-semibold"
               onClick={() => handleNavClick('reviews')}
             >
               Reviews
@@ -421,7 +421,7 @@ export default function Header() {
                 <div className="ml-4 space-y-2">
                   <Link
                     href="/luxury-homes-for-sale-las-vegas"
-                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    className="block text-neutral-800 hover:text-primary-600 transition-colors duration-200 font-medium"
                     onClick={() => {
                       handleNavClick('luxury_homes');
                       setIsMenuOpen(false);
@@ -431,7 +431,7 @@ export default function Header() {
                   </Link>
                   <Link
                     href="/modern-homes-las-vegas-expert"
-                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    className="block text-neutral-800 hover:text-primary-600 transition-colors duration-200 font-medium"
                     onClick={() => {
                       handleNavClick('modern_homes');
                       setIsMenuOpen(false);
@@ -441,7 +441,7 @@ export default function Header() {
                   </Link>
                   <Link
                     href="/services/luxury-home-buyer-agent"
-                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    className="block text-neutral-800 hover:text-primary-600 transition-colors duration-200 font-medium"
                     onClick={() => {
                       handleNavClick('buyer_agent');
                       setIsMenuOpen(false);
@@ -451,7 +451,7 @@ export default function Header() {
                   </Link>
                   <Link
                     href="/buying-guide-las-vegas"
-                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    className="block text-neutral-800 hover:text-primary-600 transition-colors duration-200 font-medium"
                     onClick={() => {
                       handleNavClick('buying_guide');
                       setIsMenuOpen(false);
@@ -461,7 +461,7 @@ export default function Header() {
                   </Link>
                   <Link
                     href="/first-time-home-buyer-las-vegas"
-                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    className="block text-neutral-800 hover:text-primary-600 transition-colors duration-200 font-medium"
                     onClick={() => {
                       handleNavClick('first_time_buyer');
                       setIsMenuOpen(false);
