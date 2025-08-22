@@ -1,14 +1,5 @@
 {
   "pages": {
-    "/layout": [
-      "static/chunks/webpack-dd72cf3b39a9f0d6.js",
-      "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
-      "static/chunks/2472-759b8f569435f08f.js",
-      "static/chunks/main-app-e8c05315aa97f264.js",
-      "static/chunks/8326-c9bebfa8c26a895b.js",
-      "static/css/66f6423a8720d28f.css",
-      "static/chunks/app/layout-9ceea64d468b588e.js"
-    ],
     "/not-found": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",
       "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
@@ -17,13 +8,14 @@
       "static/chunks/8326-c9bebfa8c26a895b.js",
       "static/chunks/app/not-found-9bc265833c1f4d3e.js"
     ],
-    "/about-dr-jan-duffy/page": [
+    "/layout": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",
       "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
       "static/chunks/2472-759b8f569435f08f.js",
       "static/chunks/main-app-e8c05315aa97f264.js",
-      "static/chunks/3600-54a6111d9e04d0c6.js",
-      "static/chunks/app/about-dr-jan-duffy/page-cb24a36ac788136d.js"
+      "static/chunks/8326-c9bebfa8c26a895b.js",
+      "static/css/66f6423a8720d28f.css",
+      "static/chunks/app/layout-9d51e5ef8429ceca.js"
     ],
     "/55-plus-communities-las-vegas/page": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",
@@ -33,20 +25,20 @@
       "static/chunks/3600-54a6111d9e04d0c6.js",
       "static/chunks/app/55-plus-communities-las-vegas/page-359f9ac809fe2eea.js"
     ],
+    "/about-dr-jan-duffy/page": [
+      "static/chunks/webpack-dd72cf3b39a9f0d6.js",
+      "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
+      "static/chunks/2472-759b8f569435f08f.js",
+      "static/chunks/main-app-e8c05315aa97f264.js",
+      "static/chunks/3600-54a6111d9e04d0c6.js",
+      "static/chunks/app/about-dr-jan-duffy/page-cb24a36ac788136d.js"
+    ],
     "/best-realtor-las-vegas-reviews/page": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",
       "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
       "static/chunks/2472-759b8f569435f08f.js",
       "static/chunks/main-app-e8c05315aa97f264.js",
       "static/chunks/app/best-realtor-las-vegas-reviews/page-afd90b352082b342.js"
-    ],
-    "/contact/page": [
-      "static/chunks/webpack-dd72cf3b39a9f0d6.js",
-      "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
-      "static/chunks/2472-759b8f569435f08f.js",
-      "static/chunks/main-app-e8c05315aa97f264.js",
-      "static/chunks/3600-54a6111d9e04d0c6.js",
-      "static/chunks/app/contact/page-537e73455c0f63eb.js"
     ],
     "/buying-guide-las-vegas/page": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",
@@ -56,14 +48,6 @@
       "static/chunks/3600-54a6111d9e04d0c6.js",
       "static/chunks/app/buying-guide-las-vegas/page-e9d55c60ad39b255.js"
     ],
-    "/first-time-home-buyer-las-vegas/page": [
-      "static/chunks/webpack-dd72cf3b39a9f0d6.js",
-      "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
-      "static/chunks/2472-759b8f569435f08f.js",
-      "static/chunks/main-app-e8c05315aa97f264.js",
-      "static/chunks/3600-54a6111d9e04d0c6.js",
-      "static/chunks/app/first-time-home-buyer-las-vegas/page-f3f7dba1489d6c94.js"
-    ],
     "/investment-properties-las-vegas/page": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",
       "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
@@ -72,12 +56,21 @@
       "static/chunks/3600-54a6111d9e04d0c6.js",
       "static/chunks/app/investment-properties-las-vegas/page-7cca5b5db8b7b239.js"
     ],
-    "/luxury-homes-for-sale-las-vegas/page": [
+    "/contact/page": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",
       "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
       "static/chunks/2472-759b8f569435f08f.js",
       "static/chunks/main-app-e8c05315aa97f264.js",
-      "static/chunks/app/luxury-homes-for-sale-las-vegas/page-64e0791f7bc49d49.js"
+      "static/chunks/3600-54a6111d9e04d0c6.js",
+      "static/chunks/app/contact/page-7df44fde1c6dab50.js"
+    ],
+    "/first-time-home-buyer-las-vegas/page": [
+      "static/chunks/webpack-dd72cf3b39a9f0d6.js",
+      "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
+      "static/chunks/2472-759b8f569435f08f.js",
+      "static/chunks/main-app-e8c05315aa97f264.js",
+      "static/chunks/3600-54a6111d9e04d0c6.js",
+      "static/chunks/app/first-time-home-buyer-las-vegas/page-f3f7dba1489d6c94.js"
     ],
     "/las-vegas-luxury-home-market-report/page": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",
@@ -94,12 +87,12 @@
       "static/chunks/main-app-e8c05315aa97f264.js",
       "static/chunks/app/luxury-realtor-las-vegas/page-685fd1ae0f23d2f6.js"
     ],
-    "/neighborhoods/anthem-homes/page": [
+    "/luxury-homes-for-sale-las-vegas/page": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",
       "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
       "static/chunks/2472-759b8f569435f08f.js",
       "static/chunks/main-app-e8c05315aa97f264.js",
-      "static/chunks/app/neighborhoods/anthem-homes/page-f5cf2bae07528c38.js"
+      "static/chunks/app/luxury-homes-for-sale-las-vegas/page-64e0791f7bc49d49.js"
     ],
     "/modern-homes-las-vegas-expert/page": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",
@@ -107,6 +100,13 @@
       "static/chunks/2472-759b8f569435f08f.js",
       "static/chunks/main-app-e8c05315aa97f264.js",
       "static/chunks/app/modern-homes-las-vegas-expert/page-613b29fda0d98a42.js"
+    ],
+    "/neighborhoods/anthem-homes/page": [
+      "static/chunks/webpack-dd72cf3b39a9f0d6.js",
+      "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
+      "static/chunks/2472-759b8f569435f08f.js",
+      "static/chunks/main-app-e8c05315aa97f264.js",
+      "static/chunks/app/neighborhoods/anthem-homes/page-f5cf2bae07528c38.js"
     ],
     "/neighborhoods/del-webb-communities/page": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",
@@ -122,19 +122,19 @@
       "static/chunks/main-app-e8c05315aa97f264.js",
       "static/chunks/app/neighborhoods/downtown-las-vegas/page-623e3eac38872d3b.js"
     ],
-    "/neighborhoods/green-valley-homes/page": [
-      "static/chunks/webpack-dd72cf3b39a9f0d6.js",
-      "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
-      "static/chunks/2472-759b8f569435f08f.js",
-      "static/chunks/main-app-e8c05315aa97f264.js",
-      "static/chunks/app/neighborhoods/green-valley-homes/page-28d268e95d9754f2.js"
-    ],
     "/neighborhoods/henderson-homes/page": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",
       "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
       "static/chunks/2472-759b8f569435f08f.js",
       "static/chunks/main-app-e8c05315aa97f264.js",
       "static/chunks/app/neighborhoods/henderson-homes/page-7f7295da3d79137b.js"
+    ],
+    "/neighborhoods/green-valley-homes/page": [
+      "static/chunks/webpack-dd72cf3b39a9f0d6.js",
+      "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
+      "static/chunks/2472-759b8f569435f08f.js",
+      "static/chunks/main-app-e8c05315aa97f264.js",
+      "static/chunks/app/neighborhoods/green-valley-homes/page-28d268e95d9754f2.js"
     ],
     "/neighborhoods/mountains-edge/page": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",
@@ -180,20 +180,6 @@
       "static/chunks/main-app-e8c05315aa97f264.js",
       "static/chunks/app/neighborhoods/summerlin-homes/page-ea04f65e50324862.js"
     ],
-    "/neighborhoods/sun-city-communities/page": [
-      "static/chunks/webpack-dd72cf3b39a9f0d6.js",
-      "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
-      "static/chunks/2472-759b8f569435f08f.js",
-      "static/chunks/main-app-e8c05315aa97f264.js",
-      "static/chunks/app/neighborhoods/sun-city-communities/page-a7de08cca40643ee.js"
-    ],
-    "/neighborhoods/the-ridges-summerlin-homes/page": [
-      "static/chunks/webpack-dd72cf3b39a9f0d6.js",
-      "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
-      "static/chunks/2472-759b8f569435f08f.js",
-      "static/chunks/main-app-e8c05315aa97f264.js",
-      "static/chunks/app/neighborhoods/the-ridges-summerlin-homes/page-a9cf45eb54a79da3.js"
-    ],
     "/neighborhoods/the-ridges-summerlin/page": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",
       "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
@@ -217,6 +203,20 @@
       "static/chunks/3600-54a6111d9e04d0c6.js",
       "static/chunks/app/neighborhoods/tournament-hills/page-da96d6638019cd0a.js"
     ],
+    "/neighborhoods/the-ridges-summerlin-homes/page": [
+      "static/chunks/webpack-dd72cf3b39a9f0d6.js",
+      "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
+      "static/chunks/2472-759b8f569435f08f.js",
+      "static/chunks/main-app-e8c05315aa97f264.js",
+      "static/chunks/app/neighborhoods/the-ridges-summerlin-homes/page-a9cf45eb54a79da3.js"
+    ],
+    "/neighborhoods/sun-city-communities/page": [
+      "static/chunks/webpack-dd72cf3b39a9f0d6.js",
+      "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
+      "static/chunks/2472-759b8f569435f08f.js",
+      "static/chunks/main-app-e8c05315aa97f264.js",
+      "static/chunks/app/neighborhoods/sun-city-communities/page-a7de08cca40643ee.js"
+    ],
     "/page": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",
       "static/chunks/fd9d1056-4b3b0850e20d2db6.js",
@@ -224,7 +224,7 @@
       "static/chunks/main-app-e8c05315aa97f264.js",
       "static/chunks/3600-54a6111d9e04d0c6.js",
       "static/chunks/8326-c9bebfa8c26a895b.js",
-      "static/chunks/app/page-a707f251753bd185.js"
+      "static/chunks/app/page-7cae2b2713645a0c.js"
     ],
     "/privacy-policy/page": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",
@@ -232,7 +232,7 @@
       "static/chunks/2472-759b8f569435f08f.js",
       "static/chunks/main-app-e8c05315aa97f264.js",
       "static/chunks/3600-54a6111d9e04d0c6.js",
-      "static/chunks/app/privacy-policy/page-d148c8016b7ba4d1.js"
+      "static/chunks/app/privacy-policy/page-ddd9e074570e8ea6.js"
     ],
     "/relocation-specialist-las-vegas/page": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",
@@ -289,7 +289,7 @@
       "static/chunks/2472-759b8f569435f08f.js",
       "static/chunks/main-app-e8c05315aa97f264.js",
       "static/chunks/3600-54a6111d9e04d0c6.js",
-      "static/chunks/app/terms-of-service/page-71240e13f4a7320b.js"
+      "static/chunks/app/terms-of-service/page-2e85be84bd2c4139.js"
     ],
     "/test/page": [
       "static/chunks/webpack-dd72cf3b39a9f0d6.js",

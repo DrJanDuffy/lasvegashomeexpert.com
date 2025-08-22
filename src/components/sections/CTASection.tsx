@@ -137,7 +137,7 @@ export default function CTASection() {
                 <div className="space-y-3 text-primary-100">
                   <p>📍 Las Vegas, NV</p>
                   <p>📞 (702) 555-0123</p>
-                  <p>✉️ hello@lasvegashomeexpert.com</p>
+                  <p>✉️ DrJanSells@LasVegasHomeExpert.com</p>
                   <p>🕒 Mon-Sun: 24/7 Support</p>
                 </div>
               </div>

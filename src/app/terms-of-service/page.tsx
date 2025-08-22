@@ -476,7 +476,7 @@ export default function TermsOfServicePage() {
                 <div className="text-center">
                   <div className="text-4xl mb-4">📧</div>
                   <h3 className="text-lg font-bold text-primary-900 mb-2">Email</h3>
-                  <p className="text-neutral-600">legal@lasvegashomeexpert.com</p>
+                  <p className="text-neutral-600">DrJanSells@LasVegasHomeExpert.com</p>
                 </div>
                 <div className="text-center">
                   <div className="text-4xl mb-4">📞</div>

@@ -21,7 +21,7 @@ export default function HomePage() {
             description: 'Las Vegas luxury real estate specialist since 2013',
             url: 'https://lasvegashomeexpert.com',
             telephone: '702-555-0123',
-            email: 'jan@lasvegashomeexpert.com',
+            email: 'DrJanSells@LasVegasHomeExpert.com',
             image: 'https://lasvegashomeexpert.com/dr-jan-duffy.jpg',
             address: {
               '@type': 'PostalAddress',
@@ -451,7 +451,7 @@ export default function HomePage() {
               Call (702) 555-0123
             </a>
             <a
-              href="mailto:hello@lasvegashomeexpert.com"
+              href="mailto:DrJanSells@LasVegasHomeExpert.com"
               onClick={() =>
                 trackEvent({
                   event: 'cta_click',

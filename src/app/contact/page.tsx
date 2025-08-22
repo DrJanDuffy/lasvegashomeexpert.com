@@ -30,11 +30,11 @@ export default function ContactPage() {
     },
     {
       method: 'Email',
-      value: 'jan@lasvegashomeexpert.com',
+      value: 'DrJanSells@LasVegasHomeExpert.com',
       description: 'Send us a detailed message',
       icon: '✉️',
       action: 'email',
-      availability: 'Response within 2 hours',
+      availability: '24/7 response',
     },
     {
       method: 'Text',
@@ -482,7 +482,9 @@ export default function ContactPage() {
                     <span className="text-accent-success text-xl">🏢</span>
                     <div>
                       <div className="font-semibold text-neutral-700">Las Vegas Home Expert</div>
-                      <div className="text-neutral-600">1700 S Pavilion Center Drive, Suite 140</div>
+                      <div className="text-neutral-600">
+                        1700 S Pavilion Center Drive, Suite 140
+                      </div>
                       <div className="text-neutral-600">Las Vegas, NV 89135</div>
                     </div>
                   </div>
