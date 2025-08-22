@@ -2,6 +2,7 @@
 
 import { trackEvent } from '@/utils';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export default function CTASection() {
   const handleCTAClick = (action: string) => {
@@ -142,18 +143,22 @@ export default function CTASection() {
               </div>
 
               <div className="space-y-4">
-                <button
+                <Link
+                  href="https://drjanduffy.realscout.com/onboarding"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onClick={() => handleCTAClick('schedule_call')}
-                  className="w-full btn-accent-buyer text-lg py-4"
+                  className="w-full btn-accent-buyer text-lg py-4 inline-block text-center"
                 >
                   Schedule Free Consultation
-                </button>
-                <button
+                </Link>
+                <Link
+                  href="/contact"
                   onClick={() => handleCTAClick('download_guide')}
-                  className="w-full btn-secondary text-lg py-4 border-white/30 text-white hover:bg-white/20"
+                  className="w-full btn-secondary text-lg py-4 border-white/30 text-white hover:bg-white/20 inline-block text-center"
                 >
                   Download Homebuyer Guide
-                </button>
+                </Link>
               </div>
             </div>
           </motion.div>

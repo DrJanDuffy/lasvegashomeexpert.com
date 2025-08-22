@@ -41,8 +41,10 @@ export default function ModernHomesExpertPage() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
-            <button
-              type="button"
+            <a
+              href="https://drjanduffy.realscout.com/onboarding"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() =>
                 trackEvent({
                   event: 'cta_click',
@@ -57,12 +59,14 @@ export default function ModernHomesExpertPage() {
                   },
                 })
               }
-              className="btn-accent-buyer text-lg px-8 py-4"
+              className="btn-accent-buyer text-lg px-8 py-4 inline-block"
             >
               Schedule Modern Home Tour
-            </button>
-            <button
-              type="button"
+            </a>
+            <a
+              href="https://drjanduffy.realscout.com/onboarding"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() =>
                 trackEvent({
                   event: 'cta_click',
@@ -77,10 +81,10 @@ export default function ModernHomesExpertPage() {
                   },
                 })
               }
-              className="btn-secondary text-lg px-8 py-4"
+              className="btn-secondary text-lg px-8 py-4 inline-block"
             >
               View Modern Properties
-            </button>
+            </a>
           </div>
         </div>
       </section>

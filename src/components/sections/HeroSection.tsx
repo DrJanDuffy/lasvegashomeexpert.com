@@ -1,6 +1,7 @@
 'use client';
 
 import { trackEvent } from '@/utils';
+import Link from 'next/link';
 
 export default function HeroSection() {
   return (
@@ -50,8 +51,10 @@ export default function HeroSection() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button
-              type="button"
+            <Link
+              href="https://drjanduffy.realscout.com/onboarding"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() =>
                 trackEvent({
                   event: 'cta_click',
@@ -66,12 +69,12 @@ export default function HeroSection() {
                   },
                 })
               }
-              className="btn-accent-buyer text-lg px-8 py-4"
+              className="btn-accent-buyer text-lg px-8 py-4 inline-block"
             >
               Search Luxury Homes
-            </button>
-            <button
-              type="button"
+            </Link>
+            <Link
+              href="/contact"
               onClick={() =>
                 trackEvent({
                   event: 'cta_click',
@@ -86,10 +89,10 @@ export default function HeroSection() {
                   },
                 })
               }
-              className="btn-secondary text-lg px-8 py-4"
+              className="btn-secondary text-lg px-8 py-4 inline-block"
             >
               Free Consultation
-            </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -98,18 +101,16 @@ export default function HeroSection() {
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
         <div className="animate-bounce">
           <svg
-            className="w-6 h-6 text-white"
+            className="w-6 h-6 text-white/70"
             fill="none"
-            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             viewBox="0 0 24 24"
+            stroke="currentColor"
             aria-hidden="true"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M19 14l-7 7m0 0l-7-7m7 7V3"
-            />
+            <path d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
         </div>
       </div>

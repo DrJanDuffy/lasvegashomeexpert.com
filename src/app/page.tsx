@@ -428,8 +428,8 @@ export default function HomePage() {
             journey.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button
-              type="button"
+            <a
+              href="tel:702-555-0123"
               onClick={() =>
                 trackEvent({
                   event: 'cta_click',
@@ -444,12 +444,12 @@ export default function HomePage() {
                   },
                 })
               }
-              className="btn-accent-buyer text-lg px-8 py-4"
+              className="btn-accent-buyer text-lg px-8 py-4 inline-block"
             >
               Call (702) 555-0123
-            </button>
-            <button
-              type="button"
+            </a>
+            <a
+              href="mailto:hello@lasvegashomeexpert.com"
               onClick={() =>
                 trackEvent({
                   event: 'cta_click',
@@ -464,10 +464,10 @@ export default function HomePage() {
                   },
                 })
               }
-              className="btn-secondary text-lg px-8 py-4"
+              className="btn-secondary text-lg px-8 py-4 inline-block"
             >
               Send Email
-            </button>
+            </a>
           </div>
         </div>
       </section>

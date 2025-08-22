@@ -140,20 +140,24 @@ export default function LuxuryHomeBuyerAgentPage() {
 
             {/* Primary CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button
-                type="button"
+              <a
+                href="https://drjanduffy.realscout.com/onboarding"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => handleCTAClick('schedule_consultation')}
-                className="btn-accent-buyer text-xl px-8 py-4 shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-300"
+                className="btn-accent-buyer text-xl px-8 py-4 shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-300 inline-block"
               >
                 Schedule Free Consultation
-              </button>
-              <button
-                type="button"
+              </a>
+              <a
+                href="https://drjanduffy.realscout.com/onboarding"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => handleCTAClick('view_luxury_listings')}
-                className="btn-secondary text-xl px-8 py-4 border-2 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm"
+                className="btn-secondary text-xl px-8 py-4 border-2 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm inline-block"
               >
                 View Luxury Listings
-              </button>
+              </a>
             </div>
           </motion.div>
         </div>
