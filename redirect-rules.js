@@ -59,7 +59,7 @@ const redirects = [
     destination: '/',
     permanent: true,
   },
-  
+
   // Redirect duplicate content patterns (common in migrations)
   {
     source: '/:path*-2',
@@ -76,21 +76,21 @@ const redirects = [
     destination: '/:path*',
     permanent: true,
   },
-  
+
   // Redirect attachment pages to homepage
   {
     source: '/attachment/:path*',
     destination: '/',
     permanent: true,
   },
-  
+
   // Redirect author pages to main content
   {
     source: '/author/:path*',
     destination: '/about-dr-jan-duffy',
     permanent: true,
   },
-  
+
   // Redirect date archives to main content
   {
     source: '/:year(\\d{4})/:month(\\d{2})/:day(\\d{2})',
@@ -107,7 +107,7 @@ const redirects = [
     destination: '/',
     permanent: true,
   },
-  
+
   // Redirect image/media files to homepage
   {
     source: '/:path*.webp',
@@ -124,7 +124,7 @@ const redirects = [
     destination: '/',
     permanent: true,
   },
-  
+
   // Redirect old service URLs to new structure
   {
     source: '/services/luxuryhomes',
@@ -146,14 +146,14 @@ const redirects = [
     destination: '/investment-properties-las-vegas',
     permanent: true,
   },
-  
+
   // Redirect old community URLs to neighborhood structure
   {
     source: '/communities/:path*',
     destination: '/neighborhoods/:path*',
     permanent: true,
   },
-  
+
   // Redirect old blog URLs to main content
   {
     source: '/blog/:path*',

@@ -46,7 +46,7 @@ export default function ContactPage() {
     },
     {
       method: 'Office',
-      value: '1234 Las Vegas Blvd, Suite 100',
+      value: '1700 S Pavilion Center Drive, Suite 140',
       description: 'Visit our office for in-person meetings',
       icon: '🏢',
       action: 'visit',
@@ -482,8 +482,8 @@ export default function ContactPage() {
                     <span className="text-accent-success text-xl">🏢</span>
                     <div>
                       <div className="font-semibold text-neutral-700">Las Vegas Home Expert</div>
-                      <div className="text-neutral-600">1234 Las Vegas Blvd, Suite 100</div>
-                      <div className="text-neutral-600">Las Vegas, NV 89101</div>
+                      <div className="text-neutral-600">1700 S Pavilion Center Drive, Suite 140</div>
+                      <div className="text-neutral-600">Las Vegas, NV 89135</div>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">

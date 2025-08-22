@@ -439,11 +439,9 @@ export default function PrivacyPolicyPage() {
                 <div className="text-4xl mb-4">🏢</div>
                 <h3 className="text-lg font-bold text-primary-900 mb-2">Mailing Address</h3>
                 <p className="text-neutral-600">
-                  Las Vegas Home Expert
+                  1700 S Pavilion Center Drive, Suite 140
                   <br />
-                  1234 Las Vegas Blvd, Suite 100
-                  <br />
-                  Las Vegas, NV 89101
+                  Las Vegas, NV 89135
                 </p>
               </div>
             </div>

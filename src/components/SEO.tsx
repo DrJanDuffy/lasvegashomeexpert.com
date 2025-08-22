@@ -10,12 +10,12 @@ interface SEOProps {
   image?: string;
 }
 
-export default function SEO({ 
-  title, 
-  description, 
+export default function SEO({
+  title,
+  description,
   canonical,
   noindex = false,
-  image = '/default-og-image.jpg'
+  image = '/default-og-image.jpg',
 }: SEOProps) {
   const router = useRouter();
   const baseUrl = 'https://lasvegashomeexpert.com';
@@ -23,7 +23,8 @@ export default function SEO({
   const canonicalUrl = canonical || currentUrl;
 
   // Determine if page should be noindexed
-  const shouldNoindex = noindex || 
+  const shouldNoindex =
+    noindex ||
     router.asPath.includes('/page/') ||
     router.asPath.includes('/author/') ||
     router.asPath.includes('/tag/') ||
@@ -34,23 +35,20 @@ export default function SEO({
     <Head>
       <title>{title}</title>
       <meta name="description" content={description} />
-      
+
       {/* Canonical URL */}
       <link rel="canonical" href={canonicalUrl} />
-      
+
       {/* Robots meta tag */}
-      <meta 
-        name="robots" 
-        content={shouldNoindex ? 'noindex, follow' : 'index, follow'} 
-      />
-      
+      <meta name="robots" content={shouldNoindex ? 'noindex, follow' : 'index, follow'} />
+
       {/* Open Graph */}
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:image" content={`${baseUrl}${image}`} />
       <meta property="og:type" content="website" />
-      
+
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />

@@ -491,9 +491,9 @@ export default function TermsOfServicePage() {
                 <p className="text-neutral-600">
                   Las Vegas Home Expert
                   <br />
-                  1234 Las Vegas Blvd, Suite 100
+                  1700 S Pavilion Center Drive, Suite 140
                   <br />
-                  Las Vegas, NV 89101
+                  Las Vegas, NV 89135
                 </p>
               </div>
             </div>

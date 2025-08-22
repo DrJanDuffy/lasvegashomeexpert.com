@@ -27,8 +27,10 @@ export default function RealEstateAgentNearRedRockCasinoPage() {
             name: 'Dr. Jan Duffy',
             address: {
               '@type': 'PostalAddress',
+              streetAddress: '1700 S Pavilion Center Drive, Suite 140',
               addressLocality: 'Las Vegas',
               addressRegion: 'NV',
+              postalCode: '89135',
               addressCountry: 'US',
             },
             geo: {

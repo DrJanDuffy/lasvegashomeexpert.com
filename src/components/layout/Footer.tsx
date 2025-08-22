@@ -120,7 +120,8 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-primary-200">
-              <li>📍 Las Vegas, NV</li>
+              <li>📍 1700 S Pavilion Center Drive, Suite 140</li>
+              <li>📍 Las Vegas, NV 89135</li>
               <li>📞 (702) 555-0123</li>
               <li>✉️ hello@lasvegashomeexpert.com</li>
               <li>🕒 24/7 Support</li>

@@ -100,8 +100,10 @@ const injectStructuredData = () => {
       url: 'https://lasvegashomeexpert.com',
       address: {
         '@type': 'PostalAddress',
+        streetAddress: '1700 S Pavilion Center Drive, Suite 140',
         addressLocality: 'Las Vegas',
         addressRegion: 'NV',
+        postalCode: '89135',
         addressCountry: 'US',
       },
     },
@@ -213,8 +215,10 @@ const injectEnhancedStructuredData = () => {
     telephone: '702-555-0123',
     address: {
       '@type': 'PostalAddress',
+      streetAddress: '1700 S Pavilion Center Drive, Suite 140',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
+      postalCode: '89135',
       addressCountry: 'US',
     },
     geo: {
