@@ -89,9 +89,7 @@ export default function GreenValleyHomesPage() {
       <section className="featured-properties bg-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-slate-900 mb-6">
-              Green Valley Properties
-            </h2>
+            <h2 className="text-4xl font-bold text-slate-900 mb-6">Green Valley Properties</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Established luxury homes with mature landscaping and excellent schools in Henderson
             </p>
@@ -285,9 +283,7 @@ export default function GreenValleyHomesPage() {
 
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Market Performance
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Market Performance</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Steady Growth</h4>
@@ -311,9 +307,7 @@ export default function GreenValleyHomesPage() {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Investment Advantages
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Investment Advantages</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Mature Infrastructure</h4>
@@ -377,9 +371,7 @@ export default function GreenValleyHomesPage() {
       {/* Contact Section */}
       <section className="contact-section bg-gradient-to-r from-slate-800 to-slate-900 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">
-            Ready to Find Your Green Valley Home?
-          </h2>
+          <h2 className="text-4xl font-bold mb-6">Ready to Find Your Green Valley Home?</h2>
           <p className="text-xl mb-8 text-slate-200">
             Dr. Jan Duffy is your Green Valley specialist. Discover established luxury living today.
           </p>

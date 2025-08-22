@@ -1,0 +1,65 @@
+User-agent: *
+Allow: /
+
+# Disallow old WordPress paths that no longer exist
+Disallow: /home/
+Disallow: /home-2/
+Disallow: /home-4/
+Disallow: /about/
+Disallow: /about-us/
+Disallow: /communities/
+Disallow: /services/
+Disallow: /buying-guide/
+Disallow: /home-buying-guide/
+Disallow: /selling-guide/
+Disallow: /home-selling-strategies/
+Disallow: /contact-2/
+Disallow: /get-a-free-consultation/
+Disallow: /consultation/
+Disallow: /market-trends-analysis/
+Disallow: /market-updates/
+Disallow: /investment-opportunities/
+Disallow: /north-las-vegas-real-estate/
+Disallow: /sky-canyon-homes/
+Disallow: /aliante-real-estate/
+Disallow: /sell-your-house-las-vegas/
+Disallow: /home-valuation/
+Disallow: /team/
+Disallow: /author/
+Disallow: /series/
+Disallow: /blog-post-title-*/
+Disallow: /las-vegas-homes/
+Disallow: /las-vegas-neighborhood-insights/
+Disallow: /real-estate-tips/
+Disallow: /travel/
+Disallow: /technology/
+Disallow: /food-and-drinks/
+Disallow: /entertainment/
+Disallow: /attorneys/
+Disallow: /fashion/
+Disallow: /layout-*/
+Disallow: /blank-page-example/
+Disallow: /shortcodes/
+Disallow: /info/
+Disallow: /offer/
+Disallow: /api/placeholder/
+Disallow: /hm*/
+Disallow: /h*/
+
+# Allow important new pages
+Allow: /neighborhoods/
+Allow: /luxury-homes-for-sale-las-vegas
+Allow: /luxury-realtor-las-vegas
+Allow: /best-realtor-las-vegas-reviews
+Allow: /modern-homes-las-vegas-expert
+Allow: /buying-guide-las-vegas
+Allow: /selling-guide-las-vegas
+Allow: /first-time-home-buyer-las-vegas
+Allow: /about-dr-jan-duffy
+Allow: /contact
+Allow: /las-vegas-luxury-home-market-report
+Allow: /investment-properties-las-vegas
+Allow: /relocation-specialist-las-vegas
+
+# Sitemap
+Sitemap: https://lasvegashomeexpert.com/sitemap.xml

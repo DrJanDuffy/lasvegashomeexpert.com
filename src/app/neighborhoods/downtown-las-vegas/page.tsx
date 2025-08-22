@@ -286,9 +286,7 @@ export default function DowntownLasVegasPage() {
 
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Market Performance
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Market Performance</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Urban Growth</h4>
@@ -312,9 +310,7 @@ export default function DowntownLasVegasPage() {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Investment Advantages
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Investment Advantages</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Urban Development</h4>
@@ -378,9 +374,7 @@ export default function DowntownLasVegasPage() {
       {/* Contact Section */}
       <section className="contact-section bg-gradient-to-r from-slate-800 to-slate-900 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">
-            Ready for Downtown Luxury Living?
-          </h2>
+          <h2 className="text-4xl font-bold mb-6">Ready for Downtown Luxury Living?</h2>
           <p className="text-xl mb-8 text-slate-200">
             Dr. Jan Duffy is your downtown specialist. Discover urban luxury living today.
           </p>

@@ -35,8 +35,9 @@ export default function DelWebbCommunitiesPage() {
           </div>
 
           <p className="text-xl sm:text-2xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-            Experience modern luxury 55+ living in Del Webb communities. Dr. Jan Duffy specializes in
-            these contemporary retirement communities with cutting-edge amenities and resort-style living.
+            Experience modern luxury 55+ living in Del Webb communities. Dr. Jan Duffy specializes
+            in these contemporary retirement communities with cutting-edge amenities and
+            resort-style living.
           </p>
 
           {/* CTA Buttons */}
@@ -89,9 +90,7 @@ export default function DelWebbCommunitiesPage() {
       <section className="featured-properties bg-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-slate-900 mb-6">
-              Del Webb Properties
-            </h2>
+            <h2 className="text-4xl font-bold text-slate-900 mb-6">Del Webb Properties</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Modern 55+ luxury homes with cutting-edge amenities and resort-style living
             </p>
@@ -129,7 +128,8 @@ export default function DelWebbCommunitiesPage() {
               <div className="text-6xl mb-4">🏊</div>
               <h3 className="text-xl font-bold text-slate-800 mb-4">Modern Recreation</h3>
               <p className="text-slate-600">
-                State-of-the-art fitness centers, pools, and sports facilities with latest technology
+                State-of-the-art fitness centers, pools, and sports facilities with latest
+                technology
               </p>
             </div>
 
@@ -285,9 +285,7 @@ export default function DelWebbCommunitiesPage() {
 
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Market Performance
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Market Performance</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Strong Growth</h4>
@@ -311,9 +309,7 @@ export default function DelWebbCommunitiesPage() {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Investment Advantages
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Investment Advantages</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Modern Infrastructure</h4>
@@ -377,9 +373,7 @@ export default function DelWebbCommunitiesPage() {
       {/* Contact Section */}
       <section className="contact-section bg-gradient-to-r from-slate-800 to-slate-900 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">
-            Ready to Experience Del Webb Living?
-          </h2>
+          <h2 className="text-4xl font-bold mb-6">Ready to Experience Del Webb Living?</h2>
           <p className="text-xl mb-8 text-slate-200">
             Dr. Jan Duffy is your Del Webb specialist. Discover modern luxury 55+ living today.
           </p>

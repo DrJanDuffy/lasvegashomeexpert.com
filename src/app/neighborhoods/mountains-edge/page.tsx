@@ -35,9 +35,9 @@ export default function MountainsEdgePage() {
           </div>
 
           <p className="text-xl sm:text-2xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-            Discover luxury living in the foothills of the Spring Mountains. Dr. Jan Duffy specializes
-            in Mountains Edge properties offering spectacular mountain views, modern amenities, and
-            a peaceful retreat from city life.
+            Discover luxury living in the foothills of the Spring Mountains. Dr. Jan Duffy
+            specializes in Mountains Edge properties offering spectacular mountain views, modern
+            amenities, and a peaceful retreat from city life.
           </p>
 
           {/* CTA Buttons */}
@@ -90,9 +90,7 @@ export default function MountainsEdgePage() {
       <section className="featured-properties bg-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-slate-900 mb-6">
-              Mountains Edge Properties
-            </h2>
+            <h2 className="text-4xl font-bold text-slate-900 mb-6">Mountains Edge Properties</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Luxury foothills homes with spectacular mountain views and modern amenities
             </p>
@@ -286,9 +284,7 @@ export default function MountainsEdgePage() {
 
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Market Performance
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Market Performance</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Steady Growth</h4>
@@ -312,9 +308,7 @@ export default function MountainsEdgePage() {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Investment Advantages
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Investment Advantages</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Natural Beauty</h4>
@@ -378,9 +372,7 @@ export default function MountainsEdgePage() {
       {/* Contact Section */}
       <section className="contact-section bg-gradient-to-r from-slate-800 to-slate-900 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">
-            Ready for Mountains Edge Living?
-          </h2>
+          <h2 className="text-4xl font-bold mb-6">Ready for Mountains Edge Living?</h2>
           <p className="text-xl mb-8 text-slate-200">
             Dr. Jan Duffy is your Mountains Edge specialist. Discover foothills luxury living today.
           </p>

@@ -35,8 +35,9 @@ export default function SunCityCommunitiesPage() {
           </div>
 
           <p className="text-xl sm:text-2xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-            Discover luxury 55+ active adult living in Sun City communities. Dr. Jan Duffy specializes in
-            these prestigious retirement communities with golf courses, recreation centers, and resort-style amenities.
+            Discover luxury 55+ active adult living in Sun City communities. Dr. Jan Duffy
+            specializes in these prestigious retirement communities with golf courses, recreation
+            centers, and resort-style amenities.
           </p>
 
           {/* CTA Buttons */}
@@ -89,9 +90,7 @@ export default function SunCityCommunitiesPage() {
       <section className="featured-properties bg-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-slate-900 mb-6">
-              Sun City Properties
-            </h2>
+            <h2 className="text-4xl font-bold text-slate-900 mb-6">Sun City Properties</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               55+ luxury homes with resort-style amenities in premier retirement communities
             </p>
@@ -285,9 +284,7 @@ export default function SunCityCommunitiesPage() {
 
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Market Performance
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Market Performance</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">Steady Growth</h4>
@@ -311,9 +308,7 @@ export default function SunCityCommunitiesPage() {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Investment Advantages
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Investment Advantages</h3>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h4 className="font-semibold text-slate-800 mb-2">55+ Exclusivity</h4>
@@ -377,11 +372,10 @@ export default function SunCityCommunitiesPage() {
       {/* Contact Section */}
       <section className="contact-section bg-gradient-to-r from-slate-800 to-slate-900 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">
-            Ready to Experience Sun City Living?
-          </h2>
+          <h2 className="text-4xl font-bold mb-6">Ready to Experience Sun City Living?</h2>
           <p className="text-xl mb-8 text-slate-200">
-            Dr. Jan Duffy is your Sun City specialist. Discover luxury 55+ active adult living today.
+            Dr. Jan Duffy is your Sun City specialist. Discover luxury 55+ active adult living
+            today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button

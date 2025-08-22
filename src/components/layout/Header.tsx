@@ -414,313 +414,313 @@ export default function Header() {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="lg:hidden border-t border-neutral-200 bg-white">
-              <nav className="px-4 py-6 space-y-4">
-                {/* Buying Section */}
-                <div className="space-y-2">
-                  <h3 className="font-semibold text-primary-900 text-lg">Buying</h3>
-                  <div className="ml-4 space-y-2">
-                    <Link
-                      href="/luxury-homes-for-sale-las-vegas"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('luxury_homes');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Luxury Homes for Sale
-                    </Link>
-                    <Link
-                      href="/modern-homes-las-vegas-expert"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('modern_homes');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Modern Homes Expert
-                    </Link>
-                    <Link
-                      href="/services/luxury-home-buyer-agent"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('buyer_agent');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Buyer Agent Services
-                    </Link>
-                    <Link
-                      href="/buying-guide-las-vegas"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('buying_guide');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Buying Guide
-                    </Link>
-                    <Link
-                      href="/first-time-home-buyer-las-vegas"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('first_time_buyer');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      First-Time Home Buyer
-                    </Link>
-                  </div>
+            <nav className="px-4 py-6 space-y-4">
+              {/* Buying Section */}
+              <div className="space-y-2">
+                <h3 className="font-semibold text-primary-900 text-lg">Buying</h3>
+                <div className="ml-4 space-y-2">
+                  <Link
+                    href="/luxury-homes-for-sale-las-vegas"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('luxury_homes');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Luxury Homes for Sale
+                  </Link>
+                  <Link
+                    href="/modern-homes-las-vegas-expert"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('modern_homes');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Modern Homes Expert
+                  </Link>
+                  <Link
+                    href="/services/luxury-home-buyer-agent"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('buyer_agent');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Buyer Agent Services
+                  </Link>
+                  <Link
+                    href="/buying-guide-las-vegas"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('buying_guide');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Buying Guide
+                  </Link>
+                  <Link
+                    href="/first-time-home-buyer-las-vegas"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('first_time_buyer');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    First-Time Home Buyer
+                  </Link>
                 </div>
+              </div>
 
-                {/* Selling Section */}
-                <div className="space-y-2">
-                  <h3 className="font-semibold text-primary-900 text-lg">Selling</h3>
-                  <div className="ml-4 space-y-2">
-                    <Link
-                      href="/services/luxury-home-selling-agent"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('selling_agent');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Selling Agent Services
-                    </Link>
-                    <Link
-                      href="/services/home-staging-services-vegas"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('staging');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Home Staging Services
-                    </Link>
-                    <Link
-                      href="/selling-guide-las-vegas"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('selling_guide');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Selling Guide
-                    </Link>
-                  </div>
+              {/* Selling Section */}
+              <div className="space-y-2">
+                <h3 className="font-semibold text-primary-900 text-lg">Selling</h3>
+                <div className="ml-4 space-y-2">
+                  <Link
+                    href="/services/luxury-home-selling-agent"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('selling_agent');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Selling Agent Services
+                  </Link>
+                  <Link
+                    href="/services/home-staging-services-vegas"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('staging');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Home Staging Services
+                  </Link>
+                  <Link
+                    href="/selling-guide-las-vegas"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('selling_guide');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Selling Guide
+                  </Link>
                 </div>
+              </div>
 
-                {/* Neighborhoods Section */}
-                <div className="space-y-2">
-                  <h3 className="font-semibold text-primary-900 text-lg">Neighborhoods</h3>
-                  <div className="ml-4 space-y-2">
-                    <Link
-                      href="/neighborhoods/red-rock-country-club"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('red_rock_country_club');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Red Rock Country Club
-                    </Link>
-                    <Link
-                      href="/neighborhoods/the-ridges-summerlin"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('the_ridges_summerlin');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      The Ridges Summerlin
-                    </Link>
-                    <Link
-                      href="/neighborhoods/tournament-hills"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('tournament_hills');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Tournament Hills
-                    </Link>
-                    <Link
-                      href="/neighborhoods/southern-highlands"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('southern_highlands');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Southern Highlands
-                    </Link>
-                    <Link
-                      href="/neighborhoods/summerlin"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('summerlin');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Summerlin
-                    </Link>
-                    <Link
-                      href="/neighborhoods/henderson"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('henderson');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Henderson
-                    </Link>
-                    <Link
-                      href="/neighborhoods/green-valley"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('green_valley');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Green Valley
-                    </Link>
-                    <Link
-                      href="/neighborhoods/anthem"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('anthem');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Anthem
-                    </Link>
-                    <Link
-                      href="/neighborhoods/sun-city-communities"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('sun_city_communities');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Sun City Communities
-                    </Link>
-                    <Link
-                      href="/neighborhoods/del-webb-communities"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('del_webb_communities');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Del Webb Communities
-                    </Link>
-                    <Link
-                      href="/neighborhoods/downtown-las-vegas"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('downtown_las_vegas');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Downtown Las Vegas
-                    </Link>
-                    <Link
-                      href="/neighborhoods/mountains-edge"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('mountains_edge');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Mountains Edge
-                    </Link>
-                  </div>
+              {/* Neighborhoods Section */}
+              <div className="space-y-2">
+                <h3 className="font-semibold text-primary-900 text-lg">Neighborhoods</h3>
+                <div className="ml-4 space-y-2">
+                  <Link
+                    href="/neighborhoods/red-rock-country-club"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('red_rock_country_club');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Red Rock Country Club
+                  </Link>
+                  <Link
+                    href="/neighborhoods/the-ridges-summerlin"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('the_ridges_summerlin');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    The Ridges Summerlin
+                  </Link>
+                  <Link
+                    href="/neighborhoods/tournament-hills"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('tournament_hills');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Tournament Hills
+                  </Link>
+                  <Link
+                    href="/neighborhoods/southern-highlands"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('southern_highlands');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Southern Highlands
+                  </Link>
+                  <Link
+                    href="/neighborhoods/summerlin"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('summerlin');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Summerlin
+                  </Link>
+                  <Link
+                    href="/neighborhoods/henderson"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('henderson');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Henderson
+                  </Link>
+                  <Link
+                    href="/neighborhoods/green-valley"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('green_valley');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Green Valley
+                  </Link>
+                  <Link
+                    href="/neighborhoods/anthem"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('anthem');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Anthem
+                  </Link>
+                  <Link
+                    href="/neighborhoods/sun-city-communities"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('sun_city_communities');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Sun City Communities
+                  </Link>
+                  <Link
+                    href="/neighborhoods/del-webb-communities"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('del_webb_communities');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Del Webb Communities
+                  </Link>
+                  <Link
+                    href="/neighborhoods/downtown-las-vegas"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('downtown_las_vegas');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Downtown Las Vegas
+                  </Link>
+                  <Link
+                    href="/neighborhoods/mountains-edge"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('mountains_edge');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Mountains Edge
+                  </Link>
                 </div>
+              </div>
 
-                {/* Resources Section */}
-                <div className="space-y-2">
-                  <h3 className="font-semibold text-primary-900 text-lg">Resources</h3>
-                  <div className="ml-4 space-y-2">
-                    <Link
-                      href="/las-vegas-luxury-home-market-report"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('market_report');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Market Report
-                    </Link>
-                    <Link
-                      href="/investment-properties-las-vegas"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('investment_properties');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Investment Properties
-                    </Link>
-                    <Link
-                      href="/relocation-specialist-las-vegas"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('relocation');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Relocation Services
-                    </Link>
-                    <Link
-                      href="/sitemap"
-                      className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
-                      onClick={() => {
-                        handleNavClick('sitemap');
-                        setIsMenuOpen(false);
-                      }}
-                    >
-                      Site Map
-                    </Link>
-                  </div>
+              {/* Resources Section */}
+              <div className="space-y-2">
+                <h3 className="font-semibold text-primary-900 text-lg">Resources</h3>
+                <div className="ml-4 space-y-2">
+                  <Link
+                    href="/las-vegas-luxury-home-market-report"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('market_report');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Market Report
+                  </Link>
+                  <Link
+                    href="/investment-properties-las-vegas"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('investment_properties');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Investment Properties
+                  </Link>
+                  <Link
+                    href="/relocation-specialist-las-vegas"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('relocation');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Relocation Services
+                  </Link>
+                  <Link
+                    href="/sitemap"
+                    className="block text-neutral-700 hover:text-primary-600 transition-colors duration-200"
+                    onClick={() => {
+                      handleNavClick('sitemap');
+                      setIsMenuOpen(false);
+                    }}
+                  >
+                    Site Map
+                  </Link>
                 </div>
+              </div>
 
-                {/* About */}
-                <Link
-                  href="/about-dr-jan-duffy"
-                  className="block text-lg text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium"
-                  onClick={() => {
-                    handleNavClick('about');
-                    setIsMenuOpen(false);
-                  }}
-                >
-                  About
-                </Link>
+              {/* About */}
+              <Link
+                href="/about-dr-jan-duffy"
+                className="block text-lg text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium"
+                onClick={() => {
+                  handleNavClick('about');
+                  setIsMenuOpen(false);
+                }}
+              >
+                About
+              </Link>
 
-                {/* Reviews */}
-                <Link
-                  href="/best-realtor-las-vegas-reviews"
-                  className="block text-lg text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium"
-                  onClick={() => {
-                    handleNavClick('reviews');
-                    setIsMenuOpen(false);
-                  }}
-                >
-                  Reviews
-                </Link>
+              {/* Reviews */}
+              <Link
+                href="/best-realtor-las-vegas-reviews"
+                className="block text-lg text-neutral-700 hover:text-primary-600 transition-colors duration-200 font-medium"
+                onClick={() => {
+                  handleNavClick('reviews');
+                  setIsMenuOpen(false);
+                }}
+              >
+                Reviews
+              </Link>
 
-                {/* Contact */}
-                <Link
-                  href="/contact"
-                  className="btn-primary inline-block"
-                  onClick={() => {
-                    handleNavClick('contact');
-                    setIsMenuOpen(false);
-                  }}
-                >
-                  Get Started
-                </Link>
-              </nav>
-            </div>
-          )}
+              {/* Contact */}
+              <Link
+                href="/contact"
+                className="btn-primary inline-block"
+                onClick={() => {
+                  handleNavClick('contact');
+                  setIsMenuOpen(false);
+                }}
+              >
+                Get Started
+              </Link>
+            </nav>
+          </div>
+        )}
       </div>
     </header>
   );
