@@ -96,7 +96,7 @@ const injectStructuredData = () => {
     provider: {
       '@type': 'RealEstateAgent',
       name: 'Dr. Jan Duffy',
-      telephone: '702-555-0123',
+      telephone: '702-222-1964',
       url: 'https://lasvegashomeexpert.com',
       address: {
         '@type': 'PostalAddress',
@@ -212,7 +212,7 @@ const injectEnhancedStructuredData = () => {
     description:
       'Las Vegas luxury real estate specialist with expertise in Summerlin, Red Rock Country Club, and divorce real estate services.',
     url: 'https://lasvegashomeexpert.com',
-    telephone: '702-555-0123',
+    telephone: '702-222-1964',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '1700 S Pavilion Center Drive, Suite 140',

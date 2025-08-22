@@ -1,12 +1,12 @@
 1:HL["/_next/static/css/66f6423a8720d28f.css","style",{"crossOrigin":""}]
-0:["5aBX07qsT1m0O9_zx6heU",[[["",{"children":["services",{"children":["luxury-home-buyer-agent",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/66f6423a8720d28f.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
-5:I[4104,["8326","static/chunks/8326-c9bebfa8c26a895b.js","3185","static/chunks/app/layout-9d51e5ef8429ceca.js"],""]
+0:["9atZCBR_ZYwTCe_G4O4tl",[[["",{"children":["services",{"children":["luxury-home-buyer-agent",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/66f6423a8720d28f.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+5:I[4104,["8326","static/chunks/8326-c9bebfa8c26a895b.js","3185","static/chunks/app/layout-16b571cbe24a56cb.js"],""]
 6:I[6954,[],""]
 7:I[7264,[],""]
 8:I[8326,["8326","static/chunks/8326-c9bebfa8c26a895b.js","9160","static/chunks/app/not-found-9bc265833c1f4d3e.js"],""]
 a:I[8297,[],""]
 b:I[1626,["3600","static/chunks/3600-54a6111d9e04d0c6.js","1823","static/chunks/app/services/luxury-home-buyer-agent/page-95b176b0892ad570.js"],""]
-c:I[2053,["8326","static/chunks/8326-c9bebfa8c26a895b.js","3185","static/chunks/app/layout-9d51e5ef8429ceca.js"],""]
+c:I[2053,["8326","static/chunks/8326-c9bebfa8c26a895b.js","3185","static/chunks/app/layout-16b571cbe24a56cb.js"],""]
 4:T607,
               /* RealScout Widget Styling - Applied to every page */
               realscout-office-listings {

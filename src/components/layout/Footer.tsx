@@ -122,7 +122,7 @@ export default function Footer() {
             <ul className="space-y-2 text-primary-200">
               <li>📍 1700 S Pavilion Center Drive, Suite 140</li>
               <li>📍 Las Vegas, NV 89135</li>
-              <li>📞 (702) 555-0123</li>
+              <li>📞 (702) 222-1964</li>
               <li>✉️ DrJanSells@LasVegasHomeExpert.com</li>
               <li>🕒 24/7 Support</li>
             </ul>

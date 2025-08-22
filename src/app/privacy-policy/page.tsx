@@ -431,7 +431,7 @@ export default function PrivacyPolicyPage() {
                 <div className="text-center">
                   <div className="text-4xl mb-4">📞</div>
                   <h3 className="text-lg font-bold text-primary-900 mb-2">Phone</h3>
-                  <p className="text-neutral-600">(702) 555-0123</p>
+                  <p className="text-neutral-600">(702) 222-1964</p>
                 </div>
               </div>
 

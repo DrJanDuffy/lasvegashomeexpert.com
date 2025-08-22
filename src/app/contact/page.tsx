@@ -22,11 +22,11 @@ export default function ContactPage() {
   const contactMethods = [
     {
       method: 'Phone',
-      value: '(702) 555-0123',
-      description: 'Call us directly for immediate assistance',
+      value: '(702) 222-1964',
+      description: 'Speak directly with Dr. Jan Duffy',
       icon: '📞',
       action: 'call',
-      availability: 'Mon-Fri: 8AM-6PM, Sat: 9AM-4PM',
+      availability: '24/7 response',
     },
     {
       method: 'Email',
@@ -38,7 +38,7 @@ export default function ContactPage() {
     },
     {
       method: 'Text',
-      value: '(702) 555-0123',
+      value: '(702) 222-1964',
       description: 'Quick questions and updates',
       icon: '💬',
       action: 'text',
@@ -171,11 +171,11 @@ export default function ContactPage() {
                 Schedule Free Consultation
               </a>
               <a
-                href="tel:702-555-0123"
+                href="tel:702-222-1964"
                 onClick={() => handleCTAClick('call_now')}
                 className="btn-secondary text-xl px-8 py-4 border-2 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm inline-block"
               >
-                Call Now: (702) 555-0123
+                Call Now: (702) 222-1964
               </a>
             </div>
           </motion.div>
@@ -555,7 +555,7 @@ export default function ContactPage() {
                 onClick={() => handleCTAClick('call_now')}
                 className="btn-secondary text-xl px-8 py-4 border-2 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm"
               >
-                Call Now: (702) 555-0123
+                Call Now: (702) 222-1964
               </button>
             </div>
           </motion.div>
