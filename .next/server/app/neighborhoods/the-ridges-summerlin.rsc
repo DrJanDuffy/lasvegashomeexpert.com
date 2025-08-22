@@ -1,12 +1,12 @@
-1:HL["/_next/static/css/fcb5ebc5bda24d7b.css","style",{"crossOrigin":""}]
-0:["utXHZp8H_-jfLrtjTgg9R",[[["",{"children":["neighborhoods",{"children":["the-ridges-summerlin",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fcb5ebc5bda24d7b.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
-5:I[4104,["8326","static/chunks/8326-c9bebfa8c26a895b.js","3185","static/chunks/app/layout-ebaf2968c8954236.js"],""]
+1:HL["/_next/static/css/66f6423a8720d28f.css","style",{"crossOrigin":""}]
+0:["l7g_l4m2CtoMtwblrvvEh",[[["",{"children":["neighborhoods",{"children":["the-ridges-summerlin",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/66f6423a8720d28f.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+5:I[4104,["8326","static/chunks/8326-c9bebfa8c26a895b.js","3185","static/chunks/app/layout-f4147b9242eafb1d.js"],""]
 6:I[6954,[],""]
 7:I[7264,[],""]
 8:I[8326,["8326","static/chunks/8326-c9bebfa8c26a895b.js","9160","static/chunks/app/not-found-9bc265833c1f4d3e.js"],""]
 a:I[8297,[],""]
 b:I[3047,["3600","static/chunks/3600-54a6111d9e04d0c6.js","470","static/chunks/app/neighborhoods/the-ridges-summerlin/page-dd5f922fb50b1c30.js"],""]
-c:I[2053,["8326","static/chunks/8326-c9bebfa8c26a895b.js","3185","static/chunks/app/layout-ebaf2968c8954236.js"],""]
+c:I[2053,["8326","static/chunks/8326-c9bebfa8c26a895b.js","3185","static/chunks/app/layout-f4147b9242eafb1d.js"],""]
 4:T607,
               /* RealScout Widget Styling - Applied to every page */
               realscout-office-listings {

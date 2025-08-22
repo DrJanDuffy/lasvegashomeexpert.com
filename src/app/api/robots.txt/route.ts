@@ -1,0 +1,182 @@
+import { NextResponse } from 'next/server';
+
+export async function GET() {
+  const robotsTxt = `User-agent: *
+Allow: /
+
+# CRITICAL: Block legacy URLs that may still be crawled from old site
+# These are likely from external links or search engine cache
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /wp-includes/
+Disallow: /wp-content/
+Disallow: /wp-json/
+Disallow: /xmlrpc.php
+Disallow: /feed/
+Disallow: /rss/
+Disallow: /comments/feed/
+Disallow: /trackback/
+
+# Block legacy WordPress admin patterns that Google is still finding
+Disallow: /wp-admin/post.php?post=*&action=*
+Disallow: /wp-admin/admin-ajax.php
+Disallow: /wp-admin/admin-post.php
+Disallow: /wp-admin/load-scripts.php
+Disallow: /wp-admin/load-styles.php
+
+# Block problematic legacy URLs that are being crawled but not indexed
+Disallow: /attachment/
+Disallow: /author/
+Disallow: /page/
+Disallow: /tag/
+Disallow: /category/
+Disallow: /*?*
+Disallow: /*.webp
+Disallow: /*.png
+Disallow: /*.jpg
+Disallow: /*.jpeg
+Disallow: /*.gif
+Disallow: /*.pdf
+Disallow: /404
+Disallow: /search
+
+# Block duplicate content patterns (common in site migrations)
+Disallow: /*-2$
+Disallow: /*-3$
+Disallow: /*-4$
+Disallow: /*-5$
+Disallow: /*-6$
+Disallow: /*-7$
+Disallow: /*-8$
+Disallow: /*-9$
+Disallow: /*-10$
+Disallow: /*-11$
+Disallow: /*-12$
+Disallow: /*-13$
+Disallow: /*-14$
+Disallow: /*-15$
+
+# Block date archives (legacy blog structure)
+Disallow: /2018/
+Disallow: /2019/
+Disallow: /2020/
+Disallow: /2021/
+Disallow: /2022/
+Disallow: /2023/
+Disallow: /2024/
+Disallow: /2025/
+
+# Block legacy sitemaps
+Disallow: /post-sitemap.xml
+Disallow: /page-sitemap.xml
+Disallow: /category-sitemap.xml
+Disallow: /author-sitemap.xml
+Disallow: /tag-sitemap.xml
+Disallow: /date-sitemap.xml
+Disallow: /*sitemap*.xml
+Disallow: /*.xsl
+
+# Block legacy service pages that no longer exist
+Disallow: /services/
+Disallow: /las-vegas-homes/
+
+# Block numbered and random pages (legacy content)
+Disallow: /home-*/
+Disallow: /page-*/
+Disallow: /h*/
+Disallow: /[0-9]*/
+Disallow: /[a-z]*-[0-9]*/
+
+# Block all legacy blog posts (449 problematic URLs from old site)
+Disallow: /3-reasons-to-move-in-todays-shifting-market/
+Disallow: /is-it-better-to-rent-or-buy-a-home/
+Disallow: /multi-generational-homebuying-hit-a-record-high-heres-why/
+Disallow: /if-the-asking-price-isnt-compelling-its-not-selling/
+Disallow: /what-you-should-know-about-getting-a-mortgage-today/
+Disallow: /why-big-investors-arent-a-challenge-for-todays-homebuyer/
+Disallow: /the-advice-first-time-homebuyers-need-to-hear/
+Disallow: /the-5-year-rule-for-home-prices/
+Disallow: /why-a-newly-built-home-might-be-the-move-right-now/
+Disallow: /selling-and-buying-at-the-same-time-heres-what-you-need-to-know/
+
+Disallow: /top-5-reasons-to-hire-a-real-estate-agent-when-you-sell/
+Disallow: /mortgage-rates-are-stabilizing-how-that-helps-todays-buyers/
+
+Disallow: /should-you-buy-a-vacation-home/
+Disallow: /think-no-ones-buying-homes-right-now-think-again/
+Disallow: /the-truth-about-where-home-prices-are-heading/
+Disallow: /instagram-embed-example-you-got-it/
+Disallow: /paused-your-moving-plans-heres-why-its-time-to-hit-play-again-2/
+
+Disallow: /why-you-dont-want-to-skip-your-home-inspection/
+Disallow: /the-secret-to-selling-this-spring-start-the-prep-work-now/
+Disallow: /the-1-thing-sellers-need-to-know-about-their-asking-price/
+Disallow: /home-3/
+Disallow: /headed-back-into-the-office-you-may-decide-to-move/
+Disallow: /the-truth-about-newly-built-homes-and-todays-market/
+Disallow: /newly-built-homes-may-be-less-expensive-than-you-think/
+Disallow: /seize-the-moment-thriving-in-a-sellers-market-with-dr-jan-duffy-🏠💰🚀/
+
+Disallow: /falling-mortgage-rates-are-bringing-buyers-back/
+Disallow: /the-lazy-mans-guide-to-ocean-exploration/
+Disallow: /more-starter-homes-are-hitting-the-market/
+Disallow: /this-here-is-a-twitter-embed-example/
+Disallow: /secrets-your-parents-never-told-you-about-trees/
+Disallow: /the-secret-to-selling-your-house-in-todays-market/
+Disallow: /winter-buying-or-selling-guides-your-go-to-handbook-for-seasonal-success/
+
+Disallow: /common-real-estate-terms-explained/
+Disallow: /what-you-need-to-know-about-homeowners-insurance/
+Disallow: /how-buying-or-selling-a-home-helps-your-local-economy/
+Disallow: /little-known-facts-about-wildlife-and-why-they-matter/
+Disallow: /thinking-about-an-adjustable-rate-mortgage-read-this-first/
+Disallow: /a-tale-of-two-housing-markets/
+Disallow: /weekend-projects-to-boost-the-value-of-your-home/
+Disallow: /what-waiting-to-buy-could-cost-you/
+Disallow: /why-now-could-be-the-sweet-spot-for-sellers/
+Disallow: /happy-anniversary-berkshire-hathaway-a-las-vegas-company-dedicated-to-real-estate-transactions/
+
+# Block irrelevant legacy content
+Disallow: /pump-up-your-sales-with-these-remarkable-chicken-tactics/
+Disallow: /dont-just-sit-there-start-getting-more-outdoors/
+Disallow: /master-the-art-of-making-great-coffee-with-these-6-tips/
+Disallow: /the-5-most-successful-bicycle-companies-in-the-world/
+Disallow: /what-the-ocean-experts-dont-want-you-to-know-about-waves/
+Disallow: /a-comprehensive-guide-to-choosing-the-right-plant/
+Disallow: /scientists-discovered-the-cutest-puppy-on-planet-earth/
+Disallow: /what-ancient-greeks-knew-about-tea-that-you-still-dont/
+Disallow: /what-everyone-ought-to-know-about-beauty/
+Disallow: /breathtaking-wildlife-scenery-captured-by-drone/
+Disallow: /9-awesome-tips-about-cars-from-unlikely-sources/
+Disallow: /the-7-biggest-lizards-mistakes-you-can-easily-avoid/
+Disallow: /the-best-surfing-moments-of-the-past-decade/
+Disallow: /5-stories-you-didnt-know-about-subway-stations/
+Disallow: /who-else-wants-to-know-the-mystery-behind-water/
+Disallow: /most-people-will-never-be-great-at-camouflage/
+
+# Allow legitimate Next.js pages
+Allow: /luxury-homes-for-sale-las-vegas
+Allow: /neighborhoods/
+Allow: /services/
+Allow: /about-dr-jan-duffy
+Allow: /contact
+Allow: /buying-guide-las-vegas
+Allow: /selling-guide-las-vegas
+Allow: /investment-properties-las-vegas
+Allow: /first-time-home-buyer-las-vegas
+Allow: /relocation-specialist-las-vegas
+Allow: /modern-homes-las-vegas-expert
+Allow: /55-plus-communities-las-vegas
+Allow: /las-vegas-luxury-home-market-report
+Allow: /best-realtor-las-vegas-reviews
+
+# Sitemap
+Sitemap: https://lasvegashomeexpert.com/api/sitemap.xml`;
+
+  return new NextResponse(robotsTxt, {
+    headers: {
+      'Content-Type': 'text/plain',
+      'Cache-Control': 'public, s-maxage=86400, stale-while-revalidate',
+    },
+  });
+}
