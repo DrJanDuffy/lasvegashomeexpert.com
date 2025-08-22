@@ -467,6 +467,263 @@ const nextConfig = {
         destination: '/',
         permanent: true,
       },
+
+      // CRITICAL: Block WordPress RSS feeds and admin pages
+      {
+        source: '/feed',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/feed/:path*',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/wp-login.php',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/wp-admin/:path*',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/wp-includes/:path*',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/wp-content/:path*',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/comments/feed',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/search',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/search/:path*',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/insights/:path*',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/expert-advice:path*',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/author-sitemap.xml',
+        destination: '/sitemap.xml',
+        permanent: true,
+      },
+      {
+        source: '/series-sitemap.xml',
+        destination: '/sitemap.xml',
+        permanent: true,
+      },
+      {
+        source: '/wprss_feed_template-sitemap.xml',
+        destination: '/sitemap.xml',
+        permanent: true,
+      },
+
+      // CRITICAL: Redirect old blog posts and category pages
+      {
+        source: '/author/drduffybhhsnv-com',
+        destination: '/about-dr-jan-duffy',
+        permanent: true,
+      },
+      {
+        source: '/author/drduffybhhsnv-com/',
+        destination: '/about-dr-jan-duffy',
+        permanent: true,
+      },
+      {
+        source: '/real-estate',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/real-estate/',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/fashion',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/fashion/',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/blog-1',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/blog-1/',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/blog',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/blog/',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/page/:path*',
+        destination: '/',
+        permanent: true,
+      },
+
+      // Redirect old blog posts to relevant new content
+      {
+        source: '/is-wall-street-really-buying-all-the-homes',
+        destination: '/investment-properties-las-vegas',
+        permanent: true,
+      },
+      {
+        source: '/the-latest-mortgage-rate-forecasts',
+        destination: '/buying-guide-las-vegas',
+        permanent: true,
+      },
+      {
+        source: '/the-u-s-foreclosure-map-you-need-to-see',
+        destination: '/investment-properties-las-vegas',
+        permanent: true,
+      },
+      {
+        source: '/why-the-average-homeowner-has-319k-in-equity-3',
+        destination: '/investment-properties-las-vegas',
+        permanent: true,
+      },
+      {
+        source: '/why-the-average-homeowner-has-319k-in-equity-4',
+        destination: '/investment-properties-las-vegas',
+        permanent: true,
+      },
+      {
+        source: '/home-projects-that-add-the-most-value',
+        destination: '/selling-guide-las-vegas',
+        permanent: true,
+      },
+      {
+        source: '/discover-your-dream-home-at-silverstone-ranch',
+        destination: '/neighborhoods/summerlin-homes',
+        permanent: true,
+      },
+      {
+        source: '/the-surprising-amount-of-home-equity-youve-gained-over-the-years',
+        destination: '/investment-properties-las-vegas',
+        permanent: true,
+      },
+      {
+        source: '/real-estate-is-voted-the-best-long-term-investment-12-years-in-a-row',
+        destination: '/investment-properties-las-vegas',
+        permanent: true,
+      },
+      {
+        source: '/lennar-new-homes-las-vegas-new-construction-dr-jan-duffy',
+        destination: '/modern-homes-las-vegas-expert',
+        permanent: true,
+      },
+      {
+        source: '/when-will-mortgage-rates-come-down',
+        destination: '/buying-guide-las-vegas',
+        permanent: true,
+      },
+      {
+        source: '/are-you-saving-up-to-buy-a-home-your-tax-refund-can-help',
+        destination: '/first-time-home-buyer-las-vegas',
+        permanent: true,
+      },
+      {
+        source: '/pre-approval-isnt-commitment-its-clarity',
+        destination: '/buying-guide-las-vegas',
+        permanent: true,
+      },
+      {
+        source: '/selling-and-buying-at-the-same-time-heres-what-you-need-to-know',
+        destination: '/selling-guide-las-vegas',
+        permanent: true,
+      },
+      {
+        source: '/the-rooms-that-matter-most-when-you-sell',
+        destination: '/selling-guide-las-vegas',
+        permanent: true,
+      },
+
+      // Block numbered pages and random IDs
+      {
+        source: '/3391-2',
+        destination: '/',
+        permanent: true,
+      },
+
+      // CRITICAL: Block malformed WordPress RSS URLs with template variables
+      {
+        source: '/feed/%post_link%',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/feed/%site_link%',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/wp-admin/admin-ajax.php',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/insights/:path*/feed/%post_link%',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/insights/:path*/feed/%site_link%',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/las-vegas-homes/:path*/feed/%post_link%',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/las-vegas-homes/:path*/feed/%site_link%',
+        destination: '/',
+        permanent: true,
+      },
+
+      // Catch-all for any remaining malformed URLs
+      {
+        source: '/:path*',
+        destination: '/',
+        permanent: true,
+      },
     ];
   },
 

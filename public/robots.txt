@@ -46,6 +46,56 @@ Disallow: /api/placeholder/
 Disallow: /hm*/
 Disallow: /h*/
 
+# CRITICAL: Block WordPress RSS feeds and admin pages
+Disallow: /feed/
+Disallow: /wp-login.php
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/
+Disallow: /comments/feed/
+Disallow: /?s=*
+Disallow: /search/
+Disallow: /*.xml
+Disallow: /sitemap*.xml
+Disallow: /author-sitemap.xml
+Disallow: /series-sitemap.xml
+Disallow: /wprss_feed_template-sitemap.xml
+Disallow: /insights/
+Disallow: /expert-advice*/
+
+# CRITICAL: Block old blog posts and category pages
+Disallow: /author/
+Disallow: /real-estate/
+Disallow: /fashion/
+Disallow: /blog/
+Disallow: /blog-1/
+Disallow: /page/
+Disallow: /is-wall-street-really-buying-all-the-homes/
+Disallow: /the-latest-mortgage-rate-forecasts/
+Disallow: /the-u-s-foreclosure-map-you-need-to-see/
+Disallow: /why-the-average-homeowner-has-319k-in-equity-*/
+Disallow: /home-projects-that-add-the-most-value/
+Disallow: /discover-your-dream-home-at-silverstone-ranch/
+Disallow: /the-surprising-amount-of-home-equity-youve-gained-over-the-years/
+Disallow: /real-estate-is-voted-the-best-long-term-investment-*/
+Disallow: /lennar-new-homes-las-vegas-new-construction-dr-jan-duffy/
+Disallow: /when-will-mortgage-rates-come-down/
+Disallow: /are-you-saving-up-to-buy-a-home-your-tax-refund-can-help/
+Disallow: /pre-approval-isnt-commitment-its-clarity/
+Disallow: /selling-and-buying-at-the-same-time-heres-what-you-need-to-know/
+Disallow: /the-rooms-that-matter-most-when-you-sell/
+Disallow: /3391-*/
+Disallow: /master-the-art-of-jazz-music-with-these-7-tips/
+
+# CRITICAL: Block malformed WordPress RSS URLs with template variables
+Disallow: /feed/%post_link%
+Disallow: /feed/%site_link%
+Disallow: /wp-admin/admin-ajax.php
+Disallow: /insights/*/feed/%post_link%
+Disallow: /insights/*/feed/%site_link%
+Disallow: /las-vegas-homes/*/feed/%post_link%
+Disallow: /las-vegas-homes/*/feed/%site_link%
+
 # Allow important new pages
 Allow: /neighborhoods/
 Allow: /luxury-homes-for-sale-las-vegas

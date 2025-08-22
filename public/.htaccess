@@ -1,0 +1,87 @@
+# Security and SEO: Block old WordPress URLs and RSS feeds
+# This file prevents access to old WordPress content that could cause SEO issues
+
+# Block WordPress admin and login
+<Files "wp-login.php">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+<Files "wp-config.php">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Block all RSS feeds
+RewriteEngine On
+RewriteRule ^feed/?$ / [R=301,L]
+RewriteRule ^.*/feed/?$ / [R=301,L]
+RewriteRule ^comments/feed/?$ / [R=301,L]
+
+# Block old WordPress search and admin
+RewriteRule ^wp-admin/?$ / [R=301,L]
+RewriteRule ^wp-admin/.*$ / [R=301,L]
+RewriteRule ^wp-includes/.*$ / [R=301,L]
+RewriteRule ^wp-content/.*$ / [R=301,L]
+
+# Block old sitemaps
+RewriteRule ^author-sitemap\.xml$ /sitemap.xml [R=301,L]
+RewriteRule ^series-sitemap\.xml$ /sitemap.xml [R=301,L]
+RewriteRule ^wprss_feed_template-sitemap\.xml$ /sitemap.xml [R=301,L]
+
+# Block old category and service feeds
+RewriteRule ^.*/feed/?$ / [R=301,L]
+RewriteRule ^insights/.*$ / [R=301,L]
+RewriteRule ^expert-advice.*$ / [R=301,L]
+
+# Block search results
+RewriteRule ^\?s=.*$ / [R=301,L]
+RewriteRule ^search/?$ / [R=301,L]
+RewriteRule ^search/.*$ / [R=301,L]
+
+# CRITICAL: Block old blog posts and category pages
+RewriteRule ^author/.*$ /about-dr-jan-duffy [R=301,L]
+RewriteRule ^real-estate/?$ / [R=301,L]
+RewriteRule ^fashion/?$ / [R=301,L]
+RewriteRule ^blog/?$ / [R=301,L]
+RewriteRule ^blog-1/?$ / [R=301,L]
+RewriteRule ^page/.*$ / [R=301,L]
+
+# Redirect specific blog posts to relevant content
+RewriteRule ^is-wall-street-really-buying-all-the-homes/?$ /investment-properties-las-vegas [R=301,L]
+RewriteRule ^the-latest-mortgage-rate-forecasts/?$ /buying-guide-las-vegas [R=301,L]
+RewriteRule ^the-u-s-foreclosure-map-you-need-to-see/?$ /investment-properties-las-vegas [R=301,L]
+RewriteRule ^why-the-average-homeowner-has-319k-in-equity-.*$ /investment-properties-las-vegas [R=301,L]
+RewriteRule ^home-projects-that-add-the-most-value/?$ /selling-guide-las-vegas [R=301,L]
+RewriteRule ^discover-your-dream-home-at-silverstone-ranch/?$ /neighborhoods/summerlin-homes [R=301,L]
+RewriteRule ^the-surprising-amount-of-home-equity-youve-gained-over-the-years/?$ /investment-properties-las-vegas [R=301,L]
+RewriteRule ^real-estate-is-voted-the-best-long-term-investment-.*$ /investment-properties-las-vegas [R=301,L]
+RewriteRule ^lennar-new-homes-las-vegas-new-construction-dr-jan-duffy/?$ /modern-homes-las-vegas-expert [R=301,L]
+RewriteRule ^when-will-mortgage-rates-come-down/?$ /buying-guide-las-vegas [R=301,L]
+RewriteRule ^are-you-saving-up-to-buy-a-home-your-tax-refund-can-help/?$ /first-time-home-buyer-las-vegas [R=301,L]
+RewriteRule ^pre-approval-isnt-commitment-its-clarity/?$ /buying-guide-las-vegas [R=301,L]
+RewriteRule ^selling-and-buying-at-the-same-time-heres-what-you-need-to-know/?$ /selling-guide-las-vegas [R=301,L]
+RewriteRule ^the-rooms-that-matter-most-when-you-sell/?$ /selling-guide-las-vegas [R=301,L]
+RewriteRule ^3391-.*$ / [R=301,L]
+RewriteRule ^master-the-art-of-jazz-music-with-these-7-tips/?$ / [R=301,L]
+
+# Security headers
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options nosniff
+    Header always set X-Frame-Options DENY
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Block access to sensitive files
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|inc|bak)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Prevent directory browsing
+Options -Indexes
+
+# Force HTTPS (uncomment if you have SSL)
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
