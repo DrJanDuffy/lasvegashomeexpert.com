@@ -1,0 +1,19 @@
+/*
+Theme Name: Las Vegas Home Expert
+Theme URI: https://lasvegashomeexpert.com
+Author: Dr. Jan Duffy
+Author URI: https://lasvegashomeexpert.com
+Description: Custom WordPress theme for Las Vegas luxury real estate specialist Dr. Jan Duffy. Features modern design, SEO optimization, and AI-ready structured data.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.4
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lasvegashomeexpert
+Tags: real-estate, luxury, custom, tailwind, modern
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+/* Tailwind CSS will be loaded via functions.php */
