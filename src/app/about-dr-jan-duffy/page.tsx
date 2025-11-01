@@ -1,6 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
 
 export default function AboutDrJanDuffyPage() {
@@ -474,6 +476,13 @@ export default function AboutDrJanDuffyPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('home')}
+        title="Frequently Asked Questions About Dr. Jan Duffy"
+        subtitle="Common questions about working with Las Vegas home expert, Dr. Jan Duffy"
+      />
     </main>
   );
 }

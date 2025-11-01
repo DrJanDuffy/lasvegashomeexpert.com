@@ -5,6 +5,8 @@ import InteractiveToolSection from '@/components/sections/InteractiveToolSection
 import LuxuryPropertiesSection from '@/components/sections/LuxuryPropertiesSection';
 import LuxuryServicesSection from '@/components/sections/LuxuryServicesSection';
 import MarketTicker from '@/components/sections/MarketTicker';
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
 
 export default function HomePage() {
@@ -473,6 +475,13 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('home')}
+        title="Frequently Asked Questions About Las Vegas Home Expert"
+        subtitle="Get answers to common questions about working with Dr. Jan Duffy, your Las Vegas home expert"
+      />
     </>
   );
 }

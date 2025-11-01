@@ -1,5 +1,7 @@
 'use client';
 
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
 
 export default function LuxuryRealtorPage() {
@@ -279,6 +281,13 @@ export default function LuxuryRealtorPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('service')}
+        title="Frequently Asked Questions About Luxury Realtor Las Vegas"
+        subtitle="Common questions about working with Dr. Jan Duffy, your Las Vegas luxury real estate expert"
+      />
     </>
   );
 }
