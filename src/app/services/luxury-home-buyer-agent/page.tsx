@@ -1,7 +1,9 @@
 'use client';
 
+Aimport { motion } from 'framer-motion';
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
-import { motion } from 'framer-motion';
 
 export default function LuxuryHomeBuyerAgentPage() {
   const handleCTAClick = (action: string) => {
@@ -362,6 +364,13 @@ export default function LuxuryHomeBuyerAgentPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('service')}
+        title="Frequently Asked Questions About Luxury Home Buyer Services"
+        subtitle="Common questions about working with a Las Vegas home expert for luxury property purchases"
+      />
     </main>
   );
 }

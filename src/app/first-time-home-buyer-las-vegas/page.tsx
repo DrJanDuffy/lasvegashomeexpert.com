@@ -1,7 +1,9 @@
 'use client';
 
-import { trackEvent } from '@/utils';
 import { motion } from 'framer-motion';
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
+import { trackEvent } from '@/utils';
 
 export default function FirstTimeHomeBuyerPage() {
   const handleCTAClick = (action: string) => {
@@ -355,6 +357,13 @@ export default function FirstTimeHomeBuyerPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('buying-guide')}
+        title="Frequently Asked Questions About Buying Your First Home in Las Vegas"
+        subtitle="Common questions answered by your Las Vegas home expert for first-time buyers"
+      />
     </main>
   );
 }

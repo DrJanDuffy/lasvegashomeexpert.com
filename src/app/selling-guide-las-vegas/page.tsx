@@ -1,6 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
 
 export default function SellingGuidePage() {
@@ -537,6 +539,13 @@ export default function SellingGuidePage() {
           </motion.div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('selling-guide')}
+        title="Frequently Asked Questions About Selling a Home in Las Vegas"
+        subtitle="Common questions answered by your Las Vegas home expert"
+      />
     </main>
   );
 }

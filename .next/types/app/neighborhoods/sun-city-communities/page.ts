@@ -1,4 +1,4 @@
-// File: C:\Users\geneb\lasvegashomeexpert.com\src\app\neighborhoods\sun-city-communities\page.tsx
+// File: C:\Users\geneb\lasvegashomeexpert.com-1\src\app\neighborhoods\sun-city-communities\page.tsx
 import * as entry from '../../../../../src/app/neighborhoods/sun-city-communities/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

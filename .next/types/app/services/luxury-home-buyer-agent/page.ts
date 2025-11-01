@@ -1,4 +1,4 @@
-// File: C:\Users\geneb\lasvegashomeexpert.com\src\app\services\luxury-home-buyer-agent\page.tsx
+// File: C:\Users\geneb\lasvegashomeexpert.com-1\src\app\services\luxury-home-buyer-agent\page.tsx
 import * as entry from '../../../../../src/app/services/luxury-home-buyer-agent/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

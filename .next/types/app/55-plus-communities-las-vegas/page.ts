@@ -1,4 +1,4 @@
-// File: C:\Users\geneb\lasvegashomeexpert.com\src\app\55-plus-communities-las-vegas\page.tsx
+// File: C:\Users\geneb\lasvegashomeexpert.com-1\src\app\55-plus-communities-las-vegas\page.tsx
 import * as entry from '../../../../src/app/55-plus-communities-las-vegas/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

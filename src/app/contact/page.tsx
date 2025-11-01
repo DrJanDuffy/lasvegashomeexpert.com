@@ -1,7 +1,9 @@
 'use client';
 
-import { trackEvent } from '@/utils';
 import { motion } from 'framer-motion';
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
+import { trackEvent } from '@/utils';
 
 export default function ContactPage() {
   const handleCTAClick = (action: string) => {
@@ -561,6 +563,13 @@ export default function ContactPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('general')}
+        title="Frequently Asked Questions About Contacting Las Vegas Home Expert"
+        subtitle="Common questions about reaching out and working with Dr. Jan Duffy"
+      />
     </main>
   );
 }

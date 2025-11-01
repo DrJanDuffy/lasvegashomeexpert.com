@@ -1,4 +1,4 @@
-// File: C:\Users\geneb\lasvegashomeexpert.com\src\app\luxury-homes-summerlin\page.tsx
+// File: C:\Users\geneb\lasvegashomeexpert.com-1\src\app\luxury-homes-summerlin\page.tsx
 import * as entry from '../../../../src/app/luxury-homes-summerlin/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

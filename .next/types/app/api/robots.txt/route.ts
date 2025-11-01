@@ -1,4 +1,4 @@
-// File: C:\Users\geneb\lasvegashomeexpert.com\src\app\api\robots.txt\route.ts
+// File: C:\Users\geneb\lasvegashomeexpert.com-1\src\app\api\robots.txt\route.ts
 import * as entry from '../../../../../src/app/api/robots.txt/route.js'
 import type { NextRequest } from 'next/server.js'
 

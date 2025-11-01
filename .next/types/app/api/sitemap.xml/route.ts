@@ -1,4 +1,4 @@
-// File: C:\Users\geneb\lasvegashomeexpert.com\src\app\api\sitemap.xml\route.ts
+// File: C:\Users\geneb\lasvegashomeexpert.com-1\src\app\api\sitemap.xml\route.ts
 import * as entry from '../../../../../src/app/api/sitemap.xml/route.js'
 import type { NextRequest } from 'next/server.js'
 

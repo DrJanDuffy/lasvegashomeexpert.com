@@ -1,5 +1,7 @@
 'use client';
 
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
 
 export default function LuxuryHomesForSalePage() {
@@ -484,6 +486,13 @@ export default function LuxuryHomesForSalePage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('buying')}
+        title="Frequently Asked Questions About Luxury Homes for Sale in Las Vegas"
+        subtitle="Common questions about buying luxury properties, answered by your Las Vegas home expert"
+      />
     </>
   );
 }

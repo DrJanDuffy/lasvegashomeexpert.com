@@ -1,4 +1,4 @@
-"use strict";(()=>{var e={};e.id=8310,e.ids=[8310],e.modules={517:e=>{e.exports=require("next/dist/compiled/next-server/app-route.runtime.prod.js")},7420:(e,l,a)=>{a.r(l),a.d(l,{headerHooks:()=>m,originalPathname:()=>u,requestAsyncStorage:()=>n,routeModule:()=>r,serverHooks:()=>h,staticGenerationAsyncStorage:()=>w,staticGenerationBailout:()=>p});var o={};a.r(o),a.d(o,{GET:()=>GET}),a(8976);var s=a(884),t=a(6132),i=a(5798);async function GET(){let e=`User-agent: *
+"use strict";(()=>{var e={};e.id=8310,e.ids=[8310],e.modules={517:e=>{e.exports=require("next/dist/compiled/next-server/app-route.runtime.prod.js")},7462:(e,a,l)=>{l.r(a),l.d(a,{headerHooks:()=>m,originalPathname:()=>u,requestAsyncStorage:()=>n,routeModule:()=>r,serverHooks:()=>h,staticGenerationAsyncStorage:()=>w,staticGenerationBailout:()=>p});var o={};l.r(o),l.d(o,{GET:()=>GET}),l(8976);var s=l(884),t=l(6132),i=l(5798);async function GET(){let e=`User-agent: *
 Allow: /
 
 # CRITICAL: Block legacy URLs that may still be crawled from old site
@@ -167,5 +167,7 @@ Allow: /55-plus-communities-las-vegas
 Allow: /las-vegas-luxury-home-market-report
 Allow: /best-realtor-las-vegas-reviews
 
-# Sitemap
-Sitemap: https://lasvegashomeexpert.com/api/sitemap.xml`;return new i.Z(e,{headers:{"Content-Type":"text/plain","Cache-Control":"public, s-maxage=86400, stale-while-revalidate"}})}let r=new s.AppRouteRouteModule({definition:{kind:t.x.APP_ROUTE,page:"/api/robots.txt/route",pathname:"/api/robots.txt",filename:"route",bundlePath:"app/api/robots.txt/route"},resolvedPagePath:"C:\\Users\\geneb\\lasvegashomeexpert.com\\src\\app\\api\\robots.txt\\route.ts",nextConfigOutput:"",userland:o}),{requestAsyncStorage:n,staticGenerationAsyncStorage:w,serverHooks:h,headerHooks:m,staticGenerationBailout:p}=r,u="/api/robots.txt/route"}};var l=require("../../../webpack-runtime.js");l.C(e);var __webpack_exec__=e=>l(l.s=e),a=l.X(0,[3955],()=>__webpack_exec__(7420));module.exports=a})();
+# Sitemaps
+Sitemap: https://www.lasvegashomeexpert.com/sitemap-index.xml
+Sitemap: https://www.lasvegashomeexpert.com/sitemap.xml
+Sitemap: https://www.lasvegashomeexpert.com/image-sitemap.xml`;return new i.Z(e,{headers:{"Content-Type":"text/plain","Cache-Control":"public, s-maxage=86400, stale-while-revalidate"}})}let r=new s.AppRouteRouteModule({definition:{kind:t.x.APP_ROUTE,page:"/api/robots.txt/route",pathname:"/api/robots.txt",filename:"route",bundlePath:"app/api/robots.txt/route"},resolvedPagePath:"C:\\Users\\geneb\\lasvegashomeexpert.com-1\\src\\app\\api\\robots.txt\\route.ts",nextConfigOutput:"",userland:o}),{requestAsyncStorage:n,staticGenerationAsyncStorage:w,serverHooks:h,headerHooks:m,staticGenerationBailout:p}=r,u="/api/robots.txt/route"}};var a=require("../../../webpack-runtime.js");a.C(e);var __webpack_exec__=e=>a(a.s=e),l=a.X(0,[3955],()=>__webpack_exec__(7462));module.exports=l})();
