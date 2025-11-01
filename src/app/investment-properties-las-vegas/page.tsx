@@ -1,7 +1,9 @@
 'use client';
 
-import { trackEvent } from '@/utils';
 import { motion } from 'framer-motion';
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
+import { trackEvent } from '@/utils';
 
 export default function InvestmentPropertiesPage() {
   const handleCTAClick = (action: string) => {
@@ -470,6 +472,13 @@ export default function InvestmentPropertiesPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('general')}
+        title="Frequently Asked Questions About Investment Properties in Las Vegas"
+        subtitle="Common questions about real estate investing, answered by your Las Vegas home expert"
+      />
     </main>
   );
 }

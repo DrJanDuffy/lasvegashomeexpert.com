@@ -1,5 +1,7 @@
 'use client';
 
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
 
 export default function GreenValleyHomesPage() {
@@ -419,6 +421,13 @@ export default function GreenValleyHomesPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('neighborhood')}
+        title="Frequently Asked Questions About Green Valley Homes"
+        subtitle="Common questions about buying homes in Green Valley, answered by your Las Vegas home expert"
+      />
     </>
   );
 }

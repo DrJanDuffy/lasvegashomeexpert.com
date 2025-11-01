@@ -1,5 +1,7 @@
 'use client';
 
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
 
 export default function DowntownLasVegasPage() {
@@ -422,6 +424,13 @@ export default function DowntownLasVegasPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('neighborhood')}
+        title="Frequently Asked Questions About Downtown Las Vegas"
+        subtitle="Common questions about living and buying in Downtown Las Vegas, answered by your Las Vegas home expert"
+      />
     </>
   );
 }

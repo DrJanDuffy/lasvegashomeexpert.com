@@ -1,3 +1,5 @@
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -279,6 +281,13 @@ export default function RealEstateAgentNearRedRockCasinoPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('service')}
+        title="Frequently Asked Questions About Real Estate Near Red Rock Casino"
+        subtitle="Common questions about real estate services in the Red Rock area, answered by your Las Vegas home expert"
+      />
     </main>
   );
 }

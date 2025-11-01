@@ -1,5 +1,7 @@
 'use client';
 
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
 
 export default function MountainsEdgePage() {
@@ -420,6 +422,13 @@ export default function MountainsEdgePage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('neighborhood')}
+        title="Frequently Asked Questions About Mountains Edge"
+        subtitle="Common questions about living and buying in Mountains Edge, answered by your Las Vegas home expert"
+      />
     </>
   );
 }

@@ -1,4 +1,7 @@
 'use client';
+
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
 
 export default function TheRidgesSummerlinPage() {
@@ -422,6 +425,13 @@ export default function TheRidgesSummerlinPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('neighborhood')}
+        title="Frequently Asked Questions About The Ridges Summerlin Homes"
+        subtitle="Common questions about buying homes in The Ridges, answered by your Las Vegas home expert"
+      />
     </>
   );
 }

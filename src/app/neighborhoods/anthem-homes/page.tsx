@@ -1,5 +1,7 @@
 'use client';
 
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
 
 export default function AnthemHomesPage() {
@@ -420,6 +422,13 @@ export default function AnthemHomesPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('neighborhood')}
+        title="Frequently Asked Questions About Anthem Homes"
+        subtitle="Common questions about buying homes in Anthem, answered by your Las Vegas home expert"
+      />
     </>
   );
 }

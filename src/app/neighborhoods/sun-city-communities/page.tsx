@@ -1,5 +1,7 @@
 'use client';
 
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
 
 export default function SunCityCommunitiesPage() {
@@ -421,6 +423,13 @@ export default function SunCityCommunitiesPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('neighborhood')}
+        title="Frequently Asked Questions About Sun City Communities"
+        subtitle="Common questions about living and buying in Sun City Communities, answered by your Las Vegas home expert"
+      />
     </>
   );
 }

@@ -1,5 +1,7 @@
 'use client';
 
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
 
 export default function BestRealtorReviewsPage() {
@@ -375,6 +377,13 @@ export default function BestRealtorReviewsPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('service')}
+        title="Frequently Asked Questions About Las Vegas Real Estate Agents"
+        subtitle="Common questions about choosing and working with the best realtor, answered by your Las Vegas home expert"
+      />
     </>
   );
 }

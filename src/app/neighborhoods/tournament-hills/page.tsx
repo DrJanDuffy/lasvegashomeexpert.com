@@ -1,7 +1,9 @@
 'use client';
 
-import { trackEvent } from '@/utils';
 import { motion } from 'framer-motion';
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
+import { trackEvent } from '@/utils';
 
 export default function TournamentHillsPage() {
   const handleCTAClick = (action: string) => {
@@ -411,6 +413,13 @@ export default function TournamentHillsPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('neighborhood')}
+        title="Frequently Asked Questions About Tournament Hills"
+        subtitle="Common questions about living and buying in Tournament Hills, answered by your Las Vegas home expert"
+      />
     </main>
   );
 }

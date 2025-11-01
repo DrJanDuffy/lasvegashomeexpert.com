@@ -1,3 +1,5 @@
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -186,6 +188,13 @@ export default function LuxuryHomesSummerlinPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('neighborhood')}
+        title="Frequently Asked Questions About Luxury Homes in Summerlin"
+        subtitle="Common questions about buying luxury homes in Summerlin, answered by your Las Vegas home expert"
+      />
     </main>
   );
 }

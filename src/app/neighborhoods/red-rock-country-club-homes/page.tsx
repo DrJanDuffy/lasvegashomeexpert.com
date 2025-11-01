@@ -1,6 +1,7 @@
 'use client';
 
-import type { Metadata } from 'next';
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
 
 export default function RedRockCountryClubPage() {
@@ -433,6 +434,13 @@ export default function RedRockCountryClubPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('neighborhood')}
+        title="Frequently Asked Questions About Red Rock Country Club Homes"
+        subtitle="Common questions about buying homes in Red Rock Country Club, answered by your Las Vegas home expert"
+      />
     </>
   );
 }

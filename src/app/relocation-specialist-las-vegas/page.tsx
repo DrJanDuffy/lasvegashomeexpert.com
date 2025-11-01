@@ -1,7 +1,9 @@
 'use client';
 
-import { trackEvent } from '@/utils';
 import { motion } from 'framer-motion';
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
+import { trackEvent } from '@/utils';
 
 export default function RelocationSpecialistPage() {
   const handleCTAClick = (action: string) => {
@@ -425,6 +427,13 @@ export default function RelocationSpecialistPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('general')}
+        title="Frequently Asked Questions About Relocation to Las Vegas"
+        subtitle="Common questions about relocating to Las Vegas, answered by your Las Vegas home expert"
+      />
     </main>
   );
 }

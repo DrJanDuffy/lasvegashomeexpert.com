@@ -1,7 +1,9 @@
 'use client';
 
-import { trackEvent } from '@/utils';
 import { motion } from 'framer-motion';
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
+import { trackEvent } from '@/utils';
 
 export default function RedRockCountryClubPage() {
   const handleCTAClick = (action: string) => {
@@ -348,6 +350,13 @@ export default function RedRockCountryClubPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('neighborhood')}
+        title="Frequently Asked Questions About Red Rock Country Club"
+        subtitle="Common questions about living and buying in Red Rock Country Club, answered by your Las Vegas home expert"
+      />
     </main>
   );
 }

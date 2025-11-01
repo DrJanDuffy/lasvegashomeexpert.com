@@ -1,5 +1,7 @@
 'use client';
 
+import FAQSection from '@/components/sections/FAQSection';
+import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
 
 export default function ModernHomesExpertPage() {
@@ -539,6 +541,13 @@ export default function ModernHomesExpertPage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection
+        faqs={getFAQsForPage('buying')}
+        title="Frequently Asked Questions About Modern Homes in Las Vegas"
+        subtitle="Common questions about buying modern homes, answered by your Las Vegas home expert"
+      />
     </>
   );
 }
