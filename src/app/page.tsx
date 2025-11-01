@@ -19,10 +19,10 @@ export default function HomePage() {
             '@type': 'RealEstateAgent',
             name: 'Dr. Jan Duffy',
             description: 'Las Vegas luxury real estate specialist since 2013',
-            url: 'https://lasvegashomeexpert.com',
+            url: 'https://www.lasvegashomeexpert.com',
             telephone: '702-222-1964',
             email: 'DrJanSells@LasVegasHomeExpert.com',
-            image: 'https://lasvegashomeexpert.com/dr-jan-duffy.jpg',
+            image: 'https://www.lasvegashomeexpert.com/dr-jan-duffy.jpg',
             address: {
               '@type': 'PostalAddress',
               streetAddress: '1700 S Pavilion Center Drive, Suite 140',

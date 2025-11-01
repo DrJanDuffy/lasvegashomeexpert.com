@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Las Vegas Home Expert',
     description: 'Your trusted real estate partner in Las Vegas',
-    url: 'https://lasvegashomeexpert.com',
+    url: 'https://www.lasvegashomeexpert.com',
     siteName: 'Las Vegas Home Expert',
     images: [
       {
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   verification: {
     google: 'your-google-verification-code',
   },
-  metadataBase: new URL('https://lasvegashomeexpert.com'),
+  metadataBase: new URL('https://www.lasvegashomeexpert.com'),
 };
 
 export default function RootLayout({

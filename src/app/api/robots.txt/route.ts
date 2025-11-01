@@ -171,7 +171,7 @@ Allow: /las-vegas-luxury-home-market-report
 Allow: /best-realtor-las-vegas-reviews
 
 # Sitemap
-Sitemap: https://lasvegashomeexpert.com/api/sitemap.xml`;
+Sitemap: https://www.lasvegashomeexpert.com/sitemap.xml`;
 
   return new NextResponse(robotsTxt, {
     headers: {
