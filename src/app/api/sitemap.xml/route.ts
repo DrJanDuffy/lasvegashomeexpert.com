@@ -38,6 +38,7 @@ const legitimatePages = [
   // About and contact - medium-high priority
   { slug: 'about-dr-jan-duffy', priority: '0.8', changefreq: 'monthly', lastmod: today },
   { slug: 'contact', priority: '0.8', changefreq: 'monthly', lastmod: today },
+  { slug: 'locations', priority: '0.9', changefreq: 'monthly', lastmod: today },
 
   // Guide pages - medium priority
   { slug: 'buying-guide-las-vegas', priority: '0.7', changefreq: 'monthly', lastmod: today },
