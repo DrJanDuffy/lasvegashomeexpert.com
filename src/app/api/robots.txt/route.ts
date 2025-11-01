@@ -170,8 +170,10 @@ Allow: /55-plus-communities-las-vegas
 Allow: /las-vegas-luxury-home-market-report
 Allow: /best-realtor-las-vegas-reviews
 
-# Sitemap
-Sitemap: https://www.lasvegashomeexpert.com/sitemap.xml`;
+# Sitemaps
+Sitemap: https://www.lasvegashomeexpert.com/sitemap-index.xml
+Sitemap: https://www.lasvegashomeexpert.com/sitemap.xml
+Sitemap: https://www.lasvegashomeexpert.com/image-sitemap.xml`;
 
   return new NextResponse(robotsTxt, {
     headers: {

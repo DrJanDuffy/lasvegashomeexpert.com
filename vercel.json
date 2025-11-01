@@ -82,6 +82,14 @@
     {
       "source": "/sitemap.xml",
       "destination": "/api/sitemap.xml"
+    },
+    {
+      "source": "/image-sitemap.xml",
+      "destination": "/api/image-sitemap.xml"
+    },
+    {
+      "source": "/sitemap-index.xml",
+      "destination": "/api/sitemap-index.xml"
     }
   ]
 }
