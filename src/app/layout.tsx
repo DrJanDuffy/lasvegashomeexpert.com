@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
@@ -49,6 +50,7 @@ export const metadata: Metadata = {
   verification: {
     google: 'your-google-verification-code',
   },
+  metadataBase: new URL('https://lasvegashomeexpert.com'),
 };
 
 export default function RootLayout({
@@ -143,6 +145,20 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.className} bg-neutral-50 text-neutral-900 antialiased`}>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-57C81JLMQW"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-57C81JLMQW');
+          `}
+        </Script>
+
         <Header />
         {children}
         <Footer />
