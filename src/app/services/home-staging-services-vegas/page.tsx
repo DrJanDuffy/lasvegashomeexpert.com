@@ -1,7 +1,8 @@
 'use client';
 
-import { trackEvent } from '@/utils';
 import { motion } from 'framer-motion';
+import StoreLocatorSection from '@/components/sections/StoreLocatorSection';
+import { trackEvent } from '@/utils';
 
 export default function HomeStagingServicesPage() {
   const handleCTAClick = (action: string) => {
@@ -439,6 +440,13 @@ export default function HomeStagingServicesPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* Store Locator Section */}
+      <StoreLocatorSection
+        title="Visit Our Staging Office"
+        subtitle="Located in Las Vegas for convenient staging consultations"
+        height="400px"
+      />
     </main>
   );
 }

@@ -6,6 +6,7 @@ import LuxuryPropertiesSection from '@/components/sections/LuxuryPropertiesSecti
 import LuxuryServicesSection from '@/components/sections/LuxuryServicesSection';
 import MarketTicker from '@/components/sections/MarketTicker';
 import FAQSection from '@/components/sections/FAQSection';
+import StoreLocatorSection from '@/components/sections/StoreLocatorSection';
 import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
 
@@ -475,6 +476,13 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Store Locator Section - SEO Boost */}
+      <StoreLocatorSection
+        title="Visit Our Las Vegas Office"
+        subtitle="Find our office location and explore service areas throughout the Las Vegas Valley"
+        height="500px"
+      />
 
       {/* FAQ Section */}
       <FAQSection

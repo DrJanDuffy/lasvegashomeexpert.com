@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import FAQSection from '@/components/sections/FAQSection';
+import StoreLocatorSection from '@/components/sections/StoreLocatorSection';
 import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
 
@@ -563,6 +564,13 @@ export default function ContactPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* Store Locator Section */}
+      <StoreLocatorSection
+        title="Find Our Office Location"
+        subtitle="Visit us at our Las Vegas office or explore our service area"
+        height="600px"
+      />
 
       {/* FAQ Section */}
       <FAQSection

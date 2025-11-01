@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import FAQSection from '@/components/sections/FAQSection';
+import StoreLocatorSection from '@/components/sections/StoreLocatorSection';
 import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
 
@@ -476,6 +477,13 @@ export default function AboutDrJanDuffyPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* Store Locator Section */}
+      <StoreLocatorSection
+        title="Visit Dr. Jan Duffy's Office"
+        subtitle="Located in the heart of Las Vegas for your convenience"
+        height="500px"
+      />
 
       {/* FAQ Section */}
       <FAQSection

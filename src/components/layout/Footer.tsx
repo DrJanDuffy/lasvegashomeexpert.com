@@ -151,11 +151,18 @@ export default function Footer() {
                 Terms of Service
               </Link>
               <Link
-                href="#"
+                href="/sitemap"
                 onClick={() => handleFooterClick('sitemap')}
                 className="text-primary-200 hover:text-white text-sm transition-colors duration-200"
               >
                 Sitemap
+              </Link>
+              <Link
+                href="/locations"
+                onClick={() => handleFooterClick('locations')}
+                className="text-primary-200 hover:text-white text-sm transition-colors duration-200"
+              >
+                Locations
               </Link>
             </div>
           </div>

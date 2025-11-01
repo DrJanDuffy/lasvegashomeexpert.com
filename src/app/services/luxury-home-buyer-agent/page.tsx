@@ -1,6 +1,6 @@
 'use client';
 
-Aimport { motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import FAQSection from '@/components/sections/FAQSection';
 import { getFAQsForPage } from '@/data/page-specific-faqs';
 import { trackEvent } from '@/utils';
