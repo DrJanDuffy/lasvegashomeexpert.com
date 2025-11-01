@@ -4,6 +4,8 @@ import Script from 'next/script';
 import './globals.css';
 import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
+import OrganizationSchema from '@/components/schema/OrganizationSchema';
+import KnowledgeGraphSchema from '@/components/schema/KnowledgeGraphSchema';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -145,6 +147,10 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.className} bg-neutral-50 text-neutral-900 antialiased`}>
+        {/* Grokipedia & AI Optimization - Structured Data for Knowledge Graphs */}
+        <OrganizationSchema />
+        <KnowledgeGraphSchema pageUrl="https://www.lasvegashomeexpert.com" pageType="WebSite" />
+
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-57C81JLMQW"

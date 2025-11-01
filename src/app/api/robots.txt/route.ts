@@ -1,7 +1,30 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const robotsTxt = `User-agent: *
+  const robotsTxt = `# Allow all search engines and AI crawlers (including Grok, GPTBot, ChatGPT, etc.)
+User-agent: *
+Allow: /
+
+# Explicitly allow AI crawlers for Grokipedia and knowledge graph indexing
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
 Allow: /
 
 # CRITICAL: Block legacy URLs that may still be crawled from old site

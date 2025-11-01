@@ -13,6 +13,43 @@ import { trackEvent } from '@/utils';
 export default function HomePage() {
   return (
     <>
+      {/* Grokipedia & AI Optimization - WebPage Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            '@id': 'https://www.lasvegashomeexpert.com#webpage',
+            name: 'Las Vegas Home Expert - Your Trusted Real Estate Partner',
+            description:
+              'Expert real estate services in Las Vegas. Find your dream home, get property valuations, and work with experienced professionals.',
+            url: 'https://www.lasvegashomeexpert.com',
+            isPartOf: {
+              '@type': 'WebSite',
+              '@id': 'https://www.lasvegashomeexpert.com#website',
+              name: 'Las Vegas Home Expert',
+              url: 'https://www.lasvegashomeexpert.com',
+            },
+            primaryImageOfPage: {
+              '@type': 'ImageObject',
+              url: 'https://www.lasvegashomeexpert.com/dr-jan-duffy.jpg',
+            },
+            datePublished: '2013-01-01',
+            dateModified: new Date().toISOString(),
+            author: {
+              '@type': 'Person',
+              name: 'Dr. Jan Duffy',
+            },
+            mainEntity: {
+              '@type': 'RealEstateAgent',
+              '@id': 'https://www.lasvegashomeexpert.com#agent',
+            },
+            inLanguage: 'en-US',
+          }),
+        }}
+      />
+
       {/* Structured Data for AI Optimization */}
       <script
         type="application/ld+json"

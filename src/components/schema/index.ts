@@ -3,3 +3,7 @@ export { default as RealEstateServiceSchema } from './RealEstateServiceSchema';
 export { default as BreadcrumbSchema } from './BreadcrumbSchema';
 export { default as RealEstateBreadcrumbSchema } from './RealEstateBreadcrumbSchema';
 export { default as FAQSchema } from './FAQSchema';
+export { default as OrganizationSchema } from './OrganizationSchema';
+export { default as WebPageSchema } from './WebPageSchema';
+export { default as ArticleSchema } from './ArticleSchema';
+export { default as KnowledgeGraphSchema } from './KnowledgeGraphSchema';
