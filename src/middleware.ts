@@ -9,7 +9,11 @@ export function middleware(request: NextRequest) {
   // CRITICAL: non-www to www canonicalization (must be first)
   // Vercel uses www as the root domain, so redirect non-www to www
   // Vercel handles HTTPS redirects automatically, so we only need to handle www
-  if (hostname && !hostname.startsWith('www.') && !hostname.includes('localhost') && !hostname.includes('127.0.0.1')) {
+  // Only apply to production domain, not Vercel preview/deployment domains
+  const isProductionDomain = hostname === 'lasvegashomeexpert.com';
+  const isVercelDomain = hostname?.includes('.vercel.app') || hostname?.includes('localhost') || hostname?.includes('127.0.0.1');
+  
+  if (isProductionDomain && !hostname.startsWith('www.') && !isVercelDomain) {
     const wwwHostname = `www.${hostname}`;
     // Construct redirect URL properly using the request URL to avoid loops
     const redirectUrl = new URL(request.url);
