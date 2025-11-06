@@ -10,23 +10,43 @@ import KnowledgeGraphSchema from '@/components/schema/KnowledgeGraphSchema';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Las Vegas Home Expert - Your Trusted Real Estate Partner',
+  title: {
+    default: 'Las Vegas Home Expert - Your Trusted Real Estate Partner',
+    template: '%s | Las Vegas Home Expert',
+  },
   description:
-    'Expert real estate services in Las Vegas. Find your dream home, get property valuations, and work with experienced professionals. RealScout, Homebot, and CloudCMA powered.',
-  keywords:
-    'Las Vegas real estate, home buying, home selling, property valuation, real estate expert',
-  authors: [{ name: 'Dr. Jan Duffy' }],
+    'Expert real estate services in Las Vegas, Summerlin, and Henderson. Find your dream home, get property valuations, and work with Dr. Jan Duffy, an experienced luxury real estate professional. RealScout, Homebot, and CloudCMA powered.',
+  keywords: [
+    'Las Vegas real estate',
+    'luxury homes Las Vegas',
+    'Summerlin homes',
+    'Henderson real estate',
+    'home buying Las Vegas',
+    'home selling Las Vegas',
+    'property valuation',
+    'real estate expert',
+    'Dr. Jan Duffy',
+    'luxury realtor Las Vegas',
+  ],
+  authors: [{ name: 'Dr. Jan Duffy', url: 'https://lasvegashomeexpert.com/about-dr-jan-duffy' }],
+  creator: 'Dr. Jan Duffy',
+  publisher: 'Las Vegas Home Expert',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
-    title: 'Las Vegas Home Expert',
-    description: 'Your trusted real estate partner in Las Vegas',
+    title: 'Las Vegas Home Expert - Luxury Real Estate Services',
+    description: 'Your trusted luxury real estate partner in Las Vegas, Summerlin, and Henderson. Expert guidance for buying and selling homes.',
     url: 'https://lasvegashomeexpert.com',
     siteName: 'Las Vegas Home Expert',
     images: [
       {
-        url: '/og-image.jpg',
+        url: 'https://lasvegashomeexpert.com/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Las Vegas Home Expert',
+        alt: 'Las Vegas Home Expert - Luxury Real Estate Services',
       },
     ],
     locale: 'en_US',
@@ -34,13 +54,14 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Las Vegas Home Expert',
-    description: 'Your trusted real estate partner in Las Vegas',
-    images: ['/og-image.jpg'],
+    title: 'Las Vegas Home Expert - Luxury Real Estate',
+    description: 'Your trusted luxury real estate partner in Las Vegas',
+    images: ['https://lasvegashomeexpert.com/og-image.jpg'],
   },
   robots: {
     index: true,
     follow: true,
+    nocache: false,
     googleBot: {
       index: true,
       follow: true,
@@ -50,9 +71,23 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'your-google-verification-code',
+    // To set up Google Search Console verification:
+    // 1. Go to https://search.google.com/search-console
+    // 2. Add property: lasvegashomeexpert.com
+    // 3. Choose "HTML tag" verification method
+    // 4. Copy the content value from the meta tag
+    // 5. Replace the value below with your verification code
+    // 6. Alternatively, add a google[VERIFICATION_CODE].html file to /public/
+    google: 'your-google-verification-code-here',
+    // You can also add other search engine verifications here:
+    // yandex: 'your-yandex-verification-code',
+    // bing: 'your-bing-verification-code',
   },
   metadataBase: new URL('https://lasvegashomeexpert.com'),
+  alternates: {
+    canonical: 'https://lasvegashomeexpert.com',
+  },
+  category: 'Real Estate',
 };
 
 export default function RootLayout({
