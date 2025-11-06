@@ -35,6 +35,10 @@ const nextConfig = {
   async rewrites() {
     return [
       {
+        source: '/robots.txt',
+        destination: '/api/robots.txt',
+      },
+      {
         source: '/sitemap-index.xml',
         destination: '/api/sitemap-index.xml',
       },
