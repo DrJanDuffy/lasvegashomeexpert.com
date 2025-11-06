@@ -63,6 +63,30 @@ export function middleware(request: NextRequest) {
   // Redirect legacy blog URLs to main content
   if (pathname.startsWith('/blog/') || pathname.startsWith('/insights/')) {
     url.pathname = '/';
+    url.search = ''; // Remove query parameters
+    return NextResponse.redirect(url, { status: 301 });
+  }
+
+  // Handle query parameters that shouldn't be indexed (WordPress cron, UTM, etc.)
+  const unwantedParams = ['doing_wp_cron', 'utm_source', 'utm_medium', 'utm_campaign'];
+  let hasUnwantedParams = false;
+  const cleanedUrl = url.clone();
+  
+  unwantedParams.forEach((param) => {
+    if (cleanedUrl.searchParams.has(param)) {
+      cleanedUrl.searchParams.delete(param);
+      hasUnwantedParams = true;
+    }
+  });
+
+  // If we removed query params, redirect to clean URL
+  if (hasUnwantedParams) {
+    return NextResponse.redirect(cleanedUrl, { status: 301 });
+  }
+
+  // Handle trailing slashes - redirect to non-trailing slash version (except for root)
+  if (pathname !== '/' && pathname.endsWith('/')) {
+    url.pathname = pathname.slice(0, -1);
     return NextResponse.redirect(url, { status: 301 });
   }
 
