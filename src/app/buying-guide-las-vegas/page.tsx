@@ -479,6 +479,145 @@ export default function BuyingGuidePage() {
         </div>
       </section>
 
+      {/* Comprehensive Buying Guide Content */}
+      <section className="py-16 bg-white">
+        <div className="container-responsive">
+          <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
+            Complete Guide to Buying Your First Home in Las Vegas
+          </h2>
+          
+          <div className="grid md:grid-cols-2 gap-12 mb-12">
+            <div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6">
+                Understanding the Las Vegas Housing Market
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                The Las Vegas housing market offers exceptional opportunities for homebuyers, with a diverse range of properties from affordable starter homes to luxury estates. As of 2025, the market shows balanced conditions with 2.1 months of inventory, indicating a healthy market environment that benefits both buyers and sellers.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Las Vegas real estate values have shown consistent appreciation, with average home prices increasing 12.4% year-over-year. This growth reflects the city's strong economic fundamentals, growing population, and appeal as both a residential destination and investment opportunity. The combination of no state income tax, affordable housing costs compared to coastal markets, and world-class amenities makes Las Vegas an attractive place to buy a home.
+              </p>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
+                Why Las Vegas is a Great Place to Buy a Home
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Las Vegas offers homebuyers numerous advantages that make it an excellent place to purchase property. The city's master-planned communities like Summerlin, Henderson, and Green Valley provide exceptional amenities including parks, recreation facilities, excellent schools, and shopping centers. These communities offer a high quality of life with strong property values and appreciation potential.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed">
+                The Las Vegas economy continues to diversify beyond tourism, with growing technology, healthcare, and professional services sectors creating stable employment opportunities. This economic growth supports housing demand and property values, making Las Vegas real estate a sound investment for homebuyers looking for both lifestyle and financial returns.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6">
+                Choosing the Right Neighborhood in Las Vegas
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Selecting the right neighborhood is crucial when buying a home in Las Vegas. Each area offers unique characteristics, amenities, and lifestyle options. Summerlin, located on the west side of Las Vegas, features master-planned communities with golf courses, parks, and excellent schools. The area appeals to families and professionals seeking a suburban lifestyle with easy access to the city.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Henderson, located southeast of Las Vegas, offers a more residential feel with strong community infrastructure, excellent schools, and diverse housing options. Green Valley in Henderson provides established neighborhoods with mature trees and well-maintained properties. North Las Vegas offers more affordable options with new construction and growing communities.
+              </p>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
+                Working with a Las Vegas Real Estate Expert
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Working with an experienced Las Vegas real estate agent like Dr. Jan Duffy provides significant advantages when buying a home. Her 15+ years of experience in the Las Vegas market, combined with expertise in local neighborhoods, market conditions, and transaction management, ensures homebuyers receive expert guidance throughout the entire process.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed">
+                Dr. Duffy's knowledge of Las Vegas neighborhoods, from Summerlin to Henderson, helps buyers identify properties that match their lifestyle needs and budget. Her network of professionals including lenders, inspectors, and title companies ensures smooth transactions, while her negotiation expertise helps buyers secure favorable terms and prices.
+              </p>
+            </div>
+          </div>
+          
+          <div className="bg-gradient-to-r from-primary-50 to-neutral-50 rounded-lg p-8 mt-12">
+            <h3 className="text-2xl font-bold text-primary-900 mb-6">
+              Essential Steps Before You Start House Hunting
+            </h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">Get Your Finances in Order</h4>
+                <p className="text-neutral-600 leading-relaxed mb-4">
+                  Before starting your home search, it's essential to understand your financial situation and borrowing capacity. Check your credit score, gather financial documents including tax returns, bank statements, and pay stubs, and calculate your debt-to-income ratio. This preparation helps you understand your price range and positions you to act quickly when you find the right property.
+                </p>
+                <p className="text-neutral-600 leading-relaxed">
+                  Consider saving for a down payment of at least 5-20% of the purchase price, plus additional funds for closing costs, moving expenses, and initial home maintenance. Having your finances organized makes the pre-approval process smoother and demonstrates to sellers that you're a serious, qualified buyer.
+                </p>
+              </div>
+              
+              <div>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">Get Pre-Approved for a Mortgage</h4>
+                <p className="text-neutral-600 leading-relaxed mb-4">
+                  Mortgage pre-approval is a critical step that provides several advantages. It gives you a clear understanding of how much you can borrow, helps you focus your search on properties within your price range, and demonstrates to sellers that you're a serious buyer. Pre-approval letters typically remain valid for 60-90 days, giving you time to find the right property.
+                </p>
+                <p className="text-neutral-600 leading-relaxed">
+                  During pre-approval, lenders review your credit history, income, assets, and debts to determine your borrowing capacity. This process helps identify any credit issues that need attention before you make an offer. Dr. Jan Duffy can connect you with reputable lenders who specialize in Las Vegas real estate financing and understand local market conditions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Making an Offer and Closing */}
+      <section className="py-16 bg-gradient-to-br from-primary-50 to-neutral-50">
+        <div className="container-responsive">
+          <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
+            Making an Offer and Closing on Your Las Vegas Home
+          </h2>
+          
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="bg-white rounded-lg p-8 shadow-lg">
+              <h3 className="text-2xl font-bold text-primary-800 mb-4">
+                Crafting a Competitive Offer
+              </h3>
+              <p className="text-neutral-600 leading-relaxed mb-4">
+                Making a competitive offer requires understanding current market conditions, comparable sales, and seller motivations. Dr. Jan Duffy's market analysis helps determine appropriate offer prices based on recent sales, property condition, and market trends. Factors like listing price, days on market, and seller circumstances all influence offer strategy.
+              </p>
+              <p className="text-neutral-600 leading-relaxed">
+                Your offer should include not just price, but also terms that make it attractive to sellers. Consider including earnest money deposits, flexible closing dates, and minimal contingencies while protecting your interests. Dr. Duffy's negotiation expertise ensures you present strong offers that balance competitiveness with risk management.
+              </p>
+            </div>
+            
+            <div className="bg-white rounded-lg p-8 shadow-lg">
+              <h3 className="text-2xl font-bold text-primary-800 mb-4">
+                Home Inspections and Due Diligence
+              </h3>
+              <p className="text-neutral-600 leading-relaxed mb-4">
+                Once your offer is accepted, the due diligence period begins. This typically includes a professional home inspection to identify any issues with the property's structure, systems, and condition. Inspections cover electrical, plumbing, HVAC, roofing, foundation, and other critical components that could require costly repairs.
+              </p>
+              <p className="text-neutral-600 leading-relaxed">
+                Additional due diligence may include property appraisals, title searches, and environmental assessments. Dr. Duffy coordinates all aspects of the inspection process, helping you understand findings and negotiate repairs or credits when necessary. This thorough process protects your investment and ensures you're making an informed decision.
+              </p>
+            </div>
+            
+            <div className="bg-white rounded-lg p-8 shadow-lg">
+              <h3 className="text-2xl font-bold text-primary-800 mb-4">
+                Closing on Your New Home
+              </h3>
+              <p className="text-neutral-600 leading-relaxed mb-4">
+                The closing process involves finalizing your mortgage, completing title work, and transferring ownership. This typically takes 30-45 days from acceptance of your offer. During this time, final inspections occur, your loan is processed and approved, and all legal documents are prepared for signing.
+              </p>
+              <p className="text-neutral-600 leading-relaxed">
+                On closing day, you'll review and sign numerous documents, pay closing costs and down payment, and receive the keys to your new home. Dr. Duffy attends closing with you to ensure everything proceeds smoothly, answering questions and addressing any last-minute issues that arise during this final step of your home buying journey.
+              </p>
+            </div>
+          </div>
+          
+          <div className="bg-white rounded-lg shadow-lg p-8">
+            <h3 className="text-2xl font-bold text-primary-800 mb-6">
+              Understanding Closing Costs and Home Buying Expenses
+            </h3>
+            <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+              Homebuyers should budget for closing costs, which typically range from 2-5% of the purchase price. These costs include loan origination fees, title insurance, escrow fees, property taxes, homeowners insurance, and various other charges. Your lender will provide a Loan Estimate early in the process and a Closing Disclosure before closing detailing all costs.
+            </p>
+            <p className="text-lg text-neutral-600 leading-relaxed">
+              In addition to closing costs, budget for moving expenses, immediate home improvements or repairs, and initial maintenance costs. Having a clear understanding of all expenses helps you plan your budget and avoid surprises during the home buying process. Dr. Duffy provides detailed cost breakdowns early in the process so you can plan accordingly.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <FAQSection
         faqs={getFAQsForPage('buying-guide')}

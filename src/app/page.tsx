@@ -521,6 +521,151 @@ export default function HomePage() {
         height="500px"
       />
 
+      {/* Comprehensive SEO Content Section - Why Choose Dr. Jan Duffy */}
+      <section className="why-choose bg-white py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
+            Why Choose Dr. Jan Duffy as Your Las Vegas Real Estate Expert
+          </h2>
+          
+          <div className="grid md:grid-cols-2 gap-12 mb-16">
+            <div>
+              <h3 className="text-2xl font-bold text-slate-800 mb-4">
+                Unmatched Luxury Real Estate Expertise
+              </h3>
+              <p className="text-lg text-slate-600 leading-relaxed mb-4">
+                With over 15 years of experience in Las Vegas luxury real estate, Dr. Jan Duffy has established herself as the premier real estate agent for high-end properties. Since 2013, she has specialized in luxury homes priced from $1 million to $25 million+ in Las Vegas's most prestigious neighborhoods including Red Rock Country Club, The Ridges Summerlin, MacDonald Highlands, and Southern Highlands.
+              </p>
+              <p className="text-lg text-slate-600 leading-relaxed mb-4">
+                Dr. Duffy's expertise extends beyond traditional real estate services. Her background in psychology provides unique insights into client needs, making her particularly effective in complex situations like divorce real estate transactions and relocation services. This combination of real estate knowledge and psychological understanding creates a superior client experience.
+              </p>
+              <h3 className="text-2xl font-bold text-slate-800 mb-4 mt-8">
+                Proven Track Record in Las Vegas Luxury Market
+              </h3>
+              <p className="text-lg text-slate-600 leading-relaxed">
+                Dr. Jan Duffy has successfully closed over 500 luxury real estate transactions, representing more than $180 million in total sales volume. Her consistent performance has earned her recognition as a top 1% producer with Berkshire Hathaway HomeServices Nevada Properties. With a 4.9-star rating from 127 verified client reviews, Dr. Duffy's reputation for excellence speaks for itself.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="text-2xl font-bold text-slate-800 mb-4">
+                Specialized Services for Unique Needs
+              </h3>
+              <p className="text-lg text-slate-600 leading-relaxed mb-4">
+                Unlike many real estate agents who take a one-size-fits-all approach, Dr. Duffy offers specialized services tailored to specific client needs. Her divorce real estate services help couples navigate the complex process of selling marital homes during separation, combining real estate expertise with compassionate guidance through emotionally challenging situations.
+              </p>
+              <p className="text-lg text-slate-600 leading-relaxed mb-4">
+                For first-time homebuyers, Dr. Duffy provides comprehensive guidance through the entire purchasing process, from pre-approval to closing. Her investment property services help investors identify opportunities in the Las Vegas market, focusing on properties with strong rental income potential and appreciation prospects.
+              </p>
+              <h3 className="text-2xl font-bold text-slate-800 mb-4 mt-8">
+                Deep Knowledge of Las Vegas Neighborhoods
+              </h3>
+              <p className="text-lg text-slate-600 leading-relaxed">
+                Dr. Duffy's intimate knowledge of Las Vegas luxury neighborhoods gives her clients a significant advantage. She understands the unique characteristics, market trends, and lifestyle offerings of each community, from the golf course estates of Red Rock Country Club to the mountain-view properties in The Ridges. This localized expertise ensures clients make informed decisions about their biggest investments.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Las Vegas Luxury Real Estate Market Overview */}
+      <section className="market-overview bg-gradient-to-r from-blue-50 to-indigo-50 py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
+            Las Vegas Luxury Real Estate Market Overview 2025
+          </h2>
+          
+          <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
+            <h3 className="text-2xl font-bold text-slate-800 mb-6">
+              Current Market Conditions
+            </h3>
+            <p className="text-lg text-slate-600 leading-relaxed mb-4">
+              The Las Vegas luxury real estate market in 2025 presents unique opportunities for both buyers and sellers. As of August 2025, the market shows balanced inventory levels with 4.5 to 5.2 months of supply in most luxury neighborhoods, indicating a shift toward more favorable conditions for buyers compared to previous years.
+            </p>
+            <p className="text-lg text-slate-600 leading-relaxed mb-4">
+              Red Rock Country Club continues to lead in luxury home sales with a median price of $2.1 million and average days on market of 65 days. The Ridges Summerlin commands the highest median price at $2.5 million, reflecting its ultra-luxury positioning with panoramic city and mountain views. MacDonald Highlands in Henderson offers excellent value at a median price of $1.8 million, while Southern Highlands provides entry-level luxury starting around $850,000.
+            </p>
+            <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
+              Investment Opportunities in Las Vegas Luxury Market
+            </h3>
+            <p className="text-lg text-slate-600 leading-relaxed mb-4">
+              The Las Vegas luxury real estate market offers compelling investment opportunities for discerning buyers. Properties in master-planned communities like Summerlin and Henderson have shown consistent appreciation, with Red Rock Country Club experiencing 15% year-over-year price growth. The combination of favorable tax environment, no state income tax, and world-class amenities makes Las Vegas an attractive destination for luxury homebuyers.
+            </p>
+            <p className="text-lg text-slate-600 leading-relaxed">
+              Luxury properties in Las Vegas often feature resort-style amenities including private pools, golf course access, gated communities, and stunning views of the surrounding mountains and Las Vegas Strip. These features, combined with relatively affordable pricing compared to other major metropolitan areas, create exceptional value for luxury homebuyers.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* How to Buy Luxury Real Estate in Las Vegas */}
+      <section className="how-to-buy bg-white py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
+            How to Buy Luxury Real Estate in Las Vegas
+          </h2>
+          
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="bg-gradient-to-br from-slate-50 to-blue-50 rounded-lg p-6">
+              <h3 className="text-xl font-bold text-slate-800 mb-4">
+                Step 1: Get Pre-Approved for Financing
+              </h3>
+              <p className="text-slate-600 leading-relaxed mb-4">
+                Before beginning your luxury home search, secure pre-approval from a lender experienced in jumbo loans. Luxury properties typically require financing above conventional loan limits, and having pre-approval demonstrates serious buyer intent to sellers.
+              </p>
+              <p className="text-slate-600 leading-relaxed">
+                Dr. Jan Duffy can connect you with reputable lenders who specialize in luxury real estate financing, including jumbo loans, portfolio loans, and alternative financing options for high-net-worth individuals.
+              </p>
+            </div>
+            
+            <div className="bg-gradient-to-br from-slate-50 to-blue-50 rounded-lg p-6">
+              <h3 className="text-xl font-bold text-slate-800 mb-4">
+                Step 2: Define Your Luxury Home Criteria
+              </h3>
+              <p className="text-slate-600 leading-relaxed mb-4">
+                Luxury homebuyers should clearly define their priorities, including neighborhood preferences, square footage requirements, amenity must-haves, and architectural style preferences. Dr. Duffy helps clients refine their search criteria based on lifestyle goals and investment objectives.
+              </p>
+              <p className="text-slate-600 leading-relaxed">
+                Consider factors like proximity to golf courses, privacy requirements, views, and community amenities when defining your ideal luxury home specifications.
+              </p>
+            </div>
+            
+            <div className="bg-gradient-to-br from-slate-50 to-blue-50 rounded-lg p-6">
+              <h3 className="text-xl font-bold text-slate-800 mb-4">
+                Step 3: Work with a Luxury Real Estate Specialist
+              </h3>
+              <p className="text-slate-600 leading-relaxed mb-4">
+                Luxury real estate transactions require specialized expertise. Dr. Jan Duffy's extensive experience in Las Vegas luxury properties ensures clients receive expert guidance through every step of the process, from initial search to closing.
+              </p>
+              <p className="text-slate-600 leading-relaxed">
+                Her network of luxury home resources, including off-market listings, private showings, and exclusive access to new developments, gives clients advantages unavailable to typical buyers.
+              </p>
+            </div>
+          </div>
+          
+          <div className="bg-white rounded-lg shadow-lg p-8">
+            <h3 className="text-2xl font-bold text-slate-800 mb-6">
+              What Makes a Luxury Home in Las Vegas?
+            </h3>
+            <p className="text-lg text-slate-600 leading-relaxed mb-4">
+              Luxury homes in Las Vegas are defined by several key characteristics beyond price. Properties typically priced above $1 million often feature custom architecture, premium finishes, resort-style amenities, and prime locations in master-planned communities. Key luxury home features include:
+            </p>
+            <ul className="list-disc list-inside space-y-2 text-lg text-slate-600 mb-4">
+              <li>Private pools and spa areas with outdoor kitchens and entertainment spaces</li>
+              <li>Golf course access or views in communities like Red Rock Country Club</li>
+              <li>Gated community security with 24-hour guard services</li>
+              <li>Mountain and city views, particularly in elevated communities like The Ridges</li>
+              <li>High-end finishes including marble countertops, hardwood floors, and designer fixtures</li>
+              <li>Smart home technology and home automation systems</li>
+              <li>Spacious floor plans with 4,000+ square feet of living space</li>
+            </ul>
+            <p className="text-lg text-slate-600 leading-relaxed">
+              The Las Vegas luxury market offers exceptional variety, from contemporary modern estates to Mediterranean-inspired villas, ensuring buyers can find properties that match their aesthetic preferences and lifestyle needs.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <FAQSection
         faqs={getFAQsForPage('home')}
