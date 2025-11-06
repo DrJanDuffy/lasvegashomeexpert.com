@@ -31,6 +31,23 @@ const nextConfig = {
       },
     ];
   },
+
+  async rewrites() {
+    return [
+      {
+        source: '/sitemap-index.xml',
+        destination: '/api/sitemap-index.xml',
+      },
+      {
+        source: '/sitemap.xml',
+        destination: '/api/sitemap.xml',
+      },
+      {
+        source: '/image-sitemap.xml',
+        destination: '/api/image-sitemap.xml',
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
