@@ -5,6 +5,10 @@ export function middleware(request: NextRequest) {
   const url = request.nextUrl.clone();
   const pathname = url.pathname;
   const hostname = request.headers.get('host') || '';
+  const userAgent = request.headers.get('user-agent') || '';
+
+  // Allow legitimate crawlers to bypass some checks (Googlebot, Bingbot, etc.)
+  const isKnownCrawler = /googlebot|bingbot|slurp|duckduckbot|baiduspider|yandex|sogou|exabot|facebot|ia_archiver/i.test(userAgent);
 
   // CRITICAL: www to non-www canonicalization (must be first)
   // Non-www is the canonical domain (www redirects to non-www)
@@ -59,6 +63,10 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(url, { status: 301 });
   }
 
+  // TEMPORARY: Disabled aggressive blog post redirect to prevent firewall triggers
+  // This pattern was causing too many redirects that might trigger Vercel's DDoS protection
+  // Re-enable after firewall issue is resolved, but with rate limiting
+  /*
   // Redirect orphaned blog posts FIRST (before other redirects)
   // These are WordPress slugs that no longer exist but Google is still crawling
   // Only match if it's a single path segment (no forward slashes) and looks like a blog post slug
@@ -103,6 +111,7 @@ export function middleware(request: NextRequest) {
       return NextResponse.redirect(url, { status: 301 });
     }
   }
+  */
 
   // Handle query parameters that shouldn't be indexed (WordPress cron, UTM, etc.)
   const unwantedParams = ['doing_wp_cron', 'utm_source', 'utm_medium', 'utm_campaign'];
