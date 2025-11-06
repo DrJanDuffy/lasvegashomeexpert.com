@@ -21,13 +21,27 @@ function generateSitemapIndex() {
 }
 
 export async function GET() {
-  const sitemapIndex = generateSitemapIndex();
+  try {
+    const sitemapIndex = generateSitemapIndex();
 
-  return new NextResponse(sitemapIndex, {
-    headers: {
-      'Content-Type': 'text/xml',
-      'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=86400',
-    },
-  });
+    return new NextResponse(sitemapIndex, {
+      status: 200,
+      headers: {
+        'Content-Type': 'application/xml; charset=utf-8',
+        'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=86400',
+      },
+    });
+  } catch (error) {
+    console.error('Error generating sitemap index:', error);
+    return new NextResponse(
+      '<?xml version="1.0" encoding="UTF-8"?><error>Error generating sitemap</error>',
+      {
+        status: 500,
+        headers: {
+          'Content-Type': 'application/xml; charset=utf-8',
+        },
+      }
+    );
+  }
 }
 

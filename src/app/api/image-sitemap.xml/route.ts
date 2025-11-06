@@ -136,13 +136,27 @@ ${imageEntries}
 }
 
 export async function GET() {
-  const sitemap = generateImageSiteMap();
+  try {
+    const sitemap = generateImageSiteMap();
 
-  return new NextResponse(sitemap, {
-    headers: {
-      'Content-Type': 'text/xml',
-      'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=86400',
-    },
-  });
+    return new NextResponse(sitemap, {
+      status: 200,
+      headers: {
+        'Content-Type': 'application/xml; charset=utf-8',
+        'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=86400',
+      },
+    });
+  } catch (error) {
+    console.error('Error generating image sitemap:', error);
+    return new NextResponse(
+      '<?xml version="1.0" encoding="UTF-8"?><error>Error generating sitemap</error>',
+      {
+        status: 500,
+        headers: {
+          'Content-Type': 'application/xml; charset=utf-8',
+        },
+      }
+    );
+  }
 }
 
