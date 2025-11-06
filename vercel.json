@@ -33,7 +33,7 @@
       ]
     },
     {
-      "source": "/api/(.*)",
+      "source": "/api/(?!sitemap|image-sitemap|robots)(.*)",
       "headers": [
         {
           "key": "Cache-Control",
