@@ -351,6 +351,80 @@ export default function FiftyFivePlusCommunitiesPage() {
         </div>
       </section>
 
+      {/* Comprehensive 55+ Communities Guide */}
+      <section className="py-16 bg-white">
+        <div className="container-responsive">
+          <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
+            Complete Guide to 55+ Active Adult Communities in Las Vegas
+          </h2>
+          
+          <div className="grid md:grid-cols-2 gap-12 mb-12">
+            <div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6">
+                Why Choose 55+ Communities in Las Vegas
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Las Vegas offers exceptional 55+ active adult communities that combine resort-style living with active lifestyles. These communities provide age-restricted environments designed for adults 55 and older, featuring amenities like golf courses, fitness centers, swimming pools, clubhouses, and organized social activities. The combination of low-maintenance living and active lifestyle options makes these communities ideal for active adults seeking vibrant retirement experiences.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Las Vegas's climate, with over 300 days of sunshine annually, creates perfect conditions for year-round outdoor activities. The city's master-planned communities like Summerlin and Henderson host some of the nation's premier 55+ communities, offering residents access to world-class amenities, excellent healthcare facilities, and diverse entertainment options. This combination makes Las Vegas an attractive destination for active adults.
+              </p>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
+                Premier 55+ Communities in Las Vegas
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed">
+                Sun City Summerlin stands as Las Vegas's premier active adult community, featuring multiple golf courses, fitness centers, and extensive amenities. Del Webb at Lake Las Vegas offers waterfront living with luxury amenities, while Anthem Country Club provides mountain views and country club lifestyle. Each community offers unique characteristics and amenities, allowing active adults to find communities that match their preferences and lifestyle goals.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6">
+                Benefits of 55+ Active Adult Living
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                55+ communities offer numerous benefits including maintenance-free living, age-appropriate amenities, social opportunities, and security. These communities are designed specifically for active adults, providing environments that support active lifestyles while minimizing maintenance responsibilities. The age restriction creates communities with like-minded residents who share similar life stages and interests.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Many 55+ communities feature single-story designs, low-maintenance landscaping, and community services that handle exterior maintenance, allowing residents to focus on enjoying their active lifestyles. The organized activities, clubs, and social events create opportunities for building friendships and staying engaged, contributing to overall well-being and quality of life.
+              </p>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
+                Working with Dr. Jan Duffy for 55+ Communities
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed">
+                Dr. Duffy's expertise in 55+ communities helps active adults find communities and properties that match their lifestyle needs and budget. She understands the unique characteristics of each community, including amenities, fees, restrictions, and resale considerations. Her knowledge ensures clients make informed decisions about communities that will support their active adult lifestyles for years to come.
+              </p>
+            </div>
+          </div>
+          
+          <div className="bg-gradient-to-r from-primary-50 to-neutral-50 rounded-lg p-8 mt-12">
+            <h3 className="text-2xl font-bold text-primary-900 mb-6">
+              What to Consider When Choosing a 55+ Community
+            </h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">Community Amenities and Activities</h4>
+                <p className="text-neutral-600 leading-relaxed mb-4">
+                  Different 55+ communities offer different amenities and activity programs. Consider what amenities matter most to you, whether that's golf courses, fitness centers, pools, walking trails, or organized activities. Dr. Duffy helps active adults evaluate communities based on their interests and lifestyle preferences, ensuring they find communities that offer the amenities and activities they value most.
+                </p>
+                <p className="text-neutral-600 leading-relaxed">
+                  The quality and variety of amenities can significantly impact your enjoyment of community living. Communities with comprehensive amenities and active programs provide more opportunities for engagement and social connection, contributing to a fulfilling active adult lifestyle.
+                </p>
+              </div>
+              
+              <div>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">Location and Access to Services</h4>
+                <p className="text-neutral-600 leading-relaxed mb-4">
+                  Location is important for access to healthcare, shopping, dining, and entertainment. Consider proximity to medical facilities, shopping centers, and Las Vegas attractions when selecting a 55+ community. Dr. Duffy's knowledge of Las Vegas neighborhoods helps active adults understand location advantages and access to services.
+                </p>
+                <p className="text-neutral-600 leading-relaxed">
+                  Master-planned communities like Summerlin and Henderson offer excellent access to services while maintaining resort-style living environments. These locations provide convenience without sacrificing the active adult lifestyle benefits that make 55+ communities attractive.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <FAQSection
         faqs={getFAQsForPage('general')}
