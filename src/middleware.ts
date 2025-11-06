@@ -4,6 +4,19 @@ import type { NextRequest } from 'next/server';
 export function middleware(request: NextRequest) {
   const url = request.nextUrl.clone();
   const pathname = url.pathname;
+  const hostname = request.headers.get('host') || '';
+
+  // CRITICAL: HTTP to HTTPS redirect (must be first)
+  if (request.nextUrl.protocol === 'http:') {
+    url.protocol = 'https:';
+    return NextResponse.redirect(url, { status: 301 });
+  }
+
+  // CRITICAL: www to non-www canonicalization (must be early)
+  if (hostname.startsWith('www.')) {
+    url.hostname = hostname.replace('www.', '');
+    return NextResponse.redirect(url, { status: 301 });
+  }
 
   // CRITICAL: Immediately redirect legacy URLs that may still be crawled
   // These are likely from external links or search engine cache
@@ -61,10 +74,46 @@ export function middleware(request: NextRequest) {
   }
 
   // Redirect legacy blog URLs to main content
-  if (pathname.startsWith('/blog/') || pathname.startsWith('/insights/')) {
+  if (pathname === '/blog' || pathname.startsWith('/blog/') || pathname.startsWith('/insights/')) {
     url.pathname = '/';
     url.search = ''; // Remove query parameters
     return NextResponse.redirect(url, { status: 301 });
+  }
+
+  // Redirect orphaned blog posts (single-path slugs that look like blog posts)
+  // These are WordPress slugs that no longer exist but Google is still crawling
+  // Only match if it's a single path segment (no forward slashes) and looks like a blog post slug
+  const blogPostSlugPattern = /^\/[a-z0-9]+(?:-[a-z0-9]+)+$/;
+  if (blogPostSlugPattern.test(pathname)) {
+    // Check if it's NOT a known valid route
+    const knownRoutes = [
+      '/contact',
+      '/about-dr-jan-duffy',
+      '/luxury-homes-for-sale-las-vegas',
+      '/luxury-realtor-las-vegas',
+      '/first-time-home-buyer-las-vegas',
+      '/investment-properties-las-vegas',
+      '/buying-guide-las-vegas',
+      '/selling-guide-las-vegas',
+      '/las-vegas-luxury-home-market-report',
+      '/best-realtor-las-vegas-reviews',
+      '/modern-homes-las-vegas-expert',
+      '/relocation-specialist-las-vegas',
+      '/divorce-real-estate-las-vegas',
+      '/55-plus-communities-las-vegas',
+      '/real-estate-agent-near-red-rock-casino',
+      '/privacy-policy',
+      '/terms-of-service',
+      '/sitemap',
+      '/locations',
+    ];
+    
+    // If it's not a known route, redirect to homepage (it's an orphaned blog post)
+    if (!knownRoutes.includes(pathname) && !pathname.startsWith('/neighborhoods/') && !pathname.startsWith('/services/')) {
+      url.pathname = '/';
+      url.search = '';
+      return NextResponse.redirect(url, { status: 301 });
+    }
   }
 
   // Handle query parameters that shouldn't be indexed (WordPress cron, UTM, etc.)
