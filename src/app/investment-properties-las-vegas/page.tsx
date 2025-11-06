@@ -473,6 +473,80 @@ export default function InvestmentPropertiesPage() {
         </div>
       </section>
 
+      {/* Comprehensive Investment Guide */}
+      <section className="py-16 bg-white">
+        <div className="container-responsive">
+          <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
+            Complete Guide to Investment Properties in Las Vegas
+          </h2>
+          
+          <div className="grid md:grid-cols-2 gap-12 mb-12">
+            <div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6">
+                Why Las Vegas is an Ideal Market for Real Estate Investment
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Las Vegas offers exceptional opportunities for real estate investors seeking strong returns and property appreciation. The city's growing population, diverse economy, and favorable tax environment create ideal conditions for investment properties. With average cap rates of 6.8% and cash-on-cash returns of 8.2%, Las Vegas real estate provides attractive income potential combined with appreciation prospects.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Nevada's tax-friendly environment, including no state income tax, makes it particularly attractive for investors. The combination of strong rental demand, growing population, and limited new construction creates conditions that support both rental income and property appreciation. These factors make Las Vegas one of the most attractive markets for real estate investment in the Southwest.
+              </p>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
+                Types of Investment Properties in Las Vegas
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed">
+                Las Vegas offers diverse investment property options including single-family rentals, multi-family units, short-term rentals, and luxury properties. Each type offers different risk-return profiles and requires different management approaches. Dr. Jan Duffy helps investors identify properties that match their investment goals, risk tolerance, and management preferences.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6">
+                Investment Property Analysis and Due Diligence
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Successful real estate investment requires thorough analysis of property fundamentals including cash flow potential, appreciation prospects, market conditions, and property condition. Dr. Duffy provides comprehensive investment analysis including rent comparables, operating expense estimates, market trend analysis, and property condition assessments.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Her expertise in Las Vegas real estate markets enables her to identify properties with strong investment potential while avoiding properties with hidden issues or poor fundamentals. This analytical approach ensures investors make informed decisions that align with their investment objectives and risk tolerance.
+              </p>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
+                Working with Dr. Jan Duffy for Investment Properties
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed">
+                Dr. Duffy's experience with investment properties includes helping investors build portfolios that generate income while appreciating in value. She understands investment criteria, provides market analysis, identifies opportunities, and coordinates transactions that support investment objectives. Her network includes property managers, lenders specializing in investment properties, and other professionals essential for successful real estate investing.
+              </p>
+            </div>
+          </div>
+          
+          <div className="bg-gradient-to-r from-primary-50 to-neutral-50 rounded-lg p-8 mt-12">
+            <h3 className="text-2xl font-bold text-primary-900 mb-6">
+              Key Factors for Investment Property Success in Las Vegas
+            </h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">Location Selection</h4>
+                <p className="text-neutral-600 leading-relaxed mb-4">
+                  Location is critical for investment property success. Areas with strong rental demand, good schools, employment growth, and infrastructure development tend to perform better. Neighborhoods like Henderson, Green Valley, and Summerlin offer strong fundamentals that support both rental income and appreciation.
+                </p>
+                <p className="text-neutral-600 leading-relaxed">
+                  Dr. Duffy's knowledge of Las Vegas neighborhoods helps investors identify locations with strong investment potential. Her understanding of market trends, demographic shifts, and development plans enables her to guide investors to areas with favorable prospects for long-term success.
+                </p>
+              </div>
+              
+              <div>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">Property Management Considerations</h4>
+                <p className="text-neutral-600 leading-relaxed mb-4">
+                  Effective property management is essential for investment success. Investors must decide between self-management and professional management, considering factors like time availability, expertise, and property location. Dr. Duffy can connect investors with reputable property management companies that understand Las Vegas rental markets.
+                </p>
+                <p className="text-neutral-600 leading-relaxed">
+                  For investors new to Las Vegas or those with multiple properties, professional management often provides better results through established systems, local market knowledge, and efficient operations. Dr. Duffy's network includes property managers with proven track records in Las Vegas markets.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <FAQSection
         faqs={getFAQsForPage('general')}
