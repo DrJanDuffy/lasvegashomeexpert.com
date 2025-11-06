@@ -83,14 +83,17 @@ export function middleware(request: NextRequest) {
   // Redirect orphaned blog posts (single-path slugs that look like blog posts)
   // These are WordPress slugs that no longer exist but Google is still crawling
   // Only match if it's a single path segment (no forward slashes) and looks like a blog post slug
+  // Handle both with and without trailing slashes
+  const pathnameWithoutTrailingSlash = pathname.endsWith('/') ? pathname.slice(0, -1) : pathname;
   const blogPostSlugPattern = /^\/[a-z0-9]+(?:-[a-z0-9]+)+$/;
-  if (blogPostSlugPattern.test(pathname)) {
+  if (blogPostSlugPattern.test(pathnameWithoutTrailingSlash)) {
     // Check if it's NOT a known valid route
     const knownRoutes = [
       '/contact',
       '/about-dr-jan-duffy',
       '/luxury-homes-for-sale-las-vegas',
       '/luxury-realtor-las-vegas',
+      '/luxury-homes-summerlin',
       '/first-time-home-buyer-las-vegas',
       '/investment-properties-las-vegas',
       '/buying-guide-las-vegas',
@@ -109,7 +112,13 @@ export function middleware(request: NextRequest) {
     ];
     
     // If it's not a known route, redirect to homepage (it's an orphaned blog post)
-    if (!knownRoutes.includes(pathname) && !pathname.startsWith('/neighborhoods/') && !pathname.startsWith('/services/')) {
+    // Check both with and without trailing slash
+    if (!knownRoutes.includes(pathnameWithoutTrailingSlash) && 
+        !knownRoutes.includes(pathname) &&
+        !pathnameWithoutTrailingSlash.startsWith('/neighborhoods/') && 
+        !pathnameWithoutTrailingSlash.startsWith('/services/') &&
+        !pathname.startsWith('/neighborhoods/') && 
+        !pathname.startsWith('/services/')) {
       url.pathname = '/';
       url.search = '';
       return NextResponse.redirect(url, { status: 301 });

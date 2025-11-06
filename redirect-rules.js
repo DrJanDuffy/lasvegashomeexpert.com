@@ -161,6 +161,16 @@ const redirects = [
     permanent: true,
   },
   {
+    source: '/blog-1',
+    destination: '/',
+    permanent: true,
+  },
+  {
+    source: '/blog-1/',
+    destination: '/',
+    permanent: true,
+  },
+  {
     source: '/blog/:path*',
     destination: '/',
     permanent: true,
@@ -581,6 +591,30 @@ const redirects = [
   {
     source: '/attorneys/',
     destination: '/',
+    permanent: true,
+  },
+
+  // Redirect legacy market pages
+  {
+    source: '/market-reports',
+    destination: '/las-vegas-luxury-home-market-report',
+    permanent: true,
+  },
+  {
+    source: '/market-reports/',
+    destination: '/las-vegas-luxury-home-market-report',
+    permanent: true,
+  },
+
+  // Redirect legacy neighborhood variations
+  {
+    source: '/summerlin-homes-for-sale',
+    destination: '/neighborhoods/summerlin-homes',
+    permanent: true,
+  },
+  {
+    source: '/summerlin-homes-for-sale/',
+    destination: '/neighborhoods/summerlin-homes',
     permanent: true,
   },
 
