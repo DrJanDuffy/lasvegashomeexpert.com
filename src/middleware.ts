@@ -20,6 +20,21 @@ export function middleware(request: NextRequest) {
 
   // CRITICAL: Immediately redirect legacy URLs that may still be crawled
   // These are likely from external links or search engine cache
+  
+  // Redirect feed URLs (can appear at any path level: /feed/, /path/feed/, etc.)
+  if (pathname.includes('/feed') || pathname.endsWith('/feed') || pathname.endsWith('/feed/')) {
+    url.pathname = '/';
+    url.search = '';
+    return NextResponse.redirect(url, { status: 301 });
+  }
+
+  // Redirect RSS URLs
+  if (pathname.includes('/rss') || pathname.endsWith('/rss') || pathname.endsWith('/rss/')) {
+    url.pathname = '/';
+    url.search = '';
+    return NextResponse.redirect(url, { status: 301 });
+  }
+
   const legacyUrlPatterns = [
     /^\/wp-admin/,
     /^\/wp-login\.php/,
@@ -27,8 +42,6 @@ export function middleware(request: NextRequest) {
     /^\/wp-content/,
     /^\/wp-json/,
     /^\/xmlrpc\.php/,
-    /^\/feed/,
-    /^\/rss/,
     // Legacy WordPress admin patterns that Google is still finding
     /^\/wp-admin\/post\.php\?post=\d+&action=/,
     /^\/wp-admin\/admin-ajax\.php/,
