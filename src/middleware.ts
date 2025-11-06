@@ -192,5 +192,9 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)'],
+  // Exclude API routes, static files, and special files (robots.txt, sitemaps)
+  // This ensures rewrites work correctly for these files
+  matcher: [
+    '/((?!api|_next/static|_next/image|favicon.ico|robots\\.txt|sitemap|image-sitemap).*)',
+  ],
 };
