@@ -364,45 +364,68 @@ export default function FirstTimeHomeBuyerPage() {
           <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
             Complete Guide for First-Time Home Buyers in Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-primary-900 mb-6">
                 Why First-Time Buyers Choose Las Vegas
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Las Vegas offers exceptional opportunities for first-time homebuyers, with affordable housing options, favorable financing programs, and strong appreciation potential. The city's diverse neighborhoods provide options for various budgets and lifestyles, from starter homes in established communities to new construction in growing areas.
+                Las Vegas offers exceptional opportunities for first-time homebuyers, with
+                affordable housing options, favorable financing programs, and strong appreciation
+                potential. The city's diverse neighborhoods provide options for various budgets and
+                lifestyles, from starter homes in established communities to new construction in
+                growing areas.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                First-time buyer programs and assistance programs make homeownership more accessible, with down payment assistance, reduced interest rates, and closing cost help available. These programs combined with Las Vegas's affordable housing prices compared to coastal markets create opportunities for first-time buyers to achieve homeownership.
+                First-time buyer programs and assistance programs make homeownership more
+                accessible, with down payment assistance, reduced interest rates, and closing cost
+                help available. These programs combined with Las Vegas's affordable housing prices
+                compared to coastal markets create opportunities for first-time buyers to achieve
+                homeownership.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 First-Time Buyer Financing Options
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                First-time buyers have access to various financing options including FHA loans with 3.5% down payments, VA loans for veterans with no down payment requirements, and conventional loans with down payment assistance programs. Dr. Jan Duffy helps first-time buyers understand their options and connect with lenders who specialize in first-time buyer programs.
+                First-time buyers have access to various financing options including FHA loans with
+                3.5% down payments, VA loans for veterans with no down payment requirements, and
+                conventional loans with down payment assistance programs. Dr. Jan Duffy helps
+                first-time buyers understand their options and connect with lenders who specialize
+                in first-time buyer programs.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-primary-900 mb-6">
                 The First-Time Home Buying Process
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                The first-time home buying process involves several steps from initial preparation through closing. Dr. Duffy provides comprehensive guidance throughout, helping first-time buyers understand each step and what to expect. Her experience with hundreds of first-time buyers ensures she can address concerns, answer questions, and provide support throughout the journey.
+                The first-time home buying process involves several steps from initial preparation
+                through closing. Dr. Duffy provides comprehensive guidance throughout, helping
+                first-time buyers understand each step and what to expect. Her experience with
+                hundreds of first-time buyers ensures she can address concerns, answer questions,
+                and provide support throughout the journey.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                From pre-approval and property search to inspections, negotiations, and closing, Dr. Duffy ensures first-time buyers feel confident and informed. Her patient approach and educational focus help first-time buyers make informed decisions while navigating the complexities of their first home purchase.
+                From pre-approval and property search to inspections, negotiations, and closing, Dr.
+                Duffy ensures first-time buyers feel confident and informed. Her patient approach
+                and educational focus help first-time buyers make informed decisions while
+                navigating the complexities of their first home purchase.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 Common First-Time Buyer Mistakes to Avoid
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                First-time buyers often make mistakes that can be costly or delay their home purchase. Common mistakes include not getting pre-approved, skipping inspections, not budgeting for closing costs, and making emotional decisions. Dr. Duffy helps first-time buyers avoid these pitfalls through education and guidance, ensuring they make sound decisions throughout the process.
+                First-time buyers often make mistakes that can be costly or delay their home
+                purchase. Common mistakes include not getting pre-approved, skipping inspections,
+                not budgeting for closing costs, and making emotional decisions. Dr. Duffy helps
+                first-time buyers avoid these pitfalls through education and guidance, ensuring they
+                make sound decisions throughout the process.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-primary-50 to-neutral-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-primary-900 mb-6">
               How Dr. Jan Duffy Helps First-Time Home Buyers
@@ -411,20 +434,35 @@ export default function FirstTimeHomeBuyerPage() {
               <div>
                 <h4 className="text-xl font-bold text-primary-800 mb-4">Education and Guidance</h4>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  Dr. Duffy understands that first-time buyers need education and support throughout the home buying process. She takes time to explain each step, answer questions, and provide resources that help first-time buyers feel confident. Her patient approach ensures first-time buyers understand their options and make informed decisions.
+                  Dr. Duffy understands that first-time buyers need education and support throughout
+                  the home buying process. She takes time to explain each step, answer questions,
+                  and provide resources that help first-time buyers feel confident. Her patient
+                  approach ensures first-time buyers understand their options and make informed
+                  decisions.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
-                  Her background in psychology enables her to address concerns and anxieties that first-time buyers often experience. This combination of real estate expertise and understanding of client needs creates exceptional experiences for first-time buyers navigating their first home purchase.
+                  Her background in psychology enables her to address concerns and anxieties that
+                  first-time buyers often experience. This combination of real estate expertise and
+                  understanding of client needs creates exceptional experiences for first-time
+                  buyers navigating their first home purchase.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-primary-800 mb-4">Access to First-Time Buyer Programs</h4>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">
+                  Access to First-Time Buyer Programs
+                </h4>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  Dr. Duffy helps first-time buyers access assistance programs and financing options that make homeownership more affordable. She connects buyers with lenders who specialize in first-time buyer programs, helping them understand qualification requirements and application processes.
+                  Dr. Duffy helps first-time buyers access assistance programs and financing options
+                  that make homeownership more affordable. She connects buyers with lenders who
+                  specialize in first-time buyer programs, helping them understand qualification
+                  requirements and application processes.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
-                  Her knowledge of available programs and requirements ensures first-time buyers take advantage of opportunities that can reduce costs and make homeownership more accessible. This expertise helps first-time buyers achieve their homeownership goals while maximizing available assistance.
+                  Her knowledge of available programs and requirements ensures first-time buyers
+                  take advantage of opportunities that can reduce costs and make homeownership more
+                  accessible. This expertise helps first-time buyers achieve their homeownership
+                  goals while maximizing available assistance.
                 </p>
               </div>
             </div>

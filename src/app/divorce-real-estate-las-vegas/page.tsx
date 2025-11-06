@@ -279,45 +279,69 @@ export default function DivorceRealEstatePage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
             Complete Guide to Divorce Real Estate in Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Why Divorce Real Estate Requires Specialized Expertise
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Selling a marital home during divorce involves complex emotional, financial, and legal considerations that require specialized expertise. Dr. Jan Duffy's unique combination of real estate expertise and psychology background makes her uniquely qualified to handle divorce real estate transactions. She provides compassionate guidance through emotionally challenging situations while protecting clients' financial interests.
+                Selling a marital home during divorce involves complex emotional, financial, and
+                legal considerations that require specialized expertise. Dr. Jan Duffy's unique
+                combination of real estate expertise and psychology background makes her uniquely
+                qualified to handle divorce real estate transactions. She provides compassionate
+                guidance through emotionally challenging situations while protecting clients'
+                financial interests.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Divorce real estate transactions often involve multiple parties, legal requirements, court orders, and tight timelines. Dr. Duffy's experience with divorce real estate ensures these complexities are handled effectively, coordinating with attorneys, courts, and other parties to ensure smooth transactions that support clients' divorce proceedings and financial settlements.
+                Divorce real estate transactions often involve multiple parties, legal requirements,
+                court orders, and tight timelines. Dr. Duffy's experience with divorce real estate
+                ensures these complexities are handled effectively, coordinating with attorneys,
+                courts, and other parties to ensure smooth transactions that support clients'
+                divorce proceedings and financial settlements.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 The Divorce Real Estate Process
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                The divorce real estate process involves several steps including property evaluation, legal coordination, property preparation, marketing, negotiation, and closing. Dr. Duffy guides clients through each step, ensuring they understand what's happening and what to expect. Her coordination with legal professionals ensures transactions support divorce proceedings and comply with court requirements.
+                The divorce real estate process involves several steps including property
+                evaluation, legal coordination, property preparation, marketing, negotiation, and
+                closing. Dr. Duffy guides clients through each step, ensuring they understand what's
+                happening and what to expect. Her coordination with legal professionals ensures
+                transactions support divorce proceedings and comply with court requirements.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Benefits of Working with a Divorce Real Estate Specialist
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Working with a divorce real estate specialist like Dr. Duffy provides several advantages including understanding of legal requirements, coordination with attorneys, neutral professional guidance, and focus on maximizing property value. Her psychology background enables her to navigate emotional situations while maintaining focus on achieving optimal financial outcomes.
+                Working with a divorce real estate specialist like Dr. Duffy provides several
+                advantages including understanding of legal requirements, coordination with
+                attorneys, neutral professional guidance, and focus on maximizing property value.
+                Her psychology background enables her to navigate emotional situations while
+                maintaining focus on achieving optimal financial outcomes.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Dr. Duffy's approach to divorce real estate emphasizes neutrality, professionalism, and results. She works with both parties when appropriate, ensuring transactions proceed smoothly while protecting each party's interests. This balanced approach helps facilitate successful transactions during challenging circumstances.
+                Dr. Duffy's approach to divorce real estate emphasizes neutrality, professionalism,
+                and results. She works with both parties when appropriate, ensuring transactions
+                proceed smoothly while protecting each party's interests. This balanced approach
+                helps facilitate successful transactions during challenging circumstances.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Maximizing Property Value During Divorce
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Maximizing property value is crucial during divorce, as sale proceeds are typically divided between parties. Dr. Duffy's expertise in property preparation, pricing, and marketing ensures properties achieve maximum value. Her understanding of market conditions and buyer preferences enables her to position properties effectively, resulting in higher sale prices that benefit both parties.
+                Maximizing property value is crucial during divorce, as sale proceeds are typically
+                divided between parties. Dr. Duffy's expertise in property preparation, pricing, and
+                marketing ensures properties achieve maximum value. Her understanding of market
+                conditions and buyer preferences enables her to position properties effectively,
+                resulting in higher sale prices that benefit both parties.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-red-50 to-pink-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-slate-800 mb-6">
               Key Considerations for Divorce Real Estate Transactions
@@ -326,20 +350,36 @@ export default function DivorceRealEstatePage() {
               <div>
                 <h4 className="text-xl font-bold text-slate-800 mb-4">Legal Coordination</h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Divorce real estate transactions require coordination with attorneys and courts to ensure compliance with legal requirements and court orders. Dr. Duffy works closely with legal professionals, ensuring transactions support divorce proceedings and comply with all legal requirements. This coordination ensures smooth transactions that avoid delays or complications.
+                  Divorce real estate transactions require coordination with attorneys and courts to
+                  ensure compliance with legal requirements and court orders. Dr. Duffy works
+                  closely with legal professionals, ensuring transactions support divorce
+                  proceedings and comply with all legal requirements. This coordination ensures
+                  smooth transactions that avoid delays or complications.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  Her understanding of legal processes and requirements enables her to anticipate potential issues and address them proactively. This proactive approach helps prevent problems that could delay transactions or complicate divorce proceedings, ensuring clients achieve their goals efficiently.
+                  Her understanding of legal processes and requirements enables her to anticipate
+                  potential issues and address them proactively. This proactive approach helps
+                  prevent problems that could delay transactions or complicate divorce proceedings,
+                  ensuring clients achieve their goals efficiently.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Emotional Support and Professional Guidance</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Emotional Support and Professional Guidance
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Selling a marital home during divorce is emotionally challenging. Dr. Duffy's psychology background enables her to provide compassionate support while maintaining professional focus on achieving optimal outcomes. Her understanding of emotional dynamics helps navigate challenging situations while achieving financial goals.
+                  Selling a marital home during divorce is emotionally challenging. Dr. Duffy's
+                  psychology background enables her to provide compassionate support while
+                  maintaining professional focus on achieving optimal outcomes. Her understanding of
+                  emotional dynamics helps navigate challenging situations while achieving financial
+                  goals.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  This combination of emotional support and professional expertise creates a supportive environment that helps clients navigate divorce real estate transactions with confidence. Her approach ensures clients feel supported while achieving optimal financial outcomes.
+                  This combination of emotional support and professional expertise creates a
+                  supportive environment that helps clients navigate divorce real estate
+                  transactions with confidence. Her approach ensures clients feel supported while
+                  achieving optimal financial outcomes.
                 </p>
               </div>
             </div>

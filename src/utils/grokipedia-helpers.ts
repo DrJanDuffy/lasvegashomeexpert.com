@@ -124,7 +124,8 @@ export function generateArticleSchema(
       url: 'https://lasvegashomeexpert.com',
     },
     articleSection: options?.articleSection || 'Real Estate',
-    ...(options?.keywords && options.keywords.length > 0 && { keywords: options.keywords.join(', ') }),
+    ...(options?.keywords &&
+      options.keywords.length > 0 && { keywords: options.keywords.join(', ') }),
     inLanguage: 'en-US',
     isAccessibleForFree: true,
     mainEntityOfPage: {
@@ -175,4 +176,3 @@ export const DEFAULT_ORGANIZATION = {
   foundingDate: '2013',
   priceRange: '$500K - $5M+',
 };
-

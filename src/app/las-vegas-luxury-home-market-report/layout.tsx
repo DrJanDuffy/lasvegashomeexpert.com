@@ -12,7 +12,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Las Vegas Luxury Home Market Report 2025 | Market Analysis',
-    description: 'Comprehensive Las Vegas luxury real estate market report with current trends and expert insights.',
+    description:
+      'Comprehensive Las Vegas luxury real estate market report with current trends and expert insights.',
     url: 'https://lasvegashomeexpert.com/las-vegas-luxury-home-market-report',
     type: 'website',
   },
@@ -24,4 +25,3 @@ export const metadata: Metadata = {
 export default function MarketReportLayout({ children }: { children: React.ReactNode }) {
   return children;
 }
-

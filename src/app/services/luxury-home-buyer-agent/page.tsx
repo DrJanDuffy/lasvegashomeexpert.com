@@ -371,67 +371,112 @@ export default function LuxuryHomeBuyerAgentPage() {
           <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
             Complete Guide to Luxury Home Buyer Agent Services in Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-primary-900 mb-6">
                 Why You Need a Luxury Home Buyer Agent
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Working with a luxury home buyer agent like Dr. Jan Duffy provides several advantages including exclusive access to off-market listings, market expertise, negotiation skills, and personalized service. Luxury real estate transactions require specialized knowledge and experience that general realtors may not possess. Dr. Duffy's expertise in luxury markets ensures buyers receive optimal representation.
+                Working with a luxury home buyer agent like Dr. Jan Duffy provides several
+                advantages including exclusive access to off-market listings, market expertise,
+                negotiation skills, and personalized service. Luxury real estate transactions
+                require specialized knowledge and experience that general realtors may not possess.
+                Dr. Duffy's expertise in luxury markets ensures buyers receive optimal
+                representation.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Luxury buyer agents understand the unique characteristics of high-end properties, including pricing strategies, market dynamics, and buyer preferences. This expertise enables them to identify opportunities, assess value accurately, and guide buyers to properties that match their lifestyle and investment goals. Dr. Duffy's network provides access to properties that may not be publicly available.
+                Luxury buyer agents understand the unique characteristics of high-end properties,
+                including pricing strategies, market dynamics, and buyer preferences. This expertise
+                enables them to identify opportunities, assess value accurately, and guide buyers to
+                properties that match their lifestyle and investment goals. Dr. Duffy's network
+                provides access to properties that may not be publicly available.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 Exclusive Access to Off-Market Properties
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                One of the key advantages of working with Dr. Jan Duffy is access to exclusive off-market listings and pocket listings that never appear on public MLS. Her extensive network of luxury home sellers, developers, and other real estate professionals provides clients with opportunities unavailable to typical buyers. These properties often represent the best opportunities, offering better pricing and less competition.
+                One of the key advantages of working with Dr. Jan Duffy is access to exclusive
+                off-market listings and pocket listings that never appear on public MLS. Her
+                extensive network of luxury home sellers, developers, and other real estate
+                professionals provides clients with opportunities unavailable to typical buyers.
+                These properties often represent the best opportunities, offering better pricing and
+                less competition.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-primary-900 mb-6">
                 Comprehensive Buyer Agent Services
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Dr. Duffy provides comprehensive luxury buyer agent services including market analysis, property search, due diligence, negotiation, and closing coordination. Her expertise ensures buyers make informed decisions while receiving optimal representation throughout the buying process. This comprehensive approach ensures buyers achieve their luxury home buying goals efficiently.
+                Dr. Duffy provides comprehensive luxury buyer agent services including market
+                analysis, property search, due diligence, negotiation, and closing coordination. Her
+                expertise ensures buyers make informed decisions while receiving optimal
+                representation throughout the buying process. This comprehensive approach ensures
+                buyers achieve their luxury home buying goals efficiently.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Her services extend beyond property search to include market analysis, neighborhood evaluation, property assessment, and strategic guidance. This comprehensive approach ensures buyers understand their options, make informed decisions, and achieve optimal outcomes. Dr. Duffy's attention to detail ensures nothing is overlooked throughout the buying process.
+                Her services extend beyond property search to include market analysis, neighborhood
+                evaluation, property assessment, and strategic guidance. This comprehensive approach
+                ensures buyers understand their options, make informed decisions, and achieve
+                optimal outcomes. Dr. Duffy's attention to detail ensures nothing is overlooked
+                throughout the buying process.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 Working with Dr. Jan Duffy as Your Buyer Agent
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                Dr. Duffy's experience with hundreds of luxury buyers enables her to provide guidance that addresses both practical and emotional aspects of luxury home buying. Her background in psychology provides unique insights into buyer motivations, while her real estate expertise ensures optimal outcomes. This combination creates exceptional value for luxury homebuyers.
+                Dr. Duffy's experience with hundreds of luxury buyers enables her to provide
+                guidance that addresses both practical and emotional aspects of luxury home buying.
+                Her background in psychology provides unique insights into buyer motivations, while
+                her real estate expertise ensures optimal outcomes. This combination creates
+                exceptional value for luxury homebuyers.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-primary-50 to-neutral-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-primary-900 mb-6">
               What Makes Dr. Jan Duffy an Exceptional Buyer Agent
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-bold text-primary-800 mb-4">Market Expertise and Network</h4>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">
+                  Market Expertise and Network
+                </h4>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  Dr. Duffy's 15+ years of experience in Las Vegas luxury real estate provides comprehensive understanding of market trends, property values, and buyer preferences. Her extensive network includes access to off-market listings, developers, and other professionals that provide advantages unavailable to buyers working without expert representation.
+                  Dr. Duffy's 15+ years of experience in Las Vegas luxury real estate provides
+                  comprehensive understanding of market trends, property values, and buyer
+                  preferences. Her extensive network includes access to off-market listings,
+                  developers, and other professionals that provide advantages unavailable to buyers
+                  working without expert representation.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
-                  This market expertise and network access enable Dr. Duffy to identify opportunities, assess value accurately, and guide buyers to properties that match their needs. Her knowledge of luxury neighborhoods and market conditions ensures buyers receive accurate guidance throughout the buying process.
+                  This market expertise and network access enable Dr. Duffy to identify
+                  opportunities, assess value accurately, and guide buyers to properties that match
+                  their needs. Her knowledge of luxury neighborhoods and market conditions ensures
+                  buyers receive accurate guidance throughout the buying process.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-primary-800 mb-4">Negotiation Expertise and Due Diligence</h4>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">
+                  Negotiation Expertise and Due Diligence
+                </h4>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  Dr. Duffy's negotiation expertise ensures buyers achieve optimal terms while protecting their interests. Her experience with luxury transactions enables her to navigate complex negotiations effectively, ensuring buyers secure favorable terms. This expertise is particularly valuable in competitive markets with multiple offers.
+                  Dr. Duffy's negotiation expertise ensures buyers achieve optimal terms while
+                  protecting their interests. Her experience with luxury transactions enables her to
+                  navigate complex negotiations effectively, ensuring buyers secure favorable terms.
+                  This expertise is particularly valuable in competitive markets with multiple
+                  offers.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
-                  Her attention to due diligence ensures buyers understand property conditions, market positions, and investment potential. This comprehensive approach to property evaluation helps buyers make informed decisions while avoiding costly mistakes. Dr. Duffy's expertise protects buyers throughout the transaction process.
+                  Her attention to due diligence ensures buyers understand property conditions,
+                  market positions, and investment potential. This comprehensive approach to
+                  property evaluation helps buyers make informed decisions while avoiding costly
+                  mistakes. Dr. Duffy's expertise protects buyers throughout the transaction
+                  process.
                 </p>
               </div>
             </div>

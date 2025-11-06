@@ -447,67 +447,109 @@ export default function HomeStagingServicesPage() {
           <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
             Complete Guide to Home Staging Services in Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-primary-900 mb-6">
                 Why Professional Home Staging Matters
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Professional home staging significantly impacts property sales, with staged homes selling 3x faster, for 17% higher prices, and receiving 40% more showings. These statistics demonstrate the value professional staging provides for sellers seeking to maximize value and minimize time on market. Dr. Jan Duffy connects sellers with professional staging services that optimize property presentation.
+                Professional home staging significantly impacts property sales, with staged homes
+                selling 3x faster, for 17% higher prices, and receiving 40% more showings. These
+                statistics demonstrate the value professional staging provides for sellers seeking
+                to maximize value and minimize time on market. Dr. Jan Duffy connects sellers with
+                professional staging services that optimize property presentation.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Staging helps buyers visualize living in a property by creating appealing, neutral environments that highlight property strengths. Professional staging addresses buyer concerns, enhances property appeal, and creates emotional connections that drive offers. This strategic approach to property presentation ensures sellers achieve maximum value from their investment.
+                Staging helps buyers visualize living in a property by creating appealing, neutral
+                environments that highlight property strengths. Professional staging addresses buyer
+                concerns, enhances property appeal, and creates emotional connections that drive
+                offers. This strategic approach to property presentation ensures sellers achieve
+                maximum value from their investment.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 Comprehensive Staging Services
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                Professional staging services include consultation, furniture and décor rental, space planning, color and lighting enhancement, curb appeal improvement, and photography coordination. These services work together to create appealing properties that attract buyers and generate competitive offers. Dr. Jan Duffy's staging network ensures sellers receive professional services that maximize property appeal.
+                Professional staging services include consultation, furniture and décor rental,
+                space planning, color and lighting enhancement, curb appeal improvement, and
+                photography coordination. These services work together to create appealing
+                properties that attract buyers and generate competitive offers. Dr. Jan Duffy's
+                staging network ensures sellers receive professional services that maximize property
+                appeal.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-primary-900 mb-6">
                 Staging Benefits for Las Vegas Home Sellers
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Staging benefits Las Vegas home sellers through faster sales, higher prices, more showings, and better offers. The Las Vegas market's competitive nature makes staging particularly valuable, as well-staged properties stand out and attract more buyer interest. This competitive advantage ensures sellers achieve optimal outcomes.
+                Staging benefits Las Vegas home sellers through faster sales, higher prices, more
+                showings, and better offers. The Las Vegas market's competitive nature makes staging
+                particularly valuable, as well-staged properties stand out and attract more buyer
+                interest. This competitive advantage ensures sellers achieve optimal outcomes.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                The investment in professional staging typically recoups many times over through higher sale prices and faster sales. Staged homes receive more competitive offers, reducing negotiation time and ensuring smoother transactions. Dr. Jan Duffy's staging expertise helps sellers understand staging value and connect with professionals who deliver results.
+                The investment in professional staging typically recoups many times over through
+                higher sale prices and faster sales. Staged homes receive more competitive offers,
+                reducing negotiation time and ensuring smoother transactions. Dr. Jan Duffy's
+                staging expertise helps sellers understand staging value and connect with
+                professionals who deliver results.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 Working with Dr. Jan Duffy for Staging Services
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                Dr. Jan Duffy connects sellers with professional staging services that understand Las Vegas market preferences and buyer expectations. Her experience with luxury properties enables her to recommend staging approaches that maximize appeal for high-end buyers. This expertise ensures sellers receive staging services that deliver results.
+                Dr. Jan Duffy connects sellers with professional staging services that understand
+                Las Vegas market preferences and buyer expectations. Her experience with luxury
+                properties enables her to recommend staging approaches that maximize appeal for
+                high-end buyers. This expertise ensures sellers receive staging services that
+                deliver results.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-primary-50 to-neutral-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-primary-900 mb-6">
               What Makes Professional Staging Effective
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-bold text-primary-800 mb-4">Strategic Property Presentation</h4>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">
+                  Strategic Property Presentation
+                </h4>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  Professional staging creates strategic property presentation that highlights strengths while minimizing weaknesses. Professional stagers understand buyer preferences and create appealing environments that attract buyers and generate offers. This strategic approach ensures properties are presented in ways that maximize buyer interest.
+                  Professional staging creates strategic property presentation that highlights
+                  strengths while minimizing weaknesses. Professional stagers understand buyer
+                  preferences and create appealing environments that attract buyers and generate
+                  offers. This strategic approach ensures properties are presented in ways that
+                  maximize buyer interest.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
-                  The strategic presentation created through professional staging helps buyers visualize living in properties, creating emotional connections that drive offers. This visualization is particularly important for luxury properties where buyers seek lifestyle connections beyond just property features.
+                  The strategic presentation created through professional staging helps buyers
+                  visualize living in properties, creating emotional connections that drive offers.
+                  This visualization is particularly important for luxury properties where buyers
+                  seek lifestyle connections beyond just property features.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-primary-800 mb-4">ROI and Value Maximization</h4>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">
+                  ROI and Value Maximization
+                </h4>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  Professional staging typically provides excellent return on investment through higher sale prices and faster sales. The 17% average price premium for staged homes often recoups staging costs many times over, while faster sales reduce carrying costs and market exposure. This ROI makes staging a valuable investment for sellers.
+                  Professional staging typically provides excellent return on investment through
+                  higher sale prices and faster sales. The 17% average price premium for staged
+                  homes often recoups staging costs many times over, while faster sales reduce
+                  carrying costs and market exposure. This ROI makes staging a valuable investment
+                  for sellers.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
-                  The combination of higher prices and faster sales creates value that exceeds staging costs. Dr. Jan Duffy's staging expertise helps sellers understand staging value and make informed decisions about staging investments that maximize property value and sale outcomes.
+                  The combination of higher prices and faster sales creates value that exceeds
+                  staging costs. Dr. Jan Duffy's staging expertise helps sellers understand staging
+                  value and make informed decisions about staging investments that maximize property
+                  value and sale outcomes.
                 </p>
               </div>
             </div>

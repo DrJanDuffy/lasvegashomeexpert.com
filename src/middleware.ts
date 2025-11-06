@@ -8,15 +8,22 @@ export function middleware(request: NextRequest) {
   const userAgent = request.headers.get('user-agent') || '';
 
   // Allow legitimate crawlers to bypass some checks (Googlebot, Bingbot, etc.)
-  const isKnownCrawler = /googlebot|bingbot|slurp|duckduckbot|baiduspider|yandex|sogou|exabot|facebot|ia_archiver/i.test(userAgent);
+  const isKnownCrawler =
+    /googlebot|bingbot|slurp|duckduckbot|baiduspider|yandex|sogou|exabot|facebot|ia_archiver/i.test(
+      userAgent
+    );
 
   // CRITICAL: www to non-www canonicalization (must be first)
   // Non-www is the canonical domain (www redirects to non-www)
   // This matches our sitemap URLs and is better for SEO
   // Only apply to production domain, not Vercel preview/deployment domains
-  const isProductionDomain = hostname === 'www.lasvegashomeexpert.com' || hostname === 'lasvegashomeexpert.com';
-  const isVercelDomain = hostname?.includes('.vercel.app') || hostname?.includes('localhost') || hostname?.includes('127.0.0.1');
-  
+  const isProductionDomain =
+    hostname === 'www.lasvegashomeexpert.com' || hostname === 'lasvegashomeexpert.com';
+  const isVercelDomain =
+    hostname?.includes('.vercel.app') ||
+    hostname?.includes('localhost') ||
+    hostname?.includes('127.0.0.1');
+
   // Redirect www to non-www (canonical)
   if (hostname.startsWith('www.') && !isVercelDomain) {
     const nonWwwHostname = hostname.replace('www.', '');
@@ -30,7 +37,7 @@ export function middleware(request: NextRequest) {
 
   // CRITICAL: Immediately redirect legacy URLs that may still be crawled
   // These are likely from external links or search engine cache
-  
+
   // Redirect feed URLs (can appear at any path level: /feed/, /path/feed/, etc.)
   if (pathname.includes('/feed') || pathname.endsWith('/feed') || pathname.endsWith('/feed/')) {
     url.pathname = '/';
@@ -117,7 +124,7 @@ export function middleware(request: NextRequest) {
   const unwantedParams = ['doing_wp_cron', 'utm_source', 'utm_medium', 'utm_campaign'];
   let hasUnwantedParams = false;
   const cleanedUrl = url.clone();
-  
+
   unwantedParams.forEach((param) => {
     if (cleanedUrl.searchParams.has(param)) {
       cleanedUrl.searchParams.delete(param);
@@ -203,7 +210,5 @@ export function middleware(request: NextRequest) {
 export const config = {
   // Exclude API routes, static files, and special files (robots.txt, sitemaps)
   // This ensures rewrites work correctly for these files
-  matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico|robots\\.txt|sitemap|image-sitemap).*)',
-  ],
+  matcher: ['/((?!api|_next/static|_next/image|favicon.ico|robots\\.txt|sitemap|image-sitemap).*)'],
 };

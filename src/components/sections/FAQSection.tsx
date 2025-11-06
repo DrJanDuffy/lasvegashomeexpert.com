@@ -64,4 +64,3 @@ const FAQSection: FC<FAQSectionProps> = ({
 };
 
 export default FAQSection;
-

@@ -510,67 +510,105 @@ export default function HendersonHomesPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
             Complete Guide to Henderson Luxury Homes for Sale Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Henderson: Premier Luxury Living in Las Vegas Valley
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Henderson offers luxury living with a quieter, more residential feel while maintaining easy access to Las Vegas amenities. This established city features master-planned communities, excellent schools, and strong community infrastructure that appeals to luxury homebuyers seeking quality living with family-oriented amenities.
+                Henderson offers luxury living with a quieter, more residential feel while
+                maintaining easy access to Las Vegas amenities. This established city features
+                master-planned communities, excellent schools, and strong community infrastructure
+                that appeals to luxury homebuyers seeking quality living with family-oriented
+                amenities.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The city's location southeast of Las Vegas provides residents with proximity to Lake Las Vegas, Lake Mead, and outdoor recreation while maintaining access to Las Vegas employment, shopping, and entertainment. Henderson's established reputation and ongoing development ensure continued desirability and value growth for luxury homebuyers.
+                The city's location southeast of Las Vegas provides residents with proximity to Lake
+                Las Vegas, Lake Mead, and outdoor recreation while maintaining access to Las Vegas
+                employment, shopping, and entertainment. Henderson's established reputation and
+                ongoing development ensure continued desirability and value growth for luxury
+                homebuyers.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Luxury Neighborhoods in Henderson
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Henderson features several luxury neighborhoods including MacDonald Highlands, Green Valley, and Anthem, each offering unique characteristics and amenities. These neighborhoods feature luxury homes with mountain views, golf course access, and resort-style amenities. Dr. Jan Duffy's expertise in Henderson luxury neighborhoods enables her to help buyers identify properties that match their lifestyle and investment goals.
+                Henderson features several luxury neighborhoods including MacDonald Highlands, Green
+                Valley, and Anthem, each offering unique characteristics and amenities. These
+                neighborhoods feature luxury homes with mountain views, golf course access, and
+                resort-style amenities. Dr. Jan Duffy's expertise in Henderson luxury neighborhoods
+                enables her to help buyers identify properties that match their lifestyle and
+                investment goals.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Why Buy Luxury Homes in Henderson
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Henderson offers luxury homebuyers exceptional value through established neighborhoods, excellent schools, strong appreciation, and family-friendly environment. The city's median home price of $1.6 million represents excellent value for luxury living, while providing access to comprehensive amenities and lifestyle options.
+                Henderson offers luxury homebuyers exceptional value through established
+                neighborhoods, excellent schools, strong appreciation, and family-friendly
+                environment. The city's median home price of $1.6 million represents excellent value
+                for luxury living, while providing access to comprehensive amenities and lifestyle
+                options.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The city's real estate market shows strong fundamentals with 14% year-over-year appreciation, 52 days average on market, and 4.3 months of inventory. These metrics indicate a healthy market with strong demand and appreciation potential, making Henderson an attractive investment opportunity.
+                The city's real estate market shows strong fundamentals with 14% year-over-year
+                appreciation, 52 days average on market, and 4.3 months of inventory. These metrics
+                indicate a healthy market with strong demand and appreciation potential, making
+                Henderson an attractive investment opportunity.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Working with Dr. Jan Duffy for Henderson Homes
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Dr. Jan Duffy specializes in Henderson luxury real estate, with extensive knowledge of the city's neighborhoods, market conditions, and buyer preferences. Her expertise in Henderson communities enables her to help buyers find properties that match their lifestyle and investment goals in this premier Las Vegas Valley city.
+                Dr. Jan Duffy specializes in Henderson luxury real estate, with extensive knowledge
+                of the city's neighborhoods, market conditions, and buyer preferences. Her expertise
+                in Henderson communities enables her to help buyers find properties that match their
+                lifestyle and investment goals in this premier Las Vegas Valley city.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg p-8 mt-12">
-            <h3 className="text-2xl font-bold text-slate-800 mb-6">
-              What Makes Henderson Special
-            </h3>
+            <h3 className="text-2xl font-bold text-slate-800 mb-6">What Makes Henderson Special</h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Master-Planned Communities and Luxury Neighborhoods</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Master-Planned Communities and Luxury Neighborhoods
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Henderson features several master-planned communities and luxury neighborhoods including MacDonald Highlands, Green Valley, and Anthem, each offering unique characteristics and amenities. These communities provide luxury homebuyers with diverse options that match different preferences and budgets.
+                  Henderson features several master-planned communities and luxury neighborhoods
+                  including MacDonald Highlands, Green Valley, and Anthem, each offering unique
+                  characteristics and amenities. These communities provide luxury homebuyers with
+                  diverse options that match different preferences and budgets.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  The city's commitment to master-planned development ensures residents enjoy comprehensive amenities, excellent schools, and strong community infrastructure. This commitment to quality development creates exceptional value for luxury homebuyers seeking both lifestyle and investment value.
+                  The city's commitment to master-planned development ensures residents enjoy
+                  comprehensive amenities, excellent schools, and strong community infrastructure.
+                  This commitment to quality development creates exceptional value for luxury
+                  homebuyers seeking both lifestyle and investment value.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Excellent Schools and Family-Friendly Environment</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Excellent Schools and Family-Friendly Environment
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Henderson features excellent schools that are consistently ranked among Nevada's best. The city's family-friendly environment, safe neighborhoods, and comprehensive amenities make it ideal for families seeking luxury living with family-oriented amenities. This combination appeals to luxury homebuyers with children or those planning families.
+                  Henderson features excellent schools that are consistently ranked among Nevada's
+                  best. The city's family-friendly environment, safe neighborhoods, and
+                  comprehensive amenities make it ideal for families seeking luxury living with
+                  family-oriented amenities. This combination appeals to luxury homebuyers with
+                  children or those planning families.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  The city's commitment to education and family services ensures residents have access to resources that support family life. This family-friendly focus combined with luxury amenities creates an environment that appeals to luxury homebuyers seeking both lifestyle and family support.
+                  The city's commitment to education and family services ensures residents have
+                  access to resources that support family life. This family-friendly focus combined
+                  with luxury amenities creates an environment that appeals to luxury homebuyers
+                  seeking both lifestyle and family support.
                 </p>
               </div>
             </div>

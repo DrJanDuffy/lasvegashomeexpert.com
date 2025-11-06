@@ -429,67 +429,103 @@ export default function MountainsEdgePage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
             Complete Guide to Mountains Edge Luxury Homes Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Mountains Edge: Foothills Luxury Living
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Mountains Edge offers luxury living in the foothills of the Spring Mountains, providing residents with spectacular mountain views, modern amenities, and a peaceful retreat from city life. This master-planned community features newer construction, modern designs, and access to mountain recreation while maintaining easy access to Las Vegas amenities.
+                Mountains Edge offers luxury living in the foothills of the Spring Mountains,
+                providing residents with spectacular mountain views, modern amenities, and a
+                peaceful retreat from city life. This master-planned community features newer
+                construction, modern designs, and access to mountain recreation while maintaining
+                easy access to Las Vegas amenities.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The community's location on Las Vegas's southwest side provides residents with proximity to Red Rock Canyon National Conservation Area, offering access to hiking, biking, and outdoor recreation. Mountains Edge's newer construction and modern amenities appeal to buyers seeking contemporary luxury living with mountain views and outdoor recreation access.
+                The community's location on Las Vegas's southwest side provides residents with
+                proximity to Red Rock Canyon National Conservation Area, offering access to hiking,
+                biking, and outdoor recreation. Mountains Edge's newer construction and modern
+                amenities appeal to buyers seeking contemporary luxury living with mountain views
+                and outdoor recreation access.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Luxury Homes in Mountains Edge
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Mountains Edge homes range from $500,000 to over $1.5 million, featuring newer construction, modern designs, and mountain views. Properties typically include 2,000 to 5,000 square feet of living space, modern finishes, and access to community amenities. The community's newer construction and modern amenities appeal to buyers seeking contemporary luxury living.
+                Mountains Edge homes range from $500,000 to over $1.5 million, featuring newer
+                construction, modern designs, and mountain views. Properties typically include 2,000
+                to 5,000 square feet of living space, modern finishes, and access to community
+                amenities. The community's newer construction and modern amenities appeal to buyers
+                seeking contemporary luxury living.
               </p>
             </div>
-            
+
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Why Choose Mountains Edge
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Why Choose Mountains Edge</h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Mountains Edge offers luxury homebuyers exceptional value through newer construction, modern amenities, mountain views, and outdoor recreation access. The community's median price of $650,000 represents excellent value for luxury living, while providing access to modern amenities and mountain recreation.
+                Mountains Edge offers luxury homebuyers exceptional value through newer
+                construction, modern amenities, mountain views, and outdoor recreation access. The
+                community's median price of $650,000 represents excellent value for luxury living,
+                while providing access to modern amenities and mountain recreation.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The community's real estate market shows strong fundamentals with 13% year-over-year appreciation, 48 days average on market, and 4.1 months of inventory. These metrics indicate a healthy market with strong demand and appreciation potential, making Mountains Edge an attractive investment opportunity.
+                The community's real estate market shows strong fundamentals with 13% year-over-year
+                appreciation, 48 days average on market, and 4.1 months of inventory. These metrics
+                indicate a healthy market with strong demand and appreciation potential, making
+                Mountains Edge an attractive investment opportunity.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Working with Dr. Jan Duffy for Mountains Edge
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Dr. Jan Duffy specializes in Mountains Edge real estate, with extensive knowledge of the community's properties, market conditions, and buyer preferences. Her expertise in foothills communities enables her to help buyers find properties that match their lifestyle and investment goals in this modern luxury community.
+                Dr. Jan Duffy specializes in Mountains Edge real estate, with extensive knowledge of
+                the community's properties, market conditions, and buyer preferences. Her expertise
+                in foothills communities enables her to help buyers find properties that match their
+                lifestyle and investment goals in this modern luxury community.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-slate-800 mb-6">
               What Makes Mountains Edge Special
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Mountain Views and Outdoor Recreation</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Mountain Views and Outdoor Recreation
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Mountains Edge's location in the foothills provides residents with spectacular mountain views and access to outdoor recreation including hiking, biking, and nature exploration. The community's proximity to Red Rock Canyon National Conservation Area offers residents access to world-class outdoor recreation opportunities.
+                  Mountains Edge's location in the foothills provides residents with spectacular
+                  mountain views and access to outdoor recreation including hiking, biking, and
+                  nature exploration. The community's proximity to Red Rock Canyon National
+                  Conservation Area offers residents access to world-class outdoor recreation
+                  opportunities.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  This combination of mountain views and outdoor recreation access creates unique living experiences that appeal to buyers seeking both luxury living and outdoor lifestyle. The community's commitment to maintaining views and outdoor access ensures long-term value and desirability.
+                  This combination of mountain views and outdoor recreation access creates unique
+                  living experiences that appeal to buyers seeking both luxury living and outdoor
+                  lifestyle. The community's commitment to maintaining views and outdoor access
+                  ensures long-term value and desirability.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Modern Construction and Amenities</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Modern Construction and Amenities
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Mountains Edge features newer construction with modern designs, contemporary finishes, and energy-efficient features. The community's modern amenities including parks, trails, and recreational facilities support active lifestyles and contemporary living preferences.
+                  Mountains Edge features newer construction with modern designs, contemporary
+                  finishes, and energy-efficient features. The community's modern amenities
+                  including parks, trails, and recreational facilities support active lifestyles and
+                  contemporary living preferences.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  The community's newer construction and modern amenities appeal to buyers seeking contemporary luxury living with modern features and energy efficiency. This modern approach to community development creates exceptional value for luxury homebuyers seeking both lifestyle and modern living.
+                  The community's newer construction and modern amenities appeal to buyers seeking
+                  contemporary luxury living with modern features and energy efficiency. This modern
+                  approach to community development creates exceptional value for luxury homebuyers
+                  seeking both lifestyle and modern living.
                 </p>
               </div>
             </div>

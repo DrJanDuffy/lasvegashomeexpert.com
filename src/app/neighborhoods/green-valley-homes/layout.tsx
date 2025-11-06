@@ -12,7 +12,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Green Valley Luxury Homes for Sale | Henderson Real Estate',
-    description: 'Find luxury homes in Green Valley, Henderson with excellent schools and mature amenities.',
+    description:
+      'Find luxury homes in Green Valley, Henderson with excellent schools and mature amenities.',
     url: 'https://lasvegashomeexpert.com/neighborhoods/green-valley-homes',
     type: 'website',
   },
@@ -24,4 +25,3 @@ export const metadata: Metadata = {
 export default function GreenValleyHomesLayout({ children }: { children: React.ReactNode }) {
   return children;
 }
-

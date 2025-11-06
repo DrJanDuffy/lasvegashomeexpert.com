@@ -80,4 +80,3 @@ const ArticleSchema: FC<ArticleSchemaProps> = ({
 };
 
 export default ArticleSchema;
-

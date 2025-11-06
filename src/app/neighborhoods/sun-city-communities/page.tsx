@@ -430,67 +430,105 @@ export default function SunCityCommunitiesPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
             Complete Guide to Sun City Communities 55+ Luxury Living Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Sun City Communities: Premier 55+ Active Adult Living
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Sun City Communities offer premier 55+ active adult living in Las Vegas, featuring luxury homes with access to golf courses, recreation centers, and resort-style amenities. These age-restricted communities provide active adults with maintenance-free living, comprehensive amenities, and vibrant social environments that support active lifestyles.
+                Sun City Communities offer premier 55+ active adult living in Las Vegas, featuring
+                luxury homes with access to golf courses, recreation centers, and resort-style
+                amenities. These age-restricted communities provide active adults with
+                maintenance-free living, comprehensive amenities, and vibrant social environments
+                that support active lifestyles.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The communities' locations in Summerlin and Henderson provide residents with access to world-class amenities, excellent healthcare facilities, and diverse entertainment options. Sun City's commitment to active adult living creates exceptional value for 55+ buyers seeking vibrant retirement experiences with resort-style amenities.
+                The communities' locations in Summerlin and Henderson provide residents with access
+                to world-class amenities, excellent healthcare facilities, and diverse entertainment
+                options. Sun City's commitment to active adult living creates exceptional value for
+                55+ buyers seeking vibrant retirement experiences with resort-style amenities.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Luxury Homes in Sun City Communities
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Sun City Communities homes range from $400,000 to over $1.5 million, featuring quality construction, single-story designs, and access to community amenities. Properties typically include 1,500 to 4,000 square feet of living space, low-maintenance landscaping, and modern finishes. The communities' luxury homes appeal to active adults seeking maintenance-free living with comprehensive amenities.
+                Sun City Communities homes range from $400,000 to over $1.5 million, featuring
+                quality construction, single-story designs, and access to community amenities.
+                Properties typically include 1,500 to 4,000 square feet of living space,
+                low-maintenance landscaping, and modern finishes. The communities' luxury homes
+                appeal to active adults seeking maintenance-free living with comprehensive
+                amenities.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Why Choose Sun City Communities
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Sun City Communities offer active adults exceptional value through maintenance-free living, comprehensive amenities, strong appreciation, and vibrant social environments. The communities' median price of $650,000 represents excellent value for 55+ luxury living, while providing access to world-class amenities and lifestyle options.
+                Sun City Communities offer active adults exceptional value through maintenance-free
+                living, comprehensive amenities, strong appreciation, and vibrant social
+                environments. The communities' median price of $650,000 represents excellent value
+                for 55+ luxury living, while providing access to world-class amenities and lifestyle
+                options.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The communities' real estate markets show strong fundamentals with 13% year-over-year appreciation, 42 days average on market, and 3.5 months of inventory. These metrics indicate healthy markets with strong demand and appreciation potential, making Sun City Communities attractive investment opportunities.
+                The communities' real estate markets show strong fundamentals with 13%
+                year-over-year appreciation, 42 days average on market, and 3.5 months of inventory.
+                These metrics indicate healthy markets with strong demand and appreciation
+                potential, making Sun City Communities attractive investment opportunities.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Working with Dr. Jan Duffy for Sun City Communities
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Dr. Jan Duffy specializes in Sun City Communities real estate, with extensive knowledge of the communities' properties, market conditions, and buyer preferences. Her expertise in 55+ active adult communities enables her to help buyers find properties that match their lifestyle and investment goals in these premier retirement communities.
+                Dr. Jan Duffy specializes in Sun City Communities real estate, with extensive
+                knowledge of the communities' properties, market conditions, and buyer preferences.
+                Her expertise in 55+ active adult communities enables her to help buyers find
+                properties that match their lifestyle and investment goals in these premier
+                retirement communities.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-slate-800 mb-6">
               What Makes Sun City Communities Special
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Comprehensive Active Adult Amenities</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Comprehensive Active Adult Amenities
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Sun City Communities feature comprehensive amenities including golf courses, recreation centers, fitness facilities, swimming pools, and organized activities that support active adult lifestyles. The communities' commitment to providing comprehensive amenities ensures residents enjoy vibrant, engaging retirement experiences.
+                  Sun City Communities feature comprehensive amenities including golf courses,
+                  recreation centers, fitness facilities, swimming pools, and organized activities
+                  that support active adult lifestyles. The communities' commitment to providing
+                  comprehensive amenities ensures residents enjoy vibrant, engaging retirement
+                  experiences.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  The quality and variety of amenities can significantly impact residents' enjoyment of community living. Communities with comprehensive amenities and active programs provide more opportunities for engagement and social connection, contributing to fulfilling active adult lifestyles.
+                  The quality and variety of amenities can significantly impact residents' enjoyment
+                  of community living. Communities with comprehensive amenities and active programs
+                  provide more opportunities for engagement and social connection, contributing to
+                  fulfilling active adult lifestyles.
                 </p>
               </div>
-              
+
               <div>
                 <h4 className="text-xl font-bold text-slate-800 mb-4">Maintenance-Free Living</h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Sun City Communities offer maintenance-free living with community services that handle exterior maintenance, landscaping, and common area upkeep. This maintenance-free approach allows residents to focus on enjoying their active lifestyles without the burden of property maintenance responsibilities.
+                  Sun City Communities offer maintenance-free living with community services that
+                  handle exterior maintenance, landscaping, and common area upkeep. This
+                  maintenance-free approach allows residents to focus on enjoying their active
+                  lifestyles without the burden of property maintenance responsibilities.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  The communities' maintenance-free living creates opportunities for active adults to travel, pursue hobbies, and engage in community activities without worrying about property upkeep. This freedom enhances quality of life and contributes to the vibrant retirement experiences that define Sun City Communities living.
+                  The communities' maintenance-free living creates opportunities for active adults
+                  to travel, pursue hobbies, and engage in community activities without worrying
+                  about property upkeep. This freedom enhances quality of life and contributes to
+                  the vibrant retirement experiences that define Sun City Communities living.
                 </p>
               </div>
             </div>

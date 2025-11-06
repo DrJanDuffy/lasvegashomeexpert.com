@@ -384,67 +384,110 @@ export default function LuxuryHomeSellingAgentPage() {
           <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
             Complete Guide to Luxury Home Selling Agent Services in Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-primary-900 mb-6">
                 Why You Need a Luxury Home Selling Agent
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Working with a luxury home selling agent like Dr. Jan Duffy provides several advantages including sophisticated marketing, accurate pricing, access to qualified buyers, and expert negotiation. Luxury real estate sales require specialized strategies and expertise that general realtors may not possess. Dr. Duffy's expertise in luxury markets ensures sellers receive optimal representation.
+                Working with a luxury home selling agent like Dr. Jan Duffy provides several
+                advantages including sophisticated marketing, accurate pricing, access to qualified
+                buyers, and expert negotiation. Luxury real estate sales require specialized
+                strategies and expertise that general realtors may not possess. Dr. Duffy's
+                expertise in luxury markets ensures sellers receive optimal representation.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Luxury selling agents understand the unique characteristics of high-end properties, including pricing strategies, marketing approaches, and buyer preferences. This expertise enables them to position properties effectively, reach qualified buyers, and achieve maximum value. Dr. Duffy's track record includes faster sales and higher prices through comprehensive marketing strategies.
+                Luxury selling agents understand the unique characteristics of high-end properties,
+                including pricing strategies, marketing approaches, and buyer preferences. This
+                expertise enables them to position properties effectively, reach qualified buyers,
+                and achieve maximum value. Dr. Duffy's track record includes faster sales and higher
+                prices through comprehensive marketing strategies.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 Sophisticated Marketing for Luxury Properties
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                Marketing luxury properties requires sophisticated strategies that reach high-net-worth buyers effectively. Dr. Duffy employs comprehensive marketing approaches including professional photography, virtual tours, luxury lifestyle publications, targeted digital advertising, and her extensive network of luxury buyers and agents. This multi-channel strategy ensures maximum exposure to qualified buyers.
+                Marketing luxury properties requires sophisticated strategies that reach
+                high-net-worth buyers effectively. Dr. Duffy employs comprehensive marketing
+                approaches including professional photography, virtual tours, luxury lifestyle
+                publications, targeted digital advertising, and her extensive network of luxury
+                buyers and agents. This multi-channel strategy ensures maximum exposure to qualified
+                buyers.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-primary-900 mb-6">
                 Comprehensive Selling Agent Services
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Dr. Duffy provides comprehensive luxury selling agent services including market analysis, property preparation, sophisticated marketing, negotiation, and closing coordination. Her expertise ensures sellers achieve maximum value while minimizing time on market. This comprehensive approach ensures sellers achieve optimal outcomes throughout the selling process.
+                Dr. Duffy provides comprehensive luxury selling agent services including market
+                analysis, property preparation, sophisticated marketing, negotiation, and closing
+                coordination. Her expertise ensures sellers achieve maximum value while minimizing
+                time on market. This comprehensive approach ensures sellers achieve optimal outcomes
+                throughout the selling process.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Her services extend beyond marketing to include pricing strategy, property preparation, staging recommendations, and strategic positioning. This comprehensive approach ensures properties are presented effectively to attract qualified buyers and achieve premium prices. Dr. Duffy's attention to detail ensures nothing is overlooked throughout the selling process.
+                Her services extend beyond marketing to include pricing strategy, property
+                preparation, staging recommendations, and strategic positioning. This comprehensive
+                approach ensures properties are presented effectively to attract qualified buyers
+                and achieve premium prices. Dr. Duffy's attention to detail ensures nothing is
+                overlooked throughout the selling process.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 Working with Dr. Jan Duffy as Your Selling Agent
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                Dr. Duffy's experience with hundreds of luxury sales enables her to provide guidance that maximizes value while minimizing time on market. Her understanding of luxury buyer preferences and effective marketing strategies ensures properties are positioned effectively. This expertise, combined with her commitment to results, ensures sellers achieve optimal outcomes.
+                Dr. Duffy's experience with hundreds of luxury sales enables her to provide guidance
+                that maximizes value while minimizing time on market. Her understanding of luxury
+                buyer preferences and effective marketing strategies ensures properties are
+                positioned effectively. This expertise, combined with her commitment to results,
+                ensures sellers achieve optimal outcomes.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-primary-50 to-neutral-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-primary-900 mb-6">
               What Makes Dr. Jan Duffy an Exceptional Selling Agent
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-bold text-primary-800 mb-4">Proven Results and Market Expertise</h4>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">
+                  Proven Results and Market Expertise
+                </h4>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  Dr. Duffy's track record includes faster sales (18 days average vs. market average) and higher prices (98.5% of list price vs. market average) through comprehensive marketing and strategic positioning. Her 15+ years of experience in Las Vegas luxury real estate provides comprehensive understanding of market conditions and buyer preferences.
+                  Dr. Duffy's track record includes faster sales (18 days average vs. market
+                  average) and higher prices (98.5% of list price vs. market average) through
+                  comprehensive marketing and strategic positioning. Her 15+ years of experience in
+                  Las Vegas luxury real estate provides comprehensive understanding of market
+                  conditions and buyer preferences.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
-                  This market expertise enables Dr. Duffy to provide accurate pricing, effective marketing strategies, and strategic advice that maximizes value. Her understanding of luxury markets ensures sellers receive guidance that aligns with current market realities and buyer preferences.
+                  This market expertise enables Dr. Duffy to provide accurate pricing, effective
+                  marketing strategies, and strategic advice that maximizes value. Her understanding
+                  of luxury markets ensures sellers receive guidance that aligns with current market
+                  realities and buyer preferences.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-primary-800 mb-4">Network and Access to Qualified Buyers</h4>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">
+                  Network and Access to Qualified Buyers
+                </h4>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  Dr. Duffy's extensive network includes luxury buyers, investors, and other real estate professionals that provide access to qualified buyers. This network advantage ensures properties receive maximum exposure to buyers who can purchase luxury properties, increasing the likelihood of competitive offers and premium prices.
+                  Dr. Duffy's extensive network includes luxury buyers, investors, and other real
+                  estate professionals that provide access to qualified buyers. This network
+                  advantage ensures properties receive maximum exposure to buyers who can purchase
+                  luxury properties, increasing the likelihood of competitive offers and premium
+                  prices.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
-                  Her network access combined with sophisticated marketing strategies ensures properties reach all potential buyers through multiple channels. This comprehensive approach maximizes exposure and generates competitive interest that benefits sellers through faster sales and higher prices.
+                  Her network access combined with sophisticated marketing strategies ensures
+                  properties reach all potential buyers through multiple channels. This
+                  comprehensive approach maximizes exposure and generates competitive interest that
+                  benefits sellers through faster sales and higher prices.
                 </p>
               </div>
             </div>

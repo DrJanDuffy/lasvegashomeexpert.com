@@ -24,4 +24,3 @@ export const metadata: Metadata = {
 export default function SunCityCommunitiesHomesLayout({ children }: { children: React.ReactNode }) {
   return children;
 }
-

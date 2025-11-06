@@ -12,7 +12,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Southern Highlands Homes for Sale | Las Vegas Luxury Real Estate',
-    description: 'Elevated community with stunning views, custom estates, and world-class amenities.',
+    description:
+      'Elevated community with stunning views, custom estates, and world-class amenities.',
     url: 'https://lasvegashomeexpert.com/neighborhoods/southern-highlands-homes',
     type: 'website',
   },
@@ -24,4 +25,3 @@ export const metadata: Metadata = {
 export default function SouthernHighlandsHomesLayout({ children }: { children: React.ReactNode }) {
   return children;
 }
-

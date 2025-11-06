@@ -81,4 +81,3 @@ const WebPageSchema: FC<WebPageSchemaProps> = ({
 };
 
 export default WebPageSchema;
-

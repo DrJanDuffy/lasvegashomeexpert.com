@@ -434,45 +434,70 @@ export default function RelocationSpecialistPage() {
           <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
             Complete Guide to Relocating to Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-primary-900 mb-6">
                 Why Relocate to Las Vegas
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Las Vegas offers exceptional quality of life for relocating families and professionals, with affordable housing, no state income tax, strong job market, and world-class amenities. The city's master-planned communities provide excellent schools, parks, shopping, and recreation facilities, creating attractive environments for families and professionals seeking a high quality of life.
+                Las Vegas offers exceptional quality of life for relocating families and
+                professionals, with affordable housing, no state income tax, strong job market, and
+                world-class amenities. The city's master-planned communities provide excellent
+                schools, parks, shopping, and recreation facilities, creating attractive
+                environments for families and professionals seeking a high quality of life.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                The Las Vegas economy continues to diversify beyond tourism, with growing technology, healthcare, finance, and professional services sectors creating stable employment opportunities. This economic growth supports housing demand and property values, making Las Vegas an attractive destination for relocating professionals and families.
+                The Las Vegas economy continues to diversify beyond tourism, with growing
+                technology, healthcare, finance, and professional services sectors creating stable
+                employment opportunities. This economic growth supports housing demand and property
+                values, making Las Vegas an attractive destination for relocating professionals and
+                families.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 Las Vegas Neighborhoods for Relocating Families
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                Las Vegas offers diverse neighborhoods that appeal to different lifestyles and budgets. Summerlin provides master-planned communities with excellent schools and amenities. Henderson offers family-friendly neighborhoods with strong community infrastructure. Green Valley features established neighborhoods with mature trees and well-maintained properties. Dr. Jan Duffy helps relocating families identify neighborhoods that match their needs and preferences.
+                Las Vegas offers diverse neighborhoods that appeal to different lifestyles and
+                budgets. Summerlin provides master-planned communities with excellent schools and
+                amenities. Henderson offers family-friendly neighborhoods with strong community
+                infrastructure. Green Valley features established neighborhoods with mature trees
+                and well-maintained properties. Dr. Jan Duffy helps relocating families identify
+                neighborhoods that match their needs and preferences.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-primary-900 mb-6">
                 Relocation Services for Las Vegas
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Relocating to a new city involves numerous challenges including finding the right neighborhood, understanding market conditions, and coordinating purchases from a distance. Dr. Duffy provides comprehensive relocation services including neighborhood research, virtual tours, market education, and coordinated home buying that helps families and professionals relocate successfully.
+                Relocating to a new city involves numerous challenges including finding the right
+                neighborhood, understanding market conditions, and coordinating purchases from a
+                distance. Dr. Duffy provides comprehensive relocation services including
+                neighborhood research, virtual tours, market education, and coordinated home buying
+                that helps families and professionals relocate successfully.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Her relocation services are designed to help clients make informed decisions about Las Vegas neighborhoods and properties, even when they're not yet in Las Vegas. Virtual tours, detailed neighborhood information, and market education help clients understand their options and make confident decisions about relocating to Las Vegas.
+                Her relocation services are designed to help clients make informed decisions about
+                Las Vegas neighborhoods and properties, even when they're not yet in Las Vegas.
+                Virtual tours, detailed neighborhood information, and market education help clients
+                understand their options and make confident decisions about relocating to Las Vegas.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 Working with Dr. Jan Duffy for Relocation
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                Dr. Duffy's relocation expertise helps families and professionals navigate the complexities of moving to Las Vegas. She provides comprehensive support from initial research through closing and beyond, ensuring clients feel confident about their relocation decisions. Her knowledge of Las Vegas neighborhoods, schools, and market conditions enables her to provide guidance that helps clients find communities that match their lifestyle needs.
+                Dr. Duffy's relocation expertise helps families and professionals navigate the
+                complexities of moving to Las Vegas. She provides comprehensive support from initial
+                research through closing and beyond, ensuring clients feel confident about their
+                relocation decisions. Her knowledge of Las Vegas neighborhoods, schools, and market
+                conditions enables her to provide guidance that helps clients find communities that
+                match their lifestyle needs.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-primary-50 to-neutral-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-primary-900 mb-6">
               Key Considerations When Relocating to Las Vegas
@@ -481,20 +506,32 @@ export default function RelocationSpecialistPage() {
               <div>
                 <h4 className="text-xl font-bold text-primary-800 mb-4">Neighborhood Selection</h4>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  Choosing the right neighborhood is crucial when relocating to Las Vegas. Consider factors like schools, commute times, amenities, and lifestyle preferences. Dr. Duffy helps relocating clients understand neighborhood characteristics, school districts, and market conditions, enabling them to make informed decisions about where to live.
+                  Choosing the right neighborhood is crucial when relocating to Las Vegas. Consider
+                  factors like schools, commute times, amenities, and lifestyle preferences. Dr.
+                  Duffy helps relocating clients understand neighborhood characteristics, school
+                  districts, and market conditions, enabling them to make informed decisions about
+                  where to live.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
-                  Her knowledge of Las Vegas neighborhoods from Summerlin to Henderson ensures clients receive accurate information about areas that match their needs. This localized expertise is invaluable for relocating families who may not be familiar with Las Vegas neighborhoods and communities.
+                  Her knowledge of Las Vegas neighborhoods from Summerlin to Henderson ensures
+                  clients receive accurate information about areas that match their needs. This
+                  localized expertise is invaluable for relocating families who may not be familiar
+                  with Las Vegas neighborhoods and communities.
                 </p>
               </div>
-              
+
               <div>
                 <h4 className="text-xl font-bold text-primary-800 mb-4">Timing and Coordination</h4>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  Relocation requires careful timing and coordination between selling your current home, finding a new home, and managing the move. Dr. Duffy helps clients coordinate these elements, providing guidance on timing purchases, managing transitions, and ensuring smooth relocations.
+                  Relocation requires careful timing and coordination between selling your current
+                  home, finding a new home, and managing the move. Dr. Duffy helps clients
+                  coordinate these elements, providing guidance on timing purchases, managing
+                  transitions, and ensuring smooth relocations.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
-                  Her experience with relocating clients enables her to anticipate challenges and provide solutions that ensure smooth transitions. This coordination helps clients avoid common relocation pitfalls while achieving their goals efficiently.
+                  Her experience with relocating clients enables her to anticipate challenges and
+                  provide solutions that ensure smooth transitions. This coordination helps clients
+                  avoid common relocation pitfalls while achieving their goals efficiently.
                 </p>
               </div>
             </div>

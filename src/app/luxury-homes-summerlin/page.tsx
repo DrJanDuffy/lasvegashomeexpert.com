@@ -195,67 +195,111 @@ export default function LuxuryHomesSummerlinPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
             Complete Guide to Luxury Homes in Summerlin Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Summerlin: Las Vegas's Premier Luxury Community
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Summerlin stands as Las Vegas's premier master-planned community, offering luxury homes with access to world-class amenities, excellent schools, and exceptional quality of life. This 22,500-acre master-planned community features multiple villages, each with unique characteristics and amenities, creating diverse housing options for luxury homebuyers.
+                Summerlin stands as Las Vegas's premier master-planned community, offering luxury
+                homes with access to world-class amenities, excellent schools, and exceptional
+                quality of life. This 22,500-acre master-planned community features multiple
+                villages, each with unique characteristics and amenities, creating diverse housing
+                options for luxury homebuyers.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The community's amenities include multiple golf courses, parks, shopping centers, restaurants, and recreational facilities. Summerlin's commitment to preserving natural open spaces, maintaining high standards, and providing comprehensive amenities has earned it recognition as one of America's best master-planned communities. This commitment to excellence creates exceptional value for luxury homebuyers.
+                The community's amenities include multiple golf courses, parks, shopping centers,
+                restaurants, and recreational facilities. Summerlin's commitment to preserving
+                natural open spaces, maintaining high standards, and providing comprehensive
+                amenities has earned it recognition as one of America's best master-planned
+                communities. This commitment to excellence creates exceptional value for luxury
+                homebuyers.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Premier Luxury Neighborhoods in Summerlin
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Summerlin includes several luxury neighborhoods including Red Rock Country Club, The Ridges Summerlin, Tournament Hills, and MacDonald Highlands, each offering unique characteristics and amenities. These neighborhoods feature luxury homes with golf course access, mountain views, and resort-style amenities. Dr. Jan Duffy's expertise in Summerlin luxury neighborhoods enables her to help buyers identify properties that match their lifestyle and investment goals.
+                Summerlin includes several luxury neighborhoods including Red Rock Country Club, The
+                Ridges Summerlin, Tournament Hills, and MacDonald Highlands, each offering unique
+                characteristics and amenities. These neighborhoods feature luxury homes with golf
+                course access, mountain views, and resort-style amenities. Dr. Jan Duffy's expertise
+                in Summerlin luxury neighborhoods enables her to help buyers identify properties
+                that match their lifestyle and investment goals.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Why Buy Luxury Homes in Summerlin
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Summerlin offers luxury homebuyers exceptional value through master-planned community amenities, excellent schools, strong appreciation, and high quality of life. The community's median home price of $1.8 million represents excellent value compared to luxury communities in other major metropolitan areas, while providing access to world-class amenities and lifestyle options.
+                Summerlin offers luxury homebuyers exceptional value through master-planned
+                community amenities, excellent schools, strong appreciation, and high quality of
+                life. The community's median home price of $1.8 million represents excellent value
+                compared to luxury communities in other major metropolitan areas, while providing
+                access to world-class amenities and lifestyle options.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The community's location on the west side of Las Vegas provides easy access to the city while maintaining a suburban feel. Summerlin's proximity to Red Rock Canyon National Conservation Area offers residents access to outdoor recreation, while the community's amenities provide comprehensive lifestyle options within the community itself.
+                The community's location on the west side of Las Vegas provides easy access to the
+                city while maintaining a suburban feel. Summerlin's proximity to Red Rock Canyon
+                National Conservation Area offers residents access to outdoor recreation, while the
+                community's amenities provide comprehensive lifestyle options within the community
+                itself.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Working with Dr. Jan Duffy for Summerlin Luxury Homes
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Dr. Jan Duffy specializes in Summerlin luxury real estate, with extensive knowledge of the community's properties, market conditions, and buyer preferences. Her expertise in master-planned communities enables her to help buyers find properties that match their lifestyle and investment goals in this premier Las Vegas community.
+                Dr. Jan Duffy specializes in Summerlin luxury real estate, with extensive knowledge
+                of the community's properties, market conditions, and buyer preferences. Her
+                expertise in master-planned communities enables her to help buyers find properties
+                that match their lifestyle and investment goals in this premier Las Vegas community.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-slate-800 mb-6">
               What Makes Summerlin Luxury Homes Special
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Master-Planned Community Excellence</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Master-Planned Community Excellence
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Summerlin's master-planned design provides residents with comprehensive amenities including golf courses, parks, trails, shopping centers, and recreational facilities. The community's commitment to maintaining high standards and providing ongoing development ensures residents enjoy premium amenities that enhance quality of life.
+                  Summerlin's master-planned design provides residents with comprehensive amenities
+                  including golf courses, parks, trails, shopping centers, and recreational
+                  facilities. The community's commitment to maintaining high standards and providing
+                  ongoing development ensures residents enjoy premium amenities that enhance quality
+                  of life.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  The community's amenities are designed to support active lifestyles, with extensive trail systems, parks, and recreational facilities. These amenities create opportunities for outdoor recreation, social connection, and community engagement, contributing to the high quality of life that defines Summerlin living.
+                  The community's amenities are designed to support active lifestyles, with
+                  extensive trail systems, parks, and recreational facilities. These amenities
+                  create opportunities for outdoor recreation, social connection, and community
+                  engagement, contributing to the high quality of life that defines Summerlin
+                  living.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Excellent Schools and Family-Friendly Environment</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Excellent Schools and Family-Friendly Environment
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Summerlin features excellent schools that are consistently ranked among Nevada's best. The community's family-friendly environment, safe neighborhoods, and comprehensive amenities make it ideal for families seeking luxury living with family-oriented amenities. This combination appeals to luxury homebuyers with children or those planning families.
+                  Summerlin features excellent schools that are consistently ranked among Nevada's
+                  best. The community's family-friendly environment, safe neighborhoods, and
+                  comprehensive amenities make it ideal for families seeking luxury living with
+                  family-oriented amenities. This combination appeals to luxury homebuyers with
+                  children or those planning families.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  The community's commitment to education and family services ensures residents have access to resources that support family life. This family-friendly focus combined with luxury amenities creates an environment that appeals to luxury homebuyers seeking both lifestyle and family support.
+                  The community's commitment to education and family services ensures residents have
+                  access to resources that support family life. This family-friendly focus combined
+                  with luxury amenities creates an environment that appeals to luxury homebuyers
+                  seeking both lifestyle and family support.
                 </p>
               </div>
             </div>

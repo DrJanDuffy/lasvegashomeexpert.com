@@ -38,7 +38,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Las Vegas Home Expert - Luxury Real Estate Services',
-    description: 'Your trusted luxury real estate partner in Las Vegas, Summerlin, and Henderson. Expert guidance for buying and selling homes.',
+    description:
+      'Your trusted luxury real estate partner in Las Vegas, Summerlin, and Henderson. Expert guidance for buying and selling homes.',
     url: 'https://lasvegashomeexpert.com',
     siteName: 'Las Vegas Home Expert',
     images: [

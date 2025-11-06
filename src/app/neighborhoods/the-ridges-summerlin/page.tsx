@@ -351,67 +351,103 @@ export default function TheRidgesSummerlinPage() {
           <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
             Complete Guide to The Ridges Summerlin Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-primary-900 mb-6">
                 The Ridges: Ultra-Luxury Living in Summerlin
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                The Ridges Summerlin represents the pinnacle of luxury living in Las Vegas, with homes commanding median prices of $2.3 million and featuring ultra-luxury estates positioned on elevated sites offering panoramic views of the Las Vegas Strip, surrounding mountains, and the valley below. This exclusive community offers the highest level of luxury living in Las Vegas.
+                The Ridges Summerlin represents the pinnacle of luxury living in Las Vegas, with
+                homes commanding median prices of $2.3 million and featuring ultra-luxury estates
+                positioned on elevated sites offering panoramic views of the Las Vegas Strip,
+                surrounding mountains, and the valley below. This exclusive community offers the
+                highest level of luxury living in Las Vegas.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                The community's elevated location provides residents with unparalleled views and privacy, while its private golf course and club facilities offer exclusive access to world-class amenities. The Ridges' commitment to maintaining ultra-luxury standards ensures the community remains one of Las Vegas's most prestigious addresses.
+                The community's elevated location provides residents with unparalleled views and
+                privacy, while its private golf course and club facilities offer exclusive access to
+                world-class amenities. The Ridges' commitment to maintaining ultra-luxury standards
+                ensures the community remains one of Las Vegas's most prestigious addresses.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 Luxury Homes in The Ridges
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                The Ridges homes typically span 5,000 to 15,000 square feet, featuring contemporary architecture, smart home technology, and premium finishes throughout. Properties feature private pools, outdoor entertainment areas, and stunning views that create exceptional luxury living experiences. The community's ultra-luxury positioning appeals to buyers seeking the highest level of luxury in Las Vegas.
+                The Ridges homes typically span 5,000 to 15,000 square feet, featuring contemporary
+                architecture, smart home technology, and premium finishes throughout. Properties
+                feature private pools, outdoor entertainment areas, and stunning views that create
+                exceptional luxury living experiences. The community's ultra-luxury positioning
+                appeals to buyers seeking the highest level of luxury in Las Vegas.
               </p>
             </div>
-            
+
             <div>
-              <h3 className="text-2xl font-bold text-primary-900 mb-6">
-                Mountain and Strip Views
-              </h3>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6">Mountain and Strip Views</h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                The Ridges' elevated location provides residents with spectacular views of the Las Vegas Strip, surrounding mountains, and the valley below. These views create unique living experiences that command premium prices and contribute to the community's desirability. Properties with the best views often sell quickly and for premium prices.
+                The Ridges' elevated location provides residents with spectacular views of the Las
+                Vegas Strip, surrounding mountains, and the valley below. These views create unique
+                living experiences that command premium prices and contribute to the community's
+                desirability. Properties with the best views often sell quickly and for premium
+                prices.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                The combination of elevated location, privacy, and stunning views makes The Ridges one of Las Vegas's most desirable communities for luxury homebuyers. The community's commitment to maintaining these views through careful development ensures long-term value and desirability.
+                The combination of elevated location, privacy, and stunning views makes The Ridges
+                one of Las Vegas's most desirable communities for luxury homebuyers. The community's
+                commitment to maintaining these views through careful development ensures long-term
+                value and desirability.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 Working with Dr. Jan Duffy for The Ridges
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                Dr. Jan Duffy specializes in The Ridges Summerlin real estate, with extensive knowledge of the community's ultra-luxury properties and market conditions. Her expertise in high-end real estate enables her to help buyers navigate the ultra-luxury market effectively, ensuring they find properties that match their lifestyle and investment goals.
+                Dr. Jan Duffy specializes in The Ridges Summerlin real estate, with extensive
+                knowledge of the community's ultra-luxury properties and market conditions. Her
+                expertise in high-end real estate enables her to help buyers navigate the
+                ultra-luxury market effectively, ensuring they find properties that match their
+                lifestyle and investment goals.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-primary-50 to-neutral-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-primary-900 mb-6">
               Why The Ridges is Las Vegas's Premier Ultra-Luxury Community
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-bold text-primary-800 mb-4">Elevated Location and Privacy</h4>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">
+                  Elevated Location and Privacy
+                </h4>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  The Ridges' elevated location provides residents with privacy and exclusivity while maintaining easy access to Las Vegas amenities. The community's gated security and private setting create an exclusive environment that appeals to ultra-luxury buyers seeking privacy and prestige.
+                  The Ridges' elevated location provides residents with privacy and exclusivity
+                  while maintaining easy access to Las Vegas amenities. The community's gated
+                  security and private setting create an exclusive environment that appeals to
+                  ultra-luxury buyers seeking privacy and prestige.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
-                  This combination of elevated location, privacy, and exclusivity creates a unique living experience that commands premium prices. The community's commitment to maintaining these characteristics ensures long-term value and desirability for ultra-luxury homebuyers.
+                  This combination of elevated location, privacy, and exclusivity creates a unique
+                  living experience that commands premium prices. The community's commitment to
+                  maintaining these characteristics ensures long-term value and desirability for
+                  ultra-luxury homebuyers.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-primary-800 mb-4">Private Golf Course and Club</h4>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">
+                  Private Golf Course and Club
+                </h4>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  The Ridges features a private golf course and club facilities that provide residents with exclusive access to world-class amenities. The private club environment creates opportunities for social connection and community engagement while maintaining the exclusivity that defines ultra-luxury living.
+                  The Ridges features a private golf course and club facilities that provide
+                  residents with exclusive access to world-class amenities. The private club
+                  environment creates opportunities for social connection and community engagement
+                  while maintaining the exclusivity that defines ultra-luxury living.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
-                  The community's commitment to maintaining golf course quality and club facilities ensures residents enjoy premium experiences that justify the community's ultra-luxury pricing. This commitment to excellence creates exceptional value for ultra-luxury homebuyers.
+                  The community's commitment to maintaining golf course quality and club facilities
+                  ensures residents enjoy premium experiences that justify the community's
+                  ultra-luxury pricing. This commitment to excellence creates exceptional value for
+                  ultra-luxury homebuyers.
                 </p>
               </div>
             </div>
