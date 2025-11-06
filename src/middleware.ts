@@ -6,18 +6,19 @@ export function middleware(request: NextRequest) {
   const pathname = url.pathname;
   const hostname = request.headers.get('host') || '';
 
-  // CRITICAL: non-www to www canonicalization (must be first)
-  // Vercel uses www as the root domain, so redirect non-www to www
-  // Vercel handles HTTPS redirects automatically, so we only need to handle www
+  // CRITICAL: www to non-www canonicalization (must be first)
+  // Non-www is the canonical domain (www redirects to non-www)
+  // This matches our sitemap URLs and is better for SEO
   // Only apply to production domain, not Vercel preview/deployment domains
-  const isProductionDomain = hostname === 'lasvegashomeexpert.com';
+  const isProductionDomain = hostname === 'www.lasvegashomeexpert.com' || hostname === 'lasvegashomeexpert.com';
   const isVercelDomain = hostname?.includes('.vercel.app') || hostname?.includes('localhost') || hostname?.includes('127.0.0.1');
   
-  if (isProductionDomain && !hostname.startsWith('www.') && !isVercelDomain) {
-    const wwwHostname = `www.${hostname}`;
+  // Redirect www to non-www (canonical)
+  if (hostname.startsWith('www.') && !isVercelDomain) {
+    const nonWwwHostname = hostname.replace('www.', '');
     // Construct redirect URL properly using the request URL to avoid loops
     const redirectUrl = new URL(request.url);
-    redirectUrl.hostname = wwwHostname;
+    redirectUrl.hostname = nonWwwHostname;
     redirectUrl.protocol = 'https:';
     redirectUrl.port = ''; // Clear port to use default HTTPS port
     return NextResponse.redirect(redirectUrl, { status: 301 });
