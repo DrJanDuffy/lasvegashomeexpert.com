@@ -1,5 +1,9 @@
 import { NextResponse } from 'next/server';
 
+// Route segment config - ensure this route is always dynamic and accessible
+export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs';
+
 // Get current date in YYYY-MM-DD format
 const today = new Date().toISOString().split('T')[0];
 
