@@ -485,6 +485,145 @@ export default function AboutDrJanDuffyPage() {
         height="500px"
       />
 
+      {/* Comprehensive About Content */}
+      <section className="py-16 bg-white">
+        <div className="container-responsive">
+          <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
+            Dr. Jan Duffy: Las Vegas Real Estate Expert
+          </h2>
+          
+          <div className="grid md:grid-cols-2 gap-12 mb-12">
+            <div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6">
+                Professional Background and Expertise
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Dr. Jan Duffy has been a licensed REALTOR® in Las Vegas since 2013, bringing over 15 years of experience and expertise to every real estate transaction. Her background combines advanced education with extensive practical experience, making her uniquely qualified to serve clients in the Las Vegas luxury real estate market.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                What sets Dr. Duffy apart is her educational background in psychology, which provides unique insights into client needs, motivations, and decision-making processes. This combination of real estate expertise and psychological understanding enables her to serve clients more effectively, particularly in complex situations like divorce real estate and relocation services.
+              </p>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
+                Specialized Services and Market Focus
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Dr. Duffy specializes in luxury real estate transactions, focusing on properties from $1 million to over $25 million in Las Vegas's most prestigious neighborhoods. Her expertise extends to Red Rock Country Club, The Ridges Summerlin, MacDonald Highlands, and Southern Highlands, where she has deep knowledge of market conditions, property values, and buyer preferences.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed">
+                Beyond luxury homes, Dr. Duffy offers specialized services including divorce real estate, first-time homebuyer assistance, investment property guidance, and relocation services. Her psychology background proves particularly valuable in divorce real estate situations, where she provides compassionate guidance through emotionally challenging transactions while protecting clients' financial interests.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6">
+                Track Record of Success
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Dr. Duffy's accomplishments speak to her effectiveness as a real estate professional. With over 500 successful transactions representing more than $180 million in sales volume, she has established herself as one of Las Vegas's top real estate agents. Her consistent performance has earned recognition as a top 1% producer with Berkshire Hathaway HomeServices Nevada Properties.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Her success is reflected in client satisfaction, with a 4.9-star rating from 127 verified client reviews. This reputation for excellence is built on delivering results while providing exceptional service. Clients consistently praise her professionalism, market knowledge, negotiation skills, and personal attention to their needs throughout the buying or selling process.
+              </p>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
+                Commitment to Client Success
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Dr. Duffy's approach to real estate is centered on client success. She understands that buying or selling a home is one of life's most significant financial and emotional decisions, and she provides comprehensive support throughout the entire process. Her commitment goes beyond transactions, building lasting relationships with clients based on trust, expertise, and results.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed">
+                She takes time to understand each client's unique needs, goals, and circumstances, tailoring her approach accordingly. Whether helping first-time buyers navigate their initial purchase, assisting luxury homebuyers with complex transactions, or guiding families through divorce real estate, Dr. Duffy provides personalized service that addresses individual situations and objectives.
+              </p>
+            </div>
+          </div>
+          
+          <div className="bg-gradient-to-r from-primary-50 to-neutral-50 rounded-lg p-8 mt-12">
+            <h3 className="text-2xl font-bold text-primary-900 mb-6">
+              Why Choose Dr. Jan Duffy for Your Las Vegas Real Estate Needs
+            </h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">Deep Market Knowledge</h4>
+                <p className="text-neutral-600 leading-relaxed mb-4">
+                  Dr. Duffy's 15+ years of experience in Las Vegas real estate provides comprehensive understanding of market trends, neighborhood characteristics, and property values. This expertise enables her to provide accurate pricing, identify opportunities, and guide clients to make informed decisions that align with their goals.
+                </p>
+                <p className="text-neutral-600 leading-relaxed">
+                  Her knowledge extends beyond general market conditions to specific neighborhoods, property types, and market segments. This localized expertise is invaluable whether buying or selling, ensuring clients receive advice based on current market realities and future trends.
+                </p>
+              </div>
+              
+              <div>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">Professional Network and Resources</h4>
+                <p className="text-neutral-600 leading-relaxed mb-4">
+                  Dr. Duffy has built extensive professional relationships throughout the Las Vegas real estate industry, including lenders, inspectors, contractors, title companies, and other real estate professionals. This network provides clients with access to trusted resources and ensures smooth transactions.
+                </p>
+                <p className="text-neutral-600 leading-relaxed">
+                  Her reputation within the industry also provides access to off-market listings and pocket listings that may not be available through public channels. This network advantage can be particularly valuable in competitive markets or when seeking specific property types or locations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Philosophy and Approach */}
+      <section className="py-16 bg-gradient-to-br from-primary-50 to-neutral-50">
+        <div className="container-responsive">
+          <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
+            Dr. Jan Duffy's Real Estate Philosophy
+          </h2>
+          
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="bg-white rounded-lg p-8 shadow-lg">
+              <h3 className="text-2xl font-bold text-primary-800 mb-4">
+                Client-Centered Approach
+              </h3>
+              <p className="text-neutral-600 leading-relaxed mb-4">
+                Every real estate transaction is unique, and Dr. Duffy tailors her approach to meet each client's specific needs, goals, and circumstances. She takes time to understand what matters most to each client, whether it's finding the perfect home, maximizing sale price, minimizing time on market, or navigating complex situations.
+              </p>
+              <p className="text-neutral-600 leading-relaxed">
+                This client-centered philosophy ensures that strategies and recommendations align with individual objectives rather than applying a one-size-fits-all approach. The result is better outcomes and higher client satisfaction.
+              </p>
+            </div>
+            
+            <div className="bg-white rounded-lg p-8 shadow-lg">
+              <h3 className="text-2xl font-bold text-primary-800 mb-4">
+                Integrity and Transparency
+              </h3>
+              <p className="text-neutral-600 leading-relaxed mb-4">
+                Dr. Duffy believes in complete transparency and honest communication throughout the real estate process. She provides straightforward market analysis, clear recommendations, and honest assessments of property conditions, market conditions, and transaction prospects.
+              </p>
+              <p className="text-neutral-600 leading-relaxed">
+                This integrity-based approach builds trust and ensures clients make informed decisions. Dr. Duffy's commitment to ethical practices and honest representation has earned her reputation as a trusted advisor in the Las Vegas real estate community.
+              </p>
+            </div>
+            
+            <div className="bg-white rounded-lg p-8 shadow-lg">
+              <h3 className="text-2xl font-bold text-primary-800 mb-4">
+                Results-Driven Service
+              </h3>
+              <p className="text-neutral-600 leading-relaxed mb-4">
+                While exceptional service is important, Dr. Duffy understands that results matter most. She combines personalized attention with proven strategies and market expertise to achieve optimal outcomes for her clients, whether that means finding the perfect home quickly, maximizing sale price, or navigating complex transactions successfully.
+              </p>
+              <p className="text-neutral-600 leading-relaxed">
+                Her track record of 500+ successful transactions and $180M+ in sales volume demonstrates her ability to deliver results consistently. This results-driven approach ensures clients achieve their real estate goals while receiving exceptional service throughout the process.
+              </p>
+            </div>
+          </div>
+          
+          <div className="bg-white rounded-lg shadow-lg p-8">
+            <h3 className="text-2xl font-bold text-primary-800 mb-6">
+              What Clients Say About Working with Dr. Jan Duffy
+            </h3>
+            <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+              Client testimonials consistently highlight Dr. Duffy's expertise, professionalism, and results. Clients praise her market knowledge, negotiation skills, attention to detail, and personal service. Many clients become repeat clients, returning to Dr. Duffy for subsequent transactions because of the positive experience and results achieved.
+            </p>
+            <p className="text-lg text-neutral-600 leading-relaxed">
+              The 4.9-star rating from 127 verified reviews reflects the satisfaction of clients who have worked with Dr. Duffy. These reviews demonstrate her ability to exceed expectations while delivering results, whether helping buyers find their dream home or sellers achieve maximum value for their properties.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <FAQSection
         faqs={getFAQsForPage('home')}

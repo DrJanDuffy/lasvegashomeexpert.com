@@ -540,6 +540,168 @@ export default function SellingGuidePage() {
         </div>
       </section>
 
+      {/* Comprehensive Selling Guide Content */}
+      <section className="py-16 bg-white">
+        <div className="container-responsive">
+          <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
+            Complete Guide to Selling Your Home in Las Vegas
+          </h2>
+          
+          <div className="grid md:grid-cols-2 gap-12 mb-12">
+            <div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6">
+                Understanding the Las Vegas Home Selling Market
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                The Las Vegas real estate market offers excellent opportunities for home sellers, with average days on market of 22 days and strong buyer demand across all price ranges. As of 2025, the market shows favorable conditions for sellers, with limited inventory creating competitive situations that can result in multiple offers and above-asking-price sales.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Home prices in Las Vegas have appreciated 12.4% year-over-year, reflecting strong market fundamentals and growing demand. Properties in desirable neighborhoods like Summerlin, Henderson, and Green Valley tend to sell faster and command premium prices. Understanding current market conditions and buyer preferences is essential for maximizing your home's sale price and minimizing time on market.
+              </p>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
+                Preparing Your Home for Sale in Las Vegas
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Proper preparation is crucial for achieving maximum value when selling your Las Vegas home. This includes addressing necessary repairs, improving curb appeal, staging the interior, and ensuring all systems are in working order. Homes that are well-prepared tend to sell faster and for higher prices, often recouping the investment in improvements many times over.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed">
+                Dr. Jan Duffy provides comprehensive home preparation guidance, from minor repairs and cosmetic updates to professional staging recommendations. Her experience with hundreds of successful sales helps identify the improvements that will have the greatest impact on your home's marketability and sale price. This strategic approach ensures you invest in improvements that buyers value most.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6">
+                Pricing Your Las Vegas Home for Maximum Value
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Accurate pricing is the most critical factor in selling your home successfully. Overpricing can result in extended time on market, while underpricing leaves money on the table. Dr. Duffy conducts comprehensive market analysis including comparable sales, current market conditions, and property-specific factors to determine the optimal listing price that maximizes value while ensuring competitive positioning.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                The pricing strategy considers factors like your home's condition, location, features, and current market dynamics. Dr. Duffy's expertise in Las Vegas real estate ensures your home is priced competitively to attract qualified buyers quickly while maximizing sale price. This balance between speed and value is essential for achieving optimal selling outcomes.
+              </p>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
+                Marketing Your Home to Las Vegas Buyers
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Effective marketing is essential for reaching potential buyers and generating interest in your property. Dr. Duffy employs comprehensive marketing strategies including professional photography, virtual tours, online listings, social media promotion, and targeted advertising to ensure your home receives maximum exposure to qualified buyers.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed">
+                Her marketing approach leverages multiple channels including MLS, real estate websites, social media, and her extensive network of buyers and agents. This multi-channel strategy ensures your home is visible to all potential buyers, increasing the likelihood of receiving competitive offers and achieving the best possible sale price.
+              </p>
+            </div>
+          </div>
+          
+          <div className="bg-gradient-to-r from-primary-50 to-neutral-50 rounded-lg p-8 mt-12">
+            <h3 className="text-2xl font-bold text-primary-900 mb-6">
+              Negotiating Offers and Closing the Sale
+            </h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">Evaluating and Negotiating Offers</h4>
+                <p className="text-neutral-600 leading-relaxed mb-4">
+                  When offers come in, Dr. Duffy helps you evaluate each one carefully, considering not just price but also terms, financing, contingencies, and buyer qualifications. Her negotiation expertise ensures you achieve the best possible terms while protecting your interests throughout the process.
+                </p>
+                <p className="text-neutral-600 leading-relaxed">
+                  Multiple offers can create competitive situations that benefit sellers. Dr. Duffy's experience with offer negotiations helps you navigate these situations effectively, ensuring you select the offer that best meets your needs while maximizing sale price and minimizing risk.
+                </p>
+              </div>
+              
+              <div>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">Managing the Closing Process</h4>
+                <p className="text-neutral-600 leading-relaxed mb-4">
+                  Once you accept an offer, the closing process begins. This typically takes 30-45 days and involves inspections, appraisals, title work, and buyer financing. Dr. Duffy coordinates all aspects of the closing process, keeping you informed and addressing any issues that arise.
+                </p>
+                <p className="text-neutral-600 leading-relaxed">
+                  Her attention to detail and experience with Las Vegas real estate transactions ensures smooth closings. She works with all parties involved including buyers, lenders, title companies, and inspectors to keep the transaction on track and resolve any challenges that may arise during the closing process.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Working with Dr. Jan Duffy */}
+      <section className="py-16 bg-gradient-to-br from-primary-50 to-neutral-50">
+        <div className="container-responsive">
+          <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
+            Why Choose Dr. Jan Duffy to Sell Your Las Vegas Home
+          </h2>
+          
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="bg-white rounded-lg p-8 shadow-lg">
+              <h3 className="text-2xl font-bold text-primary-800 mb-4">
+                Proven Track Record of Success
+              </h3>
+              <p className="text-neutral-600 leading-relaxed mb-4">
+                Dr. Jan Duffy has successfully closed over 500 real estate transactions in Las Vegas, representing more than $180 million in sales volume. Her consistent performance has earned recognition as a top 1% producer with Berkshire Hathaway HomeServices Nevada Properties, demonstrating her ability to achieve exceptional results for sellers.
+              </p>
+              <p className="text-neutral-600 leading-relaxed">
+                Her experience spans all types of properties from starter homes to luxury estates, giving her deep understanding of what buyers want and how to position properties effectively. This expertise translates into faster sales and higher prices for her clients.
+              </p>
+            </div>
+            
+            <div className="bg-white rounded-lg p-8 shadow-lg">
+              <h3 className="text-2xl font-bold text-primary-800 mb-4">
+                Comprehensive Market Knowledge
+              </h3>
+              <p className="text-neutral-600 leading-relaxed mb-4">
+                With 15+ years of experience in Las Vegas real estate, Dr. Duffy possesses intimate knowledge of market trends, neighborhood characteristics, and buyer preferences. This expertise enables her to provide accurate pricing, effective marketing strategies, and strategic advice that maximizes your home's sale potential.
+              </p>
+              <p className="text-neutral-600 leading-relaxed">
+                Her understanding of Las Vegas neighborhoods from Summerlin to Henderson ensures your home is positioned correctly in the market. She knows what buyers value in each area and how to highlight your home's best features to attract the right buyers quickly.
+              </p>
+            </div>
+            
+            <div className="bg-white rounded-lg p-8 shadow-lg">
+              <h3 className="text-2xl font-bold text-primary-800 mb-4">
+                Personal Service and Attention to Detail
+              </h3>
+              <p className="text-neutral-600 leading-relaxed mb-4">
+                Dr. Duffy provides personalized service throughout the entire selling process, from initial consultation to closing. Her background in psychology gives her unique insights into both buyer and seller motivations, enabling her to navigate complex situations and negotiations effectively.
+              </p>
+              <p className="text-neutral-600 leading-relaxed">
+                She understands that selling a home is often an emotional process, and she provides compassionate guidance while maintaining focus on achieving your goals. Her attention to detail ensures nothing is overlooked, from home preparation to closing coordination, resulting in smooth transactions and satisfied clients.
+              </p>
+            </div>
+          </div>
+          
+          <div className="bg-white rounded-lg shadow-lg p-8">
+            <h3 className="text-2xl font-bold text-primary-800 mb-6">
+              The Home Selling Process with Dr. Jan Duffy
+            </h3>
+            <div className="space-y-6">
+              <div>
+                <h4 className="text-xl font-bold text-primary-800 mb-3">Initial Consultation and Home Evaluation</h4>
+                <p className="text-neutral-600 leading-relaxed">
+                  Dr. Duffy begins with a comprehensive consultation to understand your goals, timeline, and property characteristics. She conducts a thorough evaluation of your home, identifying strengths and areas for improvement, and provides a detailed market analysis with pricing recommendations based on current market conditions and comparable sales.
+                </p>
+              </div>
+              
+              <div>
+                <h4 className="text-xl font-bold text-primary-800 mb-3">Home Preparation and Staging</h4>
+                <p className="text-neutral-600 leading-relaxed">
+                  Based on her evaluation, Dr. Duffy provides specific recommendations for preparing your home for sale. This may include repairs, updates, decluttering, and staging to maximize appeal to buyers. She coordinates with trusted professionals to ensure all work is completed to high standards, enhancing your home's marketability.
+                </p>
+              </div>
+              
+              <div>
+                <h4 className="text-xl font-bold text-primary-800 mb-3">Strategic Marketing and Showings</h4>
+                <p className="text-neutral-600 leading-relaxed">
+                  Once your home is prepared, Dr. Duffy launches a comprehensive marketing campaign to reach potential buyers. She manages showings, open houses, and property tours, ensuring your home is presented in the best possible light while minimizing disruption to your daily life.
+                </p>
+              </div>
+              
+              <div>
+                <h4 className="text-xl font-bold text-primary-800 mb-3">Offer Negotiation and Closing</h4>
+                <p className="text-neutral-600 leading-relaxed">
+                  When offers are received, Dr. Duffy helps you evaluate and negotiate to achieve the best possible terms. She manages all aspects of the closing process, coordinating with buyers, lenders, inspectors, and title companies to ensure a smooth transaction from contract to closing.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <FAQSection
         faqs={getFAQsForPage('selling-guide')}
