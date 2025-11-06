@@ -53,47 +53,7 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(url, { status: 301 });
   }
 
-  // Redirect duplicate content patterns (common in site migrations)
-  if (pathname.match(/-[2-9]$/)) {
-    url.pathname = pathname.replace(/-[2-9]$/, '');
-    return NextResponse.redirect(url, { status: 301 });
-  }
-
-  // Redirect legacy service URLs to new structure
-  if (pathname.startsWith('/services/luxuryhomes')) {
-    url.pathname = '/luxury-homes-for-sale-las-vegas';
-    return NextResponse.redirect(url, { status: 301 });
-  }
-
-  if (pathname.startsWith('/services/dr-jan-duffy')) {
-    url.pathname = '/about-dr-jan-duffy';
-    return NextResponse.redirect(url, { status: 301 });
-  }
-
-  if (pathname.startsWith('/services/firsttimehomebuyer')) {
-    url.pathname = '/first-time-home-buyer-las-vegas';
-    return NextResponse.redirect(url, { status: 301 });
-  }
-
-  if (pathname.startsWith('/services/real-estate-investment')) {
-    url.pathname = '/investment-properties-las-vegas';
-    return NextResponse.redirect(url, { status: 301 });
-  }
-
-  // Redirect legacy community URLs to neighborhood structure
-  if (pathname.startsWith('/communities/')) {
-    url.pathname = pathname.replace('/communities/', '/neighborhoods/');
-    return NextResponse.redirect(url, { status: 301 });
-  }
-
-  // Redirect legacy blog URLs to main content
-  if (pathname === '/blog' || pathname.startsWith('/blog/') || pathname.startsWith('/insights/')) {
-    url.pathname = '/';
-    url.search = ''; // Remove query parameters
-    return NextResponse.redirect(url, { status: 301 });
-  }
-
-  // Redirect orphaned blog posts (single-path slugs that look like blog posts)
+  // Redirect orphaned blog posts FIRST (before other redirects)
   // These are WordPress slugs that no longer exist but Google is still crawling
   // Only match if it's a single path segment (no forward slashes) and looks like a blog post slug
   // Handle both with and without trailing slashes
@@ -153,6 +113,46 @@ export function middleware(request: NextRequest) {
   // If we removed query params, redirect to clean URL
   if (hasUnwantedParams) {
     return NextResponse.redirect(cleanedUrl, { status: 301 });
+  }
+
+  // Redirect duplicate content patterns (common in site migrations)
+  if (pathname.match(/-[2-9]$/)) {
+    url.pathname = pathname.replace(/-[2-9]$/, '');
+    return NextResponse.redirect(url, { status: 301 });
+  }
+
+  // Redirect legacy service URLs to new structure
+  if (pathname.startsWith('/services/luxuryhomes')) {
+    url.pathname = '/luxury-homes-for-sale-las-vegas';
+    return NextResponse.redirect(url, { status: 301 });
+  }
+
+  if (pathname.startsWith('/services/dr-jan-duffy')) {
+    url.pathname = '/about-dr-jan-duffy';
+    return NextResponse.redirect(url, { status: 301 });
+  }
+
+  if (pathname.startsWith('/services/firsttimehomebuyer')) {
+    url.pathname = '/first-time-home-buyer-las-vegas';
+    return NextResponse.redirect(url, { status: 301 });
+  }
+
+  if (pathname.startsWith('/services/real-estate-investment')) {
+    url.pathname = '/investment-properties-las-vegas';
+    return NextResponse.redirect(url, { status: 301 });
+  }
+
+  // Redirect legacy community URLs to neighborhood structure
+  if (pathname.startsWith('/communities/')) {
+    url.pathname = pathname.replace('/communities/', '/neighborhoods/');
+    return NextResponse.redirect(url, { status: 301 });
+  }
+
+  // Redirect legacy blog URLs to main content
+  if (pathname === '/blog' || pathname.startsWith('/blog/') || pathname.startsWith('/insights/')) {
+    url.pathname = '/';
+    url.search = ''; // Remove query parameters
+    return NextResponse.redirect(url, { status: 301 });
   }
 
   // Handle trailing slashes - redirect to non-trailing slash version (except for root)
