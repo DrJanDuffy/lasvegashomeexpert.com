@@ -38,7 +38,7 @@ const WebPageSchema: FC<WebPageSchemaProps> = ({
   isPartOf = {
     '@type': 'WebSite',
     name: 'Las Vegas Home Expert',
-    url: 'https://www.lasvegashomeexpert.com',
+    url: 'https://lasvegashomeexpert.com',
   },
   breadcrumb,
   primaryImageOfPage,

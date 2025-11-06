@@ -33,15 +33,15 @@ export function generateWebPageSchema(metadata: PageMetadata) {
     url: metadata.url,
     isPartOf: {
       '@type': 'WebSite',
-      '@id': 'https://www.lasvegashomeexpert.com#website',
+      '@id': 'https://lasvegashomeexpert.com#website',
       name: 'Las Vegas Home Expert',
-      url: 'https://www.lasvegashomeexpert.com',
+      url: 'https://lasvegashomeexpert.com',
     },
     dateModified: metadata.dateModified || new Date().toISOString(),
     inLanguage: 'en-US',
     about: {
       '@type': 'RealEstateAgent',
-      '@id': 'https://www.lasvegashomeexpert.com#agent',
+      '@id': 'https://lasvegashomeexpert.com#agent',
     },
   };
 
@@ -106,22 +106,22 @@ export function generateArticleSchema(
           '@type': 'ImageObject',
           url: options.image,
         }
-      : 'https://www.lasvegashomeexpert.com/dr-jan-duffy.jpg',
+      : 'https://lasvegashomeexpert.com/dr-jan-duffy.jpg',
     datePublished: options?.datePublished || new Date().toISOString(),
     dateModified: options?.dateModified || new Date().toISOString(),
     author: {
       '@type': 'Person',
       name: options?.author?.name || 'Dr. Jan Duffy',
-      url: options?.author?.url || 'https://www.lasvegashomeexpert.com/about-dr-jan-duffy',
+      url: options?.author?.url || 'https://lasvegashomeexpert.com/about-dr-jan-duffy',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Las Vegas Home Expert',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.lasvegashomeexpert.com/logo.png',
+        url: 'https://lasvegashomeexpert.com/logo.png',
       },
-      url: 'https://www.lasvegashomeexpert.com',
+      url: 'https://lasvegashomeexpert.com',
     },
     articleSection: options?.articleSection || 'Real Estate',
     ...(options?.keywords && options.keywords.length > 0 && { keywords: options.keywords.join(', ') }),
@@ -139,10 +139,10 @@ export function generateArticleSchema(
  */
 export const DEFAULT_ORGANIZATION = {
   '@type': 'RealEstateAgent',
-  '@id': 'https://www.lasvegashomeexpert.com#agent',
+  '@id': 'https://lasvegashomeexpert.com#agent',
   name: 'Dr. Jan Duffy',
   alternateName: ['Dr. Jan Duffy Real Estate', 'Las Vegas Home Expert'],
-  url: 'https://www.lasvegashomeexpert.com',
+  url: 'https://lasvegashomeexpert.com',
   telephone: '702-222-1964',
   email: 'DrJanSells@LasVegasHomeExpert.com',
   address: {

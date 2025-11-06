@@ -15,15 +15,15 @@ const KnowledgeGraphSchema: FC<KnowledgeGraphSchemaProps> = ({
     '@graph': [
       {
         '@type': 'RealEstateAgent',
-        '@id': 'https://www.lasvegashomeexpert.com#agent',
+        '@id': 'https://lasvegashomeexpert.com#agent',
         name: 'Dr. Jan Duffy',
         alternateName: ['Dr. Jan Duffy Real Estate', 'Las Vegas Home Expert'],
         description:
           'Las Vegas luxury real estate specialist with 10+ years of experience, specializing in luxury homes, divorce real estate, and veteran services throughout the Las Vegas Valley.',
-        url: 'https://www.lasvegashomeexpert.com',
+        url: 'https://lasvegashomeexpert.com',
         telephone: '702-222-1964',
         email: 'DrJanSells@LasVegasHomeExpert.com',
-        image: 'https://www.lasvegashomeexpert.com/dr-jan-duffy.jpg',
+        image: 'https://lasvegashomeexpert.com/dr-jan-duffy.jpg',
         jobTitle: 'Real Estate Agent',
         worksFor: {
           '@type': 'RealEstateAgent',
@@ -90,11 +90,11 @@ const KnowledgeGraphSchema: FC<KnowledgeGraphSchemaProps> = ({
       },
       {
         '@type': 'Organization',
-        '@id': 'https://www.lasvegashomeexpert.com#organization',
+        '@id': 'https://lasvegashomeexpert.com#organization',
         name: 'Las Vegas Home Expert',
         alternateName: 'Dr. Jan Duffy Real Estate',
-        url: 'https://www.lasvegashomeexpert.com',
-        logo: 'https://www.lasvegashomeexpert.com/logo.png',
+        url: 'https://lasvegashomeexpert.com',
+        logo: 'https://lasvegashomeexpert.com/logo.png',
         sameAs: [],
         contactPoint: {
           '@type': 'ContactPoint',
@@ -114,11 +114,11 @@ const KnowledgeGraphSchema: FC<KnowledgeGraphSchemaProps> = ({
       },
       {
         '@type': 'WebSite',
-        '@id': 'https://www.lasvegashomeexpert.com#website',
+        '@id': 'https://lasvegashomeexpert.com#website',
         name: 'Las Vegas Home Expert',
-        url: 'https://www.lasvegashomeexpert.com',
+        url: 'https://lasvegashomeexpert.com',
         publisher: {
-          '@id': 'https://www.lasvegashomeexpert.com#organization',
+          '@id': 'https://lasvegashomeexpert.com#organization',
         },
         inLanguage: 'en-US',
       },
@@ -127,10 +127,10 @@ const KnowledgeGraphSchema: FC<KnowledgeGraphSchemaProps> = ({
         '@id': `${pageUrl}#webpage`,
         url: pageUrl,
         isPartOf: {
-          '@id': 'https://www.lasvegashomeexpert.com#website',
+          '@id': 'https://lasvegashomeexpert.com#website',
         },
         about: {
-          '@id': 'https://www.lasvegashomeexpert.com#agent',
+          '@id': 'https://lasvegashomeexpert.com#agent',
         },
       },
     ],

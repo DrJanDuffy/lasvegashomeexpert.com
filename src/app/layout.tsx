@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Las Vegas Home Expert',
     description: 'Your trusted real estate partner in Las Vegas',
-    url: 'https://www.lasvegashomeexpert.com',
+    url: 'https://lasvegashomeexpert.com',
     siteName: 'Las Vegas Home Expert',
     images: [
       {
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   verification: {
     google: 'your-google-verification-code',
   },
-  metadataBase: new URL('https://www.lasvegashomeexpert.com'),
+  metadataBase: new URL('https://lasvegashomeexpert.com'),
 };
 
 export default function RootLayout({
@@ -149,7 +149,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-neutral-50 text-neutral-900 antialiased`}>
         {/* Grokipedia & AI Optimization - Structured Data for Knowledge Graphs */}
         <OrganizationSchema />
-        <KnowledgeGraphSchema pageUrl="https://www.lasvegashomeexpert.com" pageType="WebSite" />
+        <KnowledgeGraphSchema pageUrl="https://lasvegashomeexpert.com" pageType="WebSite" />
 
         {/* Google Analytics */}
         <Script

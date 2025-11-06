@@ -23,17 +23,17 @@ interface ArticleSchemaProps {
 const ArticleSchema: FC<ArticleSchemaProps> = ({
   headline,
   description,
-  image = 'https://www.lasvegashomeexpert.com/dr-jan-duffy.jpg',
+  image = 'https://lasvegashomeexpert.com/dr-jan-duffy.jpg',
   datePublished = new Date().toISOString(),
   dateModified = new Date().toISOString(),
   author = {
     name: 'Dr. Jan Duffy',
-    url: 'https://www.lasvegashomeexpert.com/about-dr-jan-duffy',
+    url: 'https://lasvegashomeexpert.com/about-dr-jan-duffy',
   },
   publisher = {
     name: 'Las Vegas Home Expert',
-    logo: 'https://www.lasvegashomeexpert.com/logo.png',
-    url: 'https://www.lasvegashomeexpert.com',
+    logo: 'https://lasvegashomeexpert.com/logo.png',
+    url: 'https://lasvegashomeexpert.com',
   },
   mainEntityOfPage,
   articleSection = 'Real Estate',

@@ -20,20 +20,20 @@ export default function HomePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'WebPage',
-            '@id': 'https://www.lasvegashomeexpert.com#webpage',
+            '@id': 'https://lasvegashomeexpert.com#webpage',
             name: 'Las Vegas Home Expert - Your Trusted Real Estate Partner',
             description:
               'Expert real estate services in Las Vegas. Find your dream home, get property valuations, and work with experienced professionals.',
-            url: 'https://www.lasvegashomeexpert.com',
+            url: 'https://lasvegashomeexpert.com',
             isPartOf: {
               '@type': 'WebSite',
-              '@id': 'https://www.lasvegashomeexpert.com#website',
+              '@id': 'https://lasvegashomeexpert.com#website',
               name: 'Las Vegas Home Expert',
-              url: 'https://www.lasvegashomeexpert.com',
+              url: 'https://lasvegashomeexpert.com',
             },
             primaryImageOfPage: {
               '@type': 'ImageObject',
-              url: 'https://www.lasvegashomeexpert.com/dr-jan-duffy.jpg',
+              url: 'https://lasvegashomeexpert.com/dr-jan-duffy.jpg',
             },
             datePublished: '2013-01-01',
             dateModified: new Date().toISOString(),
@@ -43,7 +43,7 @@ export default function HomePage() {
             },
             mainEntity: {
               '@type': 'RealEstateAgent',
-              '@id': 'https://www.lasvegashomeexpert.com#agent',
+              '@id': 'https://lasvegashomeexpert.com#agent',
             },
             inLanguage: 'en-US',
           }),
@@ -59,10 +59,10 @@ export default function HomePage() {
             '@type': 'RealEstateAgent',
             name: 'Dr. Jan Duffy',
             description: 'Las Vegas luxury real estate specialist since 2013',
-            url: 'https://www.lasvegashomeexpert.com',
+            url: 'https://lasvegashomeexpert.com',
             telephone: '702-222-1964',
             email: 'DrJanSells@LasVegasHomeExpert.com',
-            image: 'https://www.lasvegashomeexpert.com/dr-jan-duffy.jpg',
+            image: 'https://lasvegashomeexpert.com/dr-jan-duffy.jpg',
             address: {
               '@type': 'PostalAddress',
               streetAddress: '1700 S Pavilion Center Drive, Suite 140',

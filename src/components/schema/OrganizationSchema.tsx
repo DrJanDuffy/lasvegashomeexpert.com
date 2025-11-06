@@ -22,8 +22,8 @@ interface OrganizationSchemaProps {
 
 const OrganizationSchema: FC<OrganizationSchemaProps> = ({
   name = 'Las Vegas Home Expert',
-  url = 'https://www.lasvegashomeexpert.com',
-  logo = 'https://www.lasvegashomeexpert.com/logo.png',
+  url = 'https://lasvegashomeexpert.com',
+  logo = 'https://lasvegashomeexpert.com/logo.png',
   description = 'Las Vegas luxury real estate specialist providing expert services for buying, selling, and investing in luxury properties throughout the Las Vegas Valley.',
   contactPoint = {
     telephone: '702-222-1964',
@@ -51,7 +51,7 @@ const OrganizationSchema: FC<OrganizationSchemaProps> = ({
       '@type': 'ImageObject',
       url: logo,
     },
-    image: 'https://www.lasvegashomeexpert.com/dr-jan-duffy.jpg',
+    image: 'https://lasvegashomeexpert.com/dr-jan-duffy.jpg',
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: contactPoint.telephone,
