@@ -140,8 +140,8 @@ export function middleware(request: NextRequest) {
   }
 
   // Add noindex header for low-value legacy pages
+  // Note: /page/ is redirected, not noindexed
   const noindexPatterns = [
-    /^\/page\//,
     /^\/author\//,
     /^\/tag\//,
     /^\/attachment\//,

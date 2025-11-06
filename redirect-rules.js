@@ -177,6 +177,11 @@ const redirects = [
     destination: '/',
     permanent: true,
   },
+  {
+    source: '/page/:path*',
+    destination: '/',
+    permanent: true,
+  },
 
   // Redirect category/taxonomy pages
   {
