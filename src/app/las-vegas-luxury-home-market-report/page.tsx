@@ -407,6 +407,80 @@ export default function LuxuryHomeMarketReportPage() {
         </div>
       </section>
 
+      {/* Comprehensive Market Report Content */}
+      <section className="py-16 bg-white">
+        <div className="container-responsive">
+          <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
+            Complete Las Vegas Luxury Home Market Report 2025
+          </h2>
+          
+          <div className="grid md:grid-cols-2 gap-12 mb-12">
+            <div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6">
+                Las Vegas Luxury Market Overview 2025
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                The Las Vegas luxury home market continues to show strong fundamentals with 14.2% year-over-year price appreciation, 18 days average on market, and 2.1 months of inventory. These metrics indicate a healthy market with strong demand and appreciation potential, making Las Vegas an attractive destination for luxury homebuyers and investors.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                The luxury market represents 23% of total Las Vegas real estate sales, demonstrating strong demand for high-end properties. With 247 active luxury listings and 89 pending sales, the market shows robust activity and healthy turnover. New construction continues to add 34 luxury homes to the market, providing additional options for buyers.
+              </p>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
+                Luxury Neighborhood Market Performance
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed">
+                Premium neighborhoods like The Ridges, Red Rock Country Club, Tournament Hills, and Southern Highlands show strong performance with appreciation rates ranging from 11.8% to 15.2%. These communities continue to attract luxury buyers seeking golf course access, mountain views, and exclusive amenities that create exceptional lifestyle experiences.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6">
+                Key Market Trends and Insights
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                The Las Vegas luxury market shows several key trends including strong price appreciation, fast market speed, and limited inventory. The 18-day average time on market demonstrates strong buyer demand, while 2.1 months of inventory indicates a seller's market with competitive conditions for buyers.
+              </p>
+              <p className="text-lg text-neutral-600 leading-relaxed mb-4">
+                Market conditions favor sellers with multiple offers common on well-priced luxury properties. However, buyers benefit from increased inventory compared to previous years, providing more options and opportunities for negotiation. The combination of strong appreciation and healthy market activity creates opportunities for both buyers and sellers.
+              </p>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
+                Using Market Data for Real Estate Decisions
+              </h3>
+              <p className="text-lg text-neutral-600 leading-relaxed">
+                Understanding market trends and data is essential for making informed real estate decisions. Dr. Jan Duffy provides comprehensive market analysis including neighborhood comparisons, price trends, and inventory levels that help buyers and sellers make strategic decisions. Her expertise in Las Vegas luxury markets enables her to provide insights that support optimal real estate outcomes.
+              </p>
+            </div>
+          </div>
+          
+          <div className="bg-gradient-to-r from-primary-50 to-neutral-50 rounded-lg p-8 mt-12">
+            <h3 className="text-2xl font-bold text-primary-900 mb-6">
+              What the Market Data Means for Buyers and Sellers
+            </h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">For Luxury Home Buyers</h4>
+                <p className="text-neutral-600 leading-relaxed mb-4">
+                  The current market data indicates strong appreciation potential and competitive conditions. Buyers should be prepared for multiple offer situations and fast-moving properties. Working with an experienced luxury realtor like Dr. Jan Duffy provides advantages in navigating competitive markets and securing desirable properties.
+                </p>
+                <p className="text-neutral-600 leading-relaxed">
+                  The 18-day average time on market requires buyers to act quickly when desirable properties become available. Pre-approval, clear priorities, and experienced representation are essential for success in the current luxury market. Dr. Duffy's expertise helps buyers position themselves effectively in competitive situations.
+                </p>
+              </div>
+              
+              <div>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">For Luxury Home Sellers</h4>
+                <p className="text-neutral-600 leading-relaxed mb-4">
+                  The current market data indicates favorable conditions for sellers with strong appreciation, fast sales, and limited inventory. However, proper pricing and presentation remain critical for maximizing value and minimizing time on market. Strategic pricing based on current market data ensures optimal outcomes.
+                </p>
+                <p className="text-neutral-600 leading-relaxed">
+                  The 2.1 months of inventory creates opportunities for sellers to achieve premium prices, especially for well-positioned properties. Working with an experienced luxury realtor ensures proper market positioning, effective marketing, and optimal pricing strategies that maximize sale price while ensuring competitive market positioning.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <FAQSection
         faqs={getFAQsForPage('general')}

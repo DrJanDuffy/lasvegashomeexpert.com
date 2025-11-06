@@ -542,6 +542,80 @@ export default function ModernHomesExpertPage() {
         </div>
       </section>
 
+      {/* Comprehensive Modern Homes Guide */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
+            Complete Guide to Modern Homes in Las Vegas
+          </h2>
+          
+          <div className="grid md:grid-cols-2 gap-12 mb-12">
+            <div>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">
+                Modern Homes: Contemporary Luxury Living in Las Vegas
+              </h3>
+              <p className="text-lg text-slate-600 leading-relaxed mb-4">
+                Las Vegas offers exceptional modern homes featuring contemporary architecture, smart home technology, and cutting-edge design elements. These properties combine luxury living with modern amenities, creating unique living experiences for buyers seeking contemporary style and advanced features. The modern home market shows strong appreciation with 22% year-over-year growth, demonstrating strong demand.
+              </p>
+              <p className="text-lg text-slate-600 leading-relaxed mb-4">
+                Modern homes in Las Vegas typically feature open floor plans, floor-to-ceiling windows, contemporary finishes, and smart home technology. These features appeal to buyers seeking both luxury living and modern convenience. Properties range from $1 million to over $5 million, offering diverse options for different budgets and preferences.
+              </p>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
+                Modern Home Features and Amenities
+              </h3>
+              <p className="text-lg text-slate-600 leading-relaxed">
+                Modern homes in Las Vegas feature cutting-edge amenities including smart home automation, energy-efficient systems, contemporary design elements, and resort-style outdoor living spaces. These features create living experiences that combine luxury, convenience, and sustainability. Dr. Jan Duffy's expertise in modern homes enables her to help buyers find properties that match their contemporary lifestyle preferences.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">
+                Why Choose Modern Homes in Las Vegas
+              </h3>
+              <p className="text-lg text-slate-600 leading-relaxed mb-4">
+                Modern homes offer luxury homebuyers exceptional value through contemporary design, advanced technology, strong appreciation, and modern amenities. The average modern home price of $1.8 million represents excellent value for contemporary luxury living, while providing access to cutting-edge features and design elements.
+              </p>
+              <p className="text-lg text-slate-600 leading-relaxed mb-4">
+                The modern home market shows strong fundamentals with 22% year-over-year appreciation, 45 days average on market, and 3.2 months of inventory. These metrics indicate a healthy market with strong demand and appreciation potential, making modern homes an attractive investment opportunity.
+              </p>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
+                Working with Dr. Jan Duffy for Modern Homes
+              </h3>
+              <p className="text-lg text-slate-600 leading-relaxed">
+                Dr. Jan Duffy specializes in modern homes in Las Vegas, with extensive knowledge of contemporary properties, market conditions, and buyer preferences. Her expertise in modern architecture and smart home technology enables her to help buyers find properties that match their contemporary lifestyle and investment goals.
+              </p>
+            </div>
+          </div>
+          
+          <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg p-8 mt-12">
+            <h3 className="text-2xl font-bold text-slate-800 mb-6">
+              What Makes Modern Homes Special
+            </h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">Contemporary Architecture and Design</h4>
+                <p className="text-slate-600 leading-relaxed mb-4">
+                  Modern homes feature contemporary architecture with clean lines, open spaces, and innovative design elements. These properties appeal to buyers seeking cutting-edge style and modern aesthetics that reflect contemporary luxury living. The design elements create unique living experiences that stand out from traditional luxury homes.
+                </p>
+                <p className="text-slate-600 leading-relaxed">
+                  The contemporary design approach combines functionality with aesthetics, creating spaces that are both beautiful and practical. This design philosophy appeals to buyers seeking modern luxury living with innovative features and contemporary style.
+                </p>
+              </div>
+              
+              <div>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">Smart Home Technology and Energy Efficiency</h4>
+                <p className="text-slate-600 leading-relaxed mb-4">
+                  Modern homes feature smart home technology including automation systems, energy-efficient appliances, and advanced security features. These technologies create convenient, efficient, and secure living environments that appeal to buyers seeking modern luxury with advanced features.
+                </p>
+                <p className="text-slate-600 leading-relaxed">
+                  The combination of smart technology and energy efficiency creates value for buyers seeking both luxury living and modern convenience. These features contribute to lower operating costs and enhanced living experiences that justify premium pricing for modern homes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <FAQSection
         faqs={getFAQsForPage('buying')}
