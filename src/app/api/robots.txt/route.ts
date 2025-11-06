@@ -45,7 +45,9 @@ Disallow: /category-sitemap.xml
 Disallow: /author-sitemap.xml
 Disallow: /tag-sitemap.xml
 Disallow: /date-sitemap.xml
-Disallow: /*sitemap*.xml
+Disallow: /series-sitemap.xml
+Disallow: /wprss_feed_template-sitemap.xml
+# Note: Valid sitemaps (sitemap.xml, sitemap-index.xml, image-sitemap.xml) are ALLOWED
 Disallow: /*.xsl
 
 # Block file extensions (images, PDFs, etc.) - these shouldn't be indexed
