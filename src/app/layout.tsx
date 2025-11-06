@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Las Vegas Home Expert',
     description: 'Your trusted real estate partner in Las Vegas',
-    url: 'https://lasvegashomeexpert.com',
+    url: 'https://lasvegashomeexpert.com/',
     siteName: 'Las Vegas Home Expert',
     images: [
       {
