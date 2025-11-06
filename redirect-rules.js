@@ -15,11 +15,6 @@ const redirects = [
     permanent: true,
   },
   {
-    source: '/wp-login.php?action=:path*',
-    destination: '/',
-    permanent: true,
-  },
-  {
     source: '/wp-includes/:path*',
     destination: '/',
     permanent: true,
