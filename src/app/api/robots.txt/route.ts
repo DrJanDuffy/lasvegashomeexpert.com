@@ -27,30 +27,11 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-# CRITICAL: Block legacy URLs that may still be crawled from old site
-# These are likely from external links or search engine cache
-Disallow: /wp-admin/
-Disallow: /wp-login.php
-Disallow: /wp-includes/
-Disallow: /wp-content/
-Disallow: /wp-json/
-Disallow: /xmlrpc.php
-Disallow: /feed/
-Disallow: /rss/
-Disallow: /comments/feed/
-Disallow: /trackback/
-
-# Block legacy WordPress admin patterns that Google is still finding
-# Note: These are also redirected via middleware, but we block them too for security
-Disallow: /wp-admin/post.php?post=*&action=*
-Disallow: /wp-admin/admin-ajax.php
-Disallow: /wp-admin/admin-post.php
-Disallow: /wp-admin/load-scripts.php
-Disallow: /wp-admin/load-styles.php
-
-# NOTE: Legacy URLs are now handled via 301 redirects (better for SEO)
-# Instead of blocking them in robots.txt, we redirect them to preserve link equity
-# Only truly sensitive/admin paths are blocked below
+# NOTE: Legacy WordPress URLs are now handled via 301 redirects (better for SEO)
+# Middleware redirects all wp-admin, wp-content, feeds, etc. to homepage
+# This allows Google to follow redirects and preserves link equity
+# Redirects happen at server level before any content is served, so it's secure
+# Only truly sensitive paths and file extensions are blocked below
 
 # Block only truly sensitive paths that should never be accessed
 Disallow: /attachment/
