@@ -6,16 +6,16 @@ export function middleware(request: NextRequest) {
   const pathname = url.pathname;
   const hostname = request.headers.get('host') || '';
 
-  // CRITICAL: HTTP to HTTPS redirect (must be first)
-  if (request.nextUrl.protocol === 'http:') {
-    url.protocol = 'https:';
-    return NextResponse.redirect(url, { status: 301 });
-  }
-
-  // CRITICAL: www to non-www canonicalization (must be early)
-  if (hostname.startsWith('www.')) {
-    url.hostname = hostname.replace('www.', '');
-    return NextResponse.redirect(url, { status: 301 });
+  // CRITICAL: www to non-www canonicalization (must be first)
+  // Vercel handles HTTPS redirects automatically, so we only need to handle www
+  if (hostname && hostname.startsWith('www.')) {
+    const cleanHostname = hostname.replace(/^www\./, '');
+    // Construct redirect URL properly using the request URL to avoid loops
+    const redirectUrl = new URL(request.url);
+    redirectUrl.hostname = cleanHostname;
+    redirectUrl.protocol = 'https:';
+    redirectUrl.port = ''; // Clear port to use default HTTPS port
+    return NextResponse.redirect(redirectUrl, { status: 301 });
   }
 
   // CRITICAL: Immediately redirect legacy URLs that may still be crawled
