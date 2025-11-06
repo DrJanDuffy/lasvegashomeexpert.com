@@ -1,5 +1,9 @@
 import { NextResponse } from 'next/server';
 
+// Route segment config - ensure this route is always dynamic and accessible
+export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs';
+
 export async function GET() {
   const robotsTxt = `# Allow all search engines and AI crawlers (including Grok, GPTBot, ChatGPT, etc.)
 User-agent: *
