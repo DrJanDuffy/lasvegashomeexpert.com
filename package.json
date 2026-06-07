@@ -1,5 +1,5 @@
 {
-  "name": "lasvegashomeexpert.com",
+  "name": "grokipedia.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,7 +17,10 @@
     "biome:ci": "biome ci .",
     "biome:check:verbose": "biome check . --verbose",
     "biome:stats": "biome check . --verbose --max-diagnostics=1000",
-    "prepare": "husky"
+    "prepare": "husky",
+    "schema:validate": "tsx scripts/add-schema-to-pages.ts --validate",
+    "schema:add": "tsx scripts/add-schema-to-pages.ts",
+    "schema:scan": "tsx scripts/add-schema-to-pages.ts --all"
   },
   "dependencies": {
     "@turf/turf": "^6.5.0",
@@ -41,6 +44,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "husky": "^9.1.7"
+    "husky": "^9.1.7",
+    "tsx": "^4.7.0"
   }
 }

@@ -23,9 +23,9 @@ export interface FAQItem {
   _wordCount?: number;
 }
 
-interface FAQSchemaProps {
-  items: FAQItem[];
-  /** Optional: Page URL for better context and @id references */
+interface FAQPageSchemaProps {
+  faqs: FAQItem[];
+  /** Optional: Page URL for better context */
   pageUrl?: string;
 }
 
@@ -40,15 +40,15 @@ function validateAnswerLength(answer: string, question: string): number {
   if (typeof window !== 'undefined' && process.env.NODE_ENV === 'development') {
     if (wordCount < 40) {
       console.warn(
-        `[FAQSchema] Answer too short (${wordCount} words) for: "${question}". Optimal: 40-80 words.`
+        `[FAQPageSchema] Answer too short (${wordCount} words) for: "${question}". Optimal: 40-80 words.`
       );
     } else if (wordCount > 120) {
       console.warn(
-        `[FAQSchema] Answer too long (${wordCount} words) for: "${question}". AI may truncate. Max: 120 words.`
+        `[FAQPageSchema] Answer too long (${wordCount} words) for: "${question}". AI may truncate. Max: 120 words.`
       );
     } else if (wordCount > 80) {
       console.info(
-        `[FAQSchema] Answer length OK (${wordCount} words) but could be more concise. Optimal: 40-80 words.`
+        `[FAQPageSchema] Answer length OK (${wordCount} words) but could be more concise. Optimal: 40-80 words.`
       );
     }
   }
@@ -56,10 +56,10 @@ function validateAnswerLength(answer: string, question: string): number {
   return wordCount;
 }
 
-const FAQSchema: FC<FAQSchemaProps> = ({ items, pageUrl }) => {
+const FAQPageSchema: FC<FAQPageSchemaProps> = ({ faqs, pageUrl }) => {
   // Validate all answers in development
   if (process.env.NODE_ENV === 'development') {
-    items.forEach(item => validateAnswerLength(item.answer, item.question));
+    faqs.forEach(faq => validateAnswerLength(faq.answer, faq.question));
   }
 
   const schema = {
@@ -67,24 +67,24 @@ const FAQSchema: FC<FAQSchemaProps> = ({ items, pageUrl }) => {
     '@type': 'FAQPage',
     ...(pageUrl && {
       '@id': `${pageUrl}#faqpage`,
-      mainEntity: items.map((item, index) => ({
+      mainEntity: faqs.map((faq, index) => ({
         '@type': 'Question',
         '@id': `${pageUrl}#question-${index + 1}`,
-        name: item.question,
+        name: faq.question,
         acceptedAnswer: {
           '@type': 'Answer',
           '@id': `${pageUrl}#answer-${index + 1}`,
-          text: item.answer,
+          text: faq.answer,
         },
       })),
     }),
     ...(!pageUrl && {
-      mainEntity: items.map(item => ({
+      mainEntity: faqs.map(faq => ({
         '@type': 'Question',
-        name: item.question,
+        name: faq.question,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: item.answer,
+          text: faq.answer,
         },
       })),
     }),
@@ -98,7 +98,7 @@ const FAQSchema: FC<FAQSchemaProps> = ({ items, pageUrl }) => {
   );
 };
 
-export default FAQSchema;
+export default FAQPageSchema;
 
 /**
  * Helper function to create FAQ items with automatic word count validation
