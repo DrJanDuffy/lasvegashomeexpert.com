@@ -20,7 +20,10 @@
     "prepare": "husky",
     "schema:validate": "tsx scripts/add-schema-to-pages.ts --validate",
     "schema:add": "tsx scripts/add-schema-to-pages.ts",
-    "schema:scan": "tsx scripts/add-schema-to-pages.ts --all"
+    "schema:scan": "tsx scripts/add-schema-to-pages.ts --all",
+    "entity:scan": "tsx scripts/entity-coherence-scanner.ts scan",
+    "entity:check": "tsx scripts/entity-coherence-scanner.ts check",
+    "entity:fix": "tsx scripts/entity-coherence-scanner.ts fix"
   },
   "dependencies": {
     "@turf/turf": "^6.5.0",
