@@ -14,7 +14,7 @@ export function middleware(request: NextRequest) {
   // Non-www is the canonical domain (www redirects to non-www)
   // This matches our sitemap URLs and is better for SEO
   // Only apply to production domain, not Vercel preview/deployment domains
-  const isProductionDomain = hostname === 'www.lasvegashomeexpert.com' || hostname === 'lasvegashomeexpert.com';
+  const isProductionDomain = hostname === 'www.grokipedia.com' || hostname === 'grokipedia.com';
   const isVercelDomain = hostname?.includes('.vercel.app') || hostname?.includes('localhost') || hostname?.includes('127.0.0.1');
   
   // Redirect www to non-www (canonical)

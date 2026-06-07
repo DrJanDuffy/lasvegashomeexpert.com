@@ -10,23 +10,23 @@ import KnowledgeGraphSchema from '@/components/schema/KnowledgeGraphSchema';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Las Vegas Home Expert - Your Trusted Real Estate Partner',
+  title: 'Grokipedia - AI-Optimized Knowledge Platform',
   description:
-    'Expert real estate services in Las Vegas. Find your dream home, get property valuations, and work with experienced professionals. RealScout, Homebot, and CloudCMA powered.',
+    'Comprehensive knowledge platform optimized for AI search engines and knowledge graphs. Structured data, semantic web technologies, and generative engine optimization for enhanced discoverability.',
   keywords:
-    'Las Vegas real estate, home buying, home selling, property valuation, real estate expert',
-  authors: [{ name: 'Dr. Jan Duffy' }],
+    'Grokipedia, AI search optimization, knowledge graphs, structured data, semantic web, GEO, generative engine optimization, schema.org, JSON-LD',
+  authors: [{ name: 'Grokipedia Editorial Team' }],
   openGraph: {
-    title: 'Las Vegas Home Expert',
-    description: 'Your trusted real estate partner in Las Vegas',
-    url: 'https://lasvegashomeexpert.com',
-    siteName: 'Las Vegas Home Expert',
+    title: 'Grokipedia - AI-Optimized Knowledge Platform',
+    description: 'AI-optimized knowledge platform with enhanced structured data for discoverability',
+    url: 'https://grokipedia.com',
+    siteName: 'Grokipedia',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Las Vegas Home Expert',
+        alt: 'Grokipedia - AI-Optimized Knowledge Platform',
       },
     ],
     locale: 'en_US',
@@ -34,9 +34,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Las Vegas Home Expert',
-    description: 'Your trusted real estate partner in Las Vegas',
+    title: 'Grokipedia - AI Knowledge Platform',
+    description: 'AI-optimized knowledge platform with structured data for enhanced discoverability',
     images: ['/og-image.jpg'],
+    creator: '@grokipedia',
   },
   robots: {
     index: true,
@@ -52,7 +53,7 @@ export const metadata: Metadata = {
   verification: {
     google: 'your-google-verification-code',
   },
-  metadataBase: new URL('https://lasvegashomeexpert.com'),
+  metadataBase: new URL('https://grokipedia.com'),
 };
 
 export default function RootLayout({
@@ -149,7 +150,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-neutral-50 text-neutral-900 antialiased`}>
         {/* Grokipedia & AI Optimization - Structured Data for Knowledge Graphs */}
         <OrganizationSchema />
-        <KnowledgeGraphSchema pageUrl="https://lasvegashomeexpert.com" pageType="WebSite" />
+        <KnowledgeGraphSchema pageUrl="https://grokipedia.com" pageType="WebSite" />
 
         {/* Google Analytics */}
         <Script

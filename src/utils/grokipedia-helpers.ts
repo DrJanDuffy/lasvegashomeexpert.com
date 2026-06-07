@@ -33,15 +33,15 @@ export function generateWebPageSchema(metadata: PageMetadata) {
     url: metadata.url,
     isPartOf: {
       '@type': 'WebSite',
-      '@id': 'https://lasvegashomeexpert.com#website',
-      name: 'Las Vegas Home Expert',
-      url: 'https://lasvegashomeexpert.com',
+      '@id': 'https://grokipedia.com#website',
+      name: 'Grokipedia',
+      url: 'https://grokipedia.com',
     },
     dateModified: metadata.dateModified || new Date().toISOString(),
     inLanguage: 'en-US',
     about: {
-      '@type': 'RealEstateAgent',
-      '@id': 'https://lasvegashomeexpert.com#agent',
+      '@type': 'Organization',
+      '@id': 'https://grokipedia.com#organization',
     },
   };
 
@@ -106,24 +106,24 @@ export function generateArticleSchema(
           '@type': 'ImageObject',
           url: options.image,
         }
-      : 'https://lasvegashomeexpert.com/dr-jan-duffy.jpg',
+      : 'https://grokipedia.com/og-image.jpg',
     datePublished: options?.datePublished || new Date().toISOString(),
     dateModified: options?.dateModified || new Date().toISOString(),
     author: {
       '@type': 'Person',
-      name: options?.author?.name || 'Dr. Jan Duffy',
-      url: options?.author?.url || 'https://lasvegashomeexpert.com/about-dr-jan-duffy',
+      name: options?.author?.name || 'Grokipedia Editorial Team',
+      url: options?.author?.url || 'https://grokipedia.com/about',
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Las Vegas Home Expert',
+      name: 'Grokipedia',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://lasvegashomeexpert.com/logo.png',
+        url: 'https://grokipedia.com/logo.png',
       },
-      url: 'https://lasvegashomeexpert.com',
+      url: 'https://grokipedia.com',
     },
-    articleSection: options?.articleSection || 'Real Estate',
+    articleSection: options?.articleSection || 'Knowledge',
     ...(options?.keywords && options.keywords.length > 0 && { keywords: options.keywords.join(', ') }),
     inLanguage: 'en-US',
     isAccessibleForFree: true,
@@ -135,44 +135,36 @@ export function generateArticleSchema(
 }
 
 /**
- * Default organization data
+ * Default organization data - Optimized for Grokipedia & AI Search (2026 Best Practices)
+ * Following best practices from:
+ * - Schema.org Organization standards
+ * - Grok AI search optimization (FAQPage, Organization, Article priority)
+ * - JSON-LD entity clarity with @id references
+ * - AI-parseable knowledge domain signals
  */
 export const DEFAULT_ORGANIZATION = {
-  '@type': 'RealEstateAgent',
-  '@id': 'https://lasvegashomeexpert.com#agent',
-  name: 'Dr. Jan Duffy',
-  alternateName: ['Dr. Jan Duffy Real Estate', 'Las Vegas Home Expert'],
-  url: 'https://lasvegashomeexpert.com',
-  telephone: '702-222-1964',
-  email: 'DrJanSells@LasVegasHomeExpert.com',
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: '1700 S Pavilion Center Drive, Suite 140',
-    addressLocality: 'Las Vegas',
-    addressRegion: 'NV',
-    postalCode: '89135',
-    addressCountry: 'US',
-  },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 36.1699,
-    longitude: -115.1398,
-  },
-  areaServed: [
-    { '@type': 'City', name: 'Las Vegas' },
-    { '@type': 'City', name: 'Henderson' },
-    { '@type': 'Place', name: 'Summerlin' },
-    { '@type': 'Place', name: 'Red Rock Country Club' },
-    { '@type': 'Place', name: 'The Ridges' },
-  ],
+  '@type': 'Organization',
+  '@id': 'https://grokipedia.com#organization',
+  name: 'Grokipedia',
+  alternateName: ['Grokipedia Encyclopedia', 'Grokipedia AI Knowledge Base'],
+  url: 'https://grokipedia.com',
+  description: 'AI-optimized knowledge platform leveraging structured data and semantic web technologies for enhanced discoverability across AI search engines and knowledge graphs.',
+  foundingDate: '2026',
   knowsAbout: [
-    'Luxury Real Estate',
-    'Real Estate Sales',
-    'Home Buying',
-    'Home Selling',
-    'Property Investment',
+    'Artificial Intelligence',
+    'Machine Learning',
+    'Knowledge Graphs',
+    'Semantic Web',
+    'Structured Data',
+    'Generative Engine Optimization',
+    'AI Search Optimization',
+    'Schema.org',
+    'JSON-LD',
+    'Information Architecture',
   ],
-  foundingDate: '2013',
-  priceRange: '$500K - $5M+',
+  sameAs: [
+    'https://x.com/grokipedia',
+    'https://github.com/grokipedia',
+  ],
 };
 

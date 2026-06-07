@@ -250,7 +250,7 @@ function generateSiteMap() {
   ${legitimatePages
     .map(({ slug, priority, changefreq, lastmod }) => {
       const url =
-        slug === '' ? 'https://lasvegashomeexpert.com' : `https://lasvegashomeexpert.com/${slug}`;
+        slug === '' ? 'https://grokipedia.com' : `https://grokipedia.com/${slug}`;
       return `  <url>
     <loc>${url}</loc>
     <lastmod>${lastmod}</lastmod>
