@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
@@ -8,6 +8,15 @@ import OrganizationSchema from '@/components/schema/OrganizationSchema';
 import KnowledgeGraphSchema from '@/components/schema/KnowledgeGraphSchema';
 
 const inter = Inter({ subsets: ['latin'] });
+
+// 2026 Best Practice: Separate viewport configuration
+export const viewport: Viewport = {
+	width: 'device-width',
+	initialScale: 1,
+	maximumScale: 5,
+	userScalable: true,
+	themeColor: '#1c71c3',
+};
 
 export const metadata: Metadata = {
   title: {
