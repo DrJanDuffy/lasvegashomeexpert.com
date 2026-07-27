@@ -12,7 +12,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Mountains Edge Homes for Sale | Las Vegas Real Estate',
-    description: 'Family-friendly community with new construction, excellent schools, and mountain views.',
+    description:
+      'Family-friendly community with new construction, excellent schools, and mountain views.',
     url: 'https://lasvegashomeexpert.com/neighborhoods/mountains-edge',
     type: 'website',
   },
@@ -24,4 +25,3 @@ export const metadata: Metadata = {
 export default function MountainsEdgeLayout({ children }: { children: React.ReactNode }) {
   return children;
 }
-

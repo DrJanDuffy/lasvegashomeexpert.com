@@ -432,67 +432,105 @@ export default function TheRidgesSummerlinPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
             Complete Guide to The Ridges Summerlin Luxury Homes for Sale Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 The Ridges Summerlin: Ultra-Luxury Homes Available
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The Ridges Summerlin homes represent the pinnacle of luxury living in Las Vegas, with properties commanding median prices of $2.5 million and featuring ultra-luxury estates positioned on elevated sites offering panoramic views. This exclusive community offers the highest level of luxury living with homes designed for discerning buyers seeking exceptional views, privacy, and exclusivity.
+                The Ridges Summerlin homes represent the pinnacle of luxury living in Las Vegas,
+                with properties commanding median prices of $2.5 million and featuring ultra-luxury
+                estates positioned on elevated sites offering panoramic views. This exclusive
+                community offers the highest level of luxury living with homes designed for
+                discerning buyers seeking exceptional views, privacy, and exclusivity.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The community's elevated location provides residents with unparalleled views of the Las Vegas Strip, surrounding mountains, and the valley below. The Ridges' commitment to maintaining ultra-luxury standards ensures the community remains one of Las Vegas's most prestigious addresses, making it an excellent investment for luxury homebuyers.
+                The community's elevated location provides residents with unparalleled views of the
+                Las Vegas Strip, surrounding mountains, and the valley below. The Ridges' commitment
+                to maintaining ultra-luxury standards ensures the community remains one of Las
+                Vegas's most prestigious addresses, making it an excellent investment for luxury
+                homebuyers.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Ultra-Luxury Homes in The Ridges
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                The Ridges homes typically span 5,000 to 15,000 square feet, featuring contemporary architecture, smart home technology, and premium finishes throughout. Properties feature private pools, outdoor entertainment areas, and stunning views that create exceptional luxury living experiences. The community's ultra-luxury positioning appeals to buyers seeking the highest level of luxury in Las Vegas.
+                The Ridges homes typically span 5,000 to 15,000 square feet, featuring contemporary
+                architecture, smart home technology, and premium finishes throughout. Properties
+                feature private pools, outdoor entertainment areas, and stunning views that create
+                exceptional luxury living experiences. The community's ultra-luxury positioning
+                appeals to buyers seeking the highest level of luxury in Las Vegas.
               </p>
             </div>
-            
+
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Why Buy The Ridges Homes
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Why Buy The Ridges Homes</h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The Ridges offers luxury homebuyers exceptional value through elevated location, panoramic views, private golf course, strong appreciation, and ultra-exclusive environment. The community's median price of $2.5 million represents excellent value for ultra-luxury living, while providing access to world-class amenities and lifestyle options.
+                The Ridges offers luxury homebuyers exceptional value through elevated location,
+                panoramic views, private golf course, strong appreciation, and ultra-exclusive
+                environment. The community's median price of $2.5 million represents excellent value
+                for ultra-luxury living, while providing access to world-class amenities and
+                lifestyle options.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The community's real estate market shows strong fundamentals with 12% year-over-year appreciation, 80 days average on market, and 5.2 months of inventory. These metrics indicate a healthy ultra-luxury market with strong demand and appreciation potential, making The Ridges an attractive investment opportunity.
+                The community's real estate market shows strong fundamentals with 12% year-over-year
+                appreciation, 80 days average on market, and 5.2 months of inventory. These metrics
+                indicate a healthy ultra-luxury market with strong demand and appreciation
+                potential, making The Ridges an attractive investment opportunity.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Working with Dr. Jan Duffy for The Ridges Homes
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Dr. Jan Duffy specializes in The Ridges Summerlin real estate, with extensive knowledge of the community's ultra-luxury properties, market conditions, and buyer preferences. Her expertise in high-end real estate enables her to help buyers navigate the ultra-luxury market effectively, ensuring they find properties that match their lifestyle and investment goals.
+                Dr. Jan Duffy specializes in The Ridges Summerlin real estate, with extensive
+                knowledge of the community's ultra-luxury properties, market conditions, and buyer
+                preferences. Her expertise in high-end real estate enables her to help buyers
+                navigate the ultra-luxury market effectively, ensuring they find properties that
+                match their lifestyle and investment goals.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-slate-800 mb-6">
               What Makes The Ridges Homes Special
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Panoramic Views and Elevated Location</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Panoramic Views and Elevated Location
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  The Ridges' elevated location provides residents with spectacular views of the Las Vegas Strip, surrounding mountains, and the valley below. These views create unique living experiences that command premium prices and contribute to the community's desirability. Properties with the best views often sell quickly and for premium prices.
+                  The Ridges' elevated location provides residents with spectacular views of the Las
+                  Vegas Strip, surrounding mountains, and the valley below. These views create
+                  unique living experiences that command premium prices and contribute to the
+                  community's desirability. Properties with the best views often sell quickly and
+                  for premium prices.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  The combination of elevated location, privacy, and stunning views makes The Ridges one of Las Vegas's most desirable communities for luxury homebuyers. The community's commitment to maintaining these views through careful development ensures long-term value and desirability.
+                  The combination of elevated location, privacy, and stunning views makes The Ridges
+                  one of Las Vegas's most desirable communities for luxury homebuyers. The
+                  community's commitment to maintaining these views through careful development
+                  ensures long-term value and desirability.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Private Golf Course and Ultra-Luxury Amenities</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Private Golf Course and Ultra-Luxury Amenities
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  The Ridges features a private golf course and club facilities that provide residents with exclusive access to world-class amenities. The private club environment creates opportunities for social connection and community engagement while maintaining the exclusivity that defines ultra-luxury living.
+                  The Ridges features a private golf course and club facilities that provide
+                  residents with exclusive access to world-class amenities. The private club
+                  environment creates opportunities for social connection and community engagement
+                  while maintaining the exclusivity that defines ultra-luxury living.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  The community's commitment to maintaining golf course quality and club facilities ensures residents enjoy premium experiences that justify the community's ultra-luxury pricing. This commitment to excellence creates exceptional value for ultra-luxury homebuyers seeking both lifestyle and investment value.
+                  The community's commitment to maintaining golf course quality and club facilities
+                  ensures residents enjoy premium experiences that justify the community's
+                  ultra-luxury pricing. This commitment to excellence creates exceptional value for
+                  ultra-luxury homebuyers seeking both lifestyle and investment value.
                 </p>
               </div>
             </div>

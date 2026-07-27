@@ -288,45 +288,73 @@ export default function LuxuryRealtorPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
             What Makes Dr. Jan Duffy Las Vegas's Premier Luxury Realtor
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Unmatched Expertise in Las Vegas Luxury Real Estate
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Dr. Jan Duffy has established herself as Las Vegas's premier luxury realtor through over 15 years of dedicated service and exceptional results. With more than $180 million in luxury sales volume and 500+ successful transactions, she has proven her ability to navigate the complexities of high-end real estate transactions while delivering outstanding outcomes for clients.
+                Dr. Jan Duffy has established herself as Las Vegas's premier luxury realtor through
+                over 15 years of dedicated service and exceptional results. With more than $180
+                million in luxury sales volume and 500+ successful transactions, she has proven her
+                ability to navigate the complexities of high-end real estate transactions while
+                delivering outstanding outcomes for clients.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Her specialization in luxury properties from $1 million to over $25 million requires deep market knowledge, sophisticated negotiation skills, and access to exclusive listings. Dr. Duffy's expertise extends to Las Vegas's most prestigious neighborhoods including Red Rock Country Club, The Ridges Summerlin, MacDonald Highlands, and Southern Highlands, where she maintains intimate knowledge of market trends, property values, and buyer preferences.
+                Her specialization in luxury properties from $1 million to over $25 million requires
+                deep market knowledge, sophisticated negotiation skills, and access to exclusive
+                listings. Dr. Duffy's expertise extends to Las Vegas's most prestigious
+                neighborhoods including Red Rock Country Club, The Ridges Summerlin, MacDonald
+                Highlands, and Southern Highlands, where she maintains intimate knowledge of market
+                trends, property values, and buyer preferences.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Exclusive Access to Off-Market Luxury Properties
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                One of the key advantages of working with Dr. Jan Duffy is access to exclusive off-market listings and pocket listings that never appear on public MLS. Her extensive network of luxury home sellers, developers, and other real estate professionals provides clients with opportunities unavailable to typical buyers. These properties often represent the best opportunities, offering better pricing and less competition.
+                One of the key advantages of working with Dr. Jan Duffy is access to exclusive
+                off-market listings and pocket listings that never appear on public MLS. Her
+                extensive network of luxury home sellers, developers, and other real estate
+                professionals provides clients with opportunities unavailable to typical buyers.
+                These properties often represent the best opportunities, offering better pricing and
+                less competition.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Sophisticated Marketing for Luxury Properties
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Marketing luxury properties requires sophisticated strategies that reach high-net-worth buyers effectively. Dr. Duffy employs comprehensive marketing approaches including professional photography, virtual tours, luxury lifestyle publications, targeted digital advertising, and her extensive network of luxury buyers and agents. This multi-channel strategy ensures maximum exposure to qualified buyers.
+                Marketing luxury properties requires sophisticated strategies that reach
+                high-net-worth buyers effectively. Dr. Duffy employs comprehensive marketing
+                approaches including professional photography, virtual tours, luxury lifestyle
+                publications, targeted digital advertising, and her extensive network of luxury
+                buyers and agents. This multi-channel strategy ensures maximum exposure to qualified
+                buyers.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                For sellers, Dr. Duffy's marketing expertise translates into faster sales and higher prices. Her understanding of luxury buyer preferences and effective presentation strategies ensures properties are showcased in ways that resonate with discerning buyers, highlighting unique features and lifestyle benefits that command premium prices.
+                For sellers, Dr. Duffy's marketing expertise translates into faster sales and higher
+                prices. Her understanding of luxury buyer preferences and effective presentation
+                strategies ensures properties are showcased in ways that resonate with discerning
+                buyers, highlighting unique features and lifestyle benefits that command premium
+                prices.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Personalized Service for Discerning Clients
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Luxury real estate transactions demand personalized attention and discretion. Dr. Duffy provides white-glove service throughout every transaction, from initial consultation to closing and beyond. Her background in psychology enables her to understand client needs deeply, while her real estate expertise ensures optimal outcomes. This combination of personal attention and professional excellence creates exceptional experiences for luxury clients.
+                Luxury real estate transactions demand personalized attention and discretion. Dr.
+                Duffy provides white-glove service throughout every transaction, from initial
+                consultation to closing and beyond. Her background in psychology enables her to
+                understand client needs deeply, while her real estate expertise ensures optimal
+                outcomes. This combination of personal attention and professional excellence creates
+                exceptional experiences for luxury clients.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-slate-800 mb-6">
               Why Luxury Home Buyers Choose Dr. Jan Duffy
@@ -335,20 +363,34 @@ export default function LuxuryRealtorPage() {
               <div>
                 <h4 className="text-xl font-bold text-slate-800 mb-4">Deep Market Knowledge</h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Dr. Duffy's 15+ years of experience in Las Vegas luxury real estate provides comprehensive understanding of market dynamics, property values, and neighborhood characteristics. This expertise enables her to identify opportunities, assess value accurately, and guide clients to properties that match their lifestyle and investment objectives.
+                  Dr. Duffy's 15+ years of experience in Las Vegas luxury real estate provides
+                  comprehensive understanding of market dynamics, property values, and neighborhood
+                  characteristics. This expertise enables her to identify opportunities, assess
+                  value accurately, and guide clients to properties that match their lifestyle and
+                  investment objectives.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  Her knowledge extends beyond current market conditions to future trends and appreciation potential. This forward-looking perspective helps luxury buyers make informed decisions that align with both immediate needs and long-term goals.
+                  Her knowledge extends beyond current market conditions to future trends and
+                  appreciation potential. This forward-looking perspective helps luxury buyers make
+                  informed decisions that align with both immediate needs and long-term goals.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Proven Negotiation Expertise</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Proven Negotiation Expertise
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Luxury real estate transactions often involve complex negotiations with multiple parties, sophisticated buyers, and high stakes. Dr. Duffy's experience with hundreds of luxury transactions has honed her negotiation skills, enabling her to achieve favorable terms while protecting client interests throughout the process.
+                  Luxury real estate transactions often involve complex negotiations with multiple
+                  parties, sophisticated buyers, and high stakes. Dr. Duffy's experience with
+                  hundreds of luxury transactions has honed her negotiation skills, enabling her to
+                  achieve favorable terms while protecting client interests throughout the process.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  Her background in psychology provides unique insights into negotiation dynamics and motivations, giving clients advantages in competitive situations. This combination of expertise and insight ensures optimal outcomes whether buying or selling luxury properties.
+                  Her background in psychology provides unique insights into negotiation dynamics
+                  and motivations, giving clients advantages in competitive situations. This
+                  combination of expertise and insight ensures optimal outcomes whether buying or
+                  selling luxury properties.
                 </p>
               </div>
             </div>
@@ -362,75 +404,114 @@ export default function LuxuryRealtorPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
             Comprehensive Luxury Real Estate Services
           </h2>
-          
+
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-white rounded-lg p-8 shadow-lg">
-              <h3 className="text-2xl font-bold text-slate-800 mb-4">
-                Luxury Home Buying
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-4">Luxury Home Buying</h3>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Dr. Duffy provides comprehensive luxury home buying services from initial consultation through closing. She helps clients define their requirements, identifies suitable properties including off-market opportunities, arranges private showings, and provides detailed property analysis. Her expertise in luxury neighborhoods ensures clients find properties that match their lifestyle and investment goals.
+                Dr. Duffy provides comprehensive luxury home buying services from initial
+                consultation through closing. She helps clients define their requirements,
+                identifies suitable properties including off-market opportunities, arranges private
+                showings, and provides detailed property analysis. Her expertise in luxury
+                neighborhoods ensures clients find properties that match their lifestyle and
+                investment goals.
               </p>
               <p className="text-slate-600 leading-relaxed">
-                Her network and market knowledge provide access to properties before they hit the market, giving clients advantages in competitive situations. This early access combined with expert guidance ensures clients secure their ideal luxury home at optimal terms.
+                Her network and market knowledge provide access to properties before they hit the
+                market, giving clients advantages in competitive situations. This early access
+                combined with expert guidance ensures clients secure their ideal luxury home at
+                optimal terms.
               </p>
             </div>
-            
+
             <div className="bg-white rounded-lg p-8 shadow-lg">
-              <h3 className="text-2xl font-bold text-slate-800 mb-4">
-                Luxury Home Selling
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-4">Luxury Home Selling</h3>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Selling luxury properties requires sophisticated marketing, accurate pricing, and access to qualified buyers. Dr. Duffy's proven track record includes faster sales and higher prices through comprehensive marketing strategies, strategic pricing, and her network of luxury buyers. Her understanding of luxury buyer preferences ensures properties are presented effectively.
+                Selling luxury properties requires sophisticated marketing, accurate pricing, and
+                access to qualified buyers. Dr. Duffy's proven track record includes faster sales
+                and higher prices through comprehensive marketing strategies, strategic pricing, and
+                her network of luxury buyers. Her understanding of luxury buyer preferences ensures
+                properties are presented effectively.
               </p>
               <p className="text-slate-600 leading-relaxed">
-                Her marketing approach reaches high-net-worth buyers through multiple channels, maximizing exposure and generating competitive interest. This comprehensive strategy combined with her negotiation expertise ensures sellers achieve maximum value while minimizing time on market.
+                Her marketing approach reaches high-net-worth buyers through multiple channels,
+                maximizing exposure and generating competitive interest. This comprehensive strategy
+                combined with her negotiation expertise ensures sellers achieve maximum value while
+                minimizing time on market.
               </p>
             </div>
-            
+
             <div className="bg-white rounded-lg p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-slate-800 mb-4">
                 Luxury Investment Properties
               </h3>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Luxury real estate investment requires analysis of appreciation potential, rental income, tax benefits, and market trends. Dr. Duffy helps investors identify opportunities in Las Vegas luxury market, analyzing properties for investment potential and providing strategic guidance on portfolio development and management.
+                Luxury real estate investment requires analysis of appreciation potential, rental
+                income, tax benefits, and market trends. Dr. Duffy helps investors identify
+                opportunities in Las Vegas luxury market, analyzing properties for investment
+                potential and providing strategic guidance on portfolio development and management.
               </p>
               <p className="text-slate-600 leading-relaxed">
-                Her understanding of luxury market dynamics and investment factors enables her to help investors build portfolios that generate income while appreciating in value. This investment-focused expertise provides clients with opportunities to build wealth through luxury real estate.
+                Her understanding of luxury market dynamics and investment factors enables her to
+                help investors build portfolios that generate income while appreciating in value.
+                This investment-focused expertise provides clients with opportunities to build
+                wealth through luxury real estate.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-white rounded-lg shadow-lg p-8">
             <h3 className="text-2xl font-bold text-slate-800 mb-6">
               The Luxury Real Estate Process with Dr. Jan Duffy
             </h3>
             <div className="space-y-6">
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-3">Initial Consultation and Strategy Development</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-3">
+                  Initial Consultation and Strategy Development
+                </h4>
                 <p className="text-slate-600 leading-relaxed">
-                  Dr. Duffy begins every luxury transaction with a comprehensive consultation to understand client goals, preferences, timeline, and budget. For buyers, this includes defining lifestyle requirements, investment objectives, and property criteria. For sellers, it involves understanding sale goals, timeline, and property characteristics. This initial assessment ensures strategies align with client objectives.
+                  Dr. Duffy begins every luxury transaction with a comprehensive consultation to
+                  understand client goals, preferences, timeline, and budget. For buyers, this
+                  includes defining lifestyle requirements, investment objectives, and property
+                  criteria. For sellers, it involves understanding sale goals, timeline, and
+                  property characteristics. This initial assessment ensures strategies align with
+                  client objectives.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-3">Property Search and Evaluation</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-3">
+                  Property Search and Evaluation
+                </h4>
                 <p className="text-slate-600 leading-relaxed">
-                  For buyers, Dr. Duffy creates custom search strategies including both on-market and off-market properties. She arranges private showings, provides detailed property analysis, and evaluates properties against client criteria. Her market knowledge ensures clients see properties that truly match their needs while identifying opportunities others might miss.
+                  For buyers, Dr. Duffy creates custom search strategies including both on-market
+                  and off-market properties. She arranges private showings, provides detailed
+                  property analysis, and evaluates properties against client criteria. Her market
+                  knowledge ensures clients see properties that truly match their needs while
+                  identifying opportunities others might miss.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-3">Negotiation and Transaction Management</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-3">
+                  Negotiation and Transaction Management
+                </h4>
                 <p className="text-slate-600 leading-relaxed">
-                  Once properties are identified or offers are received, Dr. Duffy's negotiation expertise ensures optimal terms. She manages all aspects of transactions including inspections, appraisals, financing, and closing coordination. Her attention to detail and experience with luxury transactions ensures smooth processes from contract to closing.
+                  Once properties are identified or offers are received, Dr. Duffy's negotiation
+                  expertise ensures optimal terms. She manages all aspects of transactions including
+                  inspections, appraisals, financing, and closing coordination. Her attention to
+                  detail and experience with luxury transactions ensures smooth processes from
+                  contract to closing.
                 </p>
               </div>
-              
+
               <div>
                 <h4 className="text-xl font-bold text-slate-800 mb-3">Post-Closing Support</h4>
                 <p className="text-slate-600 leading-relaxed">
-                  Dr. Duffy's service extends beyond closing, providing ongoing support including referrals to trusted professionals, property management resources, and market updates. This continued relationship ensures clients have ongoing support and access to resources that enhance their luxury real estate experience.
+                  Dr. Duffy's service extends beyond closing, providing ongoing support including
+                  referrals to trusted professionals, property management resources, and market
+                  updates. This continued relationship ensures clients have ongoing support and
+                  access to resources that enhance their luxury real estate experience.
                 </p>
               </div>
             </div>

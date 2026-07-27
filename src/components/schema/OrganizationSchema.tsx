@@ -127,4 +127,3 @@ const OrganizationSchema: FC<OrganizationSchemaProps> = ({
 };
 
 export default OrganizationSchema;
-

@@ -24,4 +24,3 @@ export const metadata: Metadata = {
 export default function RedRockAgentLayout({ children }: { children: React.ReactNode }) {
   return children;
 }
-

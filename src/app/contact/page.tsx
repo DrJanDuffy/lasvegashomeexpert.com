@@ -578,41 +578,65 @@ export default function ContactPage() {
           <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
             Why Contact Dr. Jan Duffy for Your Las Vegas Real Estate Needs
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-primary-900 mb-6">
                 Expert Real Estate Guidance at Your Fingertips
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Dr. Jan Duffy makes it easy to get in touch and start your real estate journey. Whether you're buying your first home, selling a luxury property, or investing in Las Vegas real estate, Dr. Duffy provides personalized service tailored to your needs. Her 15+ years of experience and 500+ successful transactions demonstrate her ability to deliver exceptional results.
+                Dr. Jan Duffy makes it easy to get in touch and start your real estate journey.
+                Whether you're buying your first home, selling a luxury property, or investing in
+                Las Vegas real estate, Dr. Duffy provides personalized service tailored to your
+                needs. Her 15+ years of experience and 500+ successful transactions demonstrate her
+                ability to deliver exceptional results.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Contacting Dr. Duffy is the first step toward achieving your real estate goals. She offers multiple ways to connect including phone, email, text, and in-person office visits. Her responsive approach ensures you receive timely answers to questions and prompt attention to your real estate needs, whether you're a local buyer or relocating to Las Vegas.
+                Contacting Dr. Duffy is the first step toward achieving your real estate goals. She
+                offers multiple ways to connect including phone, email, text, and in-person office
+                visits. Her responsive approach ensures you receive timely answers to questions and
+                prompt attention to your real estate needs, whether you're a local buyer or
+                relocating to Las Vegas.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 Free Consultations for All Real Estate Needs
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                Dr. Duffy offers free consultations to discuss your real estate goals, answer questions, and provide expert guidance. These consultations cover topics like market conditions, property values, buying strategies, selling strategies, and investment opportunities. There's no obligation, making it easy to explore your options and understand how Dr. Duffy can help.
+                Dr. Duffy offers free consultations to discuss your real estate goals, answer
+                questions, and provide expert guidance. These consultations cover topics like market
+                conditions, property values, buying strategies, selling strategies, and investment
+                opportunities. There's no obligation, making it easy to explore your options and
+                understand how Dr. Duffy can help.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-primary-900 mb-6">
                 Multiple Contact Methods for Your Convenience
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Dr. Duffy understands that different clients prefer different communication methods. She offers phone, email, text messaging, and in-person office visits to accommodate your preferences. Her flexible approach ensures you can reach her in the way that works best for you, whether you need immediate assistance or prefer to schedule a consultation.
+                Dr. Duffy understands that different clients prefer different communication methods.
+                She offers phone, email, text messaging, and in-person office visits to accommodate
+                your preferences. Her flexible approach ensures you can reach her in the way that
+                works best for you, whether you need immediate assistance or prefer to schedule a
+                consultation.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                For urgent matters or time-sensitive questions, phone and text provide immediate access. For detailed inquiries or documentation, email offers a convenient option. For comprehensive consultations or in-depth discussions, office visits provide focused attention and personalized service. Dr. Duffy's responsive approach ensures you receive the attention you need when you need it.
+                For urgent matters or time-sensitive questions, phone and text provide immediate
+                access. For detailed inquiries or documentation, email offers a convenient option.
+                For comprehensive consultations or in-depth discussions, office visits provide
+                focused attention and personalized service. Dr. Duffy's responsive approach ensures
+                you receive the attention you need when you need it.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 Office Location and Service Areas
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                Dr. Duffy's office is conveniently located at 1700 S Pavilion Center Drive, Suite 140, in Las Vegas, providing easy access for clients throughout the Las Vegas Valley. She serves all Las Vegas neighborhoods including Summerlin, Henderson, Green Valley, Southern Highlands, Red Rock Country Club, The Ridges, and MacDonald Highlands, ensuring comprehensive coverage of the Las Vegas real estate market.
+                Dr. Duffy's office is conveniently located at 1700 S Pavilion Center Drive, Suite
+                140, in Las Vegas, providing easy access for clients throughout the Las Vegas
+                Valley. She serves all Las Vegas neighborhoods including Summerlin, Henderson, Green
+                Valley, Southern Highlands, Red Rock Country Club, The Ridges, and MacDonald
+                Highlands, ensuring comprehensive coverage of the Las Vegas real estate market.
               </p>
             </div>
           </div>

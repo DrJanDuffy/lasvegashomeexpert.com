@@ -288,67 +288,105 @@ export default function RealEstateAgentNearRedRockCasinoPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
             Complete Guide to Real Estate Near Red Rock Casino Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Red Rock Casino Area: Premier Luxury Living
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The area surrounding Red Rock Casino features some of Las Vegas's most prestigious luxury communities including Red Rock Country Club, The Ridges Summerlin, and Summerlin West. This premier location provides residents with access to world-class amenities, excellent schools, and exceptional quality of life while maintaining proximity to Red Rock Casino and entertainment.
+                The area surrounding Red Rock Casino features some of Las Vegas's most prestigious
+                luxury communities including Red Rock Country Club, The Ridges Summerlin, and
+                Summerlin West. This premier location provides residents with access to world-class
+                amenities, excellent schools, and exceptional quality of life while maintaining
+                proximity to Red Rock Casino and entertainment.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The area's location on Summerlin's west side provides easy access to Red Rock Canyon National Conservation Area, offering residents access to outdoor recreation, hiking, and natural beauty. The combination of luxury living, natural beauty, and entertainment access creates unique living experiences that appeal to luxury homebuyers.
+                The area's location on Summerlin's west side provides easy access to Red Rock Canyon
+                National Conservation Area, offering residents access to outdoor recreation, hiking,
+                and natural beauty. The combination of luxury living, natural beauty, and
+                entertainment access creates unique living experiences that appeal to luxury
+                homebuyers.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Premier Communities Near Red Rock Casino
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Communities near Red Rock Casino include Red Rock Country Club (0.5 miles), The Ridges (2 miles), and Summerlin West (1 mile), each offering unique characteristics and amenities. These communities feature luxury homes with golf course access, mountain views, and resort-style amenities. Dr. Jan Duffy's expertise in this area enables her to help buyers find properties that match their lifestyle and investment goals.
+                Communities near Red Rock Casino include Red Rock Country Club (0.5 miles), The
+                Ridges (2 miles), and Summerlin West (1 mile), each offering unique characteristics
+                and amenities. These communities feature luxury homes with golf course access,
+                mountain views, and resort-style amenities. Dr. Jan Duffy's expertise in this area
+                enables her to help buyers find properties that match their lifestyle and investment
+                goals.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Why Choose Real Estate Near Red Rock Casino
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Real estate near Red Rock Casino offers luxury homebuyers exceptional value through premier location, access to luxury communities, strong appreciation, and exceptional amenities. The area's proximity to Red Rock Casino provides entertainment and dining options, while nearby communities offer luxury living with comprehensive amenities.
+                Real estate near Red Rock Casino offers luxury homebuyers exceptional value through
+                premier location, access to luxury communities, strong appreciation, and exceptional
+                amenities. The area's proximity to Red Rock Casino provides entertainment and dining
+                options, while nearby communities offer luxury living with comprehensive amenities.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The area's real estate market shows strong fundamentals with appreciation rates ranging from 12% to 15% year-over-year depending on the community. These metrics indicate healthy markets with strong demand and appreciation potential, making the Red Rock Casino area an attractive investment opportunity.
+                The area's real estate market shows strong fundamentals with appreciation rates
+                ranging from 12% to 15% year-over-year depending on the community. These metrics
+                indicate healthy markets with strong demand and appreciation potential, making the
+                Red Rock Casino area an attractive investment opportunity.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Working with Dr. Jan Duffy Near Red Rock Casino
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Dr. Jan Duffy specializes in real estate near Red Rock Casino, with extensive knowledge of the area's communities, market conditions, and buyer preferences. Her expertise in this premier area enables her to help buyers find properties that match their lifestyle and investment goals in communities surrounding Red Rock Casino.
+                Dr. Jan Duffy specializes in real estate near Red Rock Casino, with extensive
+                knowledge of the area's communities, market conditions, and buyer preferences. Her
+                expertise in this premier area enables her to help buyers find properties that match
+                their lifestyle and investment goals in communities surrounding Red Rock Casino.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-slate-800 mb-6">
               What Makes the Red Rock Casino Area Special
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Premier Location and Access</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Premier Location and Access
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  The Red Rock Casino area provides residents with premier location and access to entertainment, dining, shopping, and outdoor recreation. The area's proximity to Red Rock Casino offers entertainment and dining options, while nearby communities provide luxury living with comprehensive amenities.
+                  The Red Rock Casino area provides residents with premier location and access to
+                  entertainment, dining, shopping, and outdoor recreation. The area's proximity to
+                  Red Rock Casino offers entertainment and dining options, while nearby communities
+                  provide luxury living with comprehensive amenities.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  This combination of location and access creates unique living experiences that appeal to luxury homebuyers seeking both lifestyle and convenience. The area's commitment to maintaining high standards and providing comprehensive amenities ensures long-term value and desirability.
+                  This combination of location and access creates unique living experiences that
+                  appeal to luxury homebuyers seeking both lifestyle and convenience. The area's
+                  commitment to maintaining high standards and providing comprehensive amenities
+                  ensures long-term value and desirability.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Proximity to Natural Beauty and Recreation</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Proximity to Natural Beauty and Recreation
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  The area's proximity to Red Rock Canyon National Conservation Area provides residents with access to outdoor recreation, hiking, and natural beauty. This natural setting creates opportunities for outdoor lifestyle activities while maintaining luxury living with modern amenities.
+                  The area's proximity to Red Rock Canyon National Conservation Area provides
+                  residents with access to outdoor recreation, hiking, and natural beauty. This
+                  natural setting creates opportunities for outdoor lifestyle activities while
+                  maintaining luxury living with modern amenities.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  This combination of natural beauty and luxury living appeals to buyers seeking both lifestyle and connection to nature. The area's commitment to preserving natural areas and providing outdoor recreation access ensures long-term value and desirability for luxury homebuyers.
+                  This combination of natural beauty and luxury living appeals to buyers seeking
+                  both lifestyle and connection to nature. The area's commitment to preserving
+                  natural areas and providing outdoor recreation access ensures long-term value and
+                  desirability for luxury homebuyers.
                 </p>
               </div>
             </div>

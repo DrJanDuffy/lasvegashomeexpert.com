@@ -12,7 +12,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: '55+ Communities Las Vegas | Active Adult Living | Dr. Jan Duffy',
-    description: 'Expert guide to 55+ active adult communities in Las Vegas with resort-style amenities and golf courses.',
+    description:
+      'Expert guide to 55+ active adult communities in Las Vegas with resort-style amenities and golf courses.',
     url: 'https://lasvegashomeexpert.com/55-plus-communities-las-vegas',
     type: 'website',
   },
@@ -21,7 +22,8 @@ export const metadata: Metadata = {
   },
 };
 
-export default function FiftyFivePlusCommunitiesLayout({ children }: { children: React.ReactNode }) {
+export default function FiftyFivePlusCommunitiesLayout({
+  children,
+}: { children: React.ReactNode }) {
   return children;
 }
-

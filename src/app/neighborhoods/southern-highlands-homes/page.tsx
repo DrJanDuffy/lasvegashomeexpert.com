@@ -432,45 +432,67 @@ export default function SouthernHighlandsPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
             Complete Guide to Southern Highlands Luxury Homes Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Southern Highlands: Family-Friendly Luxury Living
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Southern Highlands offers luxury living in a family-friendly environment, with homes averaging $850,000 and featuring access to excellent schools, parks, and community amenities. This master-planned community provides luxury lifestyle options at more accessible price points, making it attractive to families seeking luxury living with family-oriented amenities.
+                Southern Highlands offers luxury living in a family-friendly environment, with homes
+                averaging $850,000 and featuring access to excellent schools, parks, and community
+                amenities. This master-planned community provides luxury lifestyle options at more
+                accessible price points, making it attractive to families seeking luxury living with
+                family-oriented amenities.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The community's location in southwest Las Vegas provides residents with easy access to Las Vegas amenities while maintaining a residential feel. Southern Highlands' master-planned design includes parks, trails, shopping centers, and recreational facilities that support active lifestyles and family living.
+                The community's location in southwest Las Vegas provides residents with easy access
+                to Las Vegas amenities while maintaining a residential feel. Southern Highlands'
+                master-planned design includes parks, trails, shopping centers, and recreational
+                facilities that support active lifestyles and family living.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Luxury Homes in Southern Highlands
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Southern Highlands homes range from $600,000 to over $2 million, featuring quality construction, modern designs, and access to community amenities. Properties typically include 2,500 to 6,000 square feet of living space, private yards, and modern finishes. The community's diverse housing options appeal to families and professionals seeking luxury living at accessible price points.
+                Southern Highlands homes range from $600,000 to over $2 million, featuring quality
+                construction, modern designs, and access to community amenities. Properties
+                typically include 2,500 to 6,000 square feet of living space, private yards, and
+                modern finishes. The community's diverse housing options appeal to families and
+                professionals seeking luxury living at accessible price points.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Why Choose Southern Highlands
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Southern Highlands offers luxury homebuyers exceptional value through master-planned community amenities, excellent schools, strong appreciation, and family-friendly environment. The community's median price of $850,000 represents excellent value for luxury living, while providing access to comprehensive amenities and lifestyle options.
+                Southern Highlands offers luxury homebuyers exceptional value through master-planned
+                community amenities, excellent schools, strong appreciation, and family-friendly
+                environment. The community's median price of $850,000 represents excellent value for
+                luxury living, while providing access to comprehensive amenities and lifestyle
+                options.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The community's real estate market shows strong fundamentals with 18% year-over-year appreciation, 45 days average on market, and 3.8 months of inventory. These metrics indicate a healthy market with strong demand and appreciation potential, making Southern Highlands an attractive investment opportunity.
+                The community's real estate market shows strong fundamentals with 18% year-over-year
+                appreciation, 45 days average on market, and 3.8 months of inventory. These metrics
+                indicate a healthy market with strong demand and appreciation potential, making
+                Southern Highlands an attractive investment opportunity.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Working with Dr. Jan Duffy for Southern Highlands
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Dr. Jan Duffy specializes in Southern Highlands real estate, with extensive knowledge of the community's properties, market conditions, and buyer preferences. Her expertise in master-planned communities enables her to help buyers find properties that match their lifestyle and investment goals in this family-friendly luxury community.
+                Dr. Jan Duffy specializes in Southern Highlands real estate, with extensive
+                knowledge of the community's properties, market conditions, and buyer preferences.
+                Her expertise in master-planned communities enables her to help buyers find
+                properties that match their lifestyle and investment goals in this family-friendly
+                luxury community.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-slate-800 mb-6">
               What Makes Southern Highlands Special
@@ -479,20 +501,35 @@ export default function SouthernHighlandsPage() {
               <div>
                 <h4 className="text-xl font-bold text-slate-800 mb-4">Family-Friendly Luxury</h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Southern Highlands combines luxury living with family-friendly amenities, creating an environment that appeals to families seeking luxury lifestyle options. The community's excellent schools, parks, and recreational facilities support family life while providing luxury amenities that enhance quality of life.
+                  Southern Highlands combines luxury living with family-friendly amenities, creating
+                  an environment that appeals to families seeking luxury lifestyle options. The
+                  community's excellent schools, parks, and recreational facilities support family
+                  life while providing luxury amenities that enhance quality of life.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  This combination of luxury and family-friendliness makes Southern Highlands attractive to luxury homebuyers with children or those planning families. The community's commitment to maintaining high standards and providing comprehensive amenities ensures long-term value and desirability.
+                  This combination of luxury and family-friendliness makes Southern Highlands
+                  attractive to luxury homebuyers with children or those planning families. The
+                  community's commitment to maintaining high standards and providing comprehensive
+                  amenities ensures long-term value and desirability.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Master-Planned Community Benefits</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Master-Planned Community Benefits
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Southern Highlands' master-planned design provides residents with comprehensive amenities including parks, trails, shopping centers, and recreational facilities. The community's commitment to maintaining high standards and providing ongoing development ensures residents enjoy premium amenities that enhance quality of life.
+                  Southern Highlands' master-planned design provides residents with comprehensive
+                  amenities including parks, trails, shopping centers, and recreational facilities.
+                  The community's commitment to maintaining high standards and providing ongoing
+                  development ensures residents enjoy premium amenities that enhance quality of
+                  life.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  The community's amenities support active lifestyles and family living, creating opportunities for outdoor recreation, social connection, and community engagement. This comprehensive approach to community development creates exceptional value for luxury homebuyers seeking both lifestyle and family support.
+                  The community's amenities support active lifestyles and family living, creating
+                  opportunities for outdoor recreation, social connection, and community engagement.
+                  This comprehensive approach to community development creates exceptional value for
+                  luxury homebuyers seeking both lifestyle and family support.
                 </p>
               </div>
             </div>

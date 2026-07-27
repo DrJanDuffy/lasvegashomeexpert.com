@@ -430,67 +430,107 @@ export default function DelWebbCommunitiesPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
             Complete Guide to Del Webb Communities 55+ Luxury Living Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Del Webb Communities: Modern 55+ Active Adult Living
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Del Webb Communities offer modern 55+ active adult living in Las Vegas, featuring contemporary luxury homes with access to cutting-edge amenities, recreation centers, and resort-style facilities. These age-restricted communities provide active adults with maintenance-free living, comprehensive amenities, and vibrant social environments that support active lifestyles.
+                Del Webb Communities offer modern 55+ active adult living in Las Vegas, featuring
+                contemporary luxury homes with access to cutting-edge amenities, recreation centers,
+                and resort-style facilities. These age-restricted communities provide active adults
+                with maintenance-free living, comprehensive amenities, and vibrant social
+                environments that support active lifestyles.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The communities' locations in Henderson and Las Vegas Valley provide residents with access to world-class amenities, excellent healthcare facilities, and diverse entertainment options. Del Webb's commitment to modern active adult living creates exceptional value for 55+ buyers seeking vibrant retirement experiences with contemporary amenities.
+                The communities' locations in Henderson and Las Vegas Valley provide residents with
+                access to world-class amenities, excellent healthcare facilities, and diverse
+                entertainment options. Del Webb's commitment to modern active adult living creates
+                exceptional value for 55+ buyers seeking vibrant retirement experiences with
+                contemporary amenities.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Luxury Homes in Del Webb Communities
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Del Webb Communities homes range from $500,000 to over $1.5 million, featuring contemporary construction, modern designs, and access to community amenities. Properties typically include 1,800 to 4,500 square feet of living space, low-maintenance landscaping, and modern finishes. The communities' luxury homes appeal to active adults seeking maintenance-free living with contemporary amenities.
+                Del Webb Communities homes range from $500,000 to over $1.5 million, featuring
+                contemporary construction, modern designs, and access to community amenities.
+                Properties typically include 1,800 to 4,500 square feet of living space,
+                low-maintenance landscaping, and modern finishes. The communities' luxury homes
+                appeal to active adults seeking maintenance-free living with contemporary amenities.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Why Choose Del Webb Communities
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Del Webb Communities offer active adults exceptional value through maintenance-free living, cutting-edge amenities, strong appreciation, and vibrant social environments. The communities' median price of $700,000 represents excellent value for 55+ luxury living, while providing access to world-class amenities and lifestyle options.
+                Del Webb Communities offer active adults exceptional value through maintenance-free
+                living, cutting-edge amenities, strong appreciation, and vibrant social
+                environments. The communities' median price of $700,000 represents excellent value
+                for 55+ luxury living, while providing access to world-class amenities and lifestyle
+                options.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The communities' real estate markets show strong fundamentals with 16% year-over-year appreciation, 38 days average on market, and 3.2 months of inventory. These metrics indicate healthy markets with strong demand and appreciation potential, making Del Webb Communities attractive investment opportunities.
+                The communities' real estate markets show strong fundamentals with 16%
+                year-over-year appreciation, 38 days average on market, and 3.2 months of inventory.
+                These metrics indicate healthy markets with strong demand and appreciation
+                potential, making Del Webb Communities attractive investment opportunities.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Working with Dr. Jan Duffy for Del Webb Communities
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Dr. Jan Duffy specializes in Del Webb Communities real estate, with extensive knowledge of the communities' properties, market conditions, and buyer preferences. Her expertise in 55+ active adult communities enables her to help buyers find properties that match their lifestyle and investment goals in these modern retirement communities.
+                Dr. Jan Duffy specializes in Del Webb Communities real estate, with extensive
+                knowledge of the communities' properties, market conditions, and buyer preferences.
+                Her expertise in 55+ active adult communities enables her to help buyers find
+                properties that match their lifestyle and investment goals in these modern
+                retirement communities.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-slate-800 mb-6">
               What Makes Del Webb Communities Special
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Cutting-Edge Amenities and Modern Living</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Cutting-Edge Amenities and Modern Living
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Del Webb Communities feature cutting-edge amenities including modern recreation centers, fitness facilities, technology centers, and contemporary design elements that appeal to modern active adults. The communities' commitment to providing contemporary amenities ensures residents enjoy modern, engaging retirement experiences.
+                  Del Webb Communities feature cutting-edge amenities including modern recreation
+                  centers, fitness facilities, technology centers, and contemporary design elements
+                  that appeal to modern active adults. The communities' commitment to providing
+                  contemporary amenities ensures residents enjoy modern, engaging retirement
+                  experiences.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  The communities' modern approach to active adult living creates unique experiences that appeal to buyers seeking contemporary luxury living with modern amenities. This commitment to modern development creates exceptional value for 55+ buyers seeking both lifestyle and contemporary living.
+                  The communities' modern approach to active adult living creates unique experiences
+                  that appeal to buyers seeking contemporary luxury living with modern amenities.
+                  This commitment to modern development creates exceptional value for 55+ buyers
+                  seeking both lifestyle and contemporary living.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Maintenance-Free Living and Active Lifestyle</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Maintenance-Free Living and Active Lifestyle
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Del Webb Communities offer maintenance-free living with community services that handle exterior maintenance, landscaping, and common area upkeep. This maintenance-free approach allows residents to focus on enjoying their active lifestyles without the burden of property maintenance responsibilities.
+                  Del Webb Communities offer maintenance-free living with community services that
+                  handle exterior maintenance, landscaping, and common area upkeep. This
+                  maintenance-free approach allows residents to focus on enjoying their active
+                  lifestyles without the burden of property maintenance responsibilities.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  The communities' maintenance-free living creates opportunities for active adults to travel, pursue hobbies, and engage in community activities without worrying about property upkeep. This freedom enhances quality of life and contributes to the vibrant retirement experiences that define Del Webb Communities living.
+                  The communities' maintenance-free living creates opportunities for active adults
+                  to travel, pursue hobbies, and engage in community activities without worrying
+                  about property upkeep. This freedom enhances quality of life and contributes to
+                  the vibrant retirement experiences that define Del Webb Communities living.
                 </p>
               </div>
             </div>

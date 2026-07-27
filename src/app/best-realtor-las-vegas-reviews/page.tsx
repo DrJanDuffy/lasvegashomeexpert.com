@@ -384,67 +384,105 @@ export default function BestRealtorReviewsPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
             Why Dr. Jan Duffy is the Best Realtor in Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Exceptional Client Satisfaction and Reviews
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Dr. Jan Duffy's 4.9-star rating from 127 verified client reviews demonstrates her commitment to exceptional service and client satisfaction. With 98% of reviews being 5-star ratings, Dr. Duffy consistently exceeds client expectations while delivering outstanding results. This exceptional rating reflects her expertise, professionalism, and dedication to client success.
+                Dr. Jan Duffy's 4.9-star rating from 127 verified client reviews demonstrates her
+                commitment to exceptional service and client satisfaction. With 98% of reviews being
+                5-star ratings, Dr. Duffy consistently exceeds client expectations while delivering
+                outstanding results. This exceptional rating reflects her expertise,
+                professionalism, and dedication to client success.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Client reviews consistently highlight Dr. Duffy's market knowledge, negotiation skills, attention to detail, and personal service. Many clients become repeat clients, returning to Dr. Duffy for subsequent transactions because of the positive experience and results achieved. This client loyalty demonstrates the value Dr. Duffy provides throughout the real estate process.
+                Client reviews consistently highlight Dr. Duffy's market knowledge, negotiation
+                skills, attention to detail, and personal service. Many clients become repeat
+                clients, returning to Dr. Duffy for subsequent transactions because of the positive
+                experience and results achieved. This client loyalty demonstrates the value Dr.
+                Duffy provides throughout the real estate process.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Proven Track Record of Excellence
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Dr. Duffy's 15+ years of experience and 500+ successful transactions demonstrate her ability to deliver consistent results. Her recognition as a top 1% producer with Berkshire Hathaway HomeServices Nevada Properties reflects her exceptional performance and commitment to excellence. This track record of success provides confidence to clients seeking the best realtor in Las Vegas.
+                Dr. Duffy's 15+ years of experience and 500+ successful transactions demonstrate her
+                ability to deliver consistent results. Her recognition as a top 1% producer with
+                Berkshire Hathaway HomeServices Nevada Properties reflects her exceptional
+                performance and commitment to excellence. This track record of success provides
+                confidence to clients seeking the best realtor in Las Vegas.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 What Makes Dr. Jan Duffy the Best Choice
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Dr. Duffy's combination of real estate expertise, psychology background, and personalized service creates unique advantages for clients. Her understanding of client needs, motivations, and decision-making processes enables her to serve clients more effectively, particularly in complex situations. This combination of expertise and insight sets Dr. Duffy apart from other realtors.
+                Dr. Duffy's combination of real estate expertise, psychology background, and
+                personalized service creates unique advantages for clients. Her understanding of
+                client needs, motivations, and decision-making processes enables her to serve
+                clients more effectively, particularly in complex situations. This combination of
+                expertise and insight sets Dr. Duffy apart from other realtors.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Her extensive knowledge of Las Vegas neighborhoods, market conditions, and buyer preferences enables her to provide accurate guidance and strategic advice. This expertise, combined with her commitment to client success, ensures clients achieve optimal outcomes whether buying or selling luxury properties.
+                Her extensive knowledge of Las Vegas neighborhoods, market conditions, and buyer
+                preferences enables her to provide accurate guidance and strategic advice. This
+                expertise, combined with her commitment to client success, ensures clients achieve
+                optimal outcomes whether buying or selling luxury properties.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Client Testimonials and Success Stories
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Client testimonials consistently praise Dr. Duffy's professionalism, market knowledge, negotiation skills, and results. These authentic reviews provide insights into what clients value most about working with Dr. Duffy, including her attention to detail, personal service, and ability to achieve exceptional outcomes. Reading these reviews helps potential clients understand the value Dr. Duffy provides.
+                Client testimonials consistently praise Dr. Duffy's professionalism, market
+                knowledge, negotiation skills, and results. These authentic reviews provide insights
+                into what clients value most about working with Dr. Duffy, including her attention
+                to detail, personal service, and ability to achieve exceptional outcomes. Reading
+                these reviews helps potential clients understand the value Dr. Duffy provides.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-slate-800 mb-6">
               Why Clients Choose Dr. Jan Duffy Over Other Realtors
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Exceptional Service and Results</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Exceptional Service and Results
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Dr. Duffy's commitment to exceptional service and results sets her apart from other realtors. Her 4.9-star rating and 98% 5-star reviews demonstrate consistent excellence in service delivery. Clients consistently praise her professionalism, market knowledge, and ability to achieve optimal outcomes.
+                  Dr. Duffy's commitment to exceptional service and results sets her apart from
+                  other realtors. Her 4.9-star rating and 98% 5-star reviews demonstrate consistent
+                  excellence in service delivery. Clients consistently praise her professionalism,
+                  market knowledge, and ability to achieve optimal outcomes.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  This commitment to excellence ensures clients receive the highest level of service while achieving their real estate goals. Dr. Duffy's focus on results combined with exceptional service creates value that exceeds what other realtors provide.
+                  This commitment to excellence ensures clients receive the highest level of service
+                  while achieving their real estate goals. Dr. Duffy's focus on results combined
+                  with exceptional service creates value that exceeds what other realtors provide.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Unique Expertise and Background</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Unique Expertise and Background
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Dr. Duffy's unique combination of real estate expertise and psychology background provides advantages that other realtors cannot offer. Her understanding of client motivations and decision-making processes enables her to serve clients more effectively, particularly in complex or emotionally charged situations.
+                  Dr. Duffy's unique combination of real estate expertise and psychology background
+                  provides advantages that other realtors cannot offer. Her understanding of client
+                  motivations and decision-making processes enables her to serve clients more
+                  effectively, particularly in complex or emotionally charged situations.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  This unique expertise creates value for clients who benefit from Dr. Duffy's deep understanding of both real estate and human psychology. The combination of these skills ensures clients receive guidance that addresses both practical and emotional aspects of real estate transactions.
+                  This unique expertise creates value for clients who benefit from Dr. Duffy's deep
+                  understanding of both real estate and human psychology. The combination of these
+                  skills ensures clients receive guidance that addresses both practical and
+                  emotional aspects of real estate transactions.
                 </p>
               </div>
             </div>

@@ -428,67 +428,104 @@ export default function GreenValleyHomesPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
             Complete Guide to Green Valley Luxury Homes Henderson Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Green Valley: Established Luxury Living in Henderson
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Green Valley in Henderson offers established luxury living with mature neighborhoods, excellent schools, and well-maintained properties. This established community features mature trees, well-maintained landscaping, and quality construction that has stood the test of time. The community's established nature creates a sense of permanence and stability that appeals to luxury homebuyers.
+                Green Valley in Henderson offers established luxury living with mature
+                neighborhoods, excellent schools, and well-maintained properties. This established
+                community features mature trees, well-maintained landscaping, and quality
+                construction that has stood the test of time. The community's established nature
+                creates a sense of permanence and stability that appeals to luxury homebuyers.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The community's location in Henderson provides residents with a quieter, more residential feel while maintaining easy access to Las Vegas amenities. Green Valley's established infrastructure, excellent schools, and strong community character make it attractive to families and professionals seeking luxury living in a mature, well-established community.
+                The community's location in Henderson provides residents with a quieter, more
+                residential feel while maintaining easy access to Las Vegas amenities. Green
+                Valley's established infrastructure, excellent schools, and strong community
+                character make it attractive to families and professionals seeking luxury living in
+                a mature, well-established community.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Luxury Homes in Green Valley
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Green Valley homes range from $500,000 to over $2 million, featuring quality construction, mature landscaping, and established neighborhoods. Properties typically include 2,000 to 5,000 square feet of living space, private yards with mature trees, and well-maintained exteriors. The community's established nature provides luxury living at accessible price points.
+                Green Valley homes range from $500,000 to over $2 million, featuring quality
+                construction, mature landscaping, and established neighborhoods. Properties
+                typically include 2,000 to 5,000 square feet of living space, private yards with
+                mature trees, and well-maintained exteriors. The community's established nature
+                provides luxury living at accessible price points.
               </p>
             </div>
-            
+
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">
-                Why Choose Green Valley
-              </h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">Why Choose Green Valley</h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Green Valley offers luxury homebuyers exceptional value through established neighborhoods, excellent schools, strong appreciation, and mature community character. The community's median price of $750,000 represents excellent value for luxury living, while providing access to established amenities and infrastructure.
+                Green Valley offers luxury homebuyers exceptional value through established
+                neighborhoods, excellent schools, strong appreciation, and mature community
+                character. The community's median price of $750,000 represents excellent value for
+                luxury living, while providing access to established amenities and infrastructure.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The community's real estate market shows strong fundamentals with 12% year-over-year appreciation, 48 days average on market, and 4.0 months of inventory. These metrics indicate a healthy market with strong demand and appreciation potential, making Green Valley an attractive investment opportunity.
+                The community's real estate market shows strong fundamentals with 12% year-over-year
+                appreciation, 48 days average on market, and 4.0 months of inventory. These metrics
+                indicate a healthy market with strong demand and appreciation potential, making
+                Green Valley an attractive investment opportunity.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Working with Dr. Jan Duffy for Green Valley
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Dr. Jan Duffy specializes in Green Valley real estate, with extensive knowledge of the community's established neighborhoods, market conditions, and buyer preferences. Her expertise in Henderson luxury communities enables her to help buyers find properties that match their lifestyle and investment goals in this established luxury community.
+                Dr. Jan Duffy specializes in Green Valley real estate, with extensive knowledge of
+                the community's established neighborhoods, market conditions, and buyer preferences.
+                Her expertise in Henderson luxury communities enables her to help buyers find
+                properties that match their lifestyle and investment goals in this established
+                luxury community.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-slate-800 mb-6">
               What Makes Green Valley Special
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Established Neighborhoods and Mature Landscaping</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Established Neighborhoods and Mature Landscaping
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Green Valley's established neighborhoods feature mature trees, well-maintained landscaping, and quality construction that has proven its value over time. The community's mature character creates a sense of permanence and stability that appeals to luxury homebuyers seeking established luxury living.
+                  Green Valley's established neighborhoods feature mature trees, well-maintained
+                  landscaping, and quality construction that has proven its value over time. The
+                  community's mature character creates a sense of permanence and stability that
+                  appeals to luxury homebuyers seeking established luxury living.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  This established nature provides luxury living in a mature, well-maintained environment that appeals to buyers seeking quality construction and established neighborhoods. The community's commitment to maintaining high standards ensures long-term value and desirability.
+                  This established nature provides luxury living in a mature, well-maintained
+                  environment that appeals to buyers seeking quality construction and established
+                  neighborhoods. The community's commitment to maintaining high standards ensures
+                  long-term value and desirability.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Excellent Schools and Family-Friendly Environment</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Excellent Schools and Family-Friendly Environment
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Green Valley features excellent schools that are consistently ranked among Nevada's best. The community's family-friendly environment, safe neighborhoods, and established amenities make it ideal for families seeking luxury living with family-oriented amenities. This combination appeals to luxury homebuyers with children or those planning families.
+                  Green Valley features excellent schools that are consistently ranked among
+                  Nevada's best. The community's family-friendly environment, safe neighborhoods,
+                  and established amenities make it ideal for families seeking luxury living with
+                  family-oriented amenities. This combination appeals to luxury homebuyers with
+                  children or those planning families.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  The community's commitment to education and family services ensures residents have access to resources that support family life. This family-friendly focus combined with luxury amenities creates an environment that appeals to luxury homebuyers seeking both lifestyle and family support in an established community.
+                  The community's commitment to education and family services ensures residents have
+                  access to resources that support family life. This family-friendly focus combined
+                  with luxury amenities creates an environment that appeals to luxury homebuyers
+                  seeking both lifestyle and family support in an established community.
                 </p>
               </div>
             </div>

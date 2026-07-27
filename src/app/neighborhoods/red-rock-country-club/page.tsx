@@ -357,67 +357,109 @@ export default function RedRockCountryClubPage() {
           <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
             Complete Guide to Red Rock Country Club Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-primary-900 mb-6">
                 Red Rock Country Club: Las Vegas's Premier Golf Community
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Red Rock Country Club stands as Las Vegas's most prestigious golf course community, offering luxury homes with unparalleled access to championship golf, private club facilities, and stunning mountain views. This exclusive master-planned community features two 18-hole championship golf courses designed by renowned golf course architects, creating a golfer's paradise in the heart of Summerlin.
+                Red Rock Country Club stands as Las Vegas's most prestigious golf course community,
+                offering luxury homes with unparalleled access to championship golf, private club
+                facilities, and stunning mountain views. This exclusive master-planned community
+                features two 18-hole championship golf courses designed by renowned golf course
+                architects, creating a golfer's paradise in the heart of Summerlin.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                The community's location in Summerlin provides residents with access to world-class amenities including shopping centers, restaurants, parks, and excellent schools. Red Rock Country Club's gated security and private club facilities create an exclusive environment that appeals to luxury homebuyers seeking both lifestyle and investment value.
+                The community's location in Summerlin provides residents with access to world-class
+                amenities including shopping centers, restaurants, parks, and excellent schools. Red
+                Rock Country Club's gated security and private club facilities create an exclusive
+                environment that appeals to luxury homebuyers seeking both lifestyle and investment
+                value.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 Luxury Homes in Red Rock Country Club
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                Red Rock Country Club homes range from $1.5 million to over $10 million, featuring custom architecture, premium finishes, and resort-style amenities. Properties typically include 4,000 to 10,000 square feet of living space, private pools, outdoor kitchens, and stunning views of the golf course and surrounding mountains. The community's luxury homes appeal to buyers seeking both lifestyle and investment value.
+                Red Rock Country Club homes range from $1.5 million to over $10 million, featuring
+                custom architecture, premium finishes, and resort-style amenities. Properties
+                typically include 4,000 to 10,000 square feet of living space, private pools,
+                outdoor kitchens, and stunning views of the golf course and surrounding mountains.
+                The community's luxury homes appeal to buyers seeking both lifestyle and investment
+                value.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-primary-900 mb-6">
                 Golf Course Living at Its Finest
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Red Rock Country Club's golf courses provide residents with exclusive access to championship-level golf in a private, members-only environment. The community's private clubhouse features fine dining, social events, and recreational facilities that create a true country club lifestyle. This combination of golf access and club amenities makes Red Rock Country Club one of Las Vegas's most desirable communities.
+                Red Rock Country Club's golf courses provide residents with exclusive access to
+                championship-level golf in a private, members-only environment. The community's
+                private clubhouse features fine dining, social events, and recreational facilities
+                that create a true country club lifestyle. This combination of golf access and club
+                amenities makes Red Rock Country Club one of Las Vegas's most desirable communities.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                The golf course homes command premium prices, with properties offering golf course views or direct access selling for significant premiums. The community's commitment to maintaining golf course quality and club facilities ensures long-term value and desirability, making Red Rock Country Club an excellent investment for luxury homebuyers.
+                The golf course homes command premium prices, with properties offering golf course
+                views or direct access selling for significant premiums. The community's commitment
+                to maintaining golf course quality and club facilities ensures long-term value and
+                desirability, making Red Rock Country Club an excellent investment for luxury
+                homebuyers.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 Working with Dr. Jan Duffy for Red Rock Country Club
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                Dr. Jan Duffy specializes in Red Rock Country Club real estate, with extensive knowledge of the community's properties, market conditions, and buyer preferences. Her expertise in luxury golf course communities enables her to help buyers find properties that match their lifestyle and investment goals. Dr. Duffy's network includes access to off-market listings and properties that may not be publicly available.
+                Dr. Jan Duffy specializes in Red Rock Country Club real estate, with extensive
+                knowledge of the community's properties, market conditions, and buyer preferences.
+                Her expertise in luxury golf course communities enables her to help buyers find
+                properties that match their lifestyle and investment goals. Dr. Duffy's network
+                includes access to off-market listings and properties that may not be publicly
+                available.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-primary-50 to-neutral-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-primary-900 mb-6">
               What Makes Red Rock Country Club Special
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-bold text-primary-800 mb-4">Championship Golf Courses</h4>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">
+                  Championship Golf Courses
+                </h4>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  Red Rock Country Club features two 18-hole championship golf courses that provide residents with world-class golf experiences. The courses are meticulously maintained and offer challenging play for golfers of all skill levels. The private, members-only environment ensures uncrowded play and exclusive access to premium golf facilities.
+                  Red Rock Country Club features two 18-hole championship golf courses that provide
+                  residents with world-class golf experiences. The courses are meticulously
+                  maintained and offer challenging play for golfers of all skill levels. The
+                  private, members-only environment ensures uncrowded play and exclusive access to
+                  premium golf facilities.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
-                  Golf course homes in Red Rock Country Club offer direct access to the courses, with many properties featuring golf course views and private access. This proximity to championship golf creates a unique lifestyle that appeals to golf enthusiasts and luxury homebuyers seeking resort-style living.
+                  Golf course homes in Red Rock Country Club offer direct access to the courses,
+                  with many properties featuring golf course views and private access. This
+                  proximity to championship golf creates a unique lifestyle that appeals to golf
+                  enthusiasts and luxury homebuyers seeking resort-style living.
                 </p>
               </div>
-              
+
               <div>
                 <h4 className="text-xl font-bold text-primary-800 mb-4">Private Club Facilities</h4>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  The community's private clubhouse provides residents with exclusive access to fine dining, social events, fitness facilities, and recreational amenities. This private club environment creates opportunities for social connection and community engagement, contributing to the sense of exclusivity and luxury that defines Red Rock Country Club living.
+                  The community's private clubhouse provides residents with exclusive access to fine
+                  dining, social events, fitness facilities, and recreational amenities. This
+                  private club environment creates opportunities for social connection and community
+                  engagement, contributing to the sense of exclusivity and luxury that defines Red
+                  Rock Country Club living.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
-                  Club membership provides access to amenities and services that enhance the luxury lifestyle, including dining options, event spaces, and recreational facilities. The club's commitment to maintaining high standards ensures residents enjoy premium experiences that justify the community's premium pricing.
+                  Club membership provides access to amenities and services that enhance the luxury
+                  lifestyle, including dining options, event spaces, and recreational facilities.
+                  The club's commitment to maintaining high standards ensures residents enjoy
+                  premium experiences that justify the community's premium pricing.
                 </p>
               </div>
             </div>

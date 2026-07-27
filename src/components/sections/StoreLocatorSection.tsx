@@ -47,7 +47,10 @@ const StoreLocatorSection: FC<StoreLocatorSectionProps> = ({
               Las Vegas, NV 89135
             </p>
             <p className="text-slate-600 mt-2">
-              Phone: <a href="tel:7022221964" className="text-primary-600 hover:underline">(702) 222-1964</a>
+              Phone:{' '}
+              <a href="tel:7022221964" className="text-primary-600 hover:underline">
+                (702) 222-1964
+              </a>
             </p>
           </div>
         </div>
@@ -57,4 +60,3 @@ const StoreLocatorSection: FC<StoreLocatorSectionProps> = ({
 };
 
 export default StoreLocatorSection;
-

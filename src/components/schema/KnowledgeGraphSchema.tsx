@@ -5,10 +5,7 @@ interface KnowledgeGraphSchemaProps {
   pageType?: string;
 }
 
-const KnowledgeGraphSchema: FC<KnowledgeGraphSchemaProps> = ({
-  pageUrl,
-  pageType = 'WebPage',
-}) => {
+const KnowledgeGraphSchema: FC<KnowledgeGraphSchemaProps> = ({ pageUrl, pageType = 'WebPage' }) => {
   // Comprehensive knowledge graph data for AI consumption
   const knowledgeGraph = {
     '@context': 'https://schema.org',
@@ -73,11 +70,7 @@ const KnowledgeGraphSchema: FC<KnowledgeGraphSchemaProps> = ({
             },
           },
         ],
-        award: [
-          'Top 1% Producer',
-          'Luxury Home Specialist',
-          'Veteran Service Recognition',
-        ],
+        award: ['Top 1% Producer', 'Luxury Home Specialist', 'Veteran Service Recognition'],
         foundingDate: '2013',
         priceRange: '$500K - $5M+',
         aggregateRating: {
@@ -145,4 +138,3 @@ const KnowledgeGraphSchema: FC<KnowledgeGraphSchemaProps> = ({
 };
 
 export default KnowledgeGraphSchema;
-

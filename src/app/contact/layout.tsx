@@ -12,7 +12,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Contact Dr. Jan Duffy | Las Vegas Home Expert',
-    description: 'Get in touch with Dr. Jan Duffy for expert real estate services in Las Vegas. Available 24/7.',
+    description:
+      'Get in touch with Dr. Jan Duffy for expert real estate services in Las Vegas. Available 24/7.',
     url: 'https://lasvegashomeexpert.com/contact',
     type: 'website',
   },
@@ -24,4 +25,3 @@ export const metadata: Metadata = {
 export default function ContactLayout({ children }: { children: React.ReactNode }) {
   return children;
 }
-

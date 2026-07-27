@@ -493,51 +493,80 @@ export default function LuxuryHomesForSalePage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
             Complete Guide to Buying Luxury Homes in Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Understanding the Las Vegas Luxury Real Estate Market
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The Las Vegas luxury real estate market represents one of the most dynamic and attractive markets in the United States. With properties ranging from $1 million to over $25 million, Las Vegas offers luxury homebuyers exceptional value compared to other major metropolitan areas like Los Angeles, San Francisco, or New York.
+                The Las Vegas luxury real estate market represents one of the most dynamic and
+                attractive markets in the United States. With properties ranging from $1 million to
+                over $25 million, Las Vegas offers luxury homebuyers exceptional value compared to
+                other major metropolitan areas like Los Angeles, San Francisco, or New York.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                What makes Las Vegas unique for luxury homebuyers is the combination of world-class amenities, favorable tax environment with no state income tax, and the ability to own a resort-style property at a fraction of the cost found in coastal markets. Luxury homes in Las Vegas feature private pools, golf course access, gated communities, and stunning views of the surrounding mountains and Las Vegas Strip.
+                What makes Las Vegas unique for luxury homebuyers is the combination of world-class
+                amenities, favorable tax environment with no state income tax, and the ability to
+                own a resort-style property at a fraction of the cost found in coastal markets.
+                Luxury homes in Las Vegas feature private pools, golf course access, gated
+                communities, and stunning views of the surrounding mountains and Las Vegas Strip.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Why Red Rock Country Club is Las Vegas's Premier Luxury Community
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Red Rock Country Club stands as Las Vegas's most prestigious golf course community, with luxury homes averaging $2.1 million. This exclusive master-planned community features two championship golf courses, private club facilities, and luxury estates with unparalleled views of the Red Rock Canyon National Conservation Area.
+                Red Rock Country Club stands as Las Vegas's most prestigious golf course community,
+                with luxury homes averaging $2.1 million. This exclusive master-planned community
+                features two championship golf courses, private club facilities, and luxury estates
+                with unparalleled views of the Red Rock Canyon National Conservation Area.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Properties in Red Rock Country Club typically feature 4,000 to 8,000 square feet of living space, custom architecture, and resort-style amenities. The community has experienced 15% year-over-year price appreciation, making it an attractive investment opportunity for luxury homebuyers seeking both lifestyle and financial returns.
+                Properties in Red Rock Country Club typically feature 4,000 to 8,000 square feet of
+                living space, custom architecture, and resort-style amenities. The community has
+                experienced 15% year-over-year price appreciation, making it an attractive
+                investment opportunity for luxury homebuyers seeking both lifestyle and financial
+                returns.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 The Ridges Summerlin: Ultra-Luxury Living at Its Finest
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The Ridges Summerlin represents the pinnacle of luxury living in Las Vegas, with homes commanding a median price of $2.5 million. This exclusive community features ultra-luxury estates positioned on elevated sites offering panoramic views of the Las Vegas Strip, surrounding mountains, and the valley below.
+                The Ridges Summerlin represents the pinnacle of luxury living in Las Vegas, with
+                homes commanding a median price of $2.5 million. This exclusive community features
+                ultra-luxury estates positioned on elevated sites offering panoramic views of the
+                Las Vegas Strip, surrounding mountains, and the valley below.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Homes in The Ridges typically span 5,000 to 12,000 square feet, featuring contemporary architecture, smart home technology, and premium finishes throughout. The community's private golf course and club facilities provide residents with exclusive access to world-class amenities, while the elevated location ensures privacy and spectacular views.
+                Homes in The Ridges typically span 5,000 to 12,000 square feet, featuring
+                contemporary architecture, smart home technology, and premium finishes throughout.
+                The community's private golf course and club facilities provide residents with
+                exclusive access to world-class amenities, while the elevated location ensures
+                privacy and spectacular views.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 MacDonald Highlands: Henderson's Premier Luxury Community
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                MacDonald Highlands in Henderson offers luxury homebuyers exceptional value with a median price of $1.8 million. This master-planned community features custom estates, mountain views, and access to the Dragon Ridge Golf Club. The community's location in Henderson provides a quieter, more residential feel while maintaining easy access to Las Vegas amenities.
+                MacDonald Highlands in Henderson offers luxury homebuyers exceptional value with a
+                median price of $1.8 million. This master-planned community features custom estates,
+                mountain views, and access to the Dragon Ridge Golf Club. The community's location
+                in Henderson provides a quieter, more residential feel while maintaining easy access
+                to Las Vegas amenities.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Properties in MacDonald Highlands range from 3,500 to 10,000 square feet, with many featuring Mediterranean-inspired architecture, private pools, and outdoor entertainment areas. The community has shown strong appreciation with 18% year-over-year growth, making it an attractive option for luxury homebuyers seeking both lifestyle and investment value.
+                Properties in MacDonald Highlands range from 3,500 to 10,000 square feet, with many
+                featuring Mediterranean-inspired architecture, private pools, and outdoor
+                entertainment areas. The community has shown strong appreciation with 18%
+                year-over-year growth, making it an attractive option for luxury homebuyers seeking
+                both lifestyle and investment value.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-slate-800 mb-6">
               What to Look for When Buying Luxury Homes in Las Vegas
@@ -546,20 +575,35 @@ export default function LuxuryHomesForSalePage() {
               <div>
                 <h4 className="text-xl font-bold text-slate-800 mb-4">Location and Neighborhood</h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  The location of your luxury home significantly impacts both lifestyle and investment value. Master-planned communities like Summerlin and Henderson offer world-class amenities, excellent schools, and strong community infrastructure. Consider proximity to golf courses, shopping, dining, and entertainment when selecting your luxury home location.
+                  The location of your luxury home significantly impacts both lifestyle and
+                  investment value. Master-planned communities like Summerlin and Henderson offer
+                  world-class amenities, excellent schools, and strong community infrastructure.
+                  Consider proximity to golf courses, shopping, dining, and entertainment when
+                  selecting your luxury home location.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  Neighborhoods with established reputations like Red Rock Country Club and The Ridges tend to maintain value better and offer more consistent appreciation. These communities also provide better access to exclusive amenities and social networks within the luxury market.
+                  Neighborhoods with established reputations like Red Rock Country Club and The
+                  Ridges tend to maintain value better and offer more consistent appreciation. These
+                  communities also provide better access to exclusive amenities and social networks
+                  within the luxury market.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Property Features and Amenities</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Property Features and Amenities
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Luxury homes in Las Vegas are defined by premium features including private pools and spas, outdoor kitchens, smart home technology, and high-end finishes. Look for properties with custom architecture, premium materials, and resort-style amenities that enhance your lifestyle and provide enjoyment for family and guests.
+                  Luxury homes in Las Vegas are defined by premium features including private pools
+                  and spas, outdoor kitchens, smart home technology, and high-end finishes. Look for
+                  properties with custom architecture, premium materials, and resort-style amenities
+                  that enhance your lifestyle and provide enjoyment for family and guests.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  Properties with golf course access, mountain views, or Strip views command premium prices and offer better long-term appreciation potential. Gated communities with 24-hour security provide peace of mind and exclusivity that luxury homebuyers value.
+                  Properties with golf course access, mountain views, or Strip views command premium
+                  prices and offer better long-term appreciation potential. Gated communities with
+                  24-hour security provide peace of mind and exclusivity that luxury homebuyers
+                  value.
                 </p>
               </div>
             </div>
@@ -573,75 +617,111 @@ export default function LuxuryHomesForSalePage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
             Why Work with Dr. Jan Duffy for Your Luxury Home Purchase
           </h2>
-          
+
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-white rounded-lg p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-slate-800 mb-4">
                 Exclusive Access to Off-Market Listings
               </h3>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Dr. Jan Duffy's extensive network and reputation in the Las Vegas luxury market provide access to exclusive off-market listings and pocket listings that never appear on public MLS. These properties often represent the best opportunities for luxury homebuyers, offering better pricing and less competition.
+                Dr. Jan Duffy's extensive network and reputation in the Las Vegas luxury market
+                provide access to exclusive off-market listings and pocket listings that never
+                appear on public MLS. These properties often represent the best opportunities for
+                luxury homebuyers, offering better pricing and less competition.
               </p>
               <p className="text-slate-600 leading-relaxed">
-                Her relationships with luxury home sellers, developers, and other real estate professionals ensure clients see properties before they hit the market, giving them a significant advantage in competitive situations.
+                Her relationships with luxury home sellers, developers, and other real estate
+                professionals ensure clients see properties before they hit the market, giving them
+                a significant advantage in competitive situations.
               </p>
             </div>
-            
+
             <div className="bg-white rounded-lg p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-slate-800 mb-4">
                 Expert Negotiation and Transaction Management
               </h3>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Luxury real estate transactions require sophisticated negotiation skills and attention to detail. Dr. Duffy's experience with over 500 luxury transactions has honed her ability to negotiate favorable terms, handle complex contingencies, and navigate the intricacies of high-value real estate deals.
+                Luxury real estate transactions require sophisticated negotiation skills and
+                attention to detail. Dr. Duffy's experience with over 500 luxury transactions has
+                honed her ability to negotiate favorable terms, handle complex contingencies, and
+                navigate the intricacies of high-value real estate deals.
               </p>
               <p className="text-slate-600 leading-relaxed">
-                Her background in psychology provides unique insights into seller motivations and negotiation dynamics, ensuring clients achieve optimal outcomes while maintaining positive relationships throughout the transaction process.
+                Her background in psychology provides unique insights into seller motivations and
+                negotiation dynamics, ensuring clients achieve optimal outcomes while maintaining
+                positive relationships throughout the transaction process.
               </p>
             </div>
-            
+
             <div className="bg-white rounded-lg p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-slate-800 mb-4">
                 Comprehensive Market Knowledge
               </h3>
               <p className="text-slate-600 leading-relaxed mb-4">
-                With over 15 years of experience in Las Vegas luxury real estate, Dr. Duffy possesses deep knowledge of market trends, property values, and neighborhood characteristics. This expertise enables her to help clients make informed decisions about their luxury home purchases.
+                With over 15 years of experience in Las Vegas luxury real estate, Dr. Duffy
+                possesses deep knowledge of market trends, property values, and neighborhood
+                characteristics. This expertise enables her to help clients make informed decisions
+                about their luxury home purchases.
               </p>
               <p className="text-slate-600 leading-relaxed">
-                Her understanding of Las Vegas luxury neighborhoods, from Red Rock Country Club to The Ridges, ensures clients receive accurate market analysis and property valuations that reflect true market conditions and future appreciation potential.
+                Her understanding of Las Vegas luxury neighborhoods, from Red Rock Country Club to
+                The Ridges, ensures clients receive accurate market analysis and property valuations
+                that reflect true market conditions and future appreciation potential.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-white rounded-lg shadow-lg p-8">
             <h3 className="text-2xl font-bold text-slate-800 mb-6">
               The Luxury Home Buying Process with Dr. Jan Duffy
             </h3>
             <div className="space-y-6">
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-3">Initial Consultation and Needs Assessment</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-3">
+                  Initial Consultation and Needs Assessment
+                </h4>
                 <p className="text-slate-600 leading-relaxed">
-                  Dr. Duffy begins every luxury home search with a comprehensive consultation to understand your lifestyle needs, investment objectives, and specific property preferences. This initial assessment ensures the search process targets properties that truly match your requirements, saving time and maximizing the likelihood of finding your ideal luxury home.
+                  Dr. Duffy begins every luxury home search with a comprehensive consultation to
+                  understand your lifestyle needs, investment objectives, and specific property
+                  preferences. This initial assessment ensures the search process targets properties
+                  that truly match your requirements, saving time and maximizing the likelihood of
+                  finding your ideal luxury home.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-3">Custom Property Search and Showings</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-3">
+                  Custom Property Search and Showings
+                </h4>
                 <p className="text-slate-600 leading-relaxed">
-                  Based on your criteria, Dr. Duffy creates a custom search strategy that includes both on-market and off-market properties. She arranges private showings at your convenience, providing detailed property analysis and neighborhood insights to help you evaluate each opportunity thoroughly.
+                  Based on your criteria, Dr. Duffy creates a custom search strategy that includes
+                  both on-market and off-market properties. She arranges private showings at your
+                  convenience, providing detailed property analysis and neighborhood insights to
+                  help you evaluate each opportunity thoroughly.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-3">Offer Strategy and Negotiation</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-3">
+                  Offer Strategy and Negotiation
+                </h4>
                 <p className="text-slate-600 leading-relaxed">
-                  Once you've identified your ideal luxury home, Dr. Duffy develops a strategic offer approach based on market analysis, comparable sales, and seller motivations. Her negotiation expertise ensures you secure the property at the best possible terms while protecting your interests throughout the transaction.
+                  Once you've identified your ideal luxury home, Dr. Duffy develops a strategic
+                  offer approach based on market analysis, comparable sales, and seller motivations.
+                  Her negotiation expertise ensures you secure the property at the best possible
+                  terms while protecting your interests throughout the transaction.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-3">Due Diligence and Closing Management</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-3">
+                  Due Diligence and Closing Management
+                </h4>
                 <p className="text-slate-600 leading-relaxed">
-                  Dr. Duffy coordinates all aspects of the luxury home purchase, from inspections and appraisals to title work and financing. Her attention to detail and experience with luxury transactions ensures a smooth closing process, addressing any issues that arise and keeping you informed every step of the way.
+                  Dr. Duffy coordinates all aspects of the luxury home purchase, from inspections
+                  and appraisals to title work and financing. Her attention to detail and experience
+                  with luxury transactions ensures a smooth closing process, addressing any issues
+                  that arise and keeping you informed every step of the way.
                 </p>
               </div>
             </div>

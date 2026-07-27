@@ -12,7 +12,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'First Time Home Buyer Las Vegas | Complete Guide | Dr. Jan Duffy',
-    description: 'Expert guide for first-time home buyers in Las Vegas with programs, loans, and step-by-step process.',
+    description:
+      'Expert guide for first-time home buyers in Las Vegas with programs, loans, and step-by-step process.',
     url: 'https://lasvegashomeexpert.com/first-time-home-buyer-las-vegas',
     type: 'website',
   },
@@ -24,4 +25,3 @@ export const metadata: Metadata = {
 export default function FirstTimeHomeBuyerLayout({ children }: { children: React.ReactNode }) {
   return children;
 }
-

@@ -15,12 +15,12 @@ export const homePageFAQs: FAQItem[] = [
   {
     question: 'Do you serve all areas of Las Vegas?',
     answer:
-      'Yes, as a Las Vegas home expert, I serve the entire Las Vegas Valley including Summerlin, Henderson, Red Rock Country Club, The Ridges, Tournament Hills, Southern Highlands, MacDonald Highlands, Anthem, and more. Whether you\'re buying, selling, or investing, I have expertise in all major Las Vegas neighborhoods.',
+      "Yes, as a Las Vegas home expert, I serve the entire Las Vegas Valley including Summerlin, Henderson, Red Rock Country Club, The Ridges, Tournament Hills, Southern Highlands, MacDonald Highlands, Anthem, and more. Whether you're buying, selling, or investing, I have expertise in all major Las Vegas neighborhoods.",
   },
   {
     question: 'How do I contact the Las Vegas home expert?',
     answer:
-      'You can contact Dr. Jan Duffy, Las Vegas home expert, by calling (702) 222-1964, emailing DrJanSells@LasVegasHomeExpert.com, or visiting our office at 1700 S Pavilion Center Drive, Suite 140, Las Vegas, NV 89135. I\'m available for consultations, property tours, and real estate advice.',
+      "You can contact Dr. Jan Duffy, Las Vegas home expert, by calling (702) 222-1964, emailing DrJanSells@LasVegasHomeExpert.com, or visiting our office at 1700 S Pavilion Center Drive, Suite 140, Las Vegas, NV 89135. I'm available for consultations, property tours, and real estate advice.",
   },
   {
     question: 'What services does the Las Vegas home expert provide?',
@@ -87,7 +87,7 @@ export const serviceFAQs: FAQItem[] = [
   {
     question: 'Do you work with luxury home buyers and sellers?',
     answer:
-      'Yes, as a Las Vegas home expert, I specialize in luxury real estate transactions for both buyers and sellers. I work with properties ranging from $1 million to $10+ million in Las Vegas\' most prestigious neighborhoods, providing the expertise and service level that luxury clients expect.',
+      "Yes, as a Las Vegas home expert, I specialize in luxury real estate transactions for both buyers and sellers. I work with properties ranging from $1 million to $10+ million in Las Vegas' most prestigious neighborhoods, providing the expertise and service level that luxury clients expect.",
   },
 ];
 
@@ -130,4 +130,3 @@ export const getFAQsForPage = (pageType: string): FAQItem[] => {
       return [...homePageFAQs, ...generalFAQs];
   }
 };
-

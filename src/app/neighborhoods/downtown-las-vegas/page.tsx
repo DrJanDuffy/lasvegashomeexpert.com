@@ -431,67 +431,104 @@ export default function DowntownLasVegasPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
             Complete Guide to Downtown Las Vegas Urban Luxury Living
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Downtown Las Vegas: Urban Luxury Living
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Downtown Las Vegas offers urban luxury living with high-rise condos, luxury lofts, and modern residences featuring spectacular city views and world-class amenities. This vibrant urban area provides residents with proximity to entertainment, dining, shopping, and cultural attractions, creating unique living experiences for urban luxury seekers.
+                Downtown Las Vegas offers urban luxury living with high-rise condos, luxury lofts,
+                and modern residences featuring spectacular city views and world-class amenities.
+                This vibrant urban area provides residents with proximity to entertainment, dining,
+                shopping, and cultural attractions, creating unique living experiences for urban
+                luxury seekers.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The area's ongoing revitalization has created new luxury residential developments with modern amenities, contemporary designs, and access to downtown's vibrant culture. Downtown Las Vegas' urban living appeals to professionals, empty nesters, and investors seeking luxury living in the heart of Las Vegas.
+                The area's ongoing revitalization has created new luxury residential developments
+                with modern amenities, contemporary designs, and access to downtown's vibrant
+                culture. Downtown Las Vegas' urban living appeals to professionals, empty nesters,
+                and investors seeking luxury living in the heart of Las Vegas.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Luxury Properties in Downtown Las Vegas
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Downtown Las Vegas properties range from $300,000 to over $2 million, featuring high-rise condos, luxury lofts, and modern residences with city views and contemporary amenities. Properties typically include modern finishes, spectacular views, and access to downtown amenities. The area's urban luxury properties appeal to buyers seeking vibrant city living with luxury amenities.
+                Downtown Las Vegas properties range from $300,000 to over $2 million, featuring
+                high-rise condos, luxury lofts, and modern residences with city views and
+                contemporary amenities. Properties typically include modern finishes, spectacular
+                views, and access to downtown amenities. The area's urban luxury properties appeal
+                to buyers seeking vibrant city living with luxury amenities.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Why Choose Downtown Las Vegas
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Downtown Las Vegas offers luxury homebuyers exceptional value through urban location, proximity to entertainment, strong appreciation potential, and vibrant culture. The area's median price of $450,000 represents excellent value for urban luxury living, while providing access to comprehensive amenities and lifestyle options.
+                Downtown Las Vegas offers luxury homebuyers exceptional value through urban
+                location, proximity to entertainment, strong appreciation potential, and vibrant
+                culture. The area's median price of $450,000 represents excellent value for urban
+                luxury living, while providing access to comprehensive amenities and lifestyle
+                options.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The area's real estate market shows strong fundamentals with 14% year-over-year appreciation, 42 days average on market, and 3.8 months of inventory. These metrics indicate a healthy market with strong demand and appreciation potential, making Downtown Las Vegas an attractive investment opportunity.
+                The area's real estate market shows strong fundamentals with 14% year-over-year
+                appreciation, 42 days average on market, and 3.8 months of inventory. These metrics
+                indicate a healthy market with strong demand and appreciation potential, making
+                Downtown Las Vegas an attractive investment opportunity.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Working with Dr. Jan Duffy for Downtown Las Vegas
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Dr. Jan Duffy specializes in Downtown Las Vegas real estate, with extensive knowledge of the area's properties, market conditions, and buyer preferences. Her expertise in urban luxury properties enables her to help buyers find properties that match their lifestyle and investment goals in this vibrant urban area.
+                Dr. Jan Duffy specializes in Downtown Las Vegas real estate, with extensive
+                knowledge of the area's properties, market conditions, and buyer preferences. Her
+                expertise in urban luxury properties enables her to help buyers find properties that
+                match their lifestyle and investment goals in this vibrant urban area.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-slate-800 mb-6">
               What Makes Downtown Las Vegas Special
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Vibrant Urban Culture and Entertainment</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Vibrant Urban Culture and Entertainment
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Downtown Las Vegas provides residents with proximity to world-class entertainment, dining, shopping, and cultural attractions. The area's vibrant culture and ongoing revitalization create unique living experiences that appeal to urban luxury seekers seeking vibrant city living.
+                  Downtown Las Vegas provides residents with proximity to world-class entertainment,
+                  dining, shopping, and cultural attractions. The area's vibrant culture and ongoing
+                  revitalization create unique living experiences that appeal to urban luxury
+                  seekers seeking vibrant city living.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  This proximity to entertainment and culture creates opportunities for residents to enjoy Las Vegas's vibrant urban scene while maintaining luxury living with modern amenities. The area's ongoing development ensures continued desirability and value growth for urban luxury properties.
+                  This proximity to entertainment and culture creates opportunities for residents to
+                  enjoy Las Vegas's vibrant urban scene while maintaining luxury living with modern
+                  amenities. The area's ongoing development ensures continued desirability and value
+                  growth for urban luxury properties.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Spectacular City Views and Modern Amenities</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Spectacular City Views and Modern Amenities
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Downtown Las Vegas properties feature spectacular city views of the Las Vegas Strip, surrounding mountains, and valley below. The area's modern residential developments include contemporary amenities, luxury finishes, and access to downtown facilities that create exceptional urban living experiences.
+                  Downtown Las Vegas properties feature spectacular city views of the Las Vegas
+                  Strip, surrounding mountains, and valley below. The area's modern residential
+                  developments include contemporary amenities, luxury finishes, and access to
+                  downtown facilities that create exceptional urban living experiences.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  The combination of spectacular views and modern amenities creates unique living experiences that appeal to urban luxury buyers seeking both lifestyle and investment value. The area's commitment to modern development ensures long-term value and desirability for urban luxury properties.
+                  The combination of spectacular views and modern amenities creates unique living
+                  experiences that appeal to urban luxury buyers seeking both lifestyle and
+                  investment value. The area's commitment to modern development ensures long-term
+                  value and desirability for urban luxury properties.
                 </p>
               </div>
             </div>

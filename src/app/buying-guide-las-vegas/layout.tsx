@@ -12,7 +12,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Las Vegas Home Buying Guide 2025 | Complete Buyer Guide',
-    description: 'Expert guide to buying a home in Las Vegas with step-by-step process and insider tips.',
+    description:
+      'Expert guide to buying a home in Las Vegas with step-by-step process and insider tips.',
     url: 'https://lasvegashomeexpert.com/buying-guide-las-vegas',
     type: 'website',
   },
@@ -24,4 +25,3 @@ export const metadata: Metadata = {
 export default function BuyingGuideLayout({ children }: { children: React.ReactNode }) {
   return children;
 }
-

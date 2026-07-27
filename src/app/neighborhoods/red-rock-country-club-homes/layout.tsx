@@ -12,7 +12,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Red Rock Country Club Homes for Sale | Summerlin Luxury Properties',
-    description: 'Browse luxury homes in exclusive golf community with estates over $1M and mountain views.',
+    description:
+      'Browse luxury homes in exclusive golf community with estates over $1M and mountain views.',
     url: 'https://lasvegashomeexpert.com/neighborhoods/red-rock-country-club-homes',
     type: 'website',
   },
@@ -24,4 +25,3 @@ export const metadata: Metadata = {
 export default function RedRockCountryClubHomesLayout({ children }: { children: React.ReactNode }) {
   return children;
 }
-

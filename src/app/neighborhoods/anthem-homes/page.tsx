@@ -429,67 +429,102 @@ export default function AnthemHomesPage() {
           <h2 className="text-4xl font-bold text-slate-900 text-center mb-12">
             Complete Guide to Anthem Luxury Homes for Sale Henderson Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Anthem: Master-Planned Luxury Living in Henderson
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Anthem offers luxury living in Henderson with access to master-planned community amenities, golf courses, parks, and world-class facilities. This premier master-planned community features luxury homes designed for families and professionals seeking quality living with comprehensive amenities and family-oriented environment.
+                Anthem offers luxury living in Henderson with access to master-planned community
+                amenities, golf courses, parks, and world-class facilities. This premier
+                master-planned community features luxury homes designed for families and
+                professionals seeking quality living with comprehensive amenities and
+                family-oriented environment.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The community's location in Henderson provides residents with a quieter, more residential feel while maintaining easy access to Las Vegas amenities. Anthem's master-planned design includes parks, trails, shopping centers, and recreational facilities that support active lifestyles and family living.
+                The community's location in Henderson provides residents with a quieter, more
+                residential feel while maintaining easy access to Las Vegas amenities. Anthem's
+                master-planned design includes parks, trails, shopping centers, and recreational
+                facilities that support active lifestyles and family living.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Luxury Homes in Anthem
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Anthem homes range from $700,000 to over $2.5 million, featuring quality construction, modern designs, and access to community amenities. Properties typically include 2,500 to 6,000 square feet of living space, private yards, and modern finishes. The community's luxury homes appeal to families and professionals seeking luxury living with family-oriented amenities.
+                Anthem homes range from $700,000 to over $2.5 million, featuring quality
+                construction, modern designs, and access to community amenities. Properties
+                typically include 2,500 to 6,000 square feet of living space, private yards, and
+                modern finishes. The community's luxury homes appeal to families and professionals
+                seeking luxury living with family-oriented amenities.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-slate-800 mb-6">
                 Why Buy Luxury Homes in Anthem
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                Anthem offers luxury homebuyers exceptional value through master-planned community amenities, excellent schools, strong appreciation, and family-friendly environment. The community's median price of $950,000 represents excellent value for luxury living, while providing access to comprehensive amenities and lifestyle options.
+                Anthem offers luxury homebuyers exceptional value through master-planned community
+                amenities, excellent schools, strong appreciation, and family-friendly environment.
+                The community's median price of $950,000 represents excellent value for luxury
+                living, while providing access to comprehensive amenities and lifestyle options.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-4">
-                The community's real estate market shows strong fundamentals with 15% year-over-year appreciation, 55 days average on market, and 4.2 months of inventory. These metrics indicate a healthy market with strong demand and appreciation potential, making Anthem an attractive investment opportunity.
+                The community's real estate market shows strong fundamentals with 15% year-over-year
+                appreciation, 55 days average on market, and 4.2 months of inventory. These metrics
+                indicate a healthy market with strong demand and appreciation potential, making
+                Anthem an attractive investment opportunity.
               </p>
               <h3 className="text-2xl font-bold text-slate-800 mb-6 mt-8">
                 Working with Dr. Jan Duffy for Anthem Homes
               </h3>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Dr. Jan Duffy specializes in Anthem real estate, with extensive knowledge of the community's properties, market conditions, and buyer preferences. Her expertise in Henderson master-planned communities enables her to help buyers find properties that match their lifestyle and investment goals in this premier community.
+                Dr. Jan Duffy specializes in Anthem real estate, with extensive knowledge of the
+                community's properties, market conditions, and buyer preferences. Her expertise in
+                Henderson master-planned communities enables her to help buyers find properties that
+                match their lifestyle and investment goals in this premier community.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg p-8 mt-12">
-            <h3 className="text-2xl font-bold text-slate-800 mb-6">
-              What Makes Anthem Special
-            </h3>
+            <h3 className="text-2xl font-bold text-slate-800 mb-6">What Makes Anthem Special</h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Master-Planned Community Excellence</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Master-Planned Community Excellence
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Anthem's master-planned design provides residents with comprehensive amenities including golf courses, parks, trails, shopping centers, and recreational facilities. The community's commitment to maintaining high standards and providing ongoing development ensures residents enjoy premium amenities that enhance quality of life.
+                  Anthem's master-planned design provides residents with comprehensive amenities
+                  including golf courses, parks, trails, shopping centers, and recreational
+                  facilities. The community's commitment to maintaining high standards and providing
+                  ongoing development ensures residents enjoy premium amenities that enhance quality
+                  of life.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  The community's amenities support active lifestyles and family living, creating opportunities for outdoor recreation, social connection, and community engagement. This comprehensive approach to community development creates exceptional value for luxury homebuyers seeking both lifestyle and family support.
+                  The community's amenities support active lifestyles and family living, creating
+                  opportunities for outdoor recreation, social connection, and community engagement.
+                  This comprehensive approach to community development creates exceptional value for
+                  luxury homebuyers seeking both lifestyle and family support.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-slate-800 mb-4">Mountain Views and Natural Setting</h4>
+                <h4 className="text-xl font-bold text-slate-800 mb-4">
+                  Mountain Views and Natural Setting
+                </h4>
                 <p className="text-slate-600 leading-relaxed mb-4">
-                  Anthem's location in Henderson provides residents with mountain views and proximity to natural areas, creating unique living experiences that appeal to buyers seeking both luxury living and natural beauty. The community's commitment to preserving views and natural areas ensures long-term value and desirability.
+                  Anthem's location in Henderson provides residents with mountain views and
+                  proximity to natural areas, creating unique living experiences that appeal to
+                  buyers seeking both luxury living and natural beauty. The community's commitment
+                  to preserving views and natural areas ensures long-term value and desirability.
                 </p>
                 <p className="text-slate-600 leading-relaxed">
-                  This combination of luxury living and natural setting makes Anthem attractive to luxury homebuyers seeking both lifestyle and connection to nature. The community's commitment to maintaining these characteristics ensures long-term value and desirability for luxury homebuyers.
+                  This combination of luxury living and natural setting makes Anthem attractive to
+                  luxury homebuyers seeking both lifestyle and connection to nature. The community's
+                  commitment to maintaining these characteristics ensures long-term value and
+                  desirability for luxury homebuyers.
                 </p>
               </div>
             </div>

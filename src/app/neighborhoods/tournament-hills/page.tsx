@@ -420,67 +420,105 @@ export default function TournamentHillsPage() {
           <h2 className="text-4xl font-bold text-primary-900 text-center mb-12">
             Complete Guide to Tournament Hills Las Vegas
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold text-primary-900 mb-6">
                 Tournament Hills: Luxury Golf Community Living
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Tournament Hills offers luxury living in Summerlin with access to championship golf, mountain views, and exclusive amenities. This premier community features luxury homes designed for golf enthusiasts and luxury lifestyle seekers who value exclusive access, premium amenities, and family-friendly environment.
+                Tournament Hills offers luxury living in Summerlin with access to championship golf,
+                mountain views, and exclusive amenities. This premier community features luxury
+                homes designed for golf enthusiasts and luxury lifestyle seekers who value exclusive
+                access, premium amenities, and family-friendly environment.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                The community's location in Summerlin provides residents with access to world-class amenities including shopping centers, restaurants, parks, and excellent schools. Tournament Hills' gated security and private club facilities create an exclusive environment that appeals to luxury homebuyers seeking both lifestyle and investment value.
+                The community's location in Summerlin provides residents with access to world-class
+                amenities including shopping centers, restaurants, parks, and excellent schools.
+                Tournament Hills' gated security and private club facilities create an exclusive
+                environment that appeals to luxury homebuyers seeking both lifestyle and investment
+                value.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 Luxury Homes in Tournament Hills
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                Tournament Hills homes range from $1.2 million to over $3 million, featuring quality construction, modern designs, and access to golf course and community amenities. Properties typically include 3,000 to 6,000 square feet of living space, private yards, and modern finishes. The community's luxury homes appeal to families and professionals seeking luxury living with family-oriented amenities.
+                Tournament Hills homes range from $1.2 million to over $3 million, featuring quality
+                construction, modern designs, and access to golf course and community amenities.
+                Properties typically include 3,000 to 6,000 square feet of living space, private
+                yards, and modern finishes. The community's luxury homes appeal to families and
+                professionals seeking luxury living with family-oriented amenities.
               </p>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-primary-900 mb-6">
                 Why Choose Tournament Hills
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                Tournament Hills offers luxury homebuyers exceptional value through golf course access, family-friendly amenities, strong appreciation, and exclusive community environment. The community's median price of $1.6 million represents excellent value for luxury golf course living, while providing access to comprehensive amenities and lifestyle options.
+                Tournament Hills offers luxury homebuyers exceptional value through golf course
+                access, family-friendly amenities, strong appreciation, and exclusive community
+                environment. The community's median price of $1.6 million represents excellent value
+                for luxury golf course living, while providing access to comprehensive amenities and
+                lifestyle options.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                The community's real estate market shows strong fundamentals with 11.8% year-over-year appreciation, 16 days average on market, and limited inventory. These metrics indicate a healthy market with strong demand and appreciation potential, making Tournament Hills an attractive investment opportunity.
+                The community's real estate market shows strong fundamentals with 11.8%
+                year-over-year appreciation, 16 days average on market, and limited inventory. These
+                metrics indicate a healthy market with strong demand and appreciation potential,
+                making Tournament Hills an attractive investment opportunity.
               </p>
               <h3 className="text-2xl font-bold text-primary-900 mb-6 mt-8">
                 Working with Dr. Jan Duffy for Tournament Hills
               </h3>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                Dr. Jan Duffy specializes in Tournament Hills real estate, with extensive knowledge of the community's properties, market conditions, and buyer preferences. Her expertise in luxury golf communities enables her to help buyers find properties that match their lifestyle and investment goals in this premier golf community.
+                Dr. Jan Duffy specializes in Tournament Hills real estate, with extensive knowledge
+                of the community's properties, market conditions, and buyer preferences. Her
+                expertise in luxury golf communities enables her to help buyers find properties that
+                match their lifestyle and investment goals in this premier golf community.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-gradient-to-r from-primary-50 to-neutral-50 rounded-lg p-8 mt-12">
             <h3 className="text-2xl font-bold text-primary-900 mb-6">
               What Makes Tournament Hills Special
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-bold text-primary-800 mb-4">Championship Golf Course Access</h4>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">
+                  Championship Golf Course Access
+                </h4>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  Tournament Hills provides residents with access to championship golf courses and golf course views, creating unique living experiences for golf enthusiasts. The community's proximity to golf courses and golf course views commands premium prices and contributes to the community's desirability.
+                  Tournament Hills provides residents with access to championship golf courses and
+                  golf course views, creating unique living experiences for golf enthusiasts. The
+                  community's proximity to golf courses and golf course views commands premium
+                  prices and contributes to the community's desirability.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
-                  Golf course homes in Tournament Hills offer direct access to golf experiences, with many properties featuring golf course views and proximity to golf facilities. This access to championship golf creates a unique lifestyle that appeals to golf enthusiasts and luxury homebuyers seeking resort-style living.
+                  Golf course homes in Tournament Hills offer direct access to golf experiences,
+                  with many properties featuring golf course views and proximity to golf facilities.
+                  This access to championship golf creates a unique lifestyle that appeals to golf
+                  enthusiasts and luxury homebuyers seeking resort-style living.
                 </p>
               </div>
-              
+
               <div>
-                <h4 className="text-xl font-bold text-primary-800 mb-4">Family-Friendly Luxury Amenities</h4>
+                <h4 className="text-xl font-bold text-primary-800 mb-4">
+                  Family-Friendly Luxury Amenities
+                </h4>
                 <p className="text-neutral-600 leading-relaxed mb-4">
-                  Tournament Hills features family-friendly amenities including parks, playgrounds, recreational facilities, and community events that support family life. The community's commitment to providing family-oriented amenities while maintaining luxury standards creates an environment that appeals to luxury homebuyers with children.
+                  Tournament Hills features family-friendly amenities including parks, playgrounds,
+                  recreational facilities, and community events that support family life. The
+                  community's commitment to providing family-oriented amenities while maintaining
+                  luxury standards creates an environment that appeals to luxury homebuyers with
+                  children.
                 </p>
                 <p className="text-neutral-600 leading-relaxed">
-                  This combination of luxury and family-friendliness makes Tournament Hills attractive to luxury homebuyers seeking both lifestyle and family support. The community's commitment to maintaining high standards and providing comprehensive amenities ensures long-term value and desirability.
+                  This combination of luxury and family-friendliness makes Tournament Hills
+                  attractive to luxury homebuyers seeking both lifestyle and family support. The
+                  community's commitment to maintaining high standards and providing comprehensive
+                  amenities ensures long-term value and desirability.
                 </p>
               </div>
             </div>
